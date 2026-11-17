@@ -8,6 +8,8 @@ struct LessonListView: View {
         List {
             if app.lessons.isEmpty {
                 Text("Keine Lektionen gefunden.")
+            } else {
+                Section { HomeHeader() }
             }
             ForEach(app.units, id: \.self) { unit in
                 Section(unit) {
@@ -138,6 +140,7 @@ struct VocabRow: View {
     let hideGerman: Bool
     let box: Int
     var showLesson = false
+    @Environment(ProgressStore.self) private var progress
     @State private var revealed = false
 
     var body: some View {
@@ -148,6 +151,7 @@ struct VocabRow: View {
                     Text(item.forms).font(.subheadline).foregroundStyle(.secondary)
                 }
                 Spacer()
+                if progress.isStarred(item) { Image(systemName: "star.fill").font(.caption).foregroundStyle(.orange) }
                 if showLesson { Text("L\(item.lesson)").font(.caption2).foregroundStyle(.secondary) }
                 BoxBadge(box: box)
             }
@@ -163,6 +167,16 @@ struct VocabRow: View {
                 Speaker.shared.speakLatin(item.speakable)
             } label: { Label("Anhören", systemImage: "speaker.wave.2") }
             .tint(.purple)
+        }
+        .swipeActions(edge: .trailing) {
+            Button {
+                progress.toggleStar(item)
+                Haptics.tap()
+            } label: {
+                Label(progress.isStarred(item) ? "Entfernen" : "Merken",
+                      systemImage: progress.isStarred(item) ? "star.slash" : "star")
+            }
+            .tint(.orange)
         }
     }
 }
@@ -213,7 +227,7 @@ struct BlockView: View {
         switch block.type {
         case "list":
             VStack(alignment: .leading, spacing: 4) {
-                ForEach(block.items ?? [], id: \.self) { item in
+                ForEach(Array((block.items ?? []).enumerated()), id: \.offset) { _, item in
                     HStack(alignment: .firstTextBaseline, spacing: 6) {
                         Text("•")
                         Text(item)
@@ -268,5 +282,63 @@ struct TableBlock: View {
             .padding(10)
         }
         .background(Color.secondary.opacity(0.1), in: RoundedRectangle(cornerRadius: 8))
+    }
+}
+
+
+/// Oberer Bereich im Lektionen-Tab: Vokabel des Tages, Weiterlernen, fällige Karten.
+struct HomeHeader: View {
+    @Environment(AppData.self) private var app
+    @Environment(ProgressStore.self) private var progress
+    @State private var showWord = false
+
+    private var nextLesson: Lesson? {
+        app.lessons.first { progress.mastered(in: $0.vocab) < 0.8 } ?? app.lessons.last
+    }
+
+    var body: some View {
+        if let word = DailyWord.pick(from: app.allVocab) {
+            VStack(alignment: .leading, spacing: 6) {
+                Label("Vokabel des Tages", systemImage: "sun.max.fill")
+                    .font(.caption.bold()).foregroundStyle(.orange)
+                HStack(alignment: .firstTextBaseline) {
+                    Text(word.la).font(.title2.bold())
+                    Spacer()
+                    Button {
+                        Speaker.shared.speakLatin(word.speakable)
+                    } label: { Image(systemName: "speaker.wave.2.fill") }
+                    .buttonStyle(.borderless)
+                }
+                if !word.forms.isEmpty { Text(word.forms).font(.subheadline).foregroundStyle(.secondary) }
+                Text(showWord ? word.de : "Tippen zum Aufdecken")
+                    .foregroundStyle(showWord ? .primary : .secondary)
+                if showWord && !word.note.isEmpty {
+                    Text(word.note).font(.caption).foregroundStyle(.secondary)
+                }
+                Text("Lektion \(word.lesson)").font(.caption2).foregroundStyle(.tertiary)
+            }
+            .contentShape(Rectangle())
+            .onTapGesture { withAnimation { showWord.toggle() } }
+        }
+        if let next = nextLesson {
+            NavigationLink(value: next) {
+                Label {
+                    VStack(alignment: .leading) {
+                        Text("Weiterlernen").font(.headline)
+                        Text("Lektion \(next.number): \(next.title) · \(Int(progress.mastered(in: next.vocab) * 100)) % sitzen")
+                            .font(.caption).foregroundStyle(.secondary)
+                    }
+                } icon: {
+                    Image(systemName: "arrow.right.circle.fill").foregroundStyle(Color.accentColor)
+                }
+            }
+        }
+        HStack {
+            Label("\(progress.streak) Tage", systemImage: "flame.fill").foregroundStyle(.orange)
+            Spacer()
+            Label("\(progress.dueCount(in: app.allVocab)) fällig", systemImage: "calendar.badge.clock")
+                .foregroundStyle(.secondary)
+        }
+        .font(.subheadline)
     }
 }

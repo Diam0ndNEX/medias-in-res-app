@@ -23,6 +23,21 @@ struct ProgressData: Codable {
     var days: [String: Int] = [:]          // "yyyy-MM-dd" → beantwortete Fragen
     var tests: [TestResult] = []
     var highscores: [String: Int] = [:]
+    var starred: [String] = []             // Merkliste (Vokabel-IDs)
+
+    init() {}
+
+    enum CodingKeys: String, CodingKey { case items, days, tests, highscores, starred }
+
+    /// Tolerant: fehlende Felder (ältere Versionen/Backups) werden leer angenommen.
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        items = try c.decodeIfPresent([String: ItemStats].self, forKey: .items) ?? [:]
+        days = try c.decodeIfPresent([String: Int].self, forKey: .days) ?? [:]
+        tests = try c.decodeIfPresent([TestResult].self, forKey: .tests) ?? []
+        highscores = try c.decodeIfPresent([String: Int].self, forKey: .highscores) ?? [:]
+        starred = try c.decodeIfPresent([String].self, forKey: .starred) ?? []
+    }
 }
 
 /// Lernfortschritt, lokal in UserDefaults gespeichert.
@@ -108,6 +123,26 @@ final class ProgressStore {
         return s.wrong * 3 - s.right
     }
 
+    // MARK: Merkliste
+
+    func isStarred(_ item: VocabItem) -> Bool { data.starred.contains(item.id) }
+
+    func toggleStar(_ item: VocabItem) {
+        if let i = data.starred.firstIndex(of: item.id) {
+            data.starred.remove(at: i)
+        } else {
+            data.starred.append(item.id)
+        }
+        save()
+    }
+
+    func starredItems(in items: [VocabItem]) -> [VocabItem] {
+        let set = Set(data.starred)
+        return items.filter { set.contains($0.id) }
+    }
+
+    func dueCount(in items: [VocabItem]) -> Int { items.filter { isDue($0) }.count }
+
     // MARK: Tage / Streak
 
     var todayCount: Int { data.days[Self.dayKey(Date())] ?? 0 }
@@ -126,6 +161,25 @@ final class ProgressStore {
         return count
     }
 
+    var longestStreak: Int {
+        let f = DateFormatter()
+        f.dateFormat = "yyyy-MM-dd"
+        f.locale = Locale(identifier: "en_US_POSIX")
+        let dates = data.days.keys.compactMap { f.date(from: $0) }.sorted()
+        var best = 0, cur = 0
+        var prev: Date? = nil
+        for d in dates {
+            if let p = prev, Calendar.current.dateComponents([.day], from: p, to: d).day == 1 {
+                cur += 1
+            } else {
+                cur = 1
+            }
+            best = max(best, cur)
+            prev = d
+        }
+        return best
+    }
+
     func lastDays(_ n: Int) -> [(String, Int)] {
         (0..<n).reversed().map { offset in
             let d = Calendar.current.date(byAdding: .day, value: -offset, to: Date()) ?? Date()
@@ -137,6 +191,8 @@ final class ProgressStore {
     }
 
     // MARK: Tests / Highscores
+
+    var bestGrade: Int? { data.tests.map { $0.grade }.min() }
 
     func addTest(_ r: TestResult) {
         data.tests.insert(r, at: 0)

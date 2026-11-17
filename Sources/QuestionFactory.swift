@@ -89,7 +89,7 @@ enum QuestionFactory {
             let wrong = distractors(for: item, pool: pool, fallback: all, count: 3) { $0.la }
             let (opts, idx) = makeMC(prompt: item.de, hint: "", correct: item.la, wrong: wrong)
             let expl = [item.forms, item.note].filter { !$0.isEmpty }.joined(separator: " · ")
-            return Question(prompt: item.de, hint: item.pos, options: opts, correct: idx, item: item,
+            return Question(prompt: item.de, hint: item.pos == "Sonstiges" ? "" : item.pos, options: opts, correct: idx, item: item,
                             explanation: expl, category: "Vokabel")
         }
     }
@@ -113,23 +113,88 @@ enum QuestionFactory {
         return q
     }
 
-    static func stemForms(_ item: VocabItem, pool: [VocabItem], all: [VocabItem]) -> Question? {
+    /// Zerlegt z. B. "capio M, cepi, captum" in (1. Person, Perfekt, PPP); kürzt "-avi, -atum" aus.
+    static func stemParts(_ item: VocabItem) -> (first: String, perfect: String, ppp: String)? {
         guard item.hasStemForms else { return nil }
-        let wrong = distractors(for: item, pool: pool.filter { $0.hasStemForms },
-                                fallback: all.filter { $0.hasStemForms }, count: 3) { $0.forms }
-        let (opts, idx) = makeMC(prompt: item.la, hint: "", correct: item.forms, wrong: wrong)
-        return Question(prompt: item.la, hint: "Wie lauten die Stammformen? (\(item.de))", options: opts,
-                        correct: idx, item: item, explanation: "\(item.la): \(item.forms)",
-                        speakLatin: item.speakable, category: "Stammformen")
+        let parts = item.forms.components(separatedBy: ",").map { $0.trimmingCharacters(in: .whitespaces) }
+        guard parts.count >= 2 else { return nil }
+        var firstWord = parts[0].components(separatedBy: " ").first ?? ""
+        var rest = Array(parts.dropFirst())
+        if !firstWord.hasSuffix("o") {
+            // Lektion 1–4: Verb steht in der 3. Person, zweite Spalte beginnt direkt mit dem Perfekt
+            firstWord = item.la.components(separatedBy: CharacterSet(charactersIn: " ,")).first ?? ""
+            rest = parts
+        }
+        let base: String
+        if firstWord.hasSuffix("o") {
+            base = String(firstWord.dropLast())               // laudo → laud
+        } else if firstWord.hasSuffix("t") && firstWord.count > 3 {
+            base = String(firstWord.dropLast(2))              // laudat → laud
+        } else {
+            return nil
+        }
+        func expand(_ p: String) -> String? {
+            if p == "–" || p.isEmpty { return p }
+            if p.hasPrefix("-") {
+                switch p {
+                case "-avi": return base + "avi"
+                case "-atum": return base + "atum"
+                case "-ui": return (base.hasSuffix("e") ? String(base.dropLast()) : base) + "ui"
+                case "-itum": return (base.hasSuffix("e") || base.hasSuffix("i") ? String(base.dropLast()) : base) + "itum"
+                case "-ivi": return (base.hasSuffix("i") ? String(base.dropLast()) : base) + "ivi"
+                default: return nil
+                }
+            }
+            return p
+        }
+        // unregelmäßige Verba führen zusätzlich die 2. Person an (z. B. "fero, fers, tuli, latum")
+        let pIdx = rest.count >= 3 ? 1 : 0
+        guard pIdx < rest.count, let perf = expand(rest[pIdx]), perf.count > 1, !perf.contains(" ") else { return nil }
+        let ppp = rest.count > pIdx + 1 ? (expand(rest[pIdx + 1]) ?? "") : ""
+        return (firstWord, perf, ppp)
+    }
+
+    static func stemForms(_ item: VocabItem, pool: [VocabItem], all: [VocabItem]) -> Question? {
+        guard let p = stemParts(item) else { return nil }
+        if Bool.random() {
+            // Perfekt bilden: echte Form gegen regelmäßig "falsch gebildete" Formen
+            var stem = p.first
+            if stem.hasSuffix("t") {
+                stem = String(stem.dropLast(2))
+            } else {
+                for end in ["io", "eo", "o"] where stem.hasSuffix(end) { stem = String(stem.dropLast(end.count)); break }
+            }
+            let fakes = [stem + "avi", stem + "ivi", stem + "ui", stem + "si", stem + "xi", stem + "i", stem + "evi"]
+                .filter { $0 != p.perfect }
+            var opts = Array(Set(fakes)).shuffled().prefix(3).map { $0 } + [p.perfect]
+            opts.shuffle()
+            return Question(prompt: item.la, hint: "Wie lautet das Perfekt? (\(p.first) = \(item.de))", options: opts,
+                            correct: opts.firstIndex(of: p.perfect) ?? 0, item: item,
+                            explanation: "\(item.la): \(item.forms)", speakLatin: item.speakable,
+                            category: "Stammformen")
+        } else {
+            // Perfektform erkennen: Zu welchem Verb gehört …?
+            let shown = [p.perfect, p.ppp].filter { !$0.isEmpty && $0 != "–" }.joined(separator: ", ")
+            let others = pool.filter { $0.hasStemForms } + all.filter { $0.hasStemForms }
+            let wrong = distractors(for: item, pool: others, fallback: all, count: 3) { $0.la }
+            var opts = wrong + [item.la]
+            opts.shuffle()
+            return Question(prompt: shown, hint: "Zu welchem Verb gehört diese Form?", options: opts,
+                            correct: opts.firstIndex(of: item.la) ?? 0, item: item,
+                            explanation: "\(item.la) = \(item.de) · \(item.forms)",
+                            category: "Stammformen")
+        }
     }
 
     /// Fremdwort-Detektiv: aus dem Hinweis (z. B. „vgl. Laudatio“) das lateinische Wort erraten.
     static func foreignWord(_ item: VocabItem, pool: [VocabItem], all: [VocabItem]) -> Question? {
-        guard item.note.count > 6, !item.note.contains("siehe Grammatica") else { return nil }
+        let markers = ["vgl.", "engl.", "frz.", "ital.", "span."]
+        guard item.note.count > 6, markers.contains(where: { item.note.contains($0) }) else { return nil }
         var clue = item.note
-        // das Lösungswort selbst aus dem Hinweis entfernen
+        // das Lösungswort selbst (als ganzes Wort) aus dem Hinweis entfernen
         for token in item.headLa.components(separatedBy: CharacterSet(charactersIn: " /,")) where token.count > 2 {
-            clue = clue.replacingOccurrences(of: token, with: "…", options: .caseInsensitive)
+            let pattern = "\\b" + NSRegularExpression.escapedPattern(for: token) + "\\b"
+            clue = clue.replacingOccurrences(of: pattern, with: "…", options: [.regularExpression, .caseInsensitive])
         }
         let wrong = distractors(for: item, pool: pool, fallback: all, count: 3) { $0.la }
         let (opts, idx) = makeMC(prompt: clue, hint: "", correct: item.la, wrong: wrong)

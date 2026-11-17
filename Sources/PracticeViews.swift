@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum PracticeMode: String, CaseIterable, Identifiable {
-    case daily, flashcards, multipleChoice, trueFalse, matching, listening, blitz, typing
+    case daily, starred, flashcards, multipleChoice, trueFalse, matching, listening, blitz, typing
     case stemForms, foreignWords, mistakes
     case formsIdentify, formsBuild, tables
     case exam
@@ -11,6 +11,7 @@ enum PracticeMode: String, CaseIterable, Identifiable {
     var title: String {
         switch self {
         case .daily: return "Tägliche Wiederholung"
+        case .starred: return "Merkliste"
         case .flashcards: return "Karteikarten"
         case .multipleChoice: return "Multiple Choice"
         case .trueFalse: return "Richtig oder falsch?"
@@ -31,6 +32,7 @@ enum PracticeMode: String, CaseIterable, Identifiable {
     var subtitle: String {
         switch self {
         case .daily: return "Fällige Karten aus allen Lektionen"
+        case .starred: return "Deine markierten Wörter (★)"
         case .flashcards: return "Umdrehen und selbst bewerten, wischen"
         case .multipleChoice: return "4 Antworten zur Auswahl"
         case .trueFalse: return "Stimmt die Übersetzung?"
@@ -51,6 +53,7 @@ enum PracticeMode: String, CaseIterable, Identifiable {
     var icon: String {
         switch self {
         case .daily: return "calendar.badge.clock"
+        case .starred: return "star.fill"
         case .flashcards: return "rectangle.on.rectangle.angled"
         case .multipleChoice: return "list.bullet.circle"
         case .trueFalse: return "checkmark.circle.badge.xmark"
@@ -70,7 +73,7 @@ enum PracticeMode: String, CaseIterable, Identifiable {
 
     var color: Color {
         switch self {
-        case .daily, .mistakes: return .orange
+        case .daily, .mistakes, .starred: return .orange
         case .flashcards, .multipleChoice, .trueFalse, .matching, .typing: return .blue
         case .listening, .blitz: return .purple
         case .stemForms, .foreignWords: return .teal
@@ -120,9 +123,14 @@ struct PracticeHubView: View {
                 Text("Bereich")
             }
 
-            Section("Heute") {
+            Section {
                 modeLink(.daily)
                 modeLink(.mistakes)
+                modeLink(.starred)
+            } header: {
+                Text("Heute")
+            } footer: {
+                Text("\(progress.dueCount(in: app.allVocab)) Karten sind heute fällig. Die tägliche Wiederholung nimmt alle Lektionen.")
             }
             Section("Vokabeln") {
                 modeLink(.flashcards)
@@ -208,7 +216,7 @@ struct ModeLauncher: View {
     var body: some View {
         Group {
             switch mode {
-            case .flashcards, .typing, .matching, .daily, .mistakes:
+            case .flashcards, .typing, .matching, .daily, .mistakes, .starred:
                 itemBased
             case .tables:
                 TableDrillView(lessons: app.lessons(from: config.from, to: config.to))
@@ -313,6 +321,7 @@ struct ModeLauncher: View {
     private var emptyText: String {
         switch mode {
         case .mistakes: return "Super – in diesem Bereich hast du gerade keine Fehler."
+        case .starred: return "Markiere Wörter mit ★ (in der Vokabelliste nach links wischen oder auf der Karteikarte), dann erscheinen sie hier."
         case .daily: return "Heute ist nichts fällig. Komm morgen wieder!"
         default: return "In diesem Bereich gibt es dafür keine passenden Inhalte."
         }
@@ -329,6 +338,8 @@ struct ModeLauncher: View {
             items = progress.dueItems(in: all)
         case .mistakes:
             items = progress.mistakes(in: pool)
+        case .starred:
+            items = progress.starredItems(in: pool)
         case .multipleChoice:
             questions = config.limited(pool.shuffled()).map {
                 QuestionFactory.vocabMC($0, pool: pool, all: all, direction: config.direction)

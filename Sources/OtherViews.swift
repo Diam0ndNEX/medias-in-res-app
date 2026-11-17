@@ -95,6 +95,9 @@ struct StatsView: View {
                         .font(.caption)
                 }
             }
+            Section("Abzeichen") {
+                BadgesGrid()
+            }
             Section("Letzte 7 Tage") {
                 let days = progress.lastDays(7)
                 let maxV = max(days.map { $0.1 }.max() ?? 1, 1)
@@ -280,6 +283,114 @@ struct SettingsView: View {
         .fileImporter(isPresented: $importing, allowedContentTypes: [.json]) { result in
             if case .success(let url) = result {
                 importMessage = progress.importFile(url) ? "Fortschritt wiederhergestellt ✅" : "Datei konnte nicht gelesen werden."
+            }
+        }
+    }
+}
+
+
+// MARK: - Abzeichen
+
+struct Badge: Identifiable {
+    let id: String
+    let icon: String
+    let title: String
+    let detail: String
+    let earned: Bool
+}
+
+struct BadgesGrid: View {
+    @Environment(AppData.self) private var app
+    @Environment(ProgressStore.self) private var progress
+
+    private var badges: [Badge] {
+        let all = app.allVocab
+        let masteredCount = all.filter { progress.box(for: $0) >= 4 }.count
+        let lessonDone = app.lessons.filter { progress.mastered(in: $0.vocab) >= 0.999 }.count
+        func range(_ a: Int, _ b: Int) -> Bool {
+            let ls = app.lessons(from: a, to: b)
+            return !ls.isEmpty && ls.allSatisfy { progress.mastered(in: $0.vocab) >= 0.8 }
+        }
+        let answered = progress.totalAnswered
+        let longest = progress.longestStreak
+        let bestBlitz = progress.data.highscores.values.max() ?? 0
+        return [
+            Badge(id: "start", icon: "flag.fill", title: "Medias in res", detail: "Erste Frage beantwortet", earned: answered >= 1),
+            Badge(id: "fleiss", icon: "figure.walk", title: "Fleißig", detail: "500 Fragen beantwortet", earned: answered >= 500),
+            Badge(id: "marathon", icon: "figure.run", title: "Marathon", detail: "2000 Fragen beantwortet", earned: answered >= 2000),
+            Badge(id: "s3", icon: "flame", title: "Funke", detail: "3 Tage in Folge", earned: longest >= 3),
+            Badge(id: "s7", icon: "flame.fill", title: "Feuer", detail: "7 Tage in Folge", earned: longest >= 7),
+            Badge(id: "s30", icon: "sun.max.fill", title: "Sol invictus", detail: "30 Tage in Folge", earned: longest >= 30),
+            Badge(id: "lesson", icon: "book.closed.fill", title: "Lektion gemeistert", detail: "Alle Vokabeln einer Lektion sitzen", earned: lessonDone >= 1),
+            Badge(id: "v100", icon: "star.circle.fill", title: "Centurio", detail: "100 Vokabeln sitzen", earned: masteredCount >= 100),
+            Badge(id: "v500", icon: "crown.fill", title: "Imperator", detail: "500 Vokabeln sitzen", earned: masteredCount >= 500),
+            Badge(id: "half", icon: "building.columns", title: "Halbzeit", detail: "Lektion 1–15 zu 80 % gelernt", earned: range(1, 15)),
+            Badge(id: "all", icon: "laurel.leading", title: "Veni, vidi, vici", detail: "Alle 30 Lektionen zu 80 % gelernt", earned: range(1, 30)),
+            Badge(id: "einser", icon: "graduationcap.fill", title: "Summa cum laude", detail: "Schularbeit mit Note 1", earned: progress.bestGrade == 1),
+            Badge(id: "blitz", icon: "bolt.fill", title: "Blitzmerker", detail: "30 richtige in einer Blitzrunde", earned: bestBlitz >= 30),
+        ]
+    }
+
+    var body: some View {
+        let list = badges
+        VStack(alignment: .leading, spacing: 8) {
+            Text("\(list.filter { $0.earned }.count) von \(list.count) freigeschaltet")
+                .font(.caption).foregroundStyle(.secondary)
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 96), spacing: 10)], spacing: 12) {
+                ForEach(list) { b in
+                    VStack(spacing: 4) {
+                        Image(systemName: b.icon)
+                            .font(.title2)
+                            .foregroundStyle(b.earned ? Color.white : Color.secondary)
+                            .frame(width: 48, height: 48)
+                            .background(b.earned ? AnyShapeStyle(Color.orange.gradient) : AnyShapeStyle(Color.secondary.opacity(0.15)),
+                                        in: Circle())
+                        Text(b.title).font(.caption.bold()).multilineTextAlignment(.center)
+                        Text(b.detail).font(.caption2).foregroundStyle(.secondary).multilineTextAlignment(.center)
+                    }
+                    .opacity(b.earned ? 1 : 0.55)
+                }
+            }
+        }
+        .padding(.vertical, 4)
+    }
+}
+
+// MARK: - Einführung beim ersten Start
+
+struct OnboardingView: View {
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        VStack(spacing: 24) {
+            Text("Salve! 👋").font(.largeTitle.bold())
+            Text("Alles aus „Medias in Res!“ – Lektion 1 bis 30 – zum Lernen und Wiederholen.")
+                .multilineTextAlignment(.center)
+            VStack(alignment: .leading, spacing: 16) {
+                tip("book", "Lektionen", "Vokabeln und Grammatik jeder Lektion zum Nachlesen.")
+                tip("brain.head.profile", "Üben", "Wähle z. B. Lektion 5–10 und übe mit Karteikarten, Quiz, Hören, Formen oder Schularbeit.")
+                tip("calendar.badge.clock", "Täglich wiederholen", "Die App merkt sich, was du kannst, und zeigt dir fällige Wörter.")
+                tip("star", "Merkliste", "In der Vokabelliste nach links wischen, um ein Wort zu merken.")
+                tip("square.and.arrow.up", "Backup", "Sichere deinen Fortschritt in den Einstellungen, bevor du neu signierst.")
+            }
+            Spacer()
+            Button {
+                dismiss()
+            } label: {
+                Text("Los geht’s – medias in res!").frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+        }
+        .padding(28)
+    }
+
+    private func tip(_ icon: String, _ title: String, _ text: String) -> some View {
+        HStack(alignment: .top, spacing: 14) {
+            Image(systemName: icon).font(.title2).foregroundStyle(Color.accentColor).frame(width: 32)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title).font(.headline)
+                Text(text).font(.subheadline).foregroundStyle(.secondary)
             }
         }
     }

@@ -81,3 +81,13 @@ struct Block: Decodable, Hashable, Identifiable {
         return parts.joined(separator: "|")
     }
 }
+
+// MARK: - Vokabel des Tages
+
+enum DailyWord {
+    static func pick(from items: [VocabItem], date: Date = Date()) -> VocabItem? {
+        guard !items.isEmpty else { return nil }
+        let day = Int(date.timeIntervalSince1970 / 86_400)
+        return items[(day &* 7919) % items.count]
+    }
+}

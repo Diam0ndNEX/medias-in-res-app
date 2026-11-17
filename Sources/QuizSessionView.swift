@@ -27,6 +27,7 @@ struct QuizSessionView: View {
     @State private var remaining: Int = 0
     @State private var finished = false
     @State private var newRecord = false
+    @State private var isRetry = false
 
     private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
@@ -174,7 +175,7 @@ struct QuizSessionView: View {
                 Section("Fehler (\(wrong.count))") {
                     ForEach(wrong) { a in
                         VStack(alignment: .leading, spacing: 2) {
-                            Text(a.question.prompt).font(.headline)
+                            Text(a.question.prompt == "🔊" ? a.question.explanation : a.question.prompt).font(.headline)
                             if !a.question.hint.isEmpty && a.question.prompt != "🔊" {
                                 Text(a.question.hint).font(.caption).foregroundStyle(.secondary)
                             }
@@ -218,7 +219,7 @@ struct QuizSessionView: View {
     }
 
     private func tick() {
-        guard timeLimit != nil, !finished, current != nil else { return }
+        guard timeLimit != nil, !finished, current != nil, !(isRetry && examRange != nil) else { return }
         if remaining > 0 { remaining -= 1 }
         if remaining == 0 { finish() }
     }
@@ -226,8 +227,8 @@ struct QuizSessionView: View {
     private func finish() {
         guard !finished else { return }
         finished = true
-        if let key = highscoreKey { newRecord = progress.submitHighscore(key, correctCount) }
-        if let range = examRange {
+        if let key = highscoreKey, !isRetry { newRecord = progress.submitHighscore(key, correctCount) }
+        if let range = examRange, !isRetry {
             let total = deck.count
             progress.addTest(TestResult(date: Date(), range: range, correct: correctCount, total: total,
                                         grade: Grading.grade(correct: correctCount, total: total)))
@@ -236,6 +237,7 @@ struct QuizSessionView: View {
 
     private func restart(with questions: [Question]) {
         deck = questions.shuffled()
+        isRetry = true
         index = 0
         chosen = nil
         answered = []

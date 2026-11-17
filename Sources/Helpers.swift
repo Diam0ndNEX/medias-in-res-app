@@ -5,9 +5,19 @@ import UserNotifications
 
 // MARK: - Vorlesen
 
-final class Speaker {
+final class Speaker: NSObject, AVSpeechSynthesizerDelegate {
     static let shared = Speaker()
     private let synth = AVSpeechSynthesizer()
+
+    override init() {
+        super.init()
+        synth.delegate = self
+    }
+
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
+        // Musik o. Ä. wieder auf normale Lautstärke bringen
+        try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+    }
 
     /// Latein wird mit italienischer Stimme vorgelesen (iOS hat keine lateinische Stimme).
     func speakLatin(_ text: String) { speak(text, language: "it-IT", rate: 0.42) }
@@ -15,6 +25,7 @@ final class Speaker {
 
     private func speak(_ text: String, language: String, rate: Float) {
         try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
+        try? AVAudioSession.sharedInstance().setActive(true)
         synth.stopSpeaking(at: .immediate)
         let u = AVSpeechUtterance(string: text)
         u.voice = AVSpeechSynthesisVoice(language: language)
@@ -132,3 +143,4 @@ enum Grading {
         ["", "Sehr gut", "Gut", "Befriedigend", "Genügend", "Nicht genügend"][max(1, min(5, g))]
     }
 }
+

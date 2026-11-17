@@ -74,10 +74,18 @@ struct FlashcardView: View {
             } else {
                 Text("Tippen zum Aufdecken").font(.caption).foregroundStyle(.tertiary)
             }
-            Button {
-                Speaker.shared.speakLatin(card.speakable)
-            } label: { Image(systemName: "speaker.wave.2.fill") }
-            .buttonStyle(.bordered)
+            HStack {
+                Button {
+                    Speaker.shared.speakLatin(card.speakable)
+                } label: { Image(systemName: "speaker.wave.2.fill") }
+                .buttonStyle(.bordered)
+                Button {
+                    progress.toggleStar(card)
+                    Haptics.tap()
+                } label: { Image(systemName: progress.isStarred(card) ? "star.fill" : "star") }
+                .buttonStyle(.bordered)
+                .tint(.orange)
+            }
             Text("Lektion \(card.lesson) · Box \(progress.box(for: card))")
                 .font(.caption2).foregroundStyle(.tertiary)
         }
