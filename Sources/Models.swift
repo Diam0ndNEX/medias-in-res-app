@@ -48,5 +48,12 @@ struct Block: Codable, Hashable, Identifiable {
     let headers: [String]?
     let rows: [[String]]?
 
-    var id: String { type + (text ?? "") + (items?.joined() ?? "") + (rows?.flatMap { $0 }.joined() ?? "") }
+    var id: String {
+        var parts: [String] = [type]
+        parts.append(text ?? "")
+        parts.append((items ?? []).joined())
+        let cells: [String] = (rows ?? []).flatMap { $0 }
+        parts.append(cells.joined())
+        return parts.joined(separator: "|")
+    }
 }

@@ -34,8 +34,14 @@ Bei jedem Modus wählst du: **Lektionen von–bis**, Richtung (Lat→Dt / Dt→L
 ### Vokabeln
 | Modus | So funktioniert's |
 |---|---|
+| **Ohne Tippen** | Standardmodus: alles nur durch Antippen (Karteikarten, Multiple Choice, Zuordnen, Richtig/Falsch, Wischen). Eintippen ist optional und kann in den Einstellungen ganz ausgeschaltet werden |
+| **Richtig oder falsch?** | „amicus = Schülerin?“ → schnell nach links/rechts wischen, auf Zeit |
+| **Hör-Modus** | Vokabel wird vorgelesen (iOS-Sprachausgabe), Bedeutung antippen; zum Lernen unterwegs |
+| **Wortfamilien** | Wörter mit gleichem Stamm finden (z. B. laudat – Laudatio – laus) |
+| **Satz-Puzzle** | lateinischen Satz aus Wort-Kärtchen in die richtige Reihenfolge bringen bzw. deutsche Übersetzung zusammensetzen, ohne Tippen |
+| **Blitzrunde** | 60 Sekunden, so viele Vokabeln wie möglich, Highscore pro Lektionsbereich |
 | **Karteikarten** | Karte umdrehen, „gewusst“/„nicht gewusst“ antippen; Spaced Repetition (Leitner, 5 Boxen) |
-| **Übersetzung erraten (Eintippen)** | Bedeutung eintippen, die Prüfung ist tolerant: Groß-/Kleinschreibung, „er/sie/es“, eine von mehreren Bedeutungen reicht, kleine Tippfehler gehen durch |
+| **Übersetzung erraten (Eintippen, optional)** | Bedeutung eintippen, die Prüfung ist tolerant: Groß-/Kleinschreibung, „er/sie/es“, eine von mehreren Bedeutungen reicht, kleine Tippfehler gehen durch |
 | **Multiple Choice** | 4 Antworten zur Auswahl, die falschen kommen aus der gleichen Wortart, damit es nicht zu leicht wird |
 | **Zuordnen** | 6 Latein- und 6 Deutsch-Kärtchen paarweise verbinden, auf Zeit |
 | **Stammformen** | z. B. „laudat → ? , ?“ ergänzen (laudavi, laudatum); Genitiv bei Nomen |
@@ -119,7 +125,7 @@ Jede Phase endet mit einer installierbaren IPA.
 
 ---
 
-## 7. Offene Fragen
-1. App-Name und Icon: „Medias in Res“ oder etwas Eigenes?
-2. Eintippen: soll die Prüfung tolerant (Standard) oder streng sein?
-3. Fehlt dir ein Modus, oder ist einer davon unwichtig?
+## 7. Entscheidungen
+- App-Name: **Medias in Res**
+- Standard ist **ohne Tippen** (alles per Antippen/Wischen); Eintippen nur optional
+- Weitere Modi werden laufend ergänzt
