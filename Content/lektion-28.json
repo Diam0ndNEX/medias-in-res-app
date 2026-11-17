@@ -1,0 +1,297 @@
+{
+ "number": 28,
+ "title": "De Marco Aurelio",
+ "unit": "Die römische Kaiserzeit und das Christentum",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "dividere",
+   "forms": "divido 3, divisi, divisum",
+   "de": "trennen, teilen",
+   "note": "engl. to divide; vgl. dividieren, Division",
+   "pos": "Verb"
+  },
+  {
+   "la": "transire",
+   "forms": "transeo, transii, transitum",
+   "de": "überqueren, hinübergehen",
+   "note": "aus: trans + ire; vgl. Transitverkehr",
+   "pos": "Verb"
+  },
+  {
+   "la": "gens",
+   "forms": "gentis f.",
+   "de": "Volk",
+   "note": "frz. gens, ital. + span. gente (= Leute); ↔ genus, -eris n.",
+   "pos": "Nomen"
+  },
+  {
+   "la": "traducere",
+   "forms": "traduco 3, traduxi, traductum",
+   "de": "hinüberführen",
+   "note": "aus: trans + ducere",
+   "pos": "Verb"
+  },
+  {
+   "la": "adhuc (Adv.)",
+   "forms": "",
+   "de": "bis jetzt; bisher",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "felix (m./f./n.)",
+   "forms": "felicis (2.F.)",
+   "de": "glücklich, erfolgreich",
+   "note": "ital. felice, span. feliz; vgl. frz. félicité",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "fortuna",
+   "forms": "fortunae f.",
+   "de": "1) Glück; 2) Schicksal",
+   "note": "engl. + frz. fortune, ital. + span. fortuna",
+   "pos": "Nomen"
+  },
+  {
+   "la": "eques",
+   "forms": "equitis m.",
+   "de": "Reiter; Ritter",
+   "note": "↔ equus, -i",
+   "pos": "Nomen"
+  },
+  {
+   "la": "campus",
+   "forms": "campi m.",
+   "de": "Feld",
+   "note": "frz. champ; vgl. Camping, der Uni-Campus",
+   "pos": "Nomen"
+  },
+  {
+   "la": "aestas",
+   "forms": "aestatis f.",
+   "de": "Sommer",
+   "note": "frz. été, ital. estate; ↔ aetas, -atis f.",
+   "pos": "Nomen"
+  },
+  {
+   "la": "deesse",
+   "forms": "desum, dees, defui, –",
+   "de": "fehlen",
+   "note": "wörtl.: „weg sein“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "fessus/a/um",
+   "forms": "",
+   "de": "erschöpft, müde",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "vix (Adv.)",
+   "forms": "",
+   "de": "kaum",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "ullus/a/um",
+   "forms": "ullius (2.F.), ulli (3.F.)",
+   "de": "irgendein(e)",
+   "note": "↔ nullus",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "spes",
+   "forms": "spei f.",
+   "de": "Hoffnung",
+   "note": "frz. espoir, ital. speranza, span. esperanza; vgl. sperare",
+   "pos": "Nomen"
+  },
+  {
+   "la": "rogare",
+   "forms": "rogo 1, -avi, -atum",
+   "de": "1) bitten; 2) fragen",
+   "note": "vgl. interrogare",
+   "pos": "Verb"
+  },
+  {
+   "la": "divinus/a/um",
+   "forms": "",
+   "de": "göttlich",
+   "note": "engl. divine, frz. divin, ital. + span. divino; vgl. Diva",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "ecce!",
+   "forms": "",
+   "de": "siehe!",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "miraculum",
+   "forms": "miraculi n.",
+   "de": "Wunder",
+   "note": "engl. miracle; vgl. Mirakel, Miraculix (Zauberer!)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "accidere",
+   "forms": "accido 3, accidi, –",
+   "de": "geschehen",
+   "note": "vgl. engl. accident",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Partizip Präsens aktiv (PPA)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Das Partizip Präsens (erstes Mittelwort) wird vom Präsensstamm gebildet und ist an der Silbe -ns (1.F. Sg.) bzw. -nt- (übrige Fälle) zu erkennen. Es dekliniert wie die Mischstämme:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m. + f.",
+      "Sg. n.",
+      "Pl. m. + f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1/5",
+       "amans",
+       "amans",
+       "amantes",
+       "amantia"
+      ],
+      [
+       "2",
+       "amantis",
+       "amantis",
+       "amantium",
+       "amantium"
+      ],
+      [
+       "3",
+       "amanti",
+       "amanti",
+       "amantibus",
+       "amantibus"
+      ],
+      [
+       "4",
+       "amantem",
+       "amans",
+       "amantes",
+       "amantia"
+      ],
+      [
+       "6",
+       "amante",
+       "amante",
+       "amantibus",
+       "amantibus"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ebenso: monens, -entis; mittens, -entis; audiens, -entis; capiens, -entis; PPA von ire: iens, euntis."
+    },
+    {
+     "type": "text",
+     "text": "Übersetzung: Das Partizip Präsens ist aktiv und gleichzeitig: amans = „liebend“ (= „einer, der liebt“); „ein Liebender“."
+    },
+    {
+     "type": "text",
+     "text": "Verwendung:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "als Adjektiv: Christiani orantes = „die betenden Christen“",
+      "als Nomen: orantes = „die Betenden“",
+      "als Participium coniunctum (siehe unten)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Participium coniunctum (PC)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Unter dem Participium coniunctum („verbundenes Partizip“) versteht man ein Partizip, das"
+    },
+    {
+     "type": "list",
+     "items": [
+      "mit einem Nomen übereingestimmt ist,",
+      "nicht unmittelbar neben diesem Nomen steht, sondern eine Sperrung (= Klammer) bildet."
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Da die wörtliche Übersetzung in solchen Fällen meist nicht wirklich „deutsch“ klingt, musst du eine solche Sperrung auflösen, und zwar am besten in einen Relativsatz:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Christiani ad deum suum orantes e periculis servati sunt. = (Die Christen, zu ihrem Gott betend, wurden aus Gefahren gerettet. =) „Die Christen, die zu ihrem Gott beteten, wurden aus Gefahren gerettet.“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Der Relativsatz ist die einfachste Möglichkeit, ein Participium coniunctum zu übersetzen. Weitere Möglichkeiten: mit „als“ (temporal), „weil“ (kausal), „obwohl“ (konzessiv), „wenn“ (konditional) oder als Hauptsatz mit „und“ (beiordnend)."
+    },
+    {
+     "type": "text",
+     "text": "Bei der Übersetzung von Sperrungen musst du auf die Art des Partizips achten:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Merkmal",
+      "Eigenschaften",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "Partizip Präsens (PPA)",
+       "-ns, -ntis (3. Dekl.)",
+       "aktiv + gleichzeitig",
+       "amans = „einer, der liebt“"
+      ],
+      [
+       "Partizip Perfekt (PPP)",
+       "-tus/-sus (a/o-Dekl.)",
+       "passiv + vorzeitig",
+       "amatus/a/um = „einer, der geliebt worden ist“"
+      ],
+      [
+       "Partizip Futur (PFA)",
+       "-urus (a/o-Dekl.)",
+       "aktiv + nachzeitig",
+       "amaturus/a/um = „einer, der lieben wird“"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "PPA (→ gleichzeitig): Im Relativsatz steht dieselbe Zeit wie im übergeordneten Satz (Beispiel siehe oben).",
+      "PPP (→ vorzeitig): Die Zeit im Relativsatz liegt eine Zeitstufe vor der Zeit im übergeordneten Satz: Romani ab hostibus inclusi (PPP) magno in periculo erant. (Imperfekt) = „Die Römer, die von den Feinden eingeschlossen worden waren (Plqpf.), befanden sich in großer Gefahr.“",
+      "PFA (→ nachzeitig): Das Futurpartizip kommt nur selten als PC vor; es bezeichnet dann den Zweck einer Handlung (finale Bedeutung) und wird mit „um zu …“ übersetzt: Marcus Aurelius Danuvium transiit Germanos victurus. = „Mark Aurel überquerte die Donau, um die Germanen zu besiegen.“"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "number": 26,
+ "title": "De incendio Romae",
+ "unit": "Die römische Kaiserzeit und das Christentum",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "incendium",
+   "forms": "incendii n.",
+   "de": "Brand",
+   "note": "ital. + span. incendio; vgl. incendere",
+   "pos": "Nomen"
+  },
+  {
+   "la": "princeps",
+   "forms": "principis m.",
+   "de": "1) der Erste; 2) Prinzeps, Kaiser",
+   "note": "vgl. Prinz, der Prinzipat (= römische Kaiserzeit)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "gravis/e",
+   "forms": "",
+   "de": "schwer, schwerwiegend",
+   "note": "gravierend; frz. grave, ital. + span. grave",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "existere",
+   "forms": "existo 3, extiti, –",
+   "de": "entstehen",
+   "note": "engl. to exist, ital. esistere, span. existir; vgl. existieren, Existenz",
+   "pos": "Verb"
+  },
+  {
+   "la": "auctor",
+   "forms": "auctoris m.",
+   "de": "1) Autor; 2) Urheber, Anstifter",
+   "note": "frz. auteur, ital. autore, span. autor; vgl. auctoritas, -atis",
+   "pos": "Nomen"
+  },
+  {
+   "la": "vastare",
+   "forms": "vasto 1, -avi, -atum",
+   "de": "verwüsten",
+   "note": "vgl. devastieren (= völlig zerstören)",
+   "pos": "Verb"
+  },
+  {
+   "la": "numerus",
+   "forms": "numeri m.",
+   "de": "Zahl, Anzahl",
+   "note": "Nummer; vgl. Numerus clausus",
+   "pos": "Nomen"
+  },
+  {
+   "la": "privatus/a/um",
+   "forms": "",
+   "de": "privat",
+   "note": "frz. privé, ital. privato, span. privado",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "publicus/a/um",
+   "forms": "",
+   "de": "öffentlich",
+   "note": "engl. public; vgl. publizieren (= veröffentlichen)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "fama",
+   "forms": "famae f.",
+   "de": "1) Gerücht; 2) Ruf",
+   "note": "ital. + span. fama; vgl. famos (= großartig)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "fama erat",
+   "forms": "",
+   "de": "es gab das Gerücht",
+   "note": "esse kann auch „es gibt“ bedeuten!",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "magnitudo",
+   "forms": "magnitudinis f.",
+   "de": "Größe",
+   "note": "frz. magnitude",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ornare",
+   "forms": "orno 1, -avi, -atum",
+   "de": "schmücken",
+   "note": "ital. ornare; vgl. Ornament (= Verzierung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "postea (Adv.)",
+   "forms": "",
+   "de": "später",
+   "note": "↔ post (+ Akk.)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "appellare",
+   "forms": "appello 1, -avi, -atum",
+   "de": "1) nennen; 2) rufen",
+   "note": "frz. appeler; vgl. Appell (= Aufruf)",
+   "pos": "Verb"
+  },
+  {
+   "la": "cupidus/a/um",
+   "forms": "(+ Gen.)",
+   "de": "gierig (nach)",
+   "note": "vgl. cupiditas, -atis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "cupidus gloriae",
+   "forms": "",
+   "de": "gierig nach Ruhm",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "condere",
+   "forms": "condo 3, condidi, conditum",
+   "de": "gründen",
+   "note": "vgl. ab urbe condita (a. u. c.)",
+   "pos": "Verb"
+  },
+  {
+   "la": "usque ad (+ Akk.)",
+   "forms": "",
+   "de": "bis zu",
+   "note": "",
+   "pos": "Präposition"
+  },
+  {
+   "la": "iussu",
+   "forms": "",
+   "de": "auf Befehl",
+   "note": "vgl. iubere, iussi, iussum",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "Christiani",
+   "forms": "Christianorum m.",
+   "de": "die Christen",
+   "note": "frz. chrétiens, ital. cristiani, span. cristianos",
+   "pos": "Nomen"
+  },
+  {
+   "la": "crimen",
+   "forms": "criminis n.",
+   "de": "1) Verbrechen; 2) Vorwurf",
+   "note": "engl. crime, frz. crime, ital. crimine, span. crimen; vgl. Kriminalität, kriminell",
+   "pos": "Nomen"
+  },
+  {
+   "la": "accusare",
+   "forms": "accuso 1, -avi, -atum",
+   "de": "anklagen",
+   "note": "engl. to accuse, frz. accuser, ital. accusare",
+   "pos": "Verb"
+  },
+  {
+   "la": "quasi",
+   "forms": "",
+   "de": "gleichsam (als), wie",
+   "note": "↔ ital. quasi, span. casi = „fast“!",
+   "pos": "Sonstiges"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Konjunktiv im Hauptsatz",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Im Gegensatz zum Konjunktiv im Gliedsatz (ut-Sätze, cum-Sätze, indirekte Fragesätze), wo der Konjunktiv ein Zeitverhältnis zum Ausdruck bringt, drückt der Konjunktiv im Hauptsatz a) einen Wunsch, b) eine Möglichkeit oder c) eine Unmöglichkeit aus. Er muss daher übersetzt werden!"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Merkmal",
+      "Bedeutung + Übersetzung",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "Konj. Präsens",
+       "-a- (außer a-Konj.: -e-): amem, moneam, mittam, capiam, audiam",
+       "Wunsch/Optativus: „soll“, „möge“; deutscher Konjunktiv 1",
+       "Audiatur et(iam) altera pars. = „Es soll/möge auch die andere Seite gehört werden.“"
+      ],
+      [
+       "Konj. Imperfekt",
+       "Infinitiv Präsens aktiv vor der Endung: amarem, monerem, mitterem",
+       "Unmöglichkeit/Irrealis Gegenwart: „würde“; deutscher Konjunktiv 2",
+       "Si sanus essem, ad te venirem. = „Wenn ich gesund wäre, würde ich zu dir kommen.“"
+      ],
+      [
+       "Konj. Perfekt",
+       "Aktiv: -erim, -eris … -erint; Passiv: PPP + sim, sis … sint",
+       "Verbot/Prohibitivus (ne + 2.P.): als verneinter Imperativ",
+       "Ne me tetigeris! = „Berühr mich nicht!“ (= Noli me tangere!)"
+      ],
+      [
+       "Konj. Plusquamperfekt",
+       "Aktiv: -issem, -isses … -issent; Passiv: PPP + essem, esses …",
+       "Unmöglichkeit/Irrealis der Vergangenheit: „wäre/hätte“ + Mittelwort der Vergangenheit",
+       "Si tacuisses, philosophus mansisses. = „Wenn du geschwiegen hättest, wärest du ein Philosoph geblieben.“"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Konditionalsätze (Bedingungssätze)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Bedingungssätze werden mit si („wenn“, „falls“) oder nisi („wenn nicht“, „falls nicht“) eingeleitet. Steht in ihnen ein Konjunktiv, muss er übersetzt werden, und zwar nach den Regeln des Konjunktivs im Hauptsatz:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "si + Konj. Imperfekt (Irrealis der Gegenwart: eine Situation kann jetzt unmöglich eintreten): „würde“ oder Konj. 2: Si Iulia Quintum amaret, ille felix esset. = „Wenn Julia Quintus lieben würde (liebte), wäre jener glücklich.“ (→ aber Julia liebt Quintus nicht)",
+      "si + Konj. Plqpf. (Irrealis der Vergangenheit: eine Situation konnte früher unmöglich eintreten): „wäre / hätte“ (+ Mittelwort der Vght.): Si Iulia Quintum amavisset, ille felix fuisset. = „Wenn Julia Quintus geliebt hätte, wäre jener glücklich gewesen.“ (→ aber Julia hat Quintus nicht geliebt)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Übersicht: Konjunktivübersetzung",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Der lateinische Konjunktiv …",
+      "wo?"
+     ],
+     "rows": [
+      [
+       "muss übersetzt werden",
+       "in Hauptsätzen; in Konditionalsätzen"
+      ],
+      [
+       "kann übersetzt werden",
+       "in ut-Sätzen (Ausnahme: Folge-ut „sodass“); in indirekten Fragesätzen"
+      ],
+      [
+       "darf nicht übersetzt werden",
+       "in cum-Sätzen; in Folge-ut-Sätzen („sodass“)"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

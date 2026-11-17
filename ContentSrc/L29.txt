@@ -1,0 +1,42 @@
+#29 De Constantino victore | Die römische Kaiserzeit und das Christentum | 6
+== VOKABELN
+victor | victoris m. | siegreich; Sieger | vgl. Viktor; ↔ victoria, -ae
+civilis/e | | bürgerlich; Bürger- | vgl. zivil; engl. + frz. civil, ital. civile, span. civil
+metuere | metuo 3, metui, – | fürchten | vgl. metus, -us
+oraculum | oraculi n. | Orakel(spruch) | frz. oracle, ital. oracolo, span. oráculo
+extra (+ Akk.) | | außerhalb | vgl. E.T. (= Extraterrestris), das Extra, extravagant
+uterque, utraque, utrumque | utriusque (2.F.), utrique (3.F.) | jeder von beiden, beide | Pronominale Deklination
+notus/a/um | | bekannt | ↔ ignotus/a/um
+signum | signi n. | Zeichen | engl. sign, frz. signe; vgl. Signal, signieren
+scribere | scribo 3, scripsi, scriptum | schreiben | frz. écrire, ital. scrivere, span. escribir; vgl. Skriptum, Manuskript
+prope (+ Akk.) | | nahe bei | vgl. ap-propinquare
+pons | pontis m. | Brücke | vgl. Pontifex maximus (= der Papst)
+plebs | plebis f. | (niedriges) Volk | vgl. Plebiszit (= Volksabstimmung)
+causa | causae f. | Grund, Ursache | vgl. Kausalsatz (= Begründungssatz)
+qua de causa | | 1) deshalb; 2) weshalb | wörtl.: „aus welchem Grund“
+consulere | consulo 3, consului, consultum | befragen, um Rat fragen | vgl. konsultieren, Konsul (= „Berater“)
+nuntiare | nuntio 1, -avi, -atum | melden | vgl. nuntius, -i
+hodie (Adv.) | | heute | aus: hoc + die
+adducere | adduco 3, adduxi, adductum | 1) hinführen; 2) veranlassen | vgl. adductus/a/um
+studium | studii n. | Eifer, Begeisterung | vgl. Studium; vgl. studere
+premere | premo 3, pressi, pressum | 1) drücken; 2) bedrängen | vgl. pressen; frz. presser; vgl. engl. pressure
+pellere | pello 3, pepuli, pulsum | schlagen, stoßen | vgl. Puls; vgl. expellere
+== GRAMMATIK
+## Ablativus absolutus (Abl. abs.)
+Der Ablativus absolutus (Abl. abs., „losgelöster Ablativ“) besteht a) aus einem Nomen oder Pronomen im Ablativ und b) einem damit übereingestimmten Partizip (Präsens oder Perfekt).
+Diese Wortgruppe darf nicht wörtlich übersetzt werden, sondern muss zu einem Gliedsatz (meist einem Temporalsatz) umgeformt werden. Dabei gelten folgende Faustregeln:
+- PARTIZIP PRÄSENS (PPA): gleichzeitig (+ aktiv) – „während“: Constantino ipso pugnante Maxentius Romam relinquere metuit. = „Während Konstantin selbst kämpfte, scheute sich Maxentius, Rom zu verlassen.“
+- PARTIZIP PERFEKT (PPP): vorzeitig (+ passiv) – „nachdem“: Ponte interrupto Maxentius Tiberim transire non potuit. = „Nachdem die Brücke eingerissen worden war, konnte Maxentius den Tiber nicht überqueren.“
+Vorgangsweise beim Übersetzen:
+- 1) Suche zu jedem Partizip das Bezugswort (steht meist davor) und unterstreiche die beiden Wörter: z. B.: Libro in schola lecto discipuli dormiverunt.
+- 2) Wenn die beiden Wörter im Ablativ stehen, handelt es sich um einen Abl. abs. → keine wörtliche Übersetzung! (falls anderer Fall → Participium coniunctum)
+- 3) Bestimme die Art des Partizips und verwandle die unterstrichene Wortgruppe in einen Temporalsatz (PPA → „während“ + aktiv, PPP → „nachdem“ + passiv): z. B.: „Nachdem das Buch in der Schule gelesen worden war, schliefen die Schüler ein.“
+- 4) Wenn der Satz passiv nicht „deutsch“ klingt, verwandle ihn in einen aktiven Satz: z. B.: „Nachdem sie das Buch in der Schule gelesen hatten, schliefen die Schüler ein.“
+? Statt eines Nomens kann im Abl. abs. auch ein Pronomen stehen: Quo (= hoc) viso Maxentius fugit. = „Nachdem das gesehen worden war, floh Maxentius.“ (besser aktiv: „Nachdem er das gesehen hatte, …“)
+## Zusammenfassung: Participium coniunctum und Ablativus absolutus
+| | Participium coniunctum | Ablativus absolutus |
+| besteht aus | Nomen + Partizip | Nomen + Partizip |
+| steht im | 1. bis 6. Fall (im Ablativ nur nach Präpositionen) | 6. Fall (ohne Präposition) |
+| Erstübersetzung | „der/die/das“ (Relativsatz) | „während“ bei PPA; „nachdem“ bei PPP |
+| Weitere Übersetzungsmöglichkeiten | „als“ (temporal), „weil“ (kausal), „obwohl“ (konzessiv), „wenn“ (konditional) | „als“ (temporal), „weil“ (kausal), „obwohl“ (konzessiv), „wenn“ (konditional) |
+? Participium coniunctum und Ablativus absolutus sind sogenannte „satzwertige Konstruktionen“ (sK). Diese Partizip-Konstruktionen sind im Lateinischen nur Satzteile, werden im Deutschen aber als Gliedsätze wiedergegeben. Weitere satzwertige Konstruktionen sind die Infinitivkonstruktionen ACI und NCI, die im Deutschen als „dass“-Sätze, also ebenfalls als Gliedsätze, übersetzt werden.

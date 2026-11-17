@@ -1,0 +1,300 @@
+{
+ "number": 27,
+ "title": "De martyrio sancti Petri",
+ "unit": "Die römische Kaiserzeit und das Christentum",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "sanctus/a/um",
+   "forms": "",
+   "de": "heilig",
+   "note": "engl. saint, frz. saint; vgl. Sankt Stefan (etc.)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "cultus",
+   "forms": "cultus m.",
+   "de": "Verehrung",
+   "note": "vgl. Kult (= religiöse Verehrung)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "dubitare",
+   "forms": "dubito 1, -avi, -atum",
+   "de": "1) zögern; 2) zweifeln",
+   "note": "engl. to doubt, ital. dubitare, span. dudar",
+   "pos": "Verb"
+  },
+  {
+   "la": "commovere",
+   "forms": "commoveo 2, commovi, commotum",
+   "de": "1) (heftig) bewegen; 2) veranlassen",
+   "note": "vgl. movere",
+   "pos": "Verb"
+  },
+  {
+   "la": "fuga",
+   "forms": "fugae f.",
+   "de": "Flucht",
+   "note": "vgl. fugere; Refugium (= Zufluchtsort), Zentrifuge",
+   "pos": "Nomen"
+  },
+  {
+   "la": "proximus/a/um",
+   "forms": "",
+   "de": "der nächste",
+   "note": "frz. prochain, ital. prossimo, span. próximo",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "repente (Adv.)",
+   "forms": "",
+   "de": "plötzlich",
+   "note": "= subito; span. de repente",
+   "pos": "Adverb"
+  },
+  {
+   "la": "obviam (Adv.)",
+   "forms": "",
+   "de": "entgegen",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "videtur (+ Inf.)",
+   "forms": "",
+   "de": "er/sie/es scheint",
+   "note": "(NCI, siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "dominus",
+   "forms": "domini m.",
+   "de": "Herr",
+   "note": "vgl. dominieren",
+   "pos": "Nomen"
+  },
+  {
+   "la": "quo",
+   "forms": "",
+   "de": "wohin",
+   "note": "↔ eo",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "vadere",
+   "forms": "vado 3, –",
+   "de": "gehen",
+   "note": "vgl. Invasion (= kriegerischer Einmarsch)",
+   "pos": "Verb"
+  },
+  {
+   "la": "dicitur (+ Inf.)",
+   "forms": "",
+   "de": "er/sie/es soll (angeblich)",
+   "note": "(NCI, siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "lacrima",
+   "forms": "lacrimae f.",
+   "de": "Träne",
+   "note": "frz. larme, ital. lacrima",
+   "pos": "Nomen"
+  },
+  {
+   "la": "referre",
+   "forms": "refero, rettuli, relatum",
+   "de": "1) zurückbringen; 2) berichten",
+   "note": "vgl. referieren, Referent",
+   "pos": "Verb"
+  },
+  {
+   "la": "sic",
+   "forms": "",
+   "de": "so",
+   "note": "= ita, tam",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "salus",
+   "forms": "salutis f.",
+   "de": "1) Heil, Rettung; 2) Gruß",
+   "note": "vgl. salutieren; Salut!",
+   "pos": "Nomen"
+  },
+  {
+   "la": "mundus",
+   "forms": "mundi m.",
+   "de": "Welt",
+   "note": "frz. monde, ital. mondo, span. mundo; vgl. Minimundus",
+   "pos": "Nomen"
+  },
+  {
+   "la": "dignus/a/um",
+   "forms": "(+ Abl.)",
+   "de": "würdig (+ Gen.)",
+   "note": "ital. degno, frz. digne, span. digno; vgl. engl. dignity",
+   "pos": "Adjektiv"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Infinitiv Präsens passiv",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Infinitiv Präsens passiv endet bei der a-, e- und i-Konjugation auf -ri, bei den übrigen auf -i:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "a-Konj.",
+      "e-Konj.",
+      "kons. Konj.",
+      "i-Konj.",
+      "Mischkonj."
+     ],
+     "rows": [
+      [
+       "amari „geliebt zu werden“",
+       "moneri „ermahnt zu werden“",
+       "mitti „geschickt zu werden“",
+       "audiri „gehört zu werden“",
+       "capi „gefangen zu werden“"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Partizip Futur und Infinitiv Futur aktiv",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Im Lateinischen gibt es auch ein Partizip Futur. Es wird vom PPP gebildet, wobei die Endung -us/a/um durch -urus/a/um ersetzt wird: amatus/a/um → amaturus/a/um, monitus/a/um → moniturus/a/um, missus/a/um → missurus/a/um (etc.)"
+    },
+    {
+     "type": "text",
+     "text": "Verwendet wird das Partizip Futur vor allem in Kombination mit esse zur Bildung des Infinitivs Futur aktiv: amaturum esse, moniturum esse, dicturum esse."
+    },
+    {
+     "type": "text",
+     "text": "Der Infinitiv Futur aktiv kommt fast nur im ACI vor. Wie beim Infinitiv Perfekt passiv muss dabei die Endung des Partizips mit dem Subjektsakkusativ übereingestimmt werden:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Quintus amicos mox venturos esse sperat. = „Quintus hofft, dass die Freunde bald kommen werden.“",
+      "Quintus amicas mox venturas esse sperat. = „Quintus hofft, dass die Freundinnen bald kommen werden.“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Überblick: alle Infinitive",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "e-Konj.",
+      "kons. Konj.",
+      "i-Konj.",
+      "Mischkonj."
+     ],
+     "rows": [
+      [
+       "Präsens aktiv",
+       "amare",
+       "monere",
+       "mittere",
+       "audire",
+       "capere"
+      ],
+      [
+       "Präsens passiv",
+       "amari",
+       "moneri",
+       "mitti",
+       "audiri",
+       "capi"
+      ],
+      [
+       "Perfekt aktiv",
+       "amavisse",
+       "monuisse",
+       "misisse",
+       "audivisse",
+       "cepisse"
+      ],
+      [
+       "Perfekt passiv",
+       "amatum esse",
+       "monitum esse",
+       "missum esse",
+       "auditum esse",
+       "captum esse"
+      ],
+      [
+       "Futur aktiv",
+       "amaturum esse",
+       "moniturum esse",
+       "missurum esse",
+       "auditurum esse",
+       "capturum esse"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Der Infinitiv Präsens ist gleichzeitig (→ Handlung zugleich mit der Haupthandlung). Der Infinitiv Perfekt ist vorzeitig (→ Handlung vor der Haupthandlung). Der Infinitiv Futur ist nachzeitig (→ Handlung nach der Haupthandlung)."
+    }
+   ]
+  },
+  {
+   "title": "Nominativus cum infinitivo (NCI)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Bei einigen Verba steht im Passiv der NCI, die Verbindung eines Nominativs mit einem Infinitiv:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "dicitur / dicuntur + NCI = „er/sie/es soll“ (Sg.) / „sie sollen“ (Pl.); „man sagt, dass er/sie/es …“",
+      "videtur / videntur + NCI = „er/sie/es scheint“ (Sg.) / „sie scheinen“ (Pl.); „es scheint, dass er/sie/es …“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Beispiele:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Christus respondisse dicitur. = 1) „Christus soll geantwortet haben.“ 2) „Man sagt, dass Christus geantwortet hat.“",
+      "Christus ei obviam venire videbatur. = 1) „Christus schien ihm entgegenzukommen.“ 2) „Es schien, dass Christus ihm entgegenkam.“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Dativ des Interesses (Dativus commodi)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Wenn ein Dativ ausdrückt, wofür oder für wen etwas geschieht, wird er mit „für“ übersetzt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Fugere Petro difficile non erat. = „Zu flüchten war für Petrus nicht schwer.“",
+      "Non scholae, sed vitae discimus. = „Nicht für die Schule, sondern fürs Leben lernen wir.“"
+     ]
+    }
+   ]
+  }
+ ]
+}

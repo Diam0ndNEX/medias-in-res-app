@@ -1,0 +1,233 @@
+{
+ "number": 29,
+ "title": "De Constantino victore",
+ "unit": "Die römische Kaiserzeit und das Christentum",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "victor",
+   "forms": "victoris m.",
+   "de": "siegreich; Sieger",
+   "note": "vgl. Viktor; ↔ victoria, -ae",
+   "pos": "Nomen"
+  },
+  {
+   "la": "civilis/e",
+   "forms": "",
+   "de": "bürgerlich; Bürger-",
+   "note": "vgl. zivil; engl. + frz. civil, ital. civile, span. civil",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "metuere",
+   "forms": "metuo 3, metui, –",
+   "de": "fürchten",
+   "note": "vgl. metus, -us",
+   "pos": "Verb"
+  },
+  {
+   "la": "oraculum",
+   "forms": "oraculi n.",
+   "de": "Orakel(spruch)",
+   "note": "frz. oracle, ital. oracolo, span. oráculo",
+   "pos": "Nomen"
+  },
+  {
+   "la": "extra (+ Akk.)",
+   "forms": "",
+   "de": "außerhalb",
+   "note": "vgl. E.T. (= Extraterrestris), das Extra, extravagant",
+   "pos": "Präposition"
+  },
+  {
+   "la": "uterque, utraque, utrumque",
+   "forms": "utriusque (2.F.), utrique (3.F.)",
+   "de": "jeder von beiden, beide",
+   "note": "Pronominale Deklination",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "notus/a/um",
+   "forms": "",
+   "de": "bekannt",
+   "note": "↔ ignotus/a/um",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "signum",
+   "forms": "signi n.",
+   "de": "Zeichen",
+   "note": "engl. sign, frz. signe; vgl. Signal, signieren",
+   "pos": "Nomen"
+  },
+  {
+   "la": "scribere",
+   "forms": "scribo 3, scripsi, scriptum",
+   "de": "schreiben",
+   "note": "frz. écrire, ital. scrivere, span. escribir; vgl. Skriptum, Manuskript",
+   "pos": "Verb"
+  },
+  {
+   "la": "prope (+ Akk.)",
+   "forms": "",
+   "de": "nahe bei",
+   "note": "vgl. ap-propinquare",
+   "pos": "Präposition"
+  },
+  {
+   "la": "pons",
+   "forms": "pontis m.",
+   "de": "Brücke",
+   "note": "vgl. Pontifex maximus (= der Papst)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "plebs",
+   "forms": "plebis f.",
+   "de": "(niedriges) Volk",
+   "note": "vgl. Plebiszit (= Volksabstimmung)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "causa",
+   "forms": "causae f.",
+   "de": "Grund, Ursache",
+   "note": "vgl. Kausalsatz (= Begründungssatz)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "qua de causa",
+   "forms": "",
+   "de": "1) deshalb; 2) weshalb",
+   "note": "wörtl.: „aus welchem Grund“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "consulere",
+   "forms": "consulo 3, consului, consultum",
+   "de": "befragen, um Rat fragen",
+   "note": "vgl. konsultieren, Konsul (= „Berater“)",
+   "pos": "Verb"
+  },
+  {
+   "la": "nuntiare",
+   "forms": "nuntio 1, -avi, -atum",
+   "de": "melden",
+   "note": "vgl. nuntius, -i",
+   "pos": "Verb"
+  },
+  {
+   "la": "hodie (Adv.)",
+   "forms": "",
+   "de": "heute",
+   "note": "aus: hoc + die",
+   "pos": "Adverb"
+  },
+  {
+   "la": "adducere",
+   "forms": "adduco 3, adduxi, adductum",
+   "de": "1) hinführen; 2) veranlassen",
+   "note": "vgl. adductus/a/um",
+   "pos": "Verb"
+  },
+  {
+   "la": "studium",
+   "forms": "studii n.",
+   "de": "Eifer, Begeisterung",
+   "note": "vgl. Studium; vgl. studere",
+   "pos": "Nomen"
+  },
+  {
+   "la": "premere",
+   "forms": "premo 3, pressi, pressum",
+   "de": "1) drücken; 2) bedrängen",
+   "note": "vgl. pressen; frz. presser; vgl. engl. pressure",
+   "pos": "Verb"
+  },
+  {
+   "la": "pellere",
+   "forms": "pello 3, pepuli, pulsum",
+   "de": "schlagen, stoßen",
+   "note": "vgl. Puls; vgl. expellere",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Ablativus absolutus (Abl. abs.)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Ablativus absolutus (Abl. abs., „losgelöster Ablativ“) besteht a) aus einem Nomen oder Pronomen im Ablativ und b) einem damit übereingestimmten Partizip (Präsens oder Perfekt)."
+    },
+    {
+     "type": "text",
+     "text": "Diese Wortgruppe darf nicht wörtlich übersetzt werden, sondern muss zu einem Gliedsatz (meist einem Temporalsatz) umgeformt werden. Dabei gelten folgende Faustregeln:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "PARTIZIP PRÄSENS (PPA): gleichzeitig (+ aktiv) – „während“: Constantino ipso pugnante Maxentius Romam relinquere metuit. = „Während Konstantin selbst kämpfte, scheute sich Maxentius, Rom zu verlassen.“",
+      "PARTIZIP PERFEKT (PPP): vorzeitig (+ passiv) – „nachdem“: Ponte interrupto Maxentius Tiberim transire non potuit. = „Nachdem die Brücke eingerissen worden war, konnte Maxentius den Tiber nicht überqueren.“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Vorgangsweise beim Übersetzen:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "1) Suche zu jedem Partizip das Bezugswort (steht meist davor) und unterstreiche die beiden Wörter: z. B.: Libro in schola lecto discipuli dormiverunt.",
+      "2) Wenn die beiden Wörter im Ablativ stehen, handelt es sich um einen Abl. abs. → keine wörtliche Übersetzung! (falls anderer Fall → Participium coniunctum)",
+      "3) Bestimme die Art des Partizips und verwandle die unterstrichene Wortgruppe in einen Temporalsatz (PPA → „während“ + aktiv, PPP → „nachdem“ + passiv): z. B.: „Nachdem das Buch in der Schule gelesen worden war, schliefen die Schüler ein.“",
+      "4) Wenn der Satz passiv nicht „deutsch“ klingt, verwandle ihn in einen aktiven Satz: z. B.: „Nachdem sie das Buch in der Schule gelesen hatten, schliefen die Schüler ein.“"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Statt eines Nomens kann im Abl. abs. auch ein Pronomen stehen: Quo (= hoc) viso Maxentius fugit. = „Nachdem das gesehen worden war, floh Maxentius.“ (besser aktiv: „Nachdem er das gesehen hatte, …“)"
+    }
+   ]
+  },
+  {
+   "title": "Zusammenfassung: Participium coniunctum und Ablativus absolutus",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Participium coniunctum",
+      "Ablativus absolutus"
+     ],
+     "rows": [
+      [
+       "besteht aus",
+       "Nomen + Partizip",
+       "Nomen + Partizip"
+      ],
+      [
+       "steht im",
+       "1. bis 6. Fall (im Ablativ nur nach Präpositionen)",
+       "6. Fall (ohne Präposition)"
+      ],
+      [
+       "Erstübersetzung",
+       "„der/die/das“ (Relativsatz)",
+       "„während“ bei PPA; „nachdem“ bei PPP"
+      ],
+      [
+       "Weitere Übersetzungsmöglichkeiten",
+       "„als“ (temporal), „weil“ (kausal), „obwohl“ (konzessiv), „wenn“ (konditional)",
+       "„als“ (temporal), „weil“ (kausal), „obwohl“ (konzessiv), „wenn“ (konditional)"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Participium coniunctum und Ablativus absolutus sind sogenannte „satzwertige Konstruktionen“ (sK). Diese Partizip-Konstruktionen sind im Lateinischen nur Satzteile, werden im Deutschen aber als Gliedsätze wiedergegeben. Weitere satzwertige Konstruktionen sind die Infinitivkonstruktionen ACI und NCI, die im Deutschen als „dass“-Sätze, also ebenfalls als Gliedsätze, übersetzt werden."
+    }
+   ]
+  }
+ ]
+}

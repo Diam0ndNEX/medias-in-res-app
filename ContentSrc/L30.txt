@@ -1,0 +1,66 @@
+#30 De beneficio sancti Martini | Die römische Kaiserzeit und das Christentum | 6
+== VOKABELN
+beneficium | beneficii n. | Wohltat | vgl. Benefizveranstaltung; aus: bene + facere
+hiems | hiemis f. | Winter |
+pauper (m./f./n.) | pauperis (2.F.) | arm | frz. pauvre, ital. povero, span. pobre
+vestis | vestis f. | Gewand | ital. vestiti; vgl. Weste, Transvestit, Investitur
+pati (D) | patior M, passus sum | 1) ertragen; 2) erleiden | vgl. passiv, Patient, Passion (= Leidensgeschichte)
+misericordia | misericordiae f. | Mitleid | ital. misericordia; vgl. miser
+nudus/a/um | | nackt | frz. nu, ital. nudo, span. desnudo; vgl. Nudist
+reliquus/a/um | | übrig | ↔ relictus (PPP von relinquere)
+similis/e | | ähnlich | engl. similar, ital. simile, frz. similaire, span. similar; vgl. As-similation („Anpassung“)
+militaris/e | | militärisch, Militär- | ↔ miles, -itis
+alter/era/erum | alterius (2.F.), alteri (3.F.) | der andere (von zweien) | vgl. Alternative, das Alter Ego (= zweites Ich), Altruismus (= Selbstlosigkeit)
+alter – alter | | der eine – der andere |
+mens | mentis f. | Geist, Verstand, Sinn | vgl. mental, Mentalität (= Geisteshaltung)
+sanus/a/um | | gesund; vernünftig | engl. sane; vgl. Sanitäter; SPA
+queri (D) | queror 3, questus sum | klagen | ↔ quaerere, quaesivi, quaesitum
+humanus/a/um | | menschlich | engl. human, frz. humain; vgl. Humanbiologie
+possidere | possideo 2, possedi, possessum | besitzen | engl. to possess; vgl. Possessivpronomen (= besitzanzeigendes Fürwort, z. B. „mein“ etc.)
+sequi (D) | sequor 3, secutus sum | folgen | vgl. Sequenz (= Abfolge); Con-secutio temporum
+sequor te (Akk.!) | | ich folge dir (Dativ!) |
+tegere | tego 3, texi, tectum | bedecken | vgl. Toga (= Körperbedeckung!)
+loqui (D) | loquor 3, locutus sum | sprechen | vgl. eloquent (= redegewandt)
+vereri (D) | vereor 2, veritus sum | 1) fürchten; 2) sich scheuen | vereri = timere / metuere
+quidquid | | was auch immer; alles was |
+hortari (D) | hortor 1, hortatus sum | auffordern, ermuntern |
+servire | servio 4, -ivi, -itum | dienen | frz. + span. servir; vgl. servieren; ↔ servare
+== GRAMMATIK
+## Deponentia
+Deponentia sind Verba mit passiver Form, aber aktiver Bedeutung. Der Name Deponentia kommt vom Verbum deponere („ablegen“), da man meinte, diese Wörter hätten ihre aktiven Formen (bzw. passiven Bedeutungen) abgelegt. Entstanden sind Deponentia aus dem sogenannten „Medium“, einem Mittelding zwischen Aktiv und Passiv.
+! Ob ein Wort ein Deponens ist, kann man nicht „erraten“, sondern muss man lernen! Im Wörterbuch erkennst du ein Deponens daran, dass der Infinitiv nicht aktiv (auf -re), sondern passiv (auf -ri oder -i) angegeben ist (z. B. hortari 1, hortatus sum)! Deponentia gibt es übrigens von allen Konjugationen.
+Am Beispiel von loqui (konsonantische Konjugation):
+| Präsens | Form passiv! | Übersetzung aktiv! |
+| Sg. 1.P. | loquor | „ich spreche“ |
+| Sg. 2.P. | loqueris | „du sprichst“ |
+| Sg. 3.P. | loquitur | „er/sie spricht“ |
+| Pl. 1.P. | loquimur | „wir sprechen“ |
+| Pl. 2.P. | loquimini | „ihr sprecht“ |
+| Pl. 3.P. | loquuntur | „sie sprechen“ |
+| Sonstige Formen | Form | Übersetzung |
+| Infinitiv Präsens | loqui | „(zu) sprechen“ |
+| Infinitiv Perfekt | locutum esse | „gesprochen (zu) haben“ |
+| Infinitiv Futur | locuturum esse | („sprechen werden“) |
+| Partizip Präsens | loquens, -entis | „sprechend“ |
+| Partizip Perfekt | locutus/a/um | („gesprochen habend“) |
+| Partizip Futur | locuturus/a/um | („sprechen werdend“) |
+| Imperativ Sg. | loquere! | „sprich!“ |
+| Imperativ Pl. | loquimini! | „sprecht!“ |
+? Der Imperativ Plural (loquimini!) ist identisch mit der 2.P. Pl. Präsens (loquimini = „ihr sprecht“).
+## Gerund
+Das Gerund erkennt man an der Buchstabengruppe -nd-. Je nachdem, ob das Gerund mit einem Nomen übereingestimmt ist oder nicht, spricht man von Gerundium oder Gerundivum:
+- nicht übereingestimmt (= Nomen) → Gerundium (Deklination wie pensum, -i n.)
+- übereingestimmt (= Adjektiv) → Gerundivum („Gerundivum pro gerundio“, Deklination wie bonus/a/um)
+| Fall | Gerundium (Nomen!) | Gerundivum (Adjektiv!) |
+| 1.F. | (legere = „das Lesen“; „zu lesen“) | (legere = „das Lesen“; „zu lesen“) |
+| 2.F. | a) legendi = „des Lesens“ / „zu lesen“; b) legendi causa = „um zu lesen“ | libri legendi = („des Buchlesens“), „ein Buch zu lesen“; libri legendi causa = „um ein Buch zu lesen“ |
+| 3.F. | (im Dativ kommt das Gerund kaum vor) | (im Dativ kommt das Gerund kaum vor) |
+| 4.F. | ad legendum = „um zu lesen“ | ad librum legendum = „um ein Buch zu lesen“ |
+| 6.F. | a) legendo = „durch das Lesen“; b) in legendo = „beim Lesen“ | libro legendo = „durch das Lesen eines Buches“; in libro legendo = „beim Lesen eines Buches“ |
+Im Gegensatz zum Gerundium kommt das Gerundiv in allen drei Geschlechtern und auch im Plural vor: ad libros legendos (= librorum legendorum causa) = „um die Bücher zu lesen“.
+## „müssen“-Gerundiv (prädikatives Gerundiv)
+Tritt ein Gerundiv kombiniert mit einer Form von esse auf, hat es eine gänzlich andere Bedeutung als oben: Es drückt aus, dass etwas gemacht werden muss. Als Erstübersetzung kannst du aber, so wie oben, den Infinitiv („zu“) wählen, danach forme den Satz zu einem „müssen“-Satz um:
+- Mihi hic liber legendus est. = (Mir ist dieses Buch zu lesen. →) „Ich muss dieses Buch lesen.“
+- Mihi legendum est. = (Mir ist zu lesen. →) „Ich muss lesen.“
+- Mihi legendum non est. = (Mir ist nicht zu lesen. →) „Ich darf nicht lesen.“ (vgl. engl. I must not read.)
+? Der Dativ, der beim prädikativen Gerundiv angibt, wer etwas tun muss, heißt Dativus auctoris (Dativ der handelnden Person). Er wird im Deutschen zum Nominativ (Subjekt) des Satzes!

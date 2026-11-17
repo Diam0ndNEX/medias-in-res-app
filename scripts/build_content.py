@@ -28,10 +28,14 @@ def guess_pos(la, forms):
     s = la.lower()
     if "(adv" in s:
         return "Adverb"
+    if "(m./f./n.)" in la or "(m./f.)" in la or "/ae/a" in la or re.search(r"(is/e|/eris/ere|/acris/acre|/a/um|/a/ud)\b", la):
+        return "Adjektiv"
     if re.search(r"\b(m|f|n)\.", la) or "m./f." in s:
         return "Nomen"
     if re.search(r"o, -(as|es)\b", la):
         return "Verb"
+    if re.search(r"(is/e|/eris/ere|/acris/acre)\b", la) or "(m./f./n.)" in la or "(m./f.)" in la:
+        return "Adjektiv"
     if re.search(r"/ae/a\b", la):
         return "Adjektiv"
     if re.search(r"\w+o(r)? (1|2|3|4|M)\b", forms) or re.search(r"\b(sum|possum|eo|volo|nolo|malo|fero)\b,", forms):

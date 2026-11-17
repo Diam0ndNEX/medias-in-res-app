@@ -1,0 +1,52 @@
+#28 De Marco Aurelio | Die römische Kaiserzeit und das Christentum | 6
+== VOKABELN
+dividere | divido 3, divisi, divisum | trennen, teilen | engl. to divide; vgl. dividieren, Division
+transire | transeo, transii, transitum | überqueren, hinübergehen | aus: trans + ire; vgl. Transitverkehr
+gens | gentis f. | Volk | frz. gens, ital. + span. gente (= Leute); ↔ genus, -eris n.
+traducere | traduco 3, traduxi, traductum | hinüberführen | aus: trans + ducere
+adhuc (Adv.) | | bis jetzt; bisher |
+felix (m./f./n.) | felicis (2.F.) | glücklich, erfolgreich | ital. felice, span. feliz; vgl. frz. félicité
+fortuna | fortunae f. | 1) Glück; 2) Schicksal | engl. + frz. fortune, ital. + span. fortuna
+eques | equitis m. | Reiter; Ritter | ↔ equus, -i
+campus | campi m. | Feld | frz. champ; vgl. Camping, der Uni-Campus
+aestas | aestatis f. | Sommer | frz. été, ital. estate; ↔ aetas, -atis f.
+deesse | desum, dees, defui, – | fehlen | wörtl.: „weg sein“
+fessus/a/um | | erschöpft, müde |
+vix (Adv.) | | kaum |
+ullus/a/um | ullius (2.F.), ulli (3.F.) | irgendein(e) | ↔ nullus
+spes | spei f. | Hoffnung | frz. espoir, ital. speranza, span. esperanza; vgl. sperare
+rogare | rogo 1, -avi, -atum | 1) bitten; 2) fragen | vgl. interrogare
+divinus/a/um | | göttlich | engl. divine, frz. divin, ital. + span. divino; vgl. Diva
+ecce! | | siehe! |
+miraculum | miraculi n. | Wunder | engl. miracle; vgl. Mirakel, Miraculix (Zauberer!)
+accidere | accido 3, accidi, – | geschehen | vgl. engl. accident
+== GRAMMATIK
+## Partizip Präsens aktiv (PPA)
+Das Partizip Präsens (erstes Mittelwort) wird vom Präsensstamm gebildet und ist an der Silbe -ns (1.F. Sg.) bzw. -nt- (übrige Fälle) zu erkennen. Es dekliniert wie die Mischstämme:
+| Fall | Sg. m. + f. | Sg. n. | Pl. m. + f. | Pl. n. |
+| 1/5 | amans | amans | amantes | amantia |
+| 2 | amantis | amantis | amantium | amantium |
+| 3 | amanti | amanti | amantibus | amantibus |
+| 4 | amantem | amans | amantes | amantia |
+| 6 | amante | amante | amantibus | amantibus |
+Ebenso: monens, -entis; mittens, -entis; audiens, -entis; capiens, -entis; PPA von ire: iens, euntis.
+Übersetzung: Das Partizip Präsens ist aktiv und gleichzeitig: amans = „liebend“ (= „einer, der liebt“); „ein Liebender“.
+Verwendung:
+- als Adjektiv: Christiani orantes = „die betenden Christen“
+- als Nomen: orantes = „die Betenden“
+- als Participium coniunctum (siehe unten)
+## Participium coniunctum (PC)
+Unter dem Participium coniunctum („verbundenes Partizip“) versteht man ein Partizip, das
+- mit einem Nomen übereingestimmt ist,
+- nicht unmittelbar neben diesem Nomen steht, sondern eine Sperrung (= Klammer) bildet.
+Da die wörtliche Übersetzung in solchen Fällen meist nicht wirklich „deutsch“ klingt, musst du eine solche Sperrung auflösen, und zwar am besten in einen Relativsatz:
+- Christiani ad deum suum orantes e periculis servati sunt. = (Die Christen, zu ihrem Gott betend, wurden aus Gefahren gerettet. =) „Die Christen, die zu ihrem Gott beteten, wurden aus Gefahren gerettet.“
+Der Relativsatz ist die einfachste Möglichkeit, ein Participium coniunctum zu übersetzen. Weitere Möglichkeiten: mit „als“ (temporal), „weil“ (kausal), „obwohl“ (konzessiv), „wenn“ (konditional) oder als Hauptsatz mit „und“ (beiordnend).
+Bei der Übersetzung von Sperrungen musst du auf die Art des Partizips achten:
+| | Merkmal | Eigenschaften | Beispiel |
+| Partizip Präsens (PPA) | -ns, -ntis (3. Dekl.) | aktiv + gleichzeitig | amans = „einer, der liebt“ |
+| Partizip Perfekt (PPP) | -tus/-sus (a/o-Dekl.) | passiv + vorzeitig | amatus/a/um = „einer, der geliebt worden ist“ |
+| Partizip Futur (PFA) | -urus (a/o-Dekl.) | aktiv + nachzeitig | amaturus/a/um = „einer, der lieben wird“ |
+- PPA (→ gleichzeitig): Im Relativsatz steht dieselbe Zeit wie im übergeordneten Satz (Beispiel siehe oben).
+- PPP (→ vorzeitig): Die Zeit im Relativsatz liegt eine Zeitstufe vor der Zeit im übergeordneten Satz: Romani ab hostibus inclusi (PPP) magno in periculo erant. (Imperfekt) = „Die Römer, die von den Feinden eingeschlossen worden waren (Plqpf.), befanden sich in großer Gefahr.“
+- PFA (→ nachzeitig): Das Futurpartizip kommt nur selten als PC vor; es bezeichnet dann den Zweck einer Handlung (finale Bedeutung) und wird mit „um zu …“ übersetzt: Marcus Aurelius Danuvium transiit Germanos victurus. = „Mark Aurel überquerte die Donau, um die Germanen zu besiegen.“

@@ -1,0 +1,51 @@
+#27 De martyrio sancti Petri | Die römische Kaiserzeit und das Christentum | 6
+== VOKABELN
+sanctus/a/um | | heilig | engl. saint, frz. saint; vgl. Sankt Stefan (etc.)
+cultus | cultus m. | Verehrung | vgl. Kult (= religiöse Verehrung)
+dubitare | dubito 1, -avi, -atum | 1) zögern; 2) zweifeln | engl. to doubt, ital. dubitare, span. dudar
+commovere | commoveo 2, commovi, commotum | 1) (heftig) bewegen; 2) veranlassen | vgl. movere
+fuga | fugae f. | Flucht | vgl. fugere; Refugium (= Zufluchtsort), Zentrifuge
+proximus/a/um | | der nächste | frz. prochain, ital. prossimo, span. próximo
+repente (Adv.) | | plötzlich | = subito; span. de repente
+obviam (Adv.) | | entgegen |
+videtur (+ Inf.) | | er/sie/es scheint | (NCI, siehe Grammatica)
+dominus | domini m. | Herr | vgl. dominieren
+quo | | wohin | ↔ eo
+vadere | vado 3, – | gehen | vgl. Invasion (= kriegerischer Einmarsch)
+dicitur (+ Inf.) | | er/sie/es soll (angeblich) | (NCI, siehe Grammatica)
+lacrima | lacrimae f. | Träne | frz. larme, ital. lacrima
+referre | refero, rettuli, relatum | 1) zurückbringen; 2) berichten | vgl. referieren, Referent
+sic | | so | = ita, tam
+salus | salutis f. | 1) Heil, Rettung; 2) Gruß | vgl. salutieren; Salut!
+mundus | mundi m. | Welt | frz. monde, ital. mondo, span. mundo; vgl. Minimundus
+dignus/a/um | (+ Abl.) | würdig (+ Gen.) | ital. degno, frz. digne, span. digno; vgl. engl. dignity
+== GRAMMATIK
+## Infinitiv Präsens passiv
+Der Infinitiv Präsens passiv endet bei der a-, e- und i-Konjugation auf -ri, bei den übrigen auf -i:
+| a-Konj. | e-Konj. | kons. Konj. | i-Konj. | Mischkonj. |
+| amari „geliebt zu werden“ | moneri „ermahnt zu werden“ | mitti „geschickt zu werden“ | audiri „gehört zu werden“ | capi „gefangen zu werden“ |
+## Partizip Futur und Infinitiv Futur aktiv
+Im Lateinischen gibt es auch ein Partizip Futur. Es wird vom PPP gebildet, wobei die Endung -us/a/um durch -urus/a/um ersetzt wird: amatus/a/um → amaturus/a/um, monitus/a/um → moniturus/a/um, missus/a/um → missurus/a/um (etc.)
+Verwendet wird das Partizip Futur vor allem in Kombination mit esse zur Bildung des Infinitivs Futur aktiv: amaturum esse, moniturum esse, dicturum esse.
+Der Infinitiv Futur aktiv kommt fast nur im ACI vor. Wie beim Infinitiv Perfekt passiv muss dabei die Endung des Partizips mit dem Subjektsakkusativ übereingestimmt werden:
+- Quintus amicos mox venturos esse sperat. = „Quintus hofft, dass die Freunde bald kommen werden.“
+- Quintus amicas mox venturas esse sperat. = „Quintus hofft, dass die Freundinnen bald kommen werden.“
+## Überblick: alle Infinitive
+| | a-Konj. | e-Konj. | kons. Konj. | i-Konj. | Mischkonj. |
+| Präsens aktiv | amare | monere | mittere | audire | capere |
+| Präsens passiv | amari | moneri | mitti | audiri | capi |
+| Perfekt aktiv | amavisse | monuisse | misisse | audivisse | cepisse |
+| Perfekt passiv | amatum esse | monitum esse | missum esse | auditum esse | captum esse |
+| Futur aktiv | amaturum esse | moniturum esse | missurum esse | auditurum esse | capturum esse |
+? Der Infinitiv Präsens ist gleichzeitig (→ Handlung zugleich mit der Haupthandlung). Der Infinitiv Perfekt ist vorzeitig (→ Handlung vor der Haupthandlung). Der Infinitiv Futur ist nachzeitig (→ Handlung nach der Haupthandlung).
+## Nominativus cum infinitivo (NCI)
+Bei einigen Verba steht im Passiv der NCI, die Verbindung eines Nominativs mit einem Infinitiv:
+- dicitur / dicuntur + NCI = „er/sie/es soll“ (Sg.) / „sie sollen“ (Pl.); „man sagt, dass er/sie/es …“
+- videtur / videntur + NCI = „er/sie/es scheint“ (Sg.) / „sie scheinen“ (Pl.); „es scheint, dass er/sie/es …“
+Beispiele:
+- Christus respondisse dicitur. = 1) „Christus soll geantwortet haben.“ 2) „Man sagt, dass Christus geantwortet hat.“
+- Christus ei obviam venire videbatur. = 1) „Christus schien ihm entgegenzukommen.“ 2) „Es schien, dass Christus ihm entgegenkam.“
+## Dativ des Interesses (Dativus commodi)
+Wenn ein Dativ ausdrückt, wofür oder für wen etwas geschieht, wird er mit „für“ übersetzt:
+- Fugere Petro difficile non erat. = „Zu flüchten war für Petrus nicht schwer.“
+- Non scholae, sed vitae discimus. = „Nicht für die Schule, sondern fürs Leben lernen wir.“

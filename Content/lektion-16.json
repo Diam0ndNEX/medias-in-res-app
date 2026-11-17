@@ -16,7 +16,7 @@
    "forms": "",
    "de": "1) vornehm; 2) adelig",
    "note": "frz. noble, ital. nobile, span. noble; vgl. nobel",
-   "pos": "Sonstiges"
+   "pos": "Adjektiv"
   },
   {
    "la": "natus/a/um",
@@ -30,7 +30,7 @@
    "forms": "",
    "de": "tapfer",
    "note": "↔ frz. fort + ital. forte („stark“)!",
-   "pos": "Sonstiges"
+   "pos": "Adjektiv"
   },
   {
    "la": "gladiator",
@@ -44,7 +44,7 @@
    "forms": "",
    "de": "grausam",
    "note": "engl. + frz. + span. cruel, ital. crudele",
-   "pos": "Sonstiges"
+   "pos": "Adjektiv"
   },
   {
    "la": "varius/a/um",
@@ -65,7 +65,7 @@
    "forms": "",
    "de": "schwierig",
    "note": "engl. difficult, frz. + ital. difficile, span. difícil",
-   "pos": "Sonstiges"
+   "pos": "Adjektiv"
   },
   {
    "la": "exercitus",
@@ -79,7 +79,7 @@
    "forms": "",
    "de": "kurz",
    "note": "engl. brief, frz. bref, ital. + span. breve",
-   "pos": "Sonstiges"
+   "pos": "Adjektiv"
   },
   {
    "la": "tempus",
@@ -184,7 +184,7 @@
    "forms": "atrocis (2.F.)",
    "de": "wild, grässlich",
    "note": "(siehe Grammatica)",
-   "pos": "Nomen"
+   "pos": "Adjektiv"
   },
   {
    "la": "crux",

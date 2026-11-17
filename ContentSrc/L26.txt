@@ -1,0 +1,43 @@
+#26 De incendio Romae | Die römische Kaiserzeit und das Christentum | 6
+== VOKABELN
+incendium | incendii n. | Brand | ital. + span. incendio; vgl. incendere
+princeps | principis m. | 1) der Erste; 2) Prinzeps, Kaiser | vgl. Prinz, der Prinzipat (= römische Kaiserzeit)
+gravis/e | | schwer, schwerwiegend | gravierend; frz. grave, ital. + span. grave
+existere | existo 3, extiti, – | entstehen | engl. to exist, ital. esistere, span. existir; vgl. existieren, Existenz
+auctor | auctoris m. | 1) Autor; 2) Urheber, Anstifter | frz. auteur, ital. autore, span. autor; vgl. auctoritas, -atis
+vastare | vasto 1, -avi, -atum | verwüsten | vgl. devastieren (= völlig zerstören)
+numerus | numeri m. | Zahl, Anzahl | Nummer; vgl. Numerus clausus
+privatus/a/um | | privat | frz. privé, ital. privato, span. privado
+publicus/a/um | | öffentlich | engl. public; vgl. publizieren (= veröffentlichen)
+fama | famae f. | 1) Gerücht; 2) Ruf | ital. + span. fama; vgl. famos (= großartig)
+fama erat | | es gab das Gerücht | esse kann auch „es gibt“ bedeuten!
+magnitudo | magnitudinis f. | Größe | frz. magnitude
+ornare | orno 1, -avi, -atum | schmücken | ital. ornare; vgl. Ornament (= Verzierung)
+postea (Adv.) | | später | ↔ post (+ Akk.)
+appellare | appello 1, -avi, -atum | 1) nennen; 2) rufen | frz. appeler; vgl. Appell (= Aufruf)
+cupidus/a/um | (+ Gen.) | gierig (nach) | vgl. cupiditas, -atis
+cupidus gloriae | | gierig nach Ruhm |
+condere | condo 3, condidi, conditum | gründen | vgl. ab urbe condita (a. u. c.)
+usque ad (+ Akk.) | | bis zu |
+iussu | | auf Befehl | vgl. iubere, iussi, iussum
+Christiani | Christianorum m. | die Christen | frz. chrétiens, ital. cristiani, span. cristianos
+crimen | criminis n. | 1) Verbrechen; 2) Vorwurf | engl. crime, frz. crime, ital. crimine, span. crimen; vgl. Kriminalität, kriminell
+accusare | accuso 1, -avi, -atum | anklagen | engl. to accuse, frz. accuser, ital. accusare
+quasi | | gleichsam (als), wie | ↔ ital. quasi, span. casi = „fast“!
+== GRAMMATIK
+## Konjunktiv im Hauptsatz
+Im Gegensatz zum Konjunktiv im Gliedsatz (ut-Sätze, cum-Sätze, indirekte Fragesätze), wo der Konjunktiv ein Zeitverhältnis zum Ausdruck bringt, drückt der Konjunktiv im Hauptsatz a) einen Wunsch, b) eine Möglichkeit oder c) eine Unmöglichkeit aus. Er muss daher übersetzt werden!
+| | Merkmal | Bedeutung + Übersetzung | Beispiel |
+| Konj. Präsens | -a- (außer a-Konj.: -e-): amem, moneam, mittam, capiam, audiam | Wunsch/Optativus: „soll“, „möge“; deutscher Konjunktiv 1 | Audiatur et(iam) altera pars. = „Es soll/möge auch die andere Seite gehört werden.“ |
+| Konj. Imperfekt | Infinitiv Präsens aktiv vor der Endung: amarem, monerem, mitterem | Unmöglichkeit/Irrealis Gegenwart: „würde“; deutscher Konjunktiv 2 | Si sanus essem, ad te venirem. = „Wenn ich gesund wäre, würde ich zu dir kommen.“ |
+| Konj. Perfekt | Aktiv: -erim, -eris … -erint; Passiv: PPP + sim, sis … sint | Verbot/Prohibitivus (ne + 2.P.): als verneinter Imperativ | Ne me tetigeris! = „Berühr mich nicht!“ (= Noli me tangere!) |
+| Konj. Plusquamperfekt | Aktiv: -issem, -isses … -issent; Passiv: PPP + essem, esses … | Unmöglichkeit/Irrealis der Vergangenheit: „wäre/hätte“ + Mittelwort der Vergangenheit | Si tacuisses, philosophus mansisses. = „Wenn du geschwiegen hättest, wärest du ein Philosoph geblieben.“ |
+## Konditionalsätze (Bedingungssätze)
+Bedingungssätze werden mit si („wenn“, „falls“) oder nisi („wenn nicht“, „falls nicht“) eingeleitet. Steht in ihnen ein Konjunktiv, muss er übersetzt werden, und zwar nach den Regeln des Konjunktivs im Hauptsatz:
+- si + Konj. Imperfekt (Irrealis der Gegenwart: eine Situation kann jetzt unmöglich eintreten): „würde“ oder Konj. 2: Si Iulia Quintum amaret, ille felix esset. = „Wenn Julia Quintus lieben würde (liebte), wäre jener glücklich.“ (→ aber Julia liebt Quintus nicht)
+- si + Konj. Plqpf. (Irrealis der Vergangenheit: eine Situation konnte früher unmöglich eintreten): „wäre / hätte“ (+ Mittelwort der Vght.): Si Iulia Quintum amavisset, ille felix fuisset. = „Wenn Julia Quintus geliebt hätte, wäre jener glücklich gewesen.“ (→ aber Julia hat Quintus nicht geliebt)
+## Übersicht: Konjunktivübersetzung
+| Der lateinische Konjunktiv … | wo? |
+| muss übersetzt werden | in Hauptsätzen; in Konditionalsätzen |
+| kann übersetzt werden | in ut-Sätzen (Ausnahme: Folge-ut „sodass“); in indirekten Fragesätzen |
+| darf nicht übersetzt werden | in cum-Sätzen; in Folge-ut-Sätzen („sodass“) |
