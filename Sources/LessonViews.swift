@@ -1,25 +1,48 @@
 import SwiftUI
 
 struct LessonListView: View {
-    let lessons: [Lesson]
+    @Environment(AppData.self) private var app
+    @Environment(ProgressStore.self) private var progress
 
     var body: some View {
         List {
-            if lessons.isEmpty {
+            if app.lessons.isEmpty {
                 Text("Keine Lektionen gefunden.")
             }
-            ForEach(lessons) { lesson in
-                NavigationLink(value: lesson) {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("\(lesson.number). \(lesson.title)").font(.headline)
-                        Text("\(lesson.unit) · \(lesson.vocab.count) Vokabeln")
-                            .font(.caption).foregroundStyle(.secondary)
+            ForEach(app.units, id: \.self) { unit in
+                Section(unit) {
+                    ForEach(app.lessons.filter { $0.unit == unit }) { lesson in
+                        NavigationLink(value: lesson) { LessonRow(lesson: lesson) }
                     }
                 }
             }
         }
-        .navigationTitle("Lektionen")
+        .navigationTitle("Medias in Res")
         .navigationDestination(for: Lesson.self) { LessonDetailView(lesson: $0) }
+    }
+}
+
+struct LessonRow: View {
+    let lesson: Lesson
+    @Environment(ProgressStore.self) private var progress
+
+    var body: some View {
+        let mastered = progress.mastered(in: lesson.vocab)
+        HStack(spacing: 12) {
+            ZStack {
+                Circle().stroke(Color.secondary.opacity(0.2), lineWidth: 4)
+                Circle().trim(from: 0, to: mastered)
+                    .stroke(Color.green, style: StrokeStyle(lineWidth: 4, lineCap: .round))
+                    .rotationEffect(.degrees(-90))
+                Text("\(lesson.number)").font(.headline)
+            }
+            .frame(width: 40, height: 40)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(lesson.title).font(.headline)
+                Text("\(lesson.vocab.count) Vokabeln · \(lesson.grammar.count) Grammatik-Themen")
+                    .font(.caption).foregroundStyle(.secondary)
+            }
+        }
     }
 }
 
@@ -32,14 +55,60 @@ struct LessonDetailView: View {
             Picker("", selection: $tab) {
                 Text("Vokabeln").tag(0)
                 Text("Grammatik").tag(1)
+                Text("Üben").tag(2)
             }
             .pickerStyle(.segmented)
             .padding()
 
-            if tab == 0 { VocabListView(lesson: lesson) } else { GrammarView(lesson: lesson) }
+            switch tab {
+            case 0: VocabListView(lesson: lesson)
+            case 1: GrammarView(sections: lesson.grammar)
+            default: LessonPracticeView(lesson: lesson)
+            }
         }
-        .navigationTitle("Lektion \(lesson.number)")
+        .navigationTitle("Lektion \(lesson.number): \(lesson.title)")
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+struct LessonPracticeView: View {
+    let lesson: Lesson
+    @AppStorage("typingEnabled") private var typingEnabled = false
+
+    private var config: PracticeConfig {
+        PracticeConfig(from: lesson.number, to: lesson.number, pos: "Alle", direction: .mixed, count: 0)
+    }
+
+    var body: some View {
+        List {
+            Section("Vokabeln dieser Lektion") {
+                link(.flashcards)
+                link(.multipleChoice)
+                link(.trueFalse)
+                link(.matching)
+                link(.listening)
+                if typingEnabled { link(.typing) }
+                link(.stemForms)
+                link(.foreignWords)
+                link(.mistakes)
+            }
+            Section("Grammatik dieser Lektion") {
+                link(.formsIdentify)
+                link(.formsBuild)
+                link(.tables)
+            }
+            Section {
+                link(.exam)
+            }
+        }
+    }
+
+    private func link(_ mode: PracticeMode) -> some View {
+        NavigationLink {
+            ModeLauncher(mode: mode, config: config)
+        } label: {
+            ModeRow(mode: mode)
+        }
     }
 }
 
@@ -68,6 +137,7 @@ struct VocabRow: View {
     let item: VocabItem
     let hideGerman: Bool
     let box: Int
+    var showLesson = false
     @State private var revealed = false
 
     var body: some View {
@@ -78,7 +148,8 @@ struct VocabRow: View {
                     Text(item.forms).font(.subheadline).foregroundStyle(.secondary)
                 }
                 Spacer()
-                if box > 0 { Text("Box \(box)").font(.caption2).foregroundStyle(.tertiary) }
+                if showLesson { Text("L\(item.lesson)").font(.caption2).foregroundStyle(.secondary) }
+                BoxBadge(box: box)
             }
             Text(hideGerman && !revealed ? "• • •" : item.de)
             if !item.note.isEmpty && (!hideGerman || revealed) {
@@ -87,24 +158,50 @@ struct VocabRow: View {
         }
         .contentShape(Rectangle())
         .onTapGesture { revealed.toggle() }
+        .swipeActions(edge: .leading) {
+            Button {
+                Speaker.shared.speakLatin(item.speakable)
+            } label: { Label("Anhören", systemImage: "speaker.wave.2") }
+            .tint(.purple)
+        }
+    }
+}
+
+struct BoxBadge: View {
+    let box: Int
+    var body: some View {
+        if box > 0 {
+            HStack(spacing: 2) {
+                ForEach(1...5, id: \.self) { i in
+                    Circle().fill(i <= box ? Color.green : Color.secondary.opacity(0.25))
+                        .frame(width: 5, height: 5)
+                }
+            }
+        }
     }
 }
 
 struct GrammarView: View {
-    let lesson: Lesson
+    let sections: [GrammarSection]
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                ForEach(lesson.grammar) { section in
-                    VStack(alignment: .leading, spacing: 10) {
-                        Text(section.title)
-                            .font(.title3.bold())
-                        ForEach(section.blocks) { BlockView(block: $0) }
-                    }
+            VStack(alignment: .leading, spacing: 24) {
+                ForEach(sections) { section in
+                    GrammarSectionContent(section: section)
                 }
             }
             .padding()
+        }
+    }
+}
+
+struct GrammarSectionContent: View {
+    let section: GrammarSection
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(section.title).font(.title3.bold())
+            ForEach(section.blocks) { BlockView(block: $0) }
         }
     }
 }
@@ -116,7 +213,12 @@ struct BlockView: View {
         switch block.type {
         case "list":
             VStack(alignment: .leading, spacing: 4) {
-                ForEach(block.items ?? [], id: \.self) { Text("• \($0)") }
+                ForEach(block.items ?? [], id: \.self) { item in
+                    HStack(alignment: .firstTextBaseline, spacing: 6) {
+                        Text("•")
+                        Text(item)
+                    }
+                }
             }
         case "tip":
             callout(label: "TIPP", text: block.text ?? "", color: .green)

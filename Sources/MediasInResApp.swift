@@ -3,27 +3,30 @@ import SwiftUI
 @main
 struct MediasInResApp: App {
     @State private var progress = ProgressStore()
-    private let lessons = ContentStore.loadLessons()
+    @State private var app = AppData()
 
     var body: some Scene {
         WindowGroup {
-            RootView(lessons: lessons)
+            RootView()
                 .environment(progress)
+                .environment(app)
         }
     }
 }
 
 struct RootView: View {
-    let lessons: [Lesson]
-
     var body: some View {
         TabView {
-            NavigationStack { LessonListView(lessons: lessons) }
+            NavigationStack { LessonListView() }
                 .tabItem { Label("Lektionen", systemImage: "book") }
-            NavigationStack { TrainerSetupView(lessons: lessons) }
-                .tabItem { Label("Üben", systemImage: "rectangle.on.rectangle.angled") }
-            NavigationStack { ProgressView2(lessons: lessons) }
-                .tabItem { Label("Fortschritt", systemImage: "chart.bar") }
+            NavigationStack { PracticeHubView() }
+                .tabItem { Label("Üben", systemImage: "brain.head.profile") }
+            NavigationStack { SearchView() }
+                .tabItem { Label("Suchen", systemImage: "magnifyingglass") }
+            NavigationStack { StatsView() }
+                .tabItem { Label("Statistik", systemImage: "chart.bar") }
+            NavigationStack { SettingsView() }
+                .tabItem { Label("Einstellungen", systemImage: "gearshape") }
         }
     }
 }

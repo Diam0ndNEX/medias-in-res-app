@@ -1,11 +1,11 @@
 import Foundation
 
-struct Lesson: Codable, Identifiable, Hashable {
+struct Lesson: Decodable, Identifiable, Hashable {
     let number: Int
     let title: String
     let unit: String
     let klasse: Int
-    let vocab: [VocabItem]
+    var vocab: [VocabItem]
     let vocabNote: String?
     let grammar: [GrammarSection]
 
@@ -15,16 +15,17 @@ struct Lesson: Codable, Identifiable, Hashable {
     func hash(into hasher: inout Hasher) { hasher.combine(number) }
 }
 
-struct VocabItem: Codable, Identifiable, Hashable {
+struct VocabItem: Decodable, Identifiable, Hashable {
     let la: String
     let forms: String
     let de: String
     let note: String
+    let pos: String
     var lesson: Int = 0
 
     var id: String { "\(lesson)|\(la)" }
 
-    enum CodingKeys: String, CodingKey { case la, forms, de, note }
+    enum CodingKeys: String, CodingKey { case la, forms, de, note, pos }
 
     init(from decoder: Decoder) throws {
         let c = try decoder.container(keyedBy: CodingKeys.self)
@@ -32,16 +33,39 @@ struct VocabItem: Codable, Identifiable, Hashable {
         forms = try c.decodeIfPresent(String.self, forKey: .forms) ?? ""
         de = try c.decode(String.self, forKey: .de)
         note = try c.decodeIfPresent(String.self, forKey: .note) ?? ""
+        pos = try c.decodeIfPresent(String.self, forKey: .pos) ?? "Sonstiges"
+    }
+
+    static func == (a: VocabItem, b: VocabItem) -> Bool { a.id == b.id }
+    func hash(into hasher: inout Hasher) { hasher.combine(id) }
+
+    /// Lateinisches Stichwort ohne Klammerzusätze und Geschlechtsangabe.
+    var headLa: String {
+        var s = la
+        if let r = s.range(of: " (") { s = String(s[..<r.lowerBound]) }
+        for suffix in [" m.", " f.", " n."] where s.hasSuffix(suffix) {
+            s = String(s.dropLast(suffix.count))
+        }
+        return s.trimmingCharacters(in: .whitespaces)
+    }
+
+    /// Text zum Vorlesen (ohne Schrägstriche und Zusätze).
+    var speakable: String {
+        headLa.replacingOccurrences(of: "/", with: " ").replacingOccurrences(of: "–", with: " ")
+    }
+
+    var hasStemForms: Bool {
+        pos == "Verb" && forms.contains(",")
     }
 }
 
-struct GrammarSection: Codable, Identifiable, Hashable {
+struct GrammarSection: Decodable, Identifiable, Hashable {
     let title: String
     let blocks: [Block]
     var id: String { title }
 }
 
-struct Block: Codable, Hashable, Identifiable {
+struct Block: Decodable, Hashable, Identifiable {
     let type: String          // text, list, tip, note, table
     let text: String?
     let items: [String]?
