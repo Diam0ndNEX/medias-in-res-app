@@ -8,6 +8,9 @@ Versionsnummern nach dem Schema **MAJOR.MINOR.PATCH**:
 Die Nummer steht in `VERSION` und gilt für Web-App und iOS-App. Bei jedem Update: `VERSION` erhöhen und oben einen neuen Abschnitt eintragen.
 Die Punkte der Abschnitte erscheinen in der App unter „Was ist neu?“.
 
+## 1.1.1 – 17.11.2026
+- Behoben: Schwarzer Streifen unter der Tab-Leiste auf kurzen Seiten (z. B. Karteikarten, Grammatik, Wiederherstellen) in der Home-Bildschirm-App
+
 ## 1.1.0 – 17.11.2026
 - Behoben: In „Suchen“ rutschten Einträge über das Suchfeld – die Suchleiste sitzt jetzt genau unter der oberen Leiste
 - Behoben: Beim Tab-Wechsel ging ein laufendes Quiz, eine Blitzrunde oder Schularbeit verloren – jetzt geht es genau dort weiter
