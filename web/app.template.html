@@ -20,16 +20,20 @@
   --safe-top:env(safe-area-inset-top,0px); --safe-bottom:env(safe-area-inset-bottom,0px);
 }
 @media (prefers-color-scheme:dark){
-  :root{--accent:#e8be5c;--bg:#000;--card:#1c1c1e;--text:#f2f2f7;--muted:#98989f;--line:rgba(235,235,245,.18)}
+  :root:not([data-theme=light]){--accent:#e8be5c;--bg:#000;--card:#1c1c1e;--text:#f2f2f7;--muted:#98989f;--line:rgba(235,235,245,.18);--on-accent:#1c1c1e;color-scheme:dark}
 }
+:root[data-theme=dark]{--accent:#e8be5c;--bg:#000;--card:#1c1c1e;--text:#f2f2f7;--muted:#98989f;--line:rgba(235,235,245,.18);--on-accent:#1c1c1e;color-scheme:dark}
+:root[data-theme=light]{color-scheme:light}
+:root{--on-accent:#fff;--z:1;--top-h:56px}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--text);font:17px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif}
 button{font:inherit;color:inherit}
-#top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:calc(var(--safe-top) + 8px) 16px 8px;display:flex;align-items:center;gap:8px;min-height:48px;border-bottom:.5px solid var(--line)}
-#top h1{font-size:17px;margin:0;flex:1;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:calc(var(--safe-top) + 8px) 16px 8px;display:flex;align-items:center;gap:8px;min-height:48px;border-bottom:.5px solid var(--line)}
+#top h1{font-size:17px;line-height:24px;min-height:24px;margin:0;flex:1;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:opacity .15s}
+#top h1.fade{opacity:0}
 #top .side{width:80px}
 #back{background:none;border:0;color:var(--accent);font-size:17px;padding:4px 0;text-align:left;cursor:pointer}
-main{padding:12px 16px calc(90px + var(--safe-bottom));max-width:760px;margin:0 auto}
+main{padding:12px 16px calc(90px + var(--safe-bottom));max-width:760px;margin:0 auto;zoom:var(--z)}
 .big-title{font-size:32px;font-weight:800;margin:8px 0 12px}
 nav#tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-top:.5px solid var(--line);padding:6px 0 calc(6px + var(--safe-bottom));z-index:6}
 nav#tabs button{flex:1;background:none;border:0;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;color:var(--muted);cursor:pointer;position:relative}
@@ -52,11 +56,11 @@ nav#tabs .ico{font-size:22px;line-height:1}
 .seg{display:flex;background:rgba(118,118,128,.12);border-radius:9px;padding:2px;margin:8px 0}
 .seg button{flex:1;border:0;background:none;padding:6px 4px;border-radius:7px;font-size:14px;cursor:pointer}
 .seg button.on{background:var(--card);box-shadow:0 1px 3px rgba(0,0,0,.15);font-weight:600}
-select,input[type=text],input[type=number],textarea{font:inherit;padding:8px 10px;border-radius:9px;border:1px solid var(--line);background:var(--card);color:var(--text)}
-input[type=text]{width:100%}
+select,input[type=text],input[type=search],input[type=number],textarea{font:inherit;padding:8px 10px;border-radius:9px;border:1px solid var(--line);background:var(--card);color:var(--text)}
+input[type=text],input[type=search]{width:100%;-webkit-appearance:none;appearance:none}
+input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:12px;padding:12px 16px;font-weight:600;cursor:pointer;background:rgba(118,118,128,.14);min-height:44px}
-.btn.primary{background:var(--accent);color:#fff}
-@media (prefers-color-scheme:dark){.btn.primary{color:#1c1c1e}}
+.btn.primary{background:var(--accent);color:var(--on-accent)}
 .btn.green{background:var(--green);color:#fff}.btn.red{background:var(--red);color:#fff}
 .btn.full{width:100%}
 .btn:disabled{opacity:.55}
@@ -101,7 +105,13 @@ td:first-child{font-style:normal;font-weight:600}
 .center{text-align:center}
 .flash{position:relative;touch-action:pan-y;transition:transform .15s}
 .hidecell{border:0;border-radius:6px;background:rgba(118,118,128,.18);min-width:60px;padding:4px 8px;cursor:pointer;font-style:normal}
-.search{position:sticky;top:calc(var(--safe-top) + 56px);z-index:3;padding:4px 0 10px;background:var(--bg)}
+.search{position:sticky;top:calc(var(--top-h) / var(--z));z-index:3;margin:0 -16px;padding:6px 16px 10px;background:var(--bg);display:flex;gap:8px;align-items:center}
+.search .field{position:relative;flex:1}
+.search input{padding-right:36px}
+.search .clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:rgba(118,118,128,.25);color:var(--bg);width:22px;height:22px;border-radius:50%;font-size:13px;line-height:22px;padding:0;cursor:pointer}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(76px + var(--safe-bottom));background:var(--text);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:15px;z-index:15;box-shadow:0 4px 16px rgba(0,0,0,.25);cursor:pointer;max-width:90vw;text-align:center}
+.ver{font-size:12px;color:var(--muted);text-align:center;margin-top:8px}
+.changes h3{margin:16px 0 4px;font-size:17px}.changes ul{margin:4px 0;padding-left:20px}.changes li{margin:3px 0}
 .pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:8px;background:rgba(118,118,128,.15);color:var(--muted)}
 </style>
 </head>
@@ -114,6 +124,8 @@ td:first-child{font-style:normal;font-weight:600}
 "use strict";
 const LESSONS = /*__DATA__*/;
 const ICON = "/*__ICON180__*/";
+const APP_VERSION = "/*__VERSION__*/";
+const CHANGELOG = /*__CHANGELOG__*/;
 
 // ---------- Daten ----------
 const ALL = [];
@@ -133,7 +145,8 @@ const rnd = () => Math.random() < 0.5;
 // ---------- Speicher ----------
 const KEY = "mir-progress-v1";
 const DEFAULTS = { items: {}, days: {}, tests: [], highscores: {}, starred: [],
-  s: { typing: false, tolerant: true, goal: 30, from: 1, to: 5, pos: "Alle", dir: "laDe", count: 20, onboarded: false, sound: true } };
+  s: { typing: false, tolerant: true, goal: 30, from: 1, to: 5, pos: "Alle", dir: "laDe", count: 20, onboarded: false, sound: true,
+       theme: "system", zoom: 1, rate: 0.85, autoSpeak: false, lastVersion: "" } };
 let P;
 try { P = JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { P = null; }
 P = Object.assign(structuredClone(DEFAULTS), P || {});
@@ -166,11 +179,11 @@ function longestStreak() {
   for (const k of ds) { const d = new Date(k + "T12:00:00"); cur = prev && Math.round((d - prev) / 864e5) === 1 ? cur + 1 : 1; best = Math.max(best, cur); prev = d; }
   return best;
 }
-const dailyWord = () => ALL[(Math.floor(Date.now() / 864e5) * 7919) % ALL.length];
+const dailyWord = () => { const d = new Date(), n = Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 864e5); return ALL[(n * 7919) % ALL.length]; };
 
 // ---------- Ton & Vibration ----------
 function speakLatin(t) {
-  try { const u = new SpeechSynthesisUtterance(t); u.lang = "it-IT"; u.rate = 0.85;
+  try { const u = new SpeechSynthesisUtterance(t); u.lang = "it-IT"; u.rate = P.s.rate || 0.85;
     const it = speechSynthesis.getVoices().find(x => x.lang && x.lang.startsWith("it")); if (it) u.voice = it;
     speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {}
 }
@@ -332,7 +345,7 @@ function startMode(m, cfg) {
 function quizView(el, questions, o) {
   let deck = questions, i = 0, chosen = null, answered = [], left = o.time || 0, done = false, retry = false, timer = null, rec = false;
   const correct = () => answered.filter(a => a.ok).length;
-  if (o.time) timer = setInterval(() => { if (done || !el.isConnected) return clearInterval(timer); left--; if (left <= 0) finish(); else { const t = el.querySelector("#tleft"); if (t) t.textContent = left + " s"; } }, 1000);
+  if (o.time) timer = setInterval(() => { if (done) return clearInterval(timer); if (!el.isConnected) return; left--; if (left <= 0) finish(); else { const t = el.querySelector("#tleft"); if (t) t.textContent = left + " s"; } }, 1000);
   el.cleanup = () => clearInterval(timer);
   function draw() {
     if (done || i >= deck.length) return result();
@@ -355,7 +368,7 @@ function quizView(el, questions, o) {
     draw(); if (o.auto) setTimeout(next, ok ? 350 : 900);
   }
   function next() { if (done) return; chosen = null; i++; if (i >= deck.length) finish(); else { draw(); autoSay(); } }
-  function autoSay() { const q = deck[i]; if (o.speak && q && q.speak) setTimeout(() => { if (!done && el.isConnected) speakLatin(q.speak); }, 300); }
+  function autoSay() { const q = deck[i]; if ((o.speak || P.s.autoSpeak) && q && q.speak) setTimeout(() => { if (!done && el.isConnected) speakLatin(q.speak); }, 300); }
   function finish() {
     if (done) return; done = true; clearInterval(timer);
     if (o.hs && !retry && correct() > (P.highscores[o.hs] || 0)) { P.highscores[o.hs] = correct(); rec = true; save(); }
@@ -371,7 +384,7 @@ function quizView(el, questions, o) {
         <div style="color:var(--green)">Richtig: ${esc(a.q.options[a.q.correct])}</div><div class="sub" style="color:var(--red)">Deine Antwort: ${esc(a.q.options[a.k])}</div></div></div>`).join("")}</div>
         <button class="btn primary full" id="retry">Fehler nochmal üben</button>` : ""}
       <button class="btn full" id="fin" style="margin-top:10px">Fertig</button>`;
-    const r = el.querySelector("#retry"); if (r) r.onclick = () => { deck = shuffle(wrong.map(a => a.q)); i = 0; chosen = null; answered = []; done = false; retry = true; rec = false; if (o.time && !o.exam) { left = o.time; timer = setInterval(() => { if (done || !el.isConnected) return clearInterval(timer); left--; if (left <= 0) finish(); else { const t = el.querySelector("#tleft"); if (t) t.textContent = left + " s"; } }, 1000); } else { o = Object.assign({}, o, { time: 0 }); } draw(); autoSay(); };
+    const r = el.querySelector("#retry"); if (r) r.onclick = () => { deck = shuffle(wrong.map(a => a.q)); i = 0; chosen = null; answered = []; done = false; retry = true; rec = false; if (o.time && !o.exam) { left = o.time; timer = setInterval(() => { if (done) return clearInterval(timer); if (!el.isConnected) return; left--; if (left <= 0) finish(); else { const t = el.querySelector("#tleft"); if (t) t.textContent = left + " s"; } }, 1000); } else { o = Object.assign({}, o, { time: 0 }); } draw(); autoSay(); };
     el.querySelector("#fin").onclick = pop;
   }
   draw(); autoSay();
@@ -402,8 +415,9 @@ function flashView(el, items, dir) {
     fc.addEventListener("touchmove", e => { if (sx === null || !revealed) return; const dx = e.touches[0].clientX - sx; fc.style.transform = `translateX(${dx}px) rotate(${dx / 20}deg)`; fc.style.background = dx > 40 ? "rgba(46,157,79,.2)" : dx < -40 ? "rgba(212,55,44,.2)" : ""; }, { passive: true });
     fc.addEventListener("touchend", e => { if (sx === null) return; const dx = e.changedTouches[0].clientX - sx; sx = null; fc.style.transform = ""; fc.style.background = ""; if (!revealed) return; if (dx > 100) ans(true); else if (dx < -100) ans(false); });
   }
-  function ans(ok) { const c = queue.shift(); buzz(ok); record(c, ok); total++; if (ok) knew++; else queue.splice(Math.min(3, queue.length), 0, c); revealed = false; d = resolveDir(dir); draw(); }
-  draw();
+  function autoSay() { if (P.s.autoSpeak && queue[0] && d === "laDe") setTimeout(() => { if (el.isConnected) speakLatin(speakable(queue[0])); }, 250); }
+  function ans(ok) { const c = queue.shift(); buzz(ok); record(c, ok); total++; if (ok) knew++; else queue.splice(Math.min(3, queue.length), 0, c); revealed = false; d = resolveDir(dir); draw(); autoSay(); }
+  draw(); autoSay();
 }
 
 // ---------- Eintippen ----------
@@ -432,7 +446,7 @@ function typingView(el, items, dir) {
 // ---------- Zuordnen ----------
 function matchView(el, items) {
   let remaining = shuffle(items), round = [], L = [], R = [], sel = null, mistakesSet = new Set(), sec = 0, done = false;
-  const timer = setInterval(() => { if (!el.isConnected || done) return clearInterval(timer); sec++; const t = el.querySelector("#sec"); if (t) t.textContent = sec + " s"; }, 1000);
+  const timer = setInterval(() => { if (done) return clearInterval(timer); if (!el.isConnected) return; sec++; const t = el.querySelector("#sec"); if (t) t.textContent = sec + " s"; }, 1000);
   el.cleanup = () => clearInterval(timer);
   function nextRound() { const used = new Set(), rest = []; round = [];
     for (const v of remaining) { if (round.length < 6 && !used.has(v.de)) { used.add(v.de); round.push(v); } else rest.push(v); }
@@ -492,23 +506,42 @@ function examSetup(el, cfg) {
 const TABS = [["lessons", "📖", "Lektionen"], ["practice", "🧠", "Üben"], ["search", "🔍", "Suchen"], ["stats", "📊", "Statistik"], ["settings", "⚙️", "Mehr"]];
 const ROOTS = { lessons: ["Medias in Res", lessonsTab], practice: ["Üben", practiceTab], search: ["Nachschlagen", searchTab], stats: ["Statistik", statsTab], settings: ["Einstellungen", settingsTab] };
 let tab = "lessons"; const stacks = {};
-const mainEl = document.getElementById("main");
+const mainEl = document.getElementById("main"), topEl = document.getElementById("top");
+// Höhe der oberen Leiste messen, damit die Suchleiste genau darunter klebt
+function measureTop() { document.documentElement.style.setProperty("--top-h", topEl.getBoundingClientRect().height + "px"); }
+try { new ResizeObserver(measureTop).observe(topEl); } catch (e) { window.addEventListener("resize", measureTop); }
+measureTop();
 function current() { const s = stacks[tab]; return s[s.length - 1]; }
+const titleEl = document.getElementById("title");
+function dispose(entry) { if (entry && entry.node && entry.node.cleanup) { try { entry.node.cleanup(); } catch (e) {} } if (entry) entry.node = null; }
 function render() {
-  const v = current(); const s = stacks[tab];
-  if (mainEl.cleanup) { try { mainEl.cleanup(); } catch (e) {} mainEl.cleanup = null; }
-  document.getElementById("title").textContent = s.length > 1 ? v.title : "";
-  document.getElementById("back").hidden = s.length <= 1;
-  mainEl.innerHTML = "";
-  const host = document.createElement("div"); mainEl.appendChild(host);
-  if (s.length === 1) { const h = document.createElement("div"); h.className = "big-title"; h.textContent = v.title; mainEl.insertBefore(h, host); }
-  v.fn(host); mainEl.cleanup = () => { if (host.cleanup) host.cleanup(); };
-  window.scrollTo(0, v.scroll || 0); drawTabs();
+  const v = current(); const s = stacks[tab], root = s.length === 1;
+  titleEl.textContent = v.title; titleEl.classList.toggle("fade", root);
+  document.getElementById("back").hidden = root;
+  [...mainEl.children].forEach(c => c.remove());
+  if (root) {
+    // Startseiten immer neu aufbauen (aktuelle Zahlen), Unterseiten bleiben erhalten (z. B. laufendes Quiz)
+    dispose(v);
+    const h = document.createElement("div"); h.className = "big-title"; h.id = "bigtitle"; h.textContent = v.title; mainEl.appendChild(h);
+  }
+  if (!v.node) { v.node = document.createElement("div"); mainEl.appendChild(v.node); v.fn(v.node); }
+  else mainEl.appendChild(v.node);
+  window.scrollTo(0, v.scroll || 0); drawTabs(); onScroll();
 }
 function push(title, fn) { current().scroll = window.scrollY; stacks[tab].push({ title, fn }); render(); }
-function replace(title, fn) { stacks[tab][stacks[tab].length - 1] = { title, fn }; render(); }
-function pop() { if (stacks[tab].length > 1) { stacks[tab].pop(); render(); } }
-function switchTab(t) { if (t === tab && stacks[t].length > 1) { stacks[t] = stacks[t].slice(0, 1); } else current().scroll = window.scrollY; tab = t; render(); }
+function replace(title, fn) { dispose(current()); stacks[tab][stacks[tab].length - 1] = { title, fn }; render(); }
+function pop() { if (stacks[tab].length > 1) { dispose(stacks[tab].pop()); render(); } }
+function switchTab(t) {
+  if (t === tab && stacks[t].length > 1) { stacks[t].slice(1).forEach(dispose); stacks[t] = stacks[t].slice(0, 1); stacks[t][0].scroll = 0; }
+  else current().scroll = window.scrollY;
+  tab = t; render();
+}
+function onScroll() {
+  if (stacks[tab].length !== 1) return;
+  const h = document.getElementById("bigtitle"); if (!h) return;
+  titleEl.classList.toggle("fade", h.getBoundingClientRect().bottom > topEl.getBoundingClientRect().bottom);
+}
+window.addEventListener("scroll", onScroll, { passive: true });
 document.getElementById("back").onclick = pop;
 for (const [k, , ] of TABS) stacks[k] = [{ title: ROOTS[k][0], fn: ROOTS[k][1] }];
 function drawTabs() {
@@ -608,20 +641,30 @@ function practiceTab(el) {
 }
 
 // ---------- Suchen ----------
+let searchQuery = "";
+const fold = x => String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ß/g, "ss");
 function searchTab(el) {
-  el.innerHTML = `<div class="search"><input type="text" id="q" placeholder="Latein oder Deutsch suchen" autocomplete="off" autocapitalize="off"></div><div id="res"></div>`;
-  const q = el.querySelector("#q"), res = el.querySelector("#res");
-  const secText = s => s.blocks.map(b => [b.text || "", ...(b.items || []), ...(b.rows || []).flat()].join(" ")).join(" ").toLowerCase();
+  el.innerHTML = `<div class="search"><div class="field"><input type="search" id="q" placeholder="Latein oder Deutsch suchen" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="search"><button class="clear" id="clr" aria-label="Suche leeren" hidden>✕</button></div></div><div id="res"></div>`;
+  const q = el.querySelector("#q"), res = el.querySelector("#res"), clr = el.querySelector("#clr");
+  q.value = searchQuery;
+  const secText = s => fold(s.blocks.map(b => [b.text || "", ...(b.items || []), ...(b.rows || []).flat()].join(" ")).join(" "));
   function run() {
-    const t = q.value.trim().toLowerCase();
-    const hits = t.length >= 2 ? ALL.filter(v => [v.la, v.de, v.forms, v.note].some(x => x.toLowerCase().includes(t))).slice(0, 100) : [];
-    const gh = []; for (const l of LESSONS) for (const s of l.grammar) if (!t || s.title.toLowerCase().includes(t) || secText(s).includes(t)) gh.push([l, s]);
-    res.innerHTML = (hits.length ? `<div class="ghead">Vokabeln (${hits.length})</div><div class="group">${hits.map((v, k) => vocabRow(v, false, k, true)).join("")}</div>` : (t.length >= 2 ? `<p class="sub">Keine Vokabeln gefunden.</p>` : ""))
-      + `<div class="ghead">${t ? "Grammatik" : "Grammatik-Register"}</div><div class="group">${gh.map(([l, s], k) => `<div class="row link" data-g="${k}"><span class="pill">L${l.number}</span><div class="grow">${esc(s.title)}</div></div>`).join("")}</div>`;
+    searchQuery = q.value; clr.hidden = !q.value;
+    const t = fold(q.value.trim());
+    const all = t.length >= 2 ? ALL.filter(v => [v.la, v.de, v.forms, v.note].some(x => fold(x).includes(t))) : [];
+    // Treffer am Wortanfang zuerst
+    all.sort((a, b) => (fold(b.la).startsWith(t) || fold(b.de).startsWith(t)) - (fold(a.la).startsWith(t) || fold(a.de).startsWith(t)));
+    const hits = all.slice(0, 100);
+    const gh = []; for (const l of LESSONS) for (const s of l.grammar) if (!t || fold(s.title).includes(t) || secText(s).includes(t)) gh.push([l, s]);
+    res.innerHTML = (hits.length ? `<div class="ghead">Vokabeln (${all.length > 100 ? "100 von " + all.length : all.length})</div><div class="group">${hits.map((v, k) => vocabRow(v, false, k, true)).join("")}</div>` : (t.length >= 2 ? `<p class="sub">Keine Vokabeln gefunden.</p>` : ""))
+      + (gh.length ? `<div class="ghead">${t ? "Grammatik (" + gh.length + ")" : "Grammatik-Register"}</div><div class="group">${gh.map(([l, s], k) => `<div class="row link" data-g="${k}"><span class="pill">L${l.number}</span><div class="grow">${esc(s.title)}</div></div>`).join("")}</div>` : (t ? `<p class="sub">Keine Grammatik gefunden.</p>` : ""));
     bindVocabRows(res, hits);
     res.querySelectorAll("[data-g]").forEach(r => r.onclick = () => { const [l, s] = gh[+r.dataset.g]; push("Lektion " + l.number, e => { e.innerHTML = grammarHTML([s]); }); });
   }
-  q.oninput = run; run();
+  q.oninput = run;
+  q.onkeydown = e => { if (e.key === "Enter") q.blur(); };
+  clr.onclick = () => { q.value = ""; run(); q.focus(); };
+  run();
 }
 
 // ---------- Statistik ----------
@@ -656,7 +699,16 @@ function badgesHTML() {
 // ---------- Einstellungen ----------
 function settingsTab(el) {
   const s = P.s;
-  el.innerHTML = `<div class="ghead">Üben</div><div class="group">
+  const segBtns = (id, list, val) => `<div class="seg" id="${id}">${list.map(([k, l]) => `<button data-v="${k}" class="${String(val) === String(k) ? "on" : ""}">${l}</button>`).join("")}</div>`;
+  el.innerHTML = `<div class="ghead">Darstellung</div><div class="group"><div class="row" style="display:block">
+      <div class="sub">Design</div>${segBtns("theme", [["system", "Automatisch"], ["light", "Hell"], ["dark", "Dunkel"]], s.theme)}
+      <div class="sub" style="margin-top:6px">Textgröße</div>${segBtns("zoom", [[0.9, "Klein"], [1, "Normal"], [1.12, "Groß"], [1.25, "Sehr groß"]], s.zoom)}</div></div>
+    <div class="ghead">Aussprache</div><div class="group"><div class="row" style="display:block">
+      <div class="sub">Sprechtempo</div>${segBtns("rate", [[0.65, "Langsam"], [0.85, "Normal"], [1.05, "Schnell"]], s.rate)}</div>
+      <label class="row"><div class="grow">Wörter automatisch vorlesen</div><input type="checkbox" id="auto" ${s.autoSpeak ? "checked" : ""}></label>
+      <div class="row link" id="test"><div class="grow">Probe anhören: „Salve, discipuli!“</div></div></div>
+    <div class="gfoot">Vorlesen nutzt die italienische Stimme deines Geräts – die klingt dem Schullatein am ähnlichsten.</div>
+    <div class="ghead">Üben</div><div class="group">
       <label class="row"><div class="grow">Eintippen-Modus anzeigen</div><input type="checkbox" id="typ" ${s.typing ? "checked" : ""}></label>
       ${s.typing ? `<label class="row"><div class="grow">Tolerante Prüfung</div><input type="checkbox" id="tol" ${s.tolerant ? "checked" : ""}></label>` : ""}
       <label class="row"><div class="grow">Vibration (Android)</div><input type="checkbox" id="snd" ${s.sound ? "checked" : ""}></label></div>
@@ -669,7 +721,18 @@ function settingsTab(el) {
       <div class="row link" id="imp"><div class="grow">Fortschritt wiederherstellen</div></div></div>
     <div class="gfoot">Der Fortschritt wird nur in diesem Browser gespeichert. Sichere ihn ab und zu, z. B. in einer Notiz.</div>
     <div class="group"><div class="row link" id="reset" style="color:var(--red)"><div class="grow">Gesamten Fortschritt löschen</div></div></div>
+    <div class="ghead">Über</div><div class="group">
+      <div class="row"><div class="grow">Version</div><div class="sub">${APP_VERSION}</div></div>
+      <div class="row link" id="news"><div class="grow">Was ist neu?</div></div>
+      <div class="row link" id="upd"><div class="grow">Nach Updates suchen</div></div></div>
     <div class="sub center">Lern-App zum Lateinbuch „Medias in Res!“ (Lektion 1–30). Nur für den privaten Gebrauch.</div>`;
+  el.querySelectorAll("#theme [data-v]").forEach(b => b.onclick = () => { s.theme = b.dataset.v; applyLook(); re(); });
+  el.querySelectorAll("#zoom [data-v]").forEach(b => b.onclick = () => { s.zoom = +b.dataset.v; applyLook(); re(); });
+  el.querySelectorAll("#rate [data-v]").forEach(b => b.onclick = () => { s.rate = +b.dataset.v; save(); speakLatin("Salve"); render(); });
+  el.querySelector("#auto").onchange = e => { s.autoSpeak = e.target.checked; save(); };
+  el.querySelector("#test").onclick = () => speakLatin("Salve, discipuli!");
+  el.querySelector("#news").onclick = () => whatsNew(null);
+  el.querySelector("#upd").onclick = checkUpdate;
   const re = () => { save(); render(); };
   el.querySelector("#typ").onchange = e => { s.typing = e.target.checked; re(); };
   const tol = el.querySelector("#tol"); if (tol) tol.onchange = e => { s.tolerant = e.target.checked; re(); };
@@ -700,6 +763,31 @@ function settingsTab(el) {
 function sheet(html, bind) { const r = document.getElementById("modal-root"); r.innerHTML = `<div class="modal"><div class="sheet">${html}</div></div>`; bind(r, () => r.innerHTML = ""); }
 function confirmSheet(t, d, ok, fn) { sheet(`<h2 style="margin-top:0">${esc(t)}</h2><p class="sub">${esc(d)}</p><div class="btns"><button class="btn" id="c">Abbrechen</button><button class="btn red" id="o">${esc(ok)}</button></div>`,
   (r, close) => { r.querySelector("#c").onclick = close; r.querySelector("#o").onclick = () => { close(); fn(); }; }); }
+function toast(msg, onTap, ms) {
+  const old = document.querySelector(".toast"); if (old) old.remove();
+  const t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t);
+  t.onclick = () => { t.remove(); if (onTap) onTap(); };
+  if (ms) setTimeout(() => t.remove(), ms);
+}
+const verNum = v => String(v || "0").split(".").map(Number).reduce((a, x) => a * 1000 + (x || 0), 0);
+function whatsNew(since) {
+  const list = CHANGELOG.filter(c => !since || verNum(c.v) > verNum(since));
+  sheet(`<h2 style="margin-top:0">Was ist neu? ✨</h2><div class="changes">${list.slice(0, since ? 99 : 6).map(c => `<h3>Version ${esc(c.v)}${c.date ? ` <span class="sub">· ${esc(c.date)}</span>` : ""}</h3><ul>${c.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul>`).join("")}</div>
+    <button class="btn primary full" id="ok" style="margin-top:16px">Super!</button>`, (r, close) => r.querySelector("#ok").onclick = close);
+}
+function applyLook() {
+  const r = document.documentElement;
+  if (P.s.theme === "system") r.removeAttribute("data-theme"); else r.setAttribute("data-theme", P.s.theme);
+  r.style.setProperty("--z", P.s.zoom || 1);
+  const m = document.querySelector('meta[name=theme-color]'); if (m) m.content = getComputedStyle(r).getPropertyValue("--bg").trim() === "#000" ? "#000000" : "#7a1a20";
+}
+let swReg = null;
+async function checkUpdate() {
+  if (!swReg) { location.reload(); return; }
+  toast("Suche nach Updates …", null, 1500);
+  try { await swReg.update(); } catch (e) {}
+  setTimeout(() => { if (!swReg.installing && !swReg.waiting) toast("Du hast die neueste Version (" + APP_VERSION + ") ✅", null, 2500); }, 1600);
+}
 function onboarding() {
   sheet(`<div class="center"><img src="${ICON}" alt="" style="width:84px;height:84px;border-radius:19px"><h1 style="margin:10px 0 4px">Salve! 👋</h1><p>Alles aus „Medias in Res!“ – Lektion 1 bis 30 – zum Lernen und Wiederholen.</p></div>
     ${[["📖", "Lektionen", "Vokabeln und Grammatik jeder Lektion."], ["🧠", "Üben", "Wähle z. B. Lektion 5–10: Karteikarten, Quiz, Hören, Formen oder Schularbeit."], ["📅", "Täglich wiederholen", "Die App merkt sich, was du kannst, und zeigt fällige Wörter."], ["📲", "Wie eine App", "iPhone: Teilen ⬆︎ → „Zum Home-Bildschirm“. Android: Menü ⋮ → „App installieren“."]]
@@ -708,11 +796,22 @@ function onboarding() {
 }
 
 // ---------- Start ----------
+applyLook();
 render();
-if (!P.s.onboarded) onboarding();
+if (!P.s.onboarded) { onboarding(); P.s.lastVersion = APP_VERSION; save(); }
+else if (P.s.lastVersion !== APP_VERSION) { const prev = P.s.lastVersion; P.s.lastVersion = APP_VERSION; save(); whatsNew(prev || "1.0.0"); }
 try { if (speechSynthesis) speechSynthesis.getVoices(); } catch (e) {}
 if ("serviceWorker" in navigator && location.protocol === "https:" && !/claude/.test(location.host)) {
-  navigator.serviceWorker.register("sw.js").catch(() => {});
+  let hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register("sw.js").then(r => {
+    swReg = r;
+    // Beim Zurückkehren in die App nach Updates schauen
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") r.update().catch(() => {}); });
+  }).catch(() => {});
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!hadController) { hadController = true; return; }
+    toast("Neue Version verfügbar – tippen zum Aktualisieren 🔄", () => location.reload());
+  });
 }
 </script>
 </body>

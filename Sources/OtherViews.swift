@@ -217,6 +217,13 @@ struct SettingsView: View {
     @State private var importing = false
     @State private var importMessage: String? = nil
 
+    private var appVersion: String {
+        let info = Bundle.main.infoDictionary
+        let v = info?["CFBundleShortVersionString"] as? String ?? "–"
+        let b = info?["CFBundleVersion"] as? String ?? ""
+        return b.isEmpty ? v : "\(v) (\(b))"
+    }
+
     private var reminderDate: Binding<Date> {
         Binding {
             Calendar.current.date(bySettingHour: reminderHour, minute: reminderMinute, second: 0, of: Date()) ?? Date()
@@ -272,6 +279,7 @@ struct SettingsView: View {
                 Button("Gesamten Fortschritt löschen", role: .destructive) { confirmReset = true }
             }
             Section("Über") {
+                LabeledContent("Version", value: appVersion)
                 Text("Lern-App zum Lateinbuch „Medias in Res!“ (Lektion 1–30). Nur für den privaten Gebrauch.")
                     .font(.footnote).foregroundStyle(.secondary)
             }

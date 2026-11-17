@@ -14,6 +14,9 @@ jobs:
       - name: Validate content
         run: python3 scripts/validate_content.py
 
+      - name: Read version
+        run: echo "APP_VERSION=$(cat VERSION)" >> "$GITHUB_ENV"
+
       - name: Install XcodeGen
         run: brew install xcodegen
 
@@ -31,15 +34,17 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
+            MARKETING_VERSION="$APP_VERSION" \
+            CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
             build
 
       - name: Package unsigned IPA
         run: |
           mkdir -p Payload
           cp -R build/Build/Products/Release-iphoneos/MediasInRes.app Payload/
-          zip -qry MediasInRes.ipa Payload
+          zip -qry "MediasInRes-$APP_VERSION.ipa" Payload
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MediasInRes-unsigned-ipa
-          path: MediasInRes.ipa
+          name: MediasInRes-${{ env.APP_VERSION }}-unsigned-ipa
+          path: MediasInRes-${{ env.APP_VERSION }}.ipa

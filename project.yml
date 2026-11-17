@@ -7,7 +7,7 @@ options:
 settings:
   base:
     SWIFT_VERSION: "5.0"
-    MARKETING_VERSION: "0.1.0"
+    MARKETING_VERSION: "1.1.0"  # wird beim Build aus VERSION gesetzt
     CURRENT_PROJECT_VERSION: "1"
 targets:
   MediasInRes:
