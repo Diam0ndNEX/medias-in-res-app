@@ -1,0 +1,63 @@
+#19 De Caesaris morte | Die römische Republik | 5
+== VOKABELN
+maximus/a/um | | der größte, sehr groß | vgl. maximal, maximieren, Maximum
+potestas | potestatis f. | Macht | vgl. posse
+dictator | dictatoris m. | Diktator | Oberbefehlshaber in Kriegszeiten für max. 6 Monate
+perpetuus/a/um | | ununterbrochen, ewig | vgl. dictator perpetuus = „Diktator auf Lebenszeit“
+civis | civis m. | Bürger | vgl. Zivilist; ↔ civitas, -atis
+persuadere | persuadeo 2, persuasi, persuasum | 1) überreden; 2) überzeugen | engl. to persuade, frz. persuader, ital. persuadere, span. persuadir
+persuadeo tibi | (Dativ!) | ich überrede dich (Akk.!) |
+mos | moris m. | Sitte, Brauch | vgl. Moral (Sittenlehre); ↔ mors, mortis
+lex | legis f. | Gesetz | frz. loi, ital. legge, span. ley; vgl. legal, Legislative (= gesetzgebende Gewalt im Staat)
+libertas | libertatis f. | Freiheit | engl. liberty, frz. liberté, span. libertad; vgl. liberare
+melior (m./f.) | melius (n.) | besser | frz. meilleur, ital. migliore, span. mejor
+caedes | caedis f. | Ermordung, Mord | vgl. ital. omi-cidio; engl. sui-cide (= Selbstmord)
+vivere | vivo 3, vixi, – | leben | frz. vivre, ital. vivere, span. vivir; engl. to survive
+facilis/e | | leicht | frz. facile, ital. facile, span. fácil; ↔ difficilis
+plurimi/ae/a | | die meisten | (Superlativ zu multi/ae/a, siehe Grammatica)
+statuere | statuo 3, statui, statutum | 1) beschließen; 2) aufstellen | = constituere; vgl. Statuten (= beschlossene Richtlinien)
+futurus/a/um | | zukünftig | vgl. engl. future, frz. futur, ital. + span. futuro
+adesse | adsum, ades, adfui, – | da sein, anwesend sein |
+quidem | | zwar, freilich | ↔ ne … quidem
+iste, ista, istud | | dieser/e/es (da) | abschätzig gemeint! (Deklination: wie ille/illa/illud)
+defendere | defendo 3, defendi, defensum | verteidigen | frz. défendre, ital. difendere, span. defender; vgl. defensiv
+vulnus | vulneris n. | Wunde | vgl. engl. vulnerable (= verletzlich, verwundbar)
+ultimus/a/um | | der/die/das letzte | vgl. Ultimatum (= letzte Aufforderung)
+* Ab dieser Lektion findest du in der zweiten Spalte auch das PPP (Partizip Perfekt Passiv, Mittelwort der Vergangenheit). Diese letzte Form der lateinischen Stammformen musst du von nun an immer mitlernen.
+== GRAMMATIK
+## Partizip Perfekt Passiv (PPP)
+Das PPP ist die letzte der Stammformen. Dieses Partizip (Mittelwort) wird folgendermaßen gebildet:
+| | Präsensstamm | Perfektstamm aktiv | Perfektstamm passiv (= PPP) |
+| a-Konjugation | amo, -as … -are | amav-i | -atus (z. B. amatus/a/um = „geliebt“) |
+| e-Konjugation | moneo, -es … -ēre | monu-i | -itus (z. B. monitus/a/um = „gemahnt“) |
+| konsonant. K. | mitto, -is … -ere | mis-i | verschieden (z. B. missus/a/um = „geschickt“) |
+| i-Konjugation | audio, -is … -ire | audiv-i | -itus (z. B. auditus/a/um = „gehört“) |
+| Mischkonj. | capio, -is … -ere | cep-i | verschieden (z. B. captus/a/um = „gefangen“) |
+- Erkennungsmerkmal des PPP ist die Endsilbe -tus (seltener: -sus oder -xus).
+- Das PPP dekliniert wie ein Adjektiv der a-/o-Deklination und passt sich dem Geschlecht und der Zahl des Nomens an, mit dem es übereingestimmt ist: Gaius amatus est. Iulia amata est. Gaius et Quintus amati sunt. (etc.)
+- Das PPP ist passiv und vorzeitig. Es wird wie das deutsche Mittelwort der Vergangenheit (Partizip II) übersetzt: amatus = „geliebt“ (= „einer, der geliebt worden ist“)
+Verwendung des PPP:
+- a) als Adjektiv: Graeci servati = „die geretteten Griechen“
+- b) als Nomen: servati = „die Geretteten“
+- c) mit einer Form von esse zur Bildung der passiven Perfektstammformen: Graeci servati sunt = „die Griechen sind gerettet worden“
+## Passive Perfektstammformen
+Die Formen des passiven Perfektstammes (Perfekt Passiv, Plqpf. Passiv) setzen sich aus zwei Teilen zusammen: aus dem PPP und einer Form von esse (Beispiele für die a-Konjugation):
+| | Perfekt Passiv | Plusquamperfekt Passiv |
+| Sg. 1.P. | amatus sum „ich bin geliebt worden“ | amatus eram „ich war geliebt worden“ |
+| Sg. 2.P. | amatus es „du bist geliebt worden“ | amatus eras „du warst geliebt worden“ |
+| Sg. 3.P. | amatus est „er ist geliebt worden“ | amatus erat „er war geliebt worden“ |
+| Pl. 1.P. | amati sumus „wir sind geliebt worden“ | amati eramus „wir waren geliebt worden“ |
+| Pl. 2.P. | amati estis „ihr seid geliebt worden“ | amati eratis „ihr wart geliebt worden“ |
+| Pl. 3.P. | amati sunt „sie sind geliebt worden“ | amati erant „sie waren geliebt worden“ |
+Ebenso: monitus sum, missus sum, captus sum, auditus sum bzw. monitus eram, missus eram, captus eram, auditus eram. In Erzählungen wird das Perfekt meist als Präteritum wiedergegeben.
+Weitere Übersetzungsbeispiele:
+- amata est = „sie ist geliebt worden“ (Perfekt) ↔ amata erat = „sie war geliebt worden“ (Plqpf.)
+- amatum est = „es ist geliebt worden“ (Perfekt) ↔ amatum erat = „es war geliebt worden“ (Plqpf.)
+## Unregelmäßige Steigerung
+| Grundstufe | Komparativ | Superlativ | Eselsbrücke |
+| magnus/a/um („groß“) | maior/maius („größer“) | maximus/a/um („größter“) | maximal |
+| parvus/a/um („klein“) | minor/minus („kleiner“) | minimus/a/um („kleinster“) | minimal |
+| bonus/a/um („gut“) | melior/melius („besser“) | optimus/a/um („bester“) | optimal; Optimist |
+| malus/a/um („schlecht“) | peior/peius („schlechter“) | pessimus/a/um („schlechtester“) | Pessimist |
+| multi/ae/a („viele“) | plures/plura („mehr“) | plurimi/ae/a („die meisten“) | Plural |
+| multum („viel“) | plus/pluris (Gen.) („mehr“) | plurimum („am meisten“) | Plus |

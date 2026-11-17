@@ -1,0 +1,358 @@
+{
+ "number": 19,
+ "title": "De Caesaris morte",
+ "unit": "Die römische Republik",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "maximus/a/um",
+   "forms": "",
+   "de": "der größte, sehr groß",
+   "note": "vgl. maximal, maximieren, Maximum",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "potestas",
+   "forms": "potestatis f.",
+   "de": "Macht",
+   "note": "vgl. posse",
+   "pos": "Nomen"
+  },
+  {
+   "la": "dictator",
+   "forms": "dictatoris m.",
+   "de": "Diktator",
+   "note": "Oberbefehlshaber in Kriegszeiten für max. 6 Monate",
+   "pos": "Nomen"
+  },
+  {
+   "la": "perpetuus/a/um",
+   "forms": "",
+   "de": "ununterbrochen, ewig",
+   "note": "vgl. dictator perpetuus = „Diktator auf Lebenszeit“",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "civis",
+   "forms": "civis m.",
+   "de": "Bürger",
+   "note": "vgl. Zivilist; ↔ civitas, -atis",
+   "pos": "Nomen"
+  },
+  {
+   "la": "persuadere",
+   "forms": "persuadeo 2, persuasi, persuasum",
+   "de": "1) überreden; 2) überzeugen",
+   "note": "engl. to persuade, frz. persuader, ital. persuadere, span. persuadir",
+   "pos": "Verb"
+  },
+  {
+   "la": "persuadeo tibi",
+   "forms": "(Dativ!)",
+   "de": "ich überrede dich (Akk.!)",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "mos",
+   "forms": "moris m.",
+   "de": "Sitte, Brauch",
+   "note": "vgl. Moral (Sittenlehre); ↔ mors, mortis",
+   "pos": "Nomen"
+  },
+  {
+   "la": "lex",
+   "forms": "legis f.",
+   "de": "Gesetz",
+   "note": "frz. loi, ital. legge, span. ley; vgl. legal, Legislative (= gesetzgebende Gewalt im Staat)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "libertas",
+   "forms": "libertatis f.",
+   "de": "Freiheit",
+   "note": "engl. liberty, frz. liberté, span. libertad; vgl. liberare",
+   "pos": "Nomen"
+  },
+  {
+   "la": "melior (m./f.)",
+   "forms": "melius (n.)",
+   "de": "besser",
+   "note": "frz. meilleur, ital. migliore, span. mejor",
+   "pos": "Nomen"
+  },
+  {
+   "la": "caedes",
+   "forms": "caedis f.",
+   "de": "Ermordung, Mord",
+   "note": "vgl. ital. omi-cidio; engl. sui-cide (= Selbstmord)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "vivere",
+   "forms": "vivo 3, vixi, –",
+   "de": "leben",
+   "note": "frz. vivre, ital. vivere, span. vivir; engl. to survive",
+   "pos": "Verb"
+  },
+  {
+   "la": "facilis/e",
+   "forms": "",
+   "de": "leicht",
+   "note": "frz. facile, ital. facile, span. fácil; ↔ difficilis",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "plurimi/ae/a",
+   "forms": "",
+   "de": "die meisten",
+   "note": "(Superlativ zu multi/ae/a, siehe Grammatica)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "statuere",
+   "forms": "statuo 3, statui, statutum",
+   "de": "1) beschließen; 2) aufstellen",
+   "note": "= constituere; vgl. Statuten (= beschlossene Richtlinien)",
+   "pos": "Verb"
+  },
+  {
+   "la": "futurus/a/um",
+   "forms": "",
+   "de": "zukünftig",
+   "note": "vgl. engl. future, frz. futur, ital. + span. futuro",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "adesse",
+   "forms": "adsum, ades, adfui, –",
+   "de": "da sein, anwesend sein",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "quidem",
+   "forms": "",
+   "de": "zwar, freilich",
+   "note": "↔ ne … quidem",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "iste, ista, istud",
+   "forms": "",
+   "de": "dieser/e/es (da)",
+   "note": "abschätzig gemeint! (Deklination: wie ille/illa/illud)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "defendere",
+   "forms": "defendo 3, defendi, defensum",
+   "de": "verteidigen",
+   "note": "frz. défendre, ital. difendere, span. defender; vgl. defensiv",
+   "pos": "Verb"
+  },
+  {
+   "la": "vulnus",
+   "forms": "vulneris n.",
+   "de": "Wunde",
+   "note": "vgl. engl. vulnerable (= verletzlich, verwundbar)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ultimus/a/um",
+   "forms": "",
+   "de": "der/die/das letzte",
+   "note": "vgl. Ultimatum (= letzte Aufforderung)",
+   "pos": "Adjektiv"
+  }
+ ],
+ "vocabNote": "Ab dieser Lektion findest du in der zweiten Spalte auch das PPP (Partizip Perfekt Passiv, Mittelwort der Vergangenheit). Diese letzte Form der lateinischen Stammformen musst du von nun an immer mitlernen.",
+ "grammar": [
+  {
+   "title": "Partizip Perfekt Passiv (PPP)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Das PPP ist die letzte der Stammformen. Dieses Partizip (Mittelwort) wird folgendermaßen gebildet:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Präsensstamm",
+      "Perfektstamm aktiv",
+      "Perfektstamm passiv (= PPP)"
+     ],
+     "rows": [
+      [
+       "a-Konjugation",
+       "amo, -as … -are",
+       "amav-i",
+       "-atus (z. B. amatus/a/um = „geliebt“)"
+      ],
+      [
+       "e-Konjugation",
+       "moneo, -es … -ēre",
+       "monu-i",
+       "-itus (z. B. monitus/a/um = „gemahnt“)"
+      ],
+      [
+       "konsonant. K.",
+       "mitto, -is … -ere",
+       "mis-i",
+       "verschieden (z. B. missus/a/um = „geschickt“)"
+      ],
+      [
+       "i-Konjugation",
+       "audio, -is … -ire",
+       "audiv-i",
+       "-itus (z. B. auditus/a/um = „gehört“)"
+      ],
+      [
+       "Mischkonj.",
+       "capio, -is … -ere",
+       "cep-i",
+       "verschieden (z. B. captus/a/um = „gefangen“)"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "Erkennungsmerkmal des PPP ist die Endsilbe -tus (seltener: -sus oder -xus).",
+      "Das PPP dekliniert wie ein Adjektiv der a-/o-Deklination und passt sich dem Geschlecht und der Zahl des Nomens an, mit dem es übereingestimmt ist: Gaius amatus est. Iulia amata est. Gaius et Quintus amati sunt. (etc.)",
+      "Das PPP ist passiv und vorzeitig. Es wird wie das deutsche Mittelwort der Vergangenheit (Partizip II) übersetzt: amatus = „geliebt“ (= „einer, der geliebt worden ist“)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Verwendung des PPP:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "a) als Adjektiv: Graeci servati = „die geretteten Griechen“",
+      "b) als Nomen: servati = „die Geretteten“",
+      "c) mit einer Form von esse zur Bildung der passiven Perfektstammformen: Graeci servati sunt = „die Griechen sind gerettet worden“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Passive Perfektstammformen",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die Formen des passiven Perfektstammes (Perfekt Passiv, Plqpf. Passiv) setzen sich aus zwei Teilen zusammen: aus dem PPP und einer Form von esse (Beispiele für die a-Konjugation):"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Perfekt Passiv",
+      "Plusquamperfekt Passiv"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amatus sum „ich bin geliebt worden“",
+       "amatus eram „ich war geliebt worden“"
+      ],
+      [
+       "Sg. 2.P.",
+       "amatus es „du bist geliebt worden“",
+       "amatus eras „du warst geliebt worden“"
+      ],
+      [
+       "Sg. 3.P.",
+       "amatus est „er ist geliebt worden“",
+       "amatus erat „er war geliebt worden“"
+      ],
+      [
+       "Pl. 1.P.",
+       "amati sumus „wir sind geliebt worden“",
+       "amati eramus „wir waren geliebt worden“"
+      ],
+      [
+       "Pl. 2.P.",
+       "amati estis „ihr seid geliebt worden“",
+       "amati eratis „ihr wart geliebt worden“"
+      ],
+      [
+       "Pl. 3.P.",
+       "amati sunt „sie sind geliebt worden“",
+       "amati erant „sie waren geliebt worden“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ebenso: monitus sum, missus sum, captus sum, auditus sum bzw. monitus eram, missus eram, captus eram, auditus eram. In Erzählungen wird das Perfekt meist als Präteritum wiedergegeben."
+    },
+    {
+     "type": "text",
+     "text": "Weitere Übersetzungsbeispiele:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "amata est = „sie ist geliebt worden“ (Perfekt) ↔ amata erat = „sie war geliebt worden“ (Plqpf.)",
+      "amatum est = „es ist geliebt worden“ (Perfekt) ↔ amatum erat = „es war geliebt worden“ (Plqpf.)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unregelmäßige Steigerung",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Grundstufe",
+      "Komparativ",
+      "Superlativ",
+      "Eselsbrücke"
+     ],
+     "rows": [
+      [
+       "magnus/a/um („groß“)",
+       "maior/maius („größer“)",
+       "maximus/a/um („größter“)",
+       "maximal"
+      ],
+      [
+       "parvus/a/um („klein“)",
+       "minor/minus („kleiner“)",
+       "minimus/a/um („kleinster“)",
+       "minimal"
+      ],
+      [
+       "bonus/a/um („gut“)",
+       "melior/melius („besser“)",
+       "optimus/a/um („bester“)",
+       "optimal; Optimist"
+      ],
+      [
+       "malus/a/um („schlecht“)",
+       "peior/peius („schlechter“)",
+       "pessimus/a/um („schlechtester“)",
+       "Pessimist"
+      ],
+      [
+       "multi/ae/a („viele“)",
+       "plures/plura („mehr“)",
+       "plurimi/ae/a („die meisten“)",
+       "Plural"
+      ],
+      [
+       "multum („viel“)",
+       "plus/pluris (Gen.) („mehr“)",
+       "plurimum („am meisten“)",
+       "Plus"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

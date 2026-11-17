@@ -1,0 +1,332 @@
+{
+ "number": 20,
+ "title": "De Cleopatra",
+ "unit": "Die römische Republik",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "convenire",
+   "forms": "convenio 4, conveni, conventum",
+   "de": "zusammenkommen",
+   "note": "vgl. Konvent (= Klostergemeinde; Zusammenkunft)",
+   "pos": "Verb"
+  },
+  {
+   "la": "mulier",
+   "forms": "mulieris f.",
+   "de": "Frau",
+   "note": "span. mujer; vgl. ital. moglie (= „Ehefrau“)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "finis (Sg.)",
+   "forms": "finis m.",
+   "de": "1) Grenze; 2) Ende",
+   "note": "vgl. Finale (= Endspiel)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "fines (Pl.)",
+   "forms": "finium m.",
+   "de": "Gebiet(e)",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "regnum",
+   "forms": "regni n.",
+   "de": "1) Königreich, Reich; 2) Herrschaft",
+   "note": "vgl. engl. reign („Herrschaft“)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "augere",
+   "forms": "augeo 2, auxi, auctum",
+   "de": "vergrößern, steigern, vermehren",
+   "note": "vgl. Auktion (= Versteigerung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "donum",
+   "forms": "doni n.",
+   "de": "Geschenk",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "mihi gaudio est",
+   "forms": "",
+   "de": "es bereitet mir Freude",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "ingens (m./f./n.)",
+   "forms": "ingentis (2.F.)",
+   "de": "riesig, gewaltig",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "antea (Adv.)",
+   "forms": "",
+   "de": "vorher, früher",
+   "note": "span. antes; ↔ ante (Präp.)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "clades",
+   "forms": "cladis f.",
+   "de": "Niederlage",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "classis",
+   "forms": "classis f.",
+   "de": "Flotte",
+   "note": "auch: „Abteilung“ (davon „Klasse“!)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "animadvertere",
+   "forms": "animadverto 3, animadverti, -versum",
+   "de": "bemerken, wahrnehmen",
+   "note": "aus: animum ad … vertere (wörtl.: „den Geist hinwenden zu …“)",
+   "pos": "Verb"
+  },
+  {
+   "la": "cedere",
+   "forms": "cedo 3, cessi, cessum",
+   "de": "weggehen, weichen",
+   "note": "vgl. Rezession (= Rückgang der Wirtschaft)",
+   "pos": "Verb"
+  },
+  {
+   "la": "claudere",
+   "forms": "claudo 3, clausi, clausum",
+   "de": "einschließen; schließen",
+   "note": "ital. chiudere; vgl. Klausur, Numerus clausus",
+   "pos": "Verb"
+  },
+  {
+   "la": "custos",
+   "forms": "custodis m.",
+   "de": "Wächter",
+   "note": "ital. custode; vgl. Küster (= Kirchendiener)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ponere",
+   "forms": "pono 3, posui, positum",
+   "de": "stellen, legen",
+   "note": "engl. to put, span. poner; vgl. Position (= Lage)",
+   "pos": "Verb"
+  },
+  {
+   "la": "enim",
+   "forms": "(nachgestellt!)",
+   "de": "denn, nämlich",
+   "note": "z. B. tu enim = nam tu („denn du“)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "auferre",
+   "forms": "aufero, aufers, abstuli, ablatum",
+   "de": "wegtragen, wegnehmen",
+   "note": "aus: ab + ferre (= davontragen); vgl. „Ablativ“ (drückt eine Trennung aus!)",
+   "pos": "Verb"
+  },
+  {
+   "la": "serva",
+   "forms": "servae f.",
+   "de": "Sklavin",
+   "note": "vgl. servus, -i",
+   "pos": "Nomen"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Passive Präsensstammformen",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die passiven Formen des Präsensstammes (Präsens passiv, Imperfekt passiv, Futur passiv) sind einteilig. Sie werden gebildet, indem die aktiven Präsensstammendungen durch die folgenden passiven Personalendungen ersetzt werden:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Aktiv Sg.",
+      "Passiv Sg.",
+      "Aktiv Pl.",
+      "Passiv Pl."
+     ],
+     "rows": [
+      [
+       "1.P.",
+       "-o / -m",
+       "-(o)r",
+       "-mus",
+       "-mur"
+      ],
+      [
+       "2.P.",
+       "-s",
+       "-ris",
+       "-tis",
+       "-mini"
+      ],
+      [
+       "3.P.",
+       "-t",
+       "-tur",
+       "-nt",
+       "-ntur"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Präsens passiv:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "kons. Konj."
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amor „ich werde geliebt“",
+       "mittor „ich werde geschickt“"
+      ],
+      [
+       "Sg. 2.P.",
+       "amaris „du wirst geliebt“",
+       "mitteris „du wirst geschickt“"
+      ],
+      [
+       "Sg. 3.P.",
+       "amatur „er/sie/es wird geliebt“",
+       "mittitur „er/sie/es wird geschickt“"
+      ],
+      [
+       "Pl. 1.P.",
+       "amamur „wir werden geliebt“",
+       "mittimur „wir werden geschickt“"
+      ],
+      [
+       "Pl. 2.P.",
+       "amamini „ihr werdet geliebt“",
+       "mittimini „ihr werdet geschickt“"
+      ],
+      [
+       "Pl. 3.P.",
+       "amantur „sie werden geliebt“",
+       "mittuntur „sie werden geschickt“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Imperfekt passiv:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "kons. Konj."
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amabar „ich wurde geliebt“",
+       "mittebar „ich wurde geschickt“"
+      ],
+      [
+       "Sg. 2.P.",
+       "amabaris „du wurdest geliebt“",
+       "mittebaris „du wurdest geschickt“"
+      ],
+      [
+       "Sg. 3.P.",
+       "amabatur „er/sie/es wurde geliebt“",
+       "mittebatur „er/sie/es wurde geschickt“"
+      ],
+      [
+       "Pl. 1.P.",
+       "amabamur „wir wurden geliebt“",
+       "mittebamur „wir wurden geschickt“"
+      ],
+      [
+       "Pl. 2.P.",
+       "amabamini „ihr wurdet geliebt“",
+       "mittebamini „ihr wurdet geschickt“"
+      ],
+      [
+       "Pl. 3.P.",
+       "amabantur „sie wurden geliebt“",
+       "mittebantur „sie wurden geschickt“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Futur passiv:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "kons. Konj."
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amabor „ich werde geliebt werden“",
+       "mittar „ich werde geschickt werden“"
+      ],
+      [
+       "Sg. 2.P.",
+       "amaberis „du wirst geliebt werden“",
+       "mitteris „du wirst geschickt werden“"
+      ],
+      [
+       "Sg. 3.P.",
+       "amabitur „er/sie/es wird geliebt werden“",
+       "mittetur „er/sie/es wird geschickt werden“"
+      ],
+      [
+       "Pl. 1.P.",
+       "amabimur „wir werden geliebt werden“",
+       "mittemur „wir werden geschickt werden“"
+      ],
+      [
+       "Pl. 2.P.",
+       "amabimini „ihr werdet geliebt werden“",
+       "mittemini „ihr werdet geschickt werden“"
+      ],
+      [
+       "Pl. 3.P.",
+       "amabuntur „sie werden geliebt werden“",
+       "mittentur „sie werden geschickt werden“"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Bei der Übersetzung der Passivformen musst du im Deutschen auf die Verwechslungsgefahr mit dem aktiven Futur aufpassen: audiam → Futur aktiv: „ich werde hören“; audior → Präsens passiv: „ich werde gehört“; audiar → Futur passiv: „ich werde gehört werden“."
+    },
+    {
+     "type": "tip",
+     "text": "Zur Unterscheidung von Aktiv und Passiv solltest du dir einprägen: AKTIV → ich tue etwas; PASSIV → mit mir geschieht etwas."
+    }
+   ]
+  }
+ ]
+}

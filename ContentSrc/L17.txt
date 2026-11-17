@@ -1,0 +1,64 @@
+#17 De Cicerone | Die römische Republik | 5
+== VOKABELN
+littera | litterae f. | Buchstabe | vgl. die Lettern (= große Buchstaben)
+litterae (Pl.!) | litterarum f. | 1) Wissenschaft; 2) Brief | engl. letter; vgl. Literatur
+iuvenis | iuvenis m. | junger Mann (30–45 Jahre) | ital. giovane; ↔ adulescens (ca. 18–30 Jahre)
+orator | oratoris m. | Redner |
+res publica | rei publicae f. | Staat | (wörtl.: „öffentliche Sache“); vgl. Republik
+iustitia | iustitiae f. | Gerechtigkeit | vgl. Justiz (= staatliche Rechtspflege)
+incola | incolae m. | Bewohner, Einwohner |
+provincia | provinciae f. | Provinz | vgl. die Provence (Region in S-Frankreich)
+divitiae (Pl.!) | divitiarum f. | Reichtum |
+antiquus/a/um | | alt | antik; vgl. Antiquitäten (= alte Kunstgegenstände)
+ferre | fero, fers, tuli, latum | tragen, bringen; ertragen | (siehe Grammatica); vgl. Transfer
+nobilitas | nobilitatis f. | Adel | vgl. Snob (= sine nobilitate); nobilis/e
+ius | iuris n. | Recht | Jus, Jura, Jurisdiktion (= Rechtsprechung)
+oratio | orationis f. | Rede | vgl. orator
+iudicium | iudicii n. | Urteil | ital. giudizio, span. juicio
+sponte sua | | freiwillig | vgl. spontan (= aus eigenem Antrieb)
+exilium | exilii n. | Exil, Verbannung | Exil
+ire | eo, is, ii, itum | gehen | vgl. Semperit = „Es geht immer“
+Romae | (Lokativ) | in Rom |
+studere (+ Dat.) | studeo 2, studui, – | sich bemühen (um), streben (nach) | studieren, Student
+cogere | cogo 3, coegi, coactum | 1) sammeln; 2) zwingen | aus: co-agere = wörtl.: „zusammentreiben“
+consul | consulis m. | Konsul |
+convocare | convoco 1, -avi, -atum | zusammenrufen | con- = „zusammen-“
+senator | senatoris m. | Senator | vgl. senatus (Lec. 16)
+fere | | 1) ungefähr; 2) fast | ↔ ferre (= „tragen“)
+exire | exeo, exis, exii, exitum | hinausgehen | vgl. engl. exit; vgl. Exitus (= Tod)
+iubere (+ Akk.) | iubeo 2, iussi, iussum | befehlen; lassen (+ Inf.) | iubeo te (Akk.) = ich befehle dir (Dativ!)
+socius | socii m. | Gefährte | vgl. sozial, Sozialismus; Sozius (= Beifahrersitz)
+comprehendere | comprehendo 3, comprehendi, -prehensum | 1) ergreifen; 2) erfassen (auch geistig) | vgl. engl. listening comprehension
+afficere | afficio M, affeci, affectum | erfüllen, versehen (mit) | vgl. Affekt (= Gefühlsregung)
+priusquam | | bevor |
+adire | adeo, adis, adii, aditum | 1) hingehen; 2) sich wenden (an); 3) angreifen |
+== GRAMMATIK
+## Futur
+Das Futur wird je nach Konjugation auf zwei verschiedene Arten gebildet:
+| | a- und e-Konj.: „bo/bis/bunt“-Futur (a-Konj.) | übrige Konj.: „a/e“-Futur (kons. Konj.) | unregelmäßig: esse |
+| Sg. 1.P. | amabo „ich werde lieben“ | mittam „ich werde schicken“ | ero „ich werde sein“ |
+| Sg. 2.P. | amabis „du wirst lieben“ | mittes „du wirst schicken“ | eris „du wirst sein“ |
+| Sg. 3.P. | amabit „er/sie wird lieben“ | mittet „er/sie wird schicken“ | erit „er/sie wird sein“ |
+| Pl. 1.P. | amabimus „wir werden lieben“ | mittemus „wir werden schicken“ | erimus „wir werden sein“ |
+| Pl. 2.P. | amabitis „ihr werdet lieben“ | mittetis „ihr werdet schicken“ | eritis „ihr werdet sein“ |
+| Pl. 3.P. | amabunt „sie werden lieben“ | mittent „sie werden schicken“ | erunt „sie werden sein“ |
+- ebenso: monebo, monebis … monebunt (e-Konj.)
+- ebenso: capiam, capies … (Mischkonj.) bzw. audiam, audies … (i-Konj.)
+- ebenso: potero, poteris … poterunt
+? Während das „bo/bis/bunt“-Futur normalerweise leicht zu erkennen ist (es sei denn, du verwechselst es mit dem -ba- des Imperfekts), besteht beim „a/e“-Futur die Verwechslungsgefahr mit dem Präsens der e-Konjugation: mittes (konsonantische Konjugation) → Futur („du wirst schicken“); habes (e-Konjugation) → Präsens („du hast“).
+! Es ist also wichtig, dass du die Stammformen jedes Verbs gut beherrschst, damit du weißt, zu welcher Konjugationsklasse das Wort gehört!
+## Die unregelmäßigen Verba ire und ferre
+| | ire Präsens | ire Futur | ire Perfekt | ferre Präsens | ferre Futur | ferre Perfekt |
+| Sg. 1.P. | eo | ibo | ii | fero | feram | tuli |
+| Sg. 2.P. | is | ibis | isti | fers | feres | tulisti |
+| Sg. 3.P. | it | ibit | iit | fert | feret | tulit |
+| Pl. 1.P. | imus | ibimus | iimus | ferimus | feremus | tulimus |
+| Pl. 2.P. | itis | ibitis | istis | fertis | feretis | tulistis |
+| Pl. 3.P. | eunt | ibunt | ierunt | ferunt | ferent | tulerunt |
+| Imperativ | Sg. i! Pl. ite! | | | Sg. fer! Pl. ferte! | | |
+ire = „gehen“, ferre = „tragen“, „bringen“.
+## Neutrum Plural bei Pronomina („cuncta“-Regel)
+Steht ein lateinisches Pronomen alleine (d. h. ohne ein Nomen, mit dem es übereingestimmt ist) im 1./4.F. Plural Neutrum, muss es im Deutschen mit dem Singular wiedergegeben werden:
+- Haec (4.F. Pl. n.) fere dixit. = „Er sagte ungefähr dieses.“ (4.F. Sg. n.)
+Ist ein solches Wort Subjekt, muss im Lateinischen auch das Prädikat im Plural stehen:
+- Cuncta, quae dicis, mihi placent. (→ Pl.) = „Alles, was du sagst, gefällt mir.“ (→ Sg.)

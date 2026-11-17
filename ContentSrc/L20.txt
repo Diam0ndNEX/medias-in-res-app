@@ -1,0 +1,55 @@
+#20 De Cleopatra | Die römische Republik | 5
+== VOKABELN
+convenire | convenio 4, conveni, conventum | zusammenkommen | vgl. Konvent (= Klostergemeinde; Zusammenkunft)
+mulier | mulieris f. | Frau | span. mujer; vgl. ital. moglie (= „Ehefrau“)
+finis (Sg.) | finis m. | 1) Grenze; 2) Ende | vgl. Finale (= Endspiel)
+fines (Pl.) | finium m. | Gebiet(e) |
+regnum | regni n. | 1) Königreich, Reich; 2) Herrschaft | vgl. engl. reign („Herrschaft“)
+augere | augeo 2, auxi, auctum | vergrößern, steigern, vermehren | vgl. Auktion (= Versteigerung)
+donum | doni n. | Geschenk |
+mihi gaudio est | | es bereitet mir Freude |
+ingens (m./f./n.) | ingentis (2.F.) | riesig, gewaltig |
+antea (Adv.) | | vorher, früher | span. antes; ↔ ante (Präp.)
+clades | cladis f. | Niederlage |
+classis | classis f. | Flotte | auch: „Abteilung“ (davon „Klasse“!)
+animadvertere | animadverto 3, animadverti, -versum | bemerken, wahrnehmen | aus: animum ad … vertere (wörtl.: „den Geist hinwenden zu …“)
+cedere | cedo 3, cessi, cessum | weggehen, weichen | vgl. Rezession (= Rückgang der Wirtschaft)
+claudere | claudo 3, clausi, clausum | einschließen; schließen | ital. chiudere; vgl. Klausur, Numerus clausus
+custos | custodis m. | Wächter | ital. custode; vgl. Küster (= Kirchendiener)
+ponere | pono 3, posui, positum | stellen, legen | engl. to put, span. poner; vgl. Position (= Lage)
+enim | (nachgestellt!) | denn, nämlich | z. B. tu enim = nam tu („denn du“)
+auferre | aufero, aufers, abstuli, ablatum | wegtragen, wegnehmen | aus: ab + ferre (= davontragen); vgl. „Ablativ“ (drückt eine Trennung aus!)
+serva | servae f. | Sklavin | vgl. servus, -i
+== GRAMMATIK
+## Passive Präsensstammformen
+Die passiven Formen des Präsensstammes (Präsens passiv, Imperfekt passiv, Futur passiv) sind einteilig. Sie werden gebildet, indem die aktiven Präsensstammendungen durch die folgenden passiven Personalendungen ersetzt werden:
+| | Aktiv Sg. | Passiv Sg. | Aktiv Pl. | Passiv Pl. |
+| 1.P. | -o / -m | -(o)r | -mus | -mur |
+| 2.P. | -s | -ris | -tis | -mini |
+| 3.P. | -t | -tur | -nt | -ntur |
+Präsens passiv:
+| | a-Konj. | kons. Konj. |
+| Sg. 1.P. | amor „ich werde geliebt“ | mittor „ich werde geschickt“ |
+| Sg. 2.P. | amaris „du wirst geliebt“ | mitteris „du wirst geschickt“ |
+| Sg. 3.P. | amatur „er/sie/es wird geliebt“ | mittitur „er/sie/es wird geschickt“ |
+| Pl. 1.P. | amamur „wir werden geliebt“ | mittimur „wir werden geschickt“ |
+| Pl. 2.P. | amamini „ihr werdet geliebt“ | mittimini „ihr werdet geschickt“ |
+| Pl. 3.P. | amantur „sie werden geliebt“ | mittuntur „sie werden geschickt“ |
+Imperfekt passiv:
+| | a-Konj. | kons. Konj. |
+| Sg. 1.P. | amabar „ich wurde geliebt“ | mittebar „ich wurde geschickt“ |
+| Sg. 2.P. | amabaris „du wurdest geliebt“ | mittebaris „du wurdest geschickt“ |
+| Sg. 3.P. | amabatur „er/sie/es wurde geliebt“ | mittebatur „er/sie/es wurde geschickt“ |
+| Pl. 1.P. | amabamur „wir wurden geliebt“ | mittebamur „wir wurden geschickt“ |
+| Pl. 2.P. | amabamini „ihr wurdet geliebt“ | mittebamini „ihr wurdet geschickt“ |
+| Pl. 3.P. | amabantur „sie wurden geliebt“ | mittebantur „sie wurden geschickt“ |
+Futur passiv:
+| | a-Konj. | kons. Konj. |
+| Sg. 1.P. | amabor „ich werde geliebt werden“ | mittar „ich werde geschickt werden“ |
+| Sg. 2.P. | amaberis „du wirst geliebt werden“ | mitteris „du wirst geschickt werden“ |
+| Sg. 3.P. | amabitur „er/sie/es wird geliebt werden“ | mittetur „er/sie/es wird geschickt werden“ |
+| Pl. 1.P. | amabimur „wir werden geliebt werden“ | mittemur „wir werden geschickt werden“ |
+| Pl. 2.P. | amabimini „ihr werdet geliebt werden“ | mittemini „ihr werdet geschickt werden“ |
+| Pl. 3.P. | amabuntur „sie werden geliebt werden“ | mittentur „sie werden geschickt werden“ |
+? Bei der Übersetzung der Passivformen musst du im Deutschen auf die Verwechslungsgefahr mit dem aktiven Futur aufpassen: audiam → Futur aktiv: „ich werde hören“; audior → Präsens passiv: „ich werde gehört“; audiar → Futur passiv: „ich werde gehört werden“.
+! Zur Unterscheidung von Aktiv und Passiv solltest du dir einprägen: AKTIV → ich tue etwas; PASSIV → mit mir geschieht etwas.

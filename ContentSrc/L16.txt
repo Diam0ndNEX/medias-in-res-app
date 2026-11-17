@@ -1,0 +1,59 @@
+#16 De Spartaco | Die römische Republik | 5
+== VOKABELN
+natio | nationis f. | Volk | vgl. inter-national, Nation, Nationalismus
+nobilis/e | | 1) vornehm; 2) adelig | frz. noble, ital. nobile, span. noble; vgl. nobel
+natus/a/um | | 1) geboren; 2) abstammend | vgl. engl. native speaker
+fortis/e | | tapfer | ↔ frz. fort + ital. forte („stark“)!
+gladiator | gladiatoris m. | Gladiator | wörtl.: „Schwertkämpfer“ (vgl. gladius)
+crudelis/e | | grausam | engl. + frz. + span. cruel, ital. crudele
+varius/a/um | | verschieden | vgl. variieren (= abwechseln), Variante, Variation
+discere | disco 3, didici, – | lernen | vgl. discipulus
+difficilis/e | | schwierig | engl. difficult, frz. + ital. difficile, span. difícil
+exercitus | exercitus m. | Heer | ital. esercito, span. ejército; vgl. exercere
+brevis/e | | kurz | engl. brief, frz. bref, ital. + span. breve
+tempus | temporis n. | Zeit | frz. temps, ital. tempo; vgl. Temporalsatz, temporär
+agere | ago 3, egi, actum | 1) tun; 2) verbringen | vgl. agieren, reagieren; agil (= beweglich, flink)
+vitam agere | | das Leben verbringen |
+exercere | exerceo 2, -ui, -itum | trainieren, üben | engl. exercise; vgl. exerzieren
+celer/eris/ere | | schnell | ital. celere; vgl. engl. celerity
+ager | agri m. | Feld; Pl.: Gebiet(e) | vgl. Agrar-; vgl. engl. agriculture
+latus/a/um | | weit, breit | vgl. Latifundien (= große Landgüter)
+recipere | recipio M, recepi, receptum | aufnehmen | vgl. Rezeption, Rezept
+se recipere | | sich zurückziehen |
+continere | contineo 2, continui, – | 1) zusammenhalten; 2) enthalten | vgl. Kontinent; Container
+cupiditas | cupiditatis f. | Begierde, Gier | vgl. cupere
+adductus/a/um | | veranlasst |
+senatus | senatus m. | Senat | eigtl.: „Ältestenrat“ (vgl. senex = „alter Mann“)
+cognoscere | cognosco 3, cognovi, cognitum | 1) erkennen; 2) erfahren; 3) kennenlernen | vgl. kognitiv, inkognito (= unerkannt)
+atrox (m./f./n.) | atrocis (2.F.) | wild, grässlich | (siehe Grammatica)
+crux | crucis f. | Kreuz | frz. croix, ital. croce, span. cruz; vgl. Kruzifix
+== GRAMMATIK
+## Adjektiva der dritten Deklination
+Neben den bisher bekannten Adjektiva der a-/o-Deklination (z. B. magnus/a/um) gibt es eine weitere, ebenso große Gruppe von Adjektiva, die nach der dritten Deklination abgewandelt werden. Sie haben großteils die Endungen der i-Stämme, im Akkusativ Sg. aber -em. Gemeinsames Merkmal dieser Adjektiva ist nicht der Nominativ, sondern der Genetiv auf -is!
+Nach dem Nominativ unterscheidet man drei Untergruppen:
+- a) eine Endung für alle drei Geschlechter → z. B. atrox (m./f./n.)
+- b) zwei Endungen (am häufigsten!) → z. B. fortis (m./f.), forte (n.)
+- c) drei Endungen → z. B. celer (m.), celeris (f.), celere (n.)
+| Fall | atrox m./f. | atrox n. | fortis m./f. | forte n. | celer m. | celeris f. | celere n. |
+| Sg. 1/5 | atrox | atrox | fortis | forte | celer | celeris | celere |
+| Sg. 2 | atrocis | atrocis | fortis | fortis | celeris | celeris | celeris |
+| Sg. 3 | atroci | atroci | forti | forti | celeri | celeri | celeri |
+| Sg. 4 | atrocem | atrox | fortem | forte | celerem | celerem | celere |
+| Sg. 6 | atroci | atroci | forti | forti | celeri | celeri | celeri |
+| Pl. 1/5 | atroces | atrocia | fortes | fortia | celeres | celeres | celeria |
+| Pl. 2 | atrocium | atrocium | fortium | fortium | celerium | celerium | celerium |
+| Pl. 3 | atrocibus | atrocibus | fortibus | fortibus | celeribus | celeribus | celeribus |
+| Pl. 4 | atroces | atrocia | fortes | fortia | celeres | celeres | celeria |
+| Pl. 6 | atrocibus | atrocibus | fortibus | fortibus | celeribus | celeribus | celeribus |
+? Achtung auf die Endung -i: Im Gegensatz zu den meisten Nomina der 3. Deklination steht diese Endung nicht nur für den Dativ Sg., sondern auch für den Ablativ Sg.: brevi tempore (6.F. Sg.: „in kurzer Zeit“).
+? Umgekehrt ist die Endung -e bei diesen Adjektiven kein Ablativ Sg., sondern der Nominativ oder Akkusativ Sg. Neutrum: tempus breve (1./4. F. Sg. n.: „die kurze Zeit“).
+## Apposition (Beisatz)
+Wenn ein Nomen (oder Nomen + Adjektiv) ein anderes Nomen, das im selben Fall steht, näher erklärt, spricht man von einer Apposition („Beisatz“):
+- urbs Roma = „die Stadt Rom“ (→ urbs erklärt Roma näher)
+- Romam, urbem pulchram, petimus. = „Wir besuchen die schöne Stadt Rom (= Rom, die schöne Stadt).“
+? Beim Übersetzen muss die Apposition im Fall an das vorangestellte Nomen angepasst werden: Romulus nuntios ad Sabinos (4. Fall), populum vicinum (4. Fall), mittit. = „Romulus schickt Boten zu den Sabinern (3. Fall), einem benachbarten Volk (3. Fall).“
+## Prädikativum
+Unter einem Prädikativum versteht man ein Nomen (oder Adjektiv), das im selben Fall wie ein anderes Nomen steht, aber nicht das Nomen, sondern das Prädikat näher bestimmt. Es wird mit „als“ übersetzt:
+- Romani multos viros servos in patriam ducebant. = „Die Römer führten viele Männer als Sklaven in ihre Heimat.“
+- Iulia prima venit. = „Julia kam als Erste.“
+! Wenn du ein Subjekt oder Objekt „zu viel“ hast, probiere die Übersetzung mit „als“!

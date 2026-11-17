@@ -1,0 +1,70 @@
+#18 Caesar Gallos superat | Die römische Republik | 5
+== VOKABELN
+C. Iulius Caesar | Iulii Caesaris | Gaius Julius Cäsar | vgl. Kaiser, Zar; C. = altlateinisch für G!
+prudens (m./f./n.) | prudentis (2.F.) | klug | frz. prudent, ital. + span. prudente
+quam | (nach Komparativ) | als | vgl. Plusquamperfekt („mehr als vergangen“)
+civitas | civitatis f. | 1) Stamm; 2) Gemeinde; 3) Staat | vgl. engl. city, frz. cité, ital. città, span. ciudad
+Gallia | Galliae f. | Gallien | = das heutige Frankreich; frz. Gaule
+tradere | trado 3, tradidi, traditum | 1) ausliefern; 2) überliefern | vgl. Tradition (= Überlieferung)
+se tradere | | sich ergeben |
+amicitia | amicitiae f. | Freundschaft | ital. amicizia; vgl. amicus, amica
+legio | legionis f. | Legion | (ca. 4000–6000 Mann)
+pauci/ae/a | | wenige | frz. peu, ital. poco („wenig“)
+totus/a/um | 2.F. totius, 3.F. toti | ganz | frz. tout, ital. tutto; vgl. total
+at | | aber | = autem, sed; ↔ atque (ac) = „und“
+auctoritas | auctoritatis f. | Ansehen, Einfluss | vgl. Autorität
+omnis/e (Sg.) | | 1) jeder; 2) ganz | ital. ogni; vgl. omnipräsent
+omnes (Pl. m./f.) | 2.F. omnium | alle (Pl. m./f.) | vgl. Omnibus (wörtl. = „für alle“)
+omnia (Pl. neutrum) | | alles (Sg. neutrum!) | z. B. omnia scio = „ich weiß alles“
+proelium | proelii n. | Schlacht | z. B. proelium committere
+qui, quae, quod | (am Satzanfang) | dieser, diese, dieses | („Relativer Anschluss“, siehe Grammatica)
+circumvenire | circumvenio 4, circumveni, -ventum | umzingeln | circum („herum-“) + venire
+advenire | advenio 4, -veni, -ventum | hinkommen, ankommen | vgl. Advent (= Ankunft Christi)
+frumentum | frumenti n. | Getreide | ital. frumento
+concilium | concilii n. | Versammlung | vgl. Konzil; ↔ consilium
+honestus/a/um | | ehrenhaft, ehrenvoll | engl. honest = „anständig“, „ehrlich“
+servitus | servitutis f. | Sklaverei | vgl. servus
+aetas | aetatis f. | 1) Alter; 2) Zeitalter, Zeit | ital. età, span. edad
+aut | | oder | ↔ autem
+ubi (+ Perfekt) | | sobald | ↔ ubi als Fragewort
+prior (m./f.), prius (n.) | | der/die/das frühere | vgl. Priorität (= Vorrang, Vorzug)
+acer/acris/acre | | 1) heftig; 2) spitz, scharf |
+incipere | incipio M, coepi, coeptum | beginnen, anfangen | ↔ cepi (von capere M) = „ich habe gefangen“
+== GRAMMATIK
+## Komparativ (Mehrstufe)
+Der Komparativ wird bei allen Adjektiva gleich gebildet: An den Wortstamm (= Gen. Sg. ohne Endung -i bzw. -is) tritt die Silbe -ior (m. + f.) bzw. -ius (n.):
+- clarus, clara, clarum (a-/o-Dekl.) → clarior, clarius
+- pulcher, pulchra, pulchrum (a-/o-Dekl.) → pulchrior, pulchrius
+- fortis, forte (3. Dekl.) → fortior, fortius
+- prudens, prudentis (3. Dekl.) → prudentior, prudentius
+Abwandlung: nach der 3. Deklination (wie die Nomina der Konsonantenstämme):
+| Fall | Sg. m./f. | Sg. n. | Pl. m./f. | Pl. n. |
+| 1/5 | fortior | fortius | fortiores | fortiora |
+| 2 | fortioris | fortioris | fortiorum | fortiorum |
+| 3 | fortiori | fortiori | fortioribus | fortioribus |
+| 4 | fortiorem | fortius | fortiores | fortiora |
+| 6 | fortiore | fortiore | fortioribus | fortioribus |
+Übersetzung:
+- 1) als echter Komparativ: pensum difficilius = „die schwierigere Aufgabe“
+- 2) mit „ziemlich“: pensum difficilius = „die ziemlich schwierige Aufgabe“
+- 3) mit „(all)zu“: pensum difficilius = „die allzu schwierige Aufgabe“
+## Superlativ (Meiststufe)
+a) Der Superlativ endet meistens auf -issimus und wandelt nach der a-/o-Deklination ab:
+- clarus/a/um → clarissimus/a/um
+- fortis/forte → fortissimus/a/um
+- prudens, prudentis → prudentissimus/a/um
+b) Endet ein Adjektiv im 1.F. Sg. m. der Grundstufe auf -er, lautet der Superlativ -errimus:
+- pulcher, pulchra, pulchrum → pulcherrimus/a/um
+- celer, celeris, celere → celerrimus/a/um
+c) Einige Adjektiva auf -ilis (facilis, difficilis, similis, dissimilis) bilden den Superlativ auf -illimus:
+- facilis, facile → facillimus/a/um
+- difficilis, difficile → difficillimus/a/um
+Übersetzung:
+- 1) als echter Superlativ: pensum difficillimum = „die schwierigste Aufgabe“
+- 2) mit „sehr“: pensum difficillimum = „die sehr schwierige Aufgabe“
+## Relativer Anschluss
+Steht qui, quae, quod am Satzbeginn, wird es (außer es handelt sich um einen Fragesatz!) nicht mit „der, die, das“ oder „welcher, welche, welches“, sondern mit „dieser, diese, dieses“ übersetzt:
+- Vercingetorix a ceteris civitatibus auxilium petivit. Quae exercitum magnum miserunt. = „Vercingetorix bat die übrigen Stämme um Hilfe. Diese schickten ein großes Heer.“
+## Vergleichsablativ (Ablativus comparationis)
+Der Vergleich wird entweder durch quam („als“) oder durch den (meist vor dem Komparativ stehenden) Vergleichsablativ ausgedrückt:
+- Hic miles est fortior quam ille. = Hic miles illo (Abl.!) fortior est. = „Dieser Soldat ist tapferer als jener.“

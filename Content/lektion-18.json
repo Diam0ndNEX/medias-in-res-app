@@ -1,0 +1,381 @@
+{
+ "number": 18,
+ "title": "Caesar Gallos superat",
+ "unit": "Die römische Republik",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "C. Iulius Caesar",
+   "forms": "Iulii Caesaris",
+   "de": "Gaius Julius Cäsar",
+   "note": "vgl. Kaiser, Zar; C. = altlateinisch für G!",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "prudens (m./f./n.)",
+   "forms": "prudentis (2.F.)",
+   "de": "klug",
+   "note": "frz. prudent, ital. + span. prudente",
+   "pos": "Nomen"
+  },
+  {
+   "la": "quam",
+   "forms": "(nach Komparativ)",
+   "de": "als",
+   "note": "vgl. Plusquamperfekt („mehr als vergangen“)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "civitas",
+   "forms": "civitatis f.",
+   "de": "1) Stamm; 2) Gemeinde; 3) Staat",
+   "note": "vgl. engl. city, frz. cité, ital. città, span. ciudad",
+   "pos": "Nomen"
+  },
+  {
+   "la": "Gallia",
+   "forms": "Galliae f.",
+   "de": "Gallien",
+   "note": "= das heutige Frankreich; frz. Gaule",
+   "pos": "Nomen"
+  },
+  {
+   "la": "tradere",
+   "forms": "trado 3, tradidi, traditum",
+   "de": "1) ausliefern; 2) überliefern",
+   "note": "vgl. Tradition (= Überlieferung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "se tradere",
+   "forms": "",
+   "de": "sich ergeben",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "amicitia",
+   "forms": "amicitiae f.",
+   "de": "Freundschaft",
+   "note": "ital. amicizia; vgl. amicus, amica",
+   "pos": "Nomen"
+  },
+  {
+   "la": "legio",
+   "forms": "legionis f.",
+   "de": "Legion",
+   "note": "(ca. 4000–6000 Mann)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "pauci/ae/a",
+   "forms": "",
+   "de": "wenige",
+   "note": "frz. peu, ital. poco („wenig“)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "totus/a/um",
+   "forms": "2.F. totius, 3.F. toti",
+   "de": "ganz",
+   "note": "frz. tout, ital. tutto; vgl. total",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "at",
+   "forms": "",
+   "de": "aber",
+   "note": "= autem, sed; ↔ atque (ac) = „und“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "auctoritas",
+   "forms": "auctoritatis f.",
+   "de": "Ansehen, Einfluss",
+   "note": "vgl. Autorität",
+   "pos": "Nomen"
+  },
+  {
+   "la": "omnis/e (Sg.)",
+   "forms": "",
+   "de": "1) jeder; 2) ganz",
+   "note": "ital. ogni; vgl. omnipräsent",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "omnes (Pl. m./f.)",
+   "forms": "2.F. omnium",
+   "de": "alle (Pl. m./f.)",
+   "note": "vgl. Omnibus (wörtl. = „für alle“)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "omnia (Pl. neutrum)",
+   "forms": "",
+   "de": "alles (Sg. neutrum!)",
+   "note": "z. B. omnia scio = „ich weiß alles“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "proelium",
+   "forms": "proelii n.",
+   "de": "Schlacht",
+   "note": "z. B. proelium committere",
+   "pos": "Nomen"
+  },
+  {
+   "la": "qui, quae, quod",
+   "forms": "(am Satzanfang)",
+   "de": "dieser, diese, dieses",
+   "note": "(„Relativer Anschluss“, siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "circumvenire",
+   "forms": "circumvenio 4, circumveni, -ventum",
+   "de": "umzingeln",
+   "note": "circum („herum-“) + venire",
+   "pos": "Verb"
+  },
+  {
+   "la": "advenire",
+   "forms": "advenio 4, -veni, -ventum",
+   "de": "hinkommen, ankommen",
+   "note": "vgl. Advent (= Ankunft Christi)",
+   "pos": "Verb"
+  },
+  {
+   "la": "frumentum",
+   "forms": "frumenti n.",
+   "de": "Getreide",
+   "note": "ital. frumento",
+   "pos": "Nomen"
+  },
+  {
+   "la": "concilium",
+   "forms": "concilii n.",
+   "de": "Versammlung",
+   "note": "vgl. Konzil; ↔ consilium",
+   "pos": "Nomen"
+  },
+  {
+   "la": "honestus/a/um",
+   "forms": "",
+   "de": "ehrenhaft, ehrenvoll",
+   "note": "engl. honest = „anständig“, „ehrlich“",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "servitus",
+   "forms": "servitutis f.",
+   "de": "Sklaverei",
+   "note": "vgl. servus",
+   "pos": "Nomen"
+  },
+  {
+   "la": "aetas",
+   "forms": "aetatis f.",
+   "de": "1) Alter; 2) Zeitalter, Zeit",
+   "note": "ital. età, span. edad",
+   "pos": "Nomen"
+  },
+  {
+   "la": "aut",
+   "forms": "",
+   "de": "oder",
+   "note": "↔ autem",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "ubi (+ Perfekt)",
+   "forms": "",
+   "de": "sobald",
+   "note": "↔ ubi als Fragewort",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "prior (m./f.), prius (n.)",
+   "forms": "",
+   "de": "der/die/das frühere",
+   "note": "vgl. Priorität (= Vorrang, Vorzug)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "acer/acris/acre",
+   "forms": "",
+   "de": "1) heftig; 2) spitz, scharf",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "incipere",
+   "forms": "incipio M, coepi, coeptum",
+   "de": "beginnen, anfangen",
+   "note": "↔ cepi (von capere M) = „ich habe gefangen“",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Komparativ (Mehrstufe)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Komparativ wird bei allen Adjektiva gleich gebildet: An den Wortstamm (= Gen. Sg. ohne Endung -i bzw. -is) tritt die Silbe -ior (m. + f.) bzw. -ius (n.):"
+    },
+    {
+     "type": "list",
+     "items": [
+      "clarus, clara, clarum (a-/o-Dekl.) → clarior, clarius",
+      "pulcher, pulchra, pulchrum (a-/o-Dekl.) → pulchrior, pulchrius",
+      "fortis, forte (3. Dekl.) → fortior, fortius",
+      "prudens, prudentis (3. Dekl.) → prudentior, prudentius"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Abwandlung: nach der 3. Deklination (wie die Nomina der Konsonantenstämme):"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m./f.",
+      "Sg. n.",
+      "Pl. m./f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1/5",
+       "fortior",
+       "fortius",
+       "fortiores",
+       "fortiora"
+      ],
+      [
+       "2",
+       "fortioris",
+       "fortioris",
+       "fortiorum",
+       "fortiorum"
+      ],
+      [
+       "3",
+       "fortiori",
+       "fortiori",
+       "fortioribus",
+       "fortioribus"
+      ],
+      [
+       "4",
+       "fortiorem",
+       "fortius",
+       "fortiores",
+       "fortiora"
+      ],
+      [
+       "6",
+       "fortiore",
+       "fortiore",
+       "fortioribus",
+       "fortioribus"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Übersetzung:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "1) als echter Komparativ: pensum difficilius = „die schwierigere Aufgabe“",
+      "2) mit „ziemlich“: pensum difficilius = „die ziemlich schwierige Aufgabe“",
+      "3) mit „(all)zu“: pensum difficilius = „die allzu schwierige Aufgabe“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Superlativ (Meiststufe)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "a) Der Superlativ endet meistens auf -issimus und wandelt nach der a-/o-Deklination ab:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "clarus/a/um → clarissimus/a/um",
+      "fortis/forte → fortissimus/a/um",
+      "prudens, prudentis → prudentissimus/a/um"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "b) Endet ein Adjektiv im 1.F. Sg. m. der Grundstufe auf -er, lautet der Superlativ -errimus:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "pulcher, pulchra, pulchrum → pulcherrimus/a/um",
+      "celer, celeris, celere → celerrimus/a/um"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "c) Einige Adjektiva auf -ilis (facilis, difficilis, similis, dissimilis) bilden den Superlativ auf -illimus:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "facilis, facile → facillimus/a/um",
+      "difficilis, difficile → difficillimus/a/um"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Übersetzung:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "1) als echter Superlativ: pensum difficillimum = „die schwierigste Aufgabe“",
+      "2) mit „sehr“: pensum difficillimum = „die sehr schwierige Aufgabe“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Relativer Anschluss",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Steht qui, quae, quod am Satzbeginn, wird es (außer es handelt sich um einen Fragesatz!) nicht mit „der, die, das“ oder „welcher, welche, welches“, sondern mit „dieser, diese, dieses“ übersetzt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Vercingetorix a ceteris civitatibus auxilium petivit. Quae exercitum magnum miserunt. = „Vercingetorix bat die übrigen Stämme um Hilfe. Diese schickten ein großes Heer.“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Vergleichsablativ (Ablativus comparationis)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Vergleich wird entweder durch quam („als“) oder durch den (meist vor dem Komparativ stehenden) Vergleichsablativ ausgedrückt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Hic miles est fortior quam ille. = Hic miles illo (Abl.!) fortior est. = „Dieser Soldat ist tapferer als jener.“"
+     ]
+    }
+   ]
+  }
+ ]
+}

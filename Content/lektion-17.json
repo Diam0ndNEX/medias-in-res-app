@@ -1,0 +1,417 @@
+{
+ "number": 17,
+ "title": "De Cicerone",
+ "unit": "Die römische Republik",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "littera",
+   "forms": "litterae f.",
+   "de": "Buchstabe",
+   "note": "vgl. die Lettern (= große Buchstaben)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "litterae (Pl.!)",
+   "forms": "litterarum f.",
+   "de": "1) Wissenschaft; 2) Brief",
+   "note": "engl. letter; vgl. Literatur",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iuvenis",
+   "forms": "iuvenis m.",
+   "de": "junger Mann (30–45 Jahre)",
+   "note": "ital. giovane; ↔ adulescens (ca. 18–30 Jahre)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "orator",
+   "forms": "oratoris m.",
+   "de": "Redner",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "res publica",
+   "forms": "rei publicae f.",
+   "de": "Staat",
+   "note": "(wörtl.: „öffentliche Sache“); vgl. Republik",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iustitia",
+   "forms": "iustitiae f.",
+   "de": "Gerechtigkeit",
+   "note": "vgl. Justiz (= staatliche Rechtspflege)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "incola",
+   "forms": "incolae m.",
+   "de": "Bewohner, Einwohner",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "provincia",
+   "forms": "provinciae f.",
+   "de": "Provinz",
+   "note": "vgl. die Provence (Region in S-Frankreich)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "divitiae (Pl.!)",
+   "forms": "divitiarum f.",
+   "de": "Reichtum",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "antiquus/a/um",
+   "forms": "",
+   "de": "alt",
+   "note": "antik; vgl. Antiquitäten (= alte Kunstgegenstände)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "ferre",
+   "forms": "fero, fers, tuli, latum",
+   "de": "tragen, bringen; ertragen",
+   "note": "(siehe Grammatica); vgl. Transfer",
+   "pos": "Verb"
+  },
+  {
+   "la": "nobilitas",
+   "forms": "nobilitatis f.",
+   "de": "Adel",
+   "note": "vgl. Snob (= sine nobilitate); nobilis/e",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ius",
+   "forms": "iuris n.",
+   "de": "Recht",
+   "note": "Jus, Jura, Jurisdiktion (= Rechtsprechung)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "oratio",
+   "forms": "orationis f.",
+   "de": "Rede",
+   "note": "vgl. orator",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iudicium",
+   "forms": "iudicii n.",
+   "de": "Urteil",
+   "note": "ital. giudizio, span. juicio",
+   "pos": "Nomen"
+  },
+  {
+   "la": "sponte sua",
+   "forms": "",
+   "de": "freiwillig",
+   "note": "vgl. spontan (= aus eigenem Antrieb)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "exilium",
+   "forms": "exilii n.",
+   "de": "Exil, Verbannung",
+   "note": "Exil",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ire",
+   "forms": "eo, is, ii, itum",
+   "de": "gehen",
+   "note": "vgl. Semperit = „Es geht immer“",
+   "pos": "Verb"
+  },
+  {
+   "la": "Romae",
+   "forms": "(Lokativ)",
+   "de": "in Rom",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "studere (+ Dat.)",
+   "forms": "studeo 2, studui, –",
+   "de": "sich bemühen (um), streben (nach)",
+   "note": "studieren, Student",
+   "pos": "Verb"
+  },
+  {
+   "la": "cogere",
+   "forms": "cogo 3, coegi, coactum",
+   "de": "1) sammeln; 2) zwingen",
+   "note": "aus: co-agere = wörtl.: „zusammentreiben“",
+   "pos": "Verb"
+  },
+  {
+   "la": "consul",
+   "forms": "consulis m.",
+   "de": "Konsul",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "convocare",
+   "forms": "convoco 1, -avi, -atum",
+   "de": "zusammenrufen",
+   "note": "con- = „zusammen-“",
+   "pos": "Verb"
+  },
+  {
+   "la": "senator",
+   "forms": "senatoris m.",
+   "de": "Senator",
+   "note": "vgl. senatus (Lec. 16)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "fere",
+   "forms": "",
+   "de": "1) ungefähr; 2) fast",
+   "note": "↔ ferre (= „tragen“)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "exire",
+   "forms": "exeo, exis, exii, exitum",
+   "de": "hinausgehen",
+   "note": "vgl. engl. exit; vgl. Exitus (= Tod)",
+   "pos": "Verb"
+  },
+  {
+   "la": "iubere (+ Akk.)",
+   "forms": "iubeo 2, iussi, iussum",
+   "de": "befehlen; lassen (+ Inf.)",
+   "note": "iubeo te (Akk.) = ich befehle dir (Dativ!)",
+   "pos": "Verb"
+  },
+  {
+   "la": "socius",
+   "forms": "socii m.",
+   "de": "Gefährte",
+   "note": "vgl. sozial, Sozialismus; Sozius (= Beifahrersitz)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "comprehendere",
+   "forms": "comprehendo 3, comprehendi, -prehensum",
+   "de": "1) ergreifen; 2) erfassen (auch geistig)",
+   "note": "vgl. engl. listening comprehension",
+   "pos": "Verb"
+  },
+  {
+   "la": "afficere",
+   "forms": "afficio M, affeci, affectum",
+   "de": "erfüllen, versehen (mit)",
+   "note": "vgl. Affekt (= Gefühlsregung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "priusquam",
+   "forms": "",
+   "de": "bevor",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "adire",
+   "forms": "adeo, adis, adii, aditum",
+   "de": "1) hingehen; 2) sich wenden (an); 3) angreifen",
+   "note": "",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Futur",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Das Futur wird je nach Konjugation auf zwei verschiedene Arten gebildet:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a- und e-Konj.: „bo/bis/bunt“-Futur (a-Konj.)",
+      "übrige Konj.: „a/e“-Futur (kons. Konj.)",
+      "unregelmäßig: esse"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amabo „ich werde lieben“",
+       "mittam „ich werde schicken“",
+       "ero „ich werde sein“"
+      ],
+      [
+       "Sg. 2.P.",
+       "amabis „du wirst lieben“",
+       "mittes „du wirst schicken“",
+       "eris „du wirst sein“"
+      ],
+      [
+       "Sg. 3.P.",
+       "amabit „er/sie wird lieben“",
+       "mittet „er/sie wird schicken“",
+       "erit „er/sie wird sein“"
+      ],
+      [
+       "Pl. 1.P.",
+       "amabimus „wir werden lieben“",
+       "mittemus „wir werden schicken“",
+       "erimus „wir werden sein“"
+      ],
+      [
+       "Pl. 2.P.",
+       "amabitis „ihr werdet lieben“",
+       "mittetis „ihr werdet schicken“",
+       "eritis „ihr werdet sein“"
+      ],
+      [
+       "Pl. 3.P.",
+       "amabunt „sie werden lieben“",
+       "mittent „sie werden schicken“",
+       "erunt „sie werden sein“"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "ebenso: monebo, monebis … monebunt (e-Konj.)",
+      "ebenso: capiam, capies … (Mischkonj.) bzw. audiam, audies … (i-Konj.)",
+      "ebenso: potero, poteris … poterunt"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Während das „bo/bis/bunt“-Futur normalerweise leicht zu erkennen ist (es sei denn, du verwechselst es mit dem -ba- des Imperfekts), besteht beim „a/e“-Futur die Verwechslungsgefahr mit dem Präsens der e-Konjugation: mittes (konsonantische Konjugation) → Futur („du wirst schicken“); habes (e-Konjugation) → Präsens („du hast“)."
+    },
+    {
+     "type": "tip",
+     "text": "Es ist also wichtig, dass du die Stammformen jedes Verbs gut beherrschst, damit du weißt, zu welcher Konjugationsklasse das Wort gehört!"
+    }
+   ]
+  },
+  {
+   "title": "Die unregelmäßigen Verba ire und ferre",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "ire Präsens",
+      "ire Futur",
+      "ire Perfekt",
+      "ferre Präsens",
+      "ferre Futur",
+      "ferre Perfekt"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "eo",
+       "ibo",
+       "ii",
+       "fero",
+       "feram",
+       "tuli"
+      ],
+      [
+       "Sg. 2.P.",
+       "is",
+       "ibis",
+       "isti",
+       "fers",
+       "feres",
+       "tulisti"
+      ],
+      [
+       "Sg. 3.P.",
+       "it",
+       "ibit",
+       "iit",
+       "fert",
+       "feret",
+       "tulit"
+      ],
+      [
+       "Pl. 1.P.",
+       "imus",
+       "ibimus",
+       "iimus",
+       "ferimus",
+       "feremus",
+       "tulimus"
+      ],
+      [
+       "Pl. 2.P.",
+       "itis",
+       "ibitis",
+       "istis",
+       "fertis",
+       "feretis",
+       "tulistis"
+      ],
+      [
+       "Pl. 3.P.",
+       "eunt",
+       "ibunt",
+       "ierunt",
+       "ferunt",
+       "ferent",
+       "tulerunt"
+      ],
+      [
+       "Imperativ",
+       "Sg. i! Pl. ite!",
+       "",
+       "",
+       "Sg. fer! Pl. ferte!",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "ire = „gehen“, ferre = „tragen“, „bringen“."
+    }
+   ]
+  },
+  {
+   "title": "Neutrum Plural bei Pronomina („cuncta“-Regel)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Steht ein lateinisches Pronomen alleine (d. h. ohne ein Nomen, mit dem es übereingestimmt ist) im 1./4.F. Plural Neutrum, muss es im Deutschen mit dem Singular wiedergegeben werden:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Haec (4.F. Pl. n.) fere dixit. = „Er sagte ungefähr dieses.“ (4.F. Sg. n.)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ist ein solches Wort Subjekt, muss im Lateinischen auch das Prädikat im Plural stehen:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Cuncta, quae dicis, mihi placent. (→ Pl.) = „Alles, was du sagst, gefällt mir.“ (→ Sg.)"
+     ]
+    }
+   ]
+  }
+ ]
+}
