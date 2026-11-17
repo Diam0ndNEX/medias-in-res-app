@@ -16,8 +16,9 @@ iOS-App auf Deutsch, mit der man **alles aus dem Buch** (Lektionen 1–30 plus A
   - Formen bestimmen, Formen bilden (über 1000 Fragen aus den Grammatik-Tabellen), Tabellen aufdecken
   - Schularbeit-Modus mit Zeitlimit und Note 1–5
 - Statistik (Serie, Tagesziel, 7-Tage-Verlauf, pro Lektion, schwierigste Wörter, Schularbeiten), Erinnerung, Haptik, Backup (Export/Import)
+- App-Icon (Lorbeerkranz „MiR“), Widget „Vokabel des Tages“, Merkliste (★), 13 Abzeichen, Startseite mit Vokabel des Tages und „Weiterlernen“, Zähler für fällige Karten am Üben-Tab, Einführung beim ersten Start
 
-**Noch offen:** Lektionstexte mit Antippen-Analyse, Satz-Puzzle, Satz übersetzen, Buchübungen, Wortfamilien, Grammatik-Regel-Quiz, Wortklauberei, Repetitiones, Formenlehre-Anhang, Autorenlektüre, Widget.
+**Noch offen:** Lektionstexte mit Antippen-Analyse, Satz-Puzzle, Satz übersetzen, Buchübungen, Wortfamilien, Grammatik-Regel-Quiz, Wortklauberei, Repetitiones, Formenlehre-Anhang, Autorenlektüre.
 
 ## 1. Aufbau der App
 
