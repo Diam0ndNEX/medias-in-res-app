@@ -4,6 +4,21 @@ iOS-App auf Deutsch, mit der man **alles aus dem Buch** (Lektionen 1–30 plus A
 
 ---
 
+## 0. Stand (17.11.2026)
+
+**Fertig und in der IPA:**
+- Vokabeln (756) und Grammatik aller 30 Lektionen, Quelle: `ContentSrc/LXX.txt` → `scripts/build_content.py` → `Content/lektion-XX.json`
+- Tabs: Lektionen · Üben · Suchen · Statistik · Einstellungen
+- Übungsmodi, alle mit freiem Bereich von–bis, Wortart und Richtung:
+  - tägliche Wiederholung, Fehlerkiste
+  - Karteikarten (wischen), Multiple Choice, Richtig/Falsch, Zuordnen, Hör-Modus, Blitzrunde mit Rekord, Eintippen (optional)
+  - Stammformen, Fremdwort-Detektiv
+  - Formen bestimmen, Formen bilden (über 1000 Fragen aus den Grammatik-Tabellen), Tabellen aufdecken
+  - Schularbeit-Modus mit Zeitlimit und Note 1–5
+- Statistik (Serie, Tagesziel, 7-Tage-Verlauf, pro Lektion, schwierigste Wörter, Schularbeiten), Erinnerung, Haptik, Backup (Export/Import)
+
+**Noch offen:** Lektionstexte mit Antippen-Analyse, Satz-Puzzle, Satz übersetzen, Buchübungen, Wortfamilien, Grammatik-Regel-Quiz, Wortklauberei, Repetitiones, Formenlehre-Anhang, Autorenlektüre, Widget.
+
 ## 1. Aufbau der App
 
 Vier Tabs:
