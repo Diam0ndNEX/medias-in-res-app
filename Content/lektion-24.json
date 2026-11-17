@@ -1,0 +1,338 @@
+{
+ "number": 24,
+ "title": "De Cassandra",
+ "unit": "Der Trojanische Krieg",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "velle",
+   "forms": "volo, vis, volui, –",
+   "de": "wollen",
+   "note": "(siehe Grammatica); frz. vouloir, ital. volere",
+   "pos": "Verb"
+  },
+  {
+   "la": "nolle",
+   "forms": "nolo, non vis, nolui, –",
+   "de": "nicht wollen",
+   "note": "(siehe Grammatica)",
+   "pos": "Verb"
+  },
+  {
+   "la": "Noli me tangere!",
+   "forms": "(Verbot mit noli)",
+   "de": "Berühr mich nicht!",
+   "note": "Das sagte Jesus nach seiner Auferstehung zu Maria Magdalena.",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "verus/a/um",
+   "forms": "",
+   "de": "wahr, echt",
+   "note": "frz. vrai, ital. vero, span. verdadero",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "promittere",
+   "forms": "promitto 3, promisi, promissum",
+   "de": "versprechen",
+   "note": "engl. to promise, frz. promettre, ital. promettere, span. prometer",
+   "pos": "Verb"
+  },
+  {
+   "la": "sperare",
+   "forms": "spero 1, -avi, -atum",
+   "de": "hoffen, erhoffen",
+   "note": "frz. espérer, ital. sperare, span. esperar",
+   "pos": "Verb"
+  },
+  {
+   "la": "praebere",
+   "forms": "praebeo 2, -ui, -itum",
+   "de": "bieten, anbieten, geben",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "scientia",
+   "forms": "scientiae f.",
+   "de": "Wissen, Kenntnis",
+   "note": "vgl. scire; engl. science, frz. science, ital. scienza, span. ciencia",
+   "pos": "Nomen"
+  },
+  {
+   "la": "usus",
+   "forms": "usus m.",
+   "de": "1) Nutzen; 2) Gebrauch",
+   "note": "engl. use, frz. utilité; vgl. „es ist Usus“",
+   "pos": "Nomen"
+  },
+  {
+   "la": "usui esse",
+   "forms": "(Zweckdativ)",
+   "de": "nützlich sein",
+   "note": "wörtl. = „zum Nutzen sein“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "veritas",
+   "forms": "veritatis f.",
+   "de": "Wahrheit",
+   "note": "frz. vérité, ital. verità, span. verdad",
+   "pos": "Nomen"
+  },
+  {
+   "la": "credere",
+   "forms": "credo 3, credidi, creditum",
+   "de": "glauben",
+   "note": "ital. credere; vgl. Credo, Kredit (Gläubiger!)",
+   "pos": "Verb"
+  },
+  {
+   "la": "inde (Adv.)",
+   "forms": "",
+   "de": "1) von da an; 2) von dort",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "ardere",
+   "forms": "ardeo 2, arsi, –",
+   "de": "brennen",
+   "note": "vgl. ital. ardente, span. ardiente = brennend",
+   "pos": "Verb"
+  },
+  {
+   "la": "tacere",
+   "forms": "taceo 2, -ui, –",
+   "de": "schweigen",
+   "note": "frz. taire, ital. tacere",
+   "pos": "Verb"
+  },
+  {
+   "la": "interire",
+   "forms": "intereo, interii, interitum",
+   "de": "sterben, untergehen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "errare",
+   "forms": "erro 1, -avi, -atum",
+   "de": "irren, sich irren",
+   "note": "ital. errare; vgl. engl. error",
+   "pos": "Verb"
+  },
+  {
+   "la": "tollere",
+   "forms": "tollo 3, sustuli, sublatum",
+   "de": "aufheben, (er)heben",
+   "note": "↔ tolerare 1 = ertragen",
+   "pos": "Verb"
+  },
+  {
+   "la": "orare",
+   "forms": "oro 1, -avi, -atum",
+   "de": "1) (er)bitten; 2) beten",
+   "note": "ital. orare, span. orar; vgl. Oratorium",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "velle/nolle („wollen“/„nicht wollen“)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die Modalverba velle („wollen“) und nolle („nicht wollen“) werden im Präsensstamm unregelmäßig abgewandelt."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "velle",
+      "nolle"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "volo",
+       "nolo"
+      ],
+      [
+       "Sg. 2.P.",
+       "vis",
+       "non vis"
+      ],
+      [
+       "Sg. 3.P.",
+       "vult",
+       "non vult"
+      ],
+      [
+       "Pl. 1.P.",
+       "volumus",
+       "nolumus"
+      ],
+      [
+       "Pl. 2.P.",
+       "vultis",
+       "non vultis"
+      ],
+      [
+       "Pl. 3.P.",
+       "volunt",
+       "nolunt"
+      ],
+      [
+       "Infinitiv",
+       "velle",
+       "nolle"
+      ],
+      [
+       "Imperativ",
+       "–",
+       "noli! / nolite!"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "noli(te) wird verwendet, um ein Verbot an die 2. Person auszudrücken (siehe unten)."
+    },
+    {
+     "type": "note",
+     "text": "vis ist doppeldeutig: a) 2.P. Sg. Präsens von velle = „du willst“; b) Nom. Sg. von vis, vim, vi = „die Kraft“."
+    },
+    {
+     "type": "text",
+     "text": "Die Formen der übrigen Zeiten sind regelmäßig:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Imperfekt: volebam/nolebam …",
+      "Futur: volam/nolam, voles/noles …",
+      "Perfekt: volui/nolui …",
+      "Plqpf.: volueram/nolueram …"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Verbot mit noli + Infinitiv",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Eine der Möglichkeiten, im Lateinischen ein Verbot auszudrücken, ist die Verwendung von noli (Sg.) bzw. nolite (Pl.) mit einem Infinitiv:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Sg.: Noli equum in oppidum trahere! = „Zieh das Pferd nicht in die Stadt!“ (wörtl.: „Wolle das Pferd nicht in die Stadt ziehen!“)",
+      "Pl.: Nolite equum in oppidum trahere! = „Zieht das Pferd nicht in die Stadt!“ (wörtl.: „Wollet das Pferd nicht in die Stadt ziehen!“)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Indirekte Fragesätze",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Indirekte Fragen unterscheiden sich von direkten dadurch, dass sie von einem anderen Verbum (z. B. des Fragens oder Wissens) abhängen:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "direkte Frage: „Wie spät ist es?“ (→ mit Fragezeichen)",
+      "indirekte Frage: Ich frage dich / Ich weiß nicht, wie spät es ist. (→ ohne Fragezeichen)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Im Lateinischen muss in indirekten Fragesätzen (im Gegensatz zum Deutschen) der Konjunktiv stehen. Welcher, das wird durch die sogenannte Consecutio temporum (Zeitenfolge) geregelt:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Der übergeordnete Satz steht im …",
+      "gleichzeitig (glz.)",
+      "vorzeitig (vz.)",
+      "nachzeitig (nz.)"
+     ],
+     "rows": [
+      [
+       "Präsens, Futur",
+       "Konj. Präsens",
+       "Konj. Perfekt",
+       "-urus sim (sis …)"
+      ],
+      [
+       "Imperfekt, Perfekt",
+       "Konj. Imperfekt",
+       "Konj. Plqpf.",
+       "-urus essem (esses …)"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Die Formen -urus sim und -urus essem bestehen aus dem Futurpartizip und dem Konj. Präsens bzw. Imperfekt von esse. Sie bilden eine Art Futur-Konjunktiv und werden ausschließlich in nachzeitigen Gliedsätzen verwendet."
+    },
+    {
+     "type": "text",
+     "text": "Beispiel für die Consecutio temporum anhand indirekter Fragesätze:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Lateinisch",
+      "Deutsch",
+      "Zeitverhältnis"
+     ],
+     "rows": [
+      [
+       "Interrogo te, quid facias.",
+       "„Ich frage dich, was du machst.“",
+       "glz."
+      ],
+      [
+       "Interrogo te, quid feceris.",
+       "„Ich frage dich, was du gemacht hast.“",
+       "vz."
+      ],
+      [
+       "Interrogo te, quid facturus/a sis.",
+       "„Ich frage dich, was du machen wirst.“",
+       "nz."
+      ],
+      [
+       "Interrogavi te, quid faceres.",
+       "„Ich fragte dich, was du machtest.“",
+       "glz."
+      ],
+      [
+       "Interrogavi te, quid fecisses.",
+       "„Ich fragte dich, was du gemacht hattest.“",
+       "vz."
+      ],
+      [
+       "Interrogavi te, quid facturus/a esses.",
+       "„Ich fragte dich, was du machen wirst.“",
+       "nz."
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "text": "Gib den Konjunktiv beim Übersetzen zunächst in der entsprechenden Zeit des Indikativs wieder!"
+    },
+    {
+     "type": "note",
+     "text": "Die Consecutio temporum gilt für folgende Gliedsätze: ut-Sätze (→ immer gleichzeitig); cum-Sätze (→ gleich- oder vorzeitig); indirekte Fragesätze (→ gleich-, vor- oder nachzeitig)."
+    }
+   ]
+  }
+ ]
+}

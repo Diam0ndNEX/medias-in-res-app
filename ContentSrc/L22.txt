@@ -1,0 +1,61 @@
+#22 De ira Achillis | Der Trojanische Krieg | 6
+== VOKABELN
+ira | irae f. | Zorn | ital. + span. ira; vgl. iratus/a/um
+moenia (Pl.) | moenium n. (3. Dekl.) | (Stadt-)Mauern |
+altus/a/um | | 1) hoch; 2) tief | ital. alto; vgl. Altstimme (tiefe Frauenstimme)
+ut (+ Konj.) | | dass; damit; sodass | (siehe Grammatica)
+Troiani (Pl.) | Troianorum m. | die Trojaner |
+tenere | teneo 2, tenui, – | halten | ital. tenere, span. tener
+abstinere | abstineo 2, abstinui, – | (sich) fernhalten (von) | vgl. abstinent (= enthaltsam)
+imperium | imperii n. | 1) Befehl; 2) Herrschaft; 3) Reich | engl. empire, frz. empire; vgl. Imperativ, Imperialismus (= Streben nach Weltmacht)
+obtinere | obtineo 2, obtinui, – | innehaben, besitzen | engl. to obtain
+incendere | incendo 3, incendi, incensum | anzünden |
+ne (+ Konj.) | | dass nicht; damit nicht | (siehe Grammatica)
+putare | puto 1, putavi, -atum | 1) glauben; 2) halten für | puto te amicum = „ich halte dich für einen Freund“
+interesse (+ Dat.) | intersum, interfui, – | beiwohnen, teilnehmen (an) | vgl. Interesse (geistig bei etwas dabei sein)
+complures (m./f.) | complura (n.) | mehrere | ↔ plurimi/ae/a = „die meisten“
+caedere | caedo 3, cecidi, caesum | (fällen =) töten | vgl. caedes, -is
+deponere | depono 3, deposui, depositum | ablegen, weglegen | vgl. deponieren, Deponie
+equus | equi m. | Pferd |
+trahere | traho 3, traxi, tractum | ziehen | vgl. Traktor, subtrahieren („ab-ziehen“)
+magis (Adv.) | | mehr | vgl. magister (wörtl.: einer, der „mehr“ ist)
+preces (Pl.) | precum f. (3. Dekl.) | die Bitten | vgl. ital. pregare
+aurum | auri n. | Gold | chem. Zeichen für Gold = Au
+frater | fratris m. | Bruder | frz. frère, ital. fratello
+Apollo | Apollinis m. | Apoll | griech.-röm. Gott der Weissagekunst
+== GRAMMATIK
+## Konjunktiv Präsens und Imperfekt
+Anders als im Deutschen existieren im Lateinischen vier Konjunktive mit unterschiedlichen Funktionen, nämlich für das Präsens, Imperfekt, Perfekt und Plusquamperfekt.
+a) Konjunktiv Präsens:
+- Erkennungszeichen: -a- (Ausnahme a-Konjugation: -e-).
+- Endungen: die üblichen des Präsensstammes: -m/-s/-t, -mus/-tis/-nt (Passiv: -r/-ris/-tur etc.)
+| | a-Konj. | e-Konj. | kons. Konj. | i-Konj. | Mischkonj. | esse | posse |
+| Sg. 1.P. | amem | moneam | mittam | audiam | capiam | sim | possim |
+| Sg. 2.P. | ames | moneas | mittas | audias | capias | sis | possis |
+| Pl. 3.P. | ament | moneant | mittant | audiant | capiant | sint | possint |
+? Der Konjunktiv Präsens der a-Konjugation schaut auf ersten Blick wie ein Indikativ der e-Konjugation aus: ames (Konjunktiv von amare) ↔ debes (Indikativ von debēre).
+b) Konjunktiv Imperfekt:
+- Erkennungszeichen: die Form enthält (auch im Passiv!) den aktiven Infinitiv Präsens.
+- Endungen: die üblichen des Präsensstammes: -m/-s/-t, -mus/-tis/-nt (Passiv: -r/-ris/-tur etc.)
+| | a-Konj. | e-Konj. | kons. Konj. | i-Konj. | Mischkonj. | esse | posse |
+| Sg. 1.P. | amarem | monerem | mitterem | audirem | caperem | essem | possem |
+| Sg. 2.P. | amares | moneres | mitteres | audires | caperes | esses | posses |
+| Pl. 3.P. | amarent | monerent | mitterent | audirent | caperent | essent | possent |
+## Konjunktivische ut-Sätze
+Der Konjunktiv hat in lateinischen Gliedsätzen eine gänzlich andere Funktion als im Deutschen: Er zeigt nämlich an, welche Bedeutung das einleitende Bindewort hat. Während ut mit Indikativ die Bedeutungen „wie“ oder „als“ hat (z. B. Ut scis, te amo. = „Wie du weißt, liebe ich dich.“), kann es mit Konjunktiv drei verschiedene Bedeutungen haben:
+a) „dass“ (begehrendes ut) – Verneinung: ne („dass nicht“)
+- Peto, ut ad me venias. = „Ich bitte dich, dass du zu mir kommst (… zu mir zu kommen).“
+- Petivi, ut ad me venires. = „Ich bat dich, dass du zu mir komm(e)st (… zu mir zu kommen).“
+b) „damit“ (bezweckendes/finales ut) – Verneinung: ne („damit nicht“)
+- Domi maneo, ut dormiam. = „Ich bleibe zu Hause, damit ich schlafe (… um zu schlafen).“
+- Domi mansi, ut dormirem. = „Ich blieb zu Hause, damit ich schlief (… um zu schlafen).“
+! Begehrende und bezweckende ut-Sätze solltest du im Deutschen nach Möglichkeit immer als Infinitivgruppe („zu …“ bzw. „um … zu“) wiedergeben.
+c) „(so)dass“ (folgerndes/konsekutives ut) – Verneinung: ut non („sodass nicht“)
+- Dormis, ut me non audias. = „Du schläfst, sodass du mich nicht hörst.“
+- Dormiebas, ut me non audires. = „Du schliefst, sodass du mich nicht hörtest.“
+? Ob im ut-Satz der Konjunktiv Präsens oder Imperfekt steht, hängt von der Zeit des übergeordneten Satzes ab: Gegenwart → Konj. Präsens; Vergangenheit → Konj. Imperfekt.
+## Doppelter Akkusativ
+Manche Verben ändern ihre Bedeutung, wenn sie mit zwei Akkusativen verbunden sind:
+- putare (eigtl. „glauben“) + doppelter Akkusativ = „halten … für“: Te amicum bonum puto. = „Ich halte dich für einen guten Freund.“
+- dicere (eigtl. „sagen“) + doppelter Akkusativ = „nennen“: Quintus Iuliam amicam dicit. = „Quintus nennt Julia eine Freundin.“
+- vocare (eigtl. „rufen“) + doppelter Akkusativ = „nennen“: Iulia Quintum puerum stultum vocat. = „Julia nennt Quintus einen Dummkopf.“

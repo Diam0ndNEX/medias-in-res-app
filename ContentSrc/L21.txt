@@ -1,0 +1,59 @@
+#21 De Paridis iudicio | Der Trojanische Krieg | 6
+== VOKABELN
+praeter (+ Akk.) | | außer |
+discordia | discordiae f. | Zwietracht, Streit | ital. + span. discordia; ↔ concordia
+controversia | controversiae f. | Auseinandersetzung | vgl. Kontroverse; aus: contra + vertere!
+iacere | iacio M, ieci, iactum | werfen, schleudern | vgl. projizieren, Projektor
+Venus | Veneris f. | Venus | Göttin der Liebe (griech.: Aphrodite)
+certare | certo 1, -avi, -atum | 1) streiten; 2) wetteifern | vgl. Kon-zert
+iudicare | iudico 1, -avi, -atum | 1) urteilen, beurteilen; 2) richten | vgl. iudicium, -i
+deligere | deligo 3, -legi, -lectum | auswählen | vgl. engl. election (= Wahl)
+praemium | praemii n. | Belohnung, Preis | Prämie, prämieren
+praeterea (Adv.) | | außerdem | aus: praeter + ea (wörtl.: „außer diesem“)
+dives (m./f./n.) | divitis (2.F.) | reich | vgl. divitiae, -arum
+fortitudo | fortitudinis f. | Tapferkeit | vgl. fortis/e
+quia | | weil | = quod (Einleitung eines Kausalsatzes)
+Graecia | Graeciae f. | Griechenland | ↔ Graeci, -orum
+decernere | decerno 3, decrevi, decretum | beschließen | vgl. Dekret (= amtlicher Beschluss)
+eo (Adv.) | | dorthin |
+fides | fidei f. | Treue, Vertrauen (hier: Schutz) | ital. fede
+mandare | mando 1, -avi, -atum | anvertrauen | vgl. Mandant; eigentl.: in manum dare
+occasio | occasionis f. | Gelegenheit | engl. occasion, frz. occasion, span. ocasión
+iungere | iungo 3, iunxi, iunctum | verbinden | vgl. con-iungere
+maritus | mariti m. | Gatte, Ehemann | frz. mari, ital. marito, span. marido
+aut … aut | | entweder … oder |
+eiusmodi | (= huiusmodi) | derartig | wörtl.: „dieser Art“; vgl. modus, Lec. 12
+Troia | Troiae f. | Troja |
+== GRAMMATIK
+## Überblick über die lateinische Zeitenbildung (Indikativ)
+A) Präsensstamm:
+| | Aktiv | Passiv |
+| Präsens | Sg.: -o, -s, -t; Pl.: -mus, -tis, -nt | Sg.: -or, -ris, -tur; Pl.: -mur, -mini, -ntur |
+| Imperfekt | Sg.: -bam, -bas, -bat; Pl.: -bamus, -batis, -bant | Sg.: -bar, -baris, -batur; Pl.: -bamur, -bamini, -bantur |
+| Futur (a- und e-Konjugation) | Sg.: -bo, -bis, -bit; Pl.: -bimus, -bitis, -bunt | Sg.: -bor, -beris, -bitur; Pl.: -bimur, -bimini, -buntur |
+| Futur (übrige Konjugationen) | Sg.: -am, -es, -et; Pl.: -emus, -etis, -ent | Sg.: -ar, -eris, -etur; Pl.: -emur, -emini, -entur |
+B) Perfektstamm:
+| | Aktiv | Passiv |
+| Perfekt | Sg.: -i, -isti, -it; Pl.: -imus, -istis, -erunt | Sg.: PPP + sum, es, est; Pl.: PPP + sumus, estis, sunt |
+| Plusquamperfekt | Sg.: -eram, -eras, -erat; Pl.: -eramus, -eratis, -erant | Sg.: PPP + eram, eras, erat; Pl.: PPP + eramus, eratis, erant |
+## Adverbia (Umstandswörter)
+- Adjektiva bestimmen ein Nomen näher: Miles fortis pugnat. = „Der tapfere Soldat kämpft.“ (Frage: Was für ein Soldat kämpft?)
+- Adverbia bestimmen ein Verb (ad verbum = „zum Verb“!) näher: Miles fortiter pugnat. = „Der Soldat kämpft tapfer.“ (Frage: Auf welche Weise kämpft er?)
+a) Die Bildung des Adverbs in der Grundstufe ist abhängig von der Deklination des Adjektivs:
+| | Adjektiv | Adverb |
+| Adj. der a-/o-Dekl. → -e | certus, certa, certum | certe („sicher“) |
+| Adj. der a-/o-Dekl. → -e | pulcher, pulchra, pulchrum | pulchre („schön“) |
+| Adj. der 3. Dekl. → -iter | fortis, forte | fortiter („tapfer“) |
+| Adj. der 3. Dekl. → -iter | atrox, atrocis | atrociter („wild“) |
+| Adj. der 3. Dekl. → -iter | celer, celeris, celere | celeriter („schnell“) |
+| Adj. auf -ns → -nter | prudens, prudentis | prudenter („klug“) |
+? Beachte folgende Ausnahmen: bonus → bene; facilis → facile.
+b) Bildung im Komparativ: Stamm der Grundstufe + -ius: certius („sicherer“), pulchrius („schöner“), fortius („tapferer“), atrocius („wilder“), facilius („leichter“) etc. – z. B.: Miles fortius pugnavit. = „Der Soldat kämpfte tapferer (ziemlich tapfer).“
+c) Bildung im Superlativ: Superlativstamm + -e:
+- certe → certissime („am sichersten“)
+- fortis → fortissime („am tapfersten“)
+- atrox → atrocissime („am wildesten“)
+- pulcher → pulcherrime („am schönsten“)
+- facilis → facillime („am leichtesten“)
+z. B.: Miles fortissime pugnavit. = „Der Soldat kämpfte am tapfersten (sehr tapfer).“
+? Neben den Adverbia, die von Adjektiva abgeleitet sind, gibt es auch zahlreiche Einzeladverbia: z. B. mox („bald“), statim („sofort“), olim („einst“), iterum („wieder“) etc.

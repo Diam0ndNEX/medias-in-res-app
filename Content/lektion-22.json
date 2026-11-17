@@ -1,0 +1,363 @@
+{
+ "number": 22,
+ "title": "De ira Achillis",
+ "unit": "Der Trojanische Krieg",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "ira",
+   "forms": "irae f.",
+   "de": "Zorn",
+   "note": "ital. + span. ira; vgl. iratus/a/um",
+   "pos": "Nomen"
+  },
+  {
+   "la": "moenia (Pl.)",
+   "forms": "moenium n. (3. Dekl.)",
+   "de": "(Stadt-)Mauern",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "altus/a/um",
+   "forms": "",
+   "de": "1) hoch; 2) tief",
+   "note": "ital. alto; vgl. Altstimme (tiefe Frauenstimme)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "ut (+ Konj.)",
+   "forms": "",
+   "de": "dass; damit; sodass",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "Troiani (Pl.)",
+   "forms": "Troianorum m.",
+   "de": "die Trojaner",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "tenere",
+   "forms": "teneo 2, tenui, –",
+   "de": "halten",
+   "note": "ital. tenere, span. tener",
+   "pos": "Verb"
+  },
+  {
+   "la": "abstinere",
+   "forms": "abstineo 2, abstinui, –",
+   "de": "(sich) fernhalten (von)",
+   "note": "vgl. abstinent (= enthaltsam)",
+   "pos": "Verb"
+  },
+  {
+   "la": "imperium",
+   "forms": "imperii n.",
+   "de": "1) Befehl; 2) Herrschaft; 3) Reich",
+   "note": "engl. empire, frz. empire; vgl. Imperativ, Imperialismus (= Streben nach Weltmacht)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "obtinere",
+   "forms": "obtineo 2, obtinui, –",
+   "de": "innehaben, besitzen",
+   "note": "engl. to obtain",
+   "pos": "Verb"
+  },
+  {
+   "la": "incendere",
+   "forms": "incendo 3, incendi, incensum",
+   "de": "anzünden",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "ne (+ Konj.)",
+   "forms": "",
+   "de": "dass nicht; damit nicht",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "putare",
+   "forms": "puto 1, putavi, -atum",
+   "de": "1) glauben; 2) halten für",
+   "note": "puto te amicum = „ich halte dich für einen Freund“",
+   "pos": "Verb"
+  },
+  {
+   "la": "interesse (+ Dat.)",
+   "forms": "intersum, interfui, –",
+   "de": "beiwohnen, teilnehmen (an)",
+   "note": "vgl. Interesse (geistig bei etwas dabei sein)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "complures (m./f.)",
+   "forms": "complura (n.)",
+   "de": "mehrere",
+   "note": "↔ plurimi/ae/a = „die meisten“",
+   "pos": "Nomen"
+  },
+  {
+   "la": "caedere",
+   "forms": "caedo 3, cecidi, caesum",
+   "de": "(fällen =) töten",
+   "note": "vgl. caedes, -is",
+   "pos": "Verb"
+  },
+  {
+   "la": "deponere",
+   "forms": "depono 3, deposui, depositum",
+   "de": "ablegen, weglegen",
+   "note": "vgl. deponieren, Deponie",
+   "pos": "Verb"
+  },
+  {
+   "la": "equus",
+   "forms": "equi m.",
+   "de": "Pferd",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "trahere",
+   "forms": "traho 3, traxi, tractum",
+   "de": "ziehen",
+   "note": "vgl. Traktor, subtrahieren („ab-ziehen“)",
+   "pos": "Verb"
+  },
+  {
+   "la": "magis (Adv.)",
+   "forms": "",
+   "de": "mehr",
+   "note": "vgl. magister (wörtl.: einer, der „mehr“ ist)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "preces (Pl.)",
+   "forms": "precum f. (3. Dekl.)",
+   "de": "die Bitten",
+   "note": "vgl. ital. pregare",
+   "pos": "Nomen"
+  },
+  {
+   "la": "aurum",
+   "forms": "auri n.",
+   "de": "Gold",
+   "note": "chem. Zeichen für Gold = Au",
+   "pos": "Nomen"
+  },
+  {
+   "la": "frater",
+   "forms": "fratris m.",
+   "de": "Bruder",
+   "note": "frz. frère, ital. fratello",
+   "pos": "Nomen"
+  },
+  {
+   "la": "Apollo",
+   "forms": "Apollinis m.",
+   "de": "Apoll",
+   "note": "griech.-röm. Gott der Weissagekunst",
+   "pos": "Nomen"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Konjunktiv Präsens und Imperfekt",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Anders als im Deutschen existieren im Lateinischen vier Konjunktive mit unterschiedlichen Funktionen, nämlich für das Präsens, Imperfekt, Perfekt und Plusquamperfekt."
+    },
+    {
+     "type": "text",
+     "text": "a) Konjunktiv Präsens:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Erkennungszeichen: -a- (Ausnahme a-Konjugation: -e-).",
+      "Endungen: die üblichen des Präsensstammes: -m/-s/-t, -mus/-tis/-nt (Passiv: -r/-ris/-tur etc.)"
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "e-Konj.",
+      "kons. Konj.",
+      "i-Konj.",
+      "Mischkonj.",
+      "esse",
+      "posse"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amem",
+       "moneam",
+       "mittam",
+       "audiam",
+       "capiam",
+       "sim",
+       "possim"
+      ],
+      [
+       "Sg. 2.P.",
+       "ames",
+       "moneas",
+       "mittas",
+       "audias",
+       "capias",
+       "sis",
+       "possis"
+      ],
+      [
+       "Pl. 3.P.",
+       "ament",
+       "moneant",
+       "mittant",
+       "audiant",
+       "capiant",
+       "sint",
+       "possint"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Der Konjunktiv Präsens der a-Konjugation schaut auf ersten Blick wie ein Indikativ der e-Konjugation aus: ames (Konjunktiv von amare) ↔ debes (Indikativ von debēre)."
+    },
+    {
+     "type": "text",
+     "text": "b) Konjunktiv Imperfekt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Erkennungszeichen: die Form enthält (auch im Passiv!) den aktiven Infinitiv Präsens.",
+      "Endungen: die üblichen des Präsensstammes: -m/-s/-t, -mus/-tis/-nt (Passiv: -r/-ris/-tur etc.)"
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "e-Konj.",
+      "kons. Konj.",
+      "i-Konj.",
+      "Mischkonj.",
+      "esse",
+      "posse"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amarem",
+       "monerem",
+       "mitterem",
+       "audirem",
+       "caperem",
+       "essem",
+       "possem"
+      ],
+      [
+       "Sg. 2.P.",
+       "amares",
+       "moneres",
+       "mitteres",
+       "audires",
+       "caperes",
+       "esses",
+       "posses"
+      ],
+      [
+       "Pl. 3.P.",
+       "amarent",
+       "monerent",
+       "mitterent",
+       "audirent",
+       "caperent",
+       "essent",
+       "possent"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Konjunktivische ut-Sätze",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Konjunktiv hat in lateinischen Gliedsätzen eine gänzlich andere Funktion als im Deutschen: Er zeigt nämlich an, welche Bedeutung das einleitende Bindewort hat. Während ut mit Indikativ die Bedeutungen „wie“ oder „als“ hat (z. B. Ut scis, te amo. = „Wie du weißt, liebe ich dich.“), kann es mit Konjunktiv drei verschiedene Bedeutungen haben:"
+    },
+    {
+     "type": "text",
+     "text": "a) „dass“ (begehrendes ut) – Verneinung: ne („dass nicht“)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Peto, ut ad me venias. = „Ich bitte dich, dass du zu mir kommst (… zu mir zu kommen).“",
+      "Petivi, ut ad me venires. = „Ich bat dich, dass du zu mir komm(e)st (… zu mir zu kommen).“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "b) „damit“ (bezweckendes/finales ut) – Verneinung: ne („damit nicht“)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Domi maneo, ut dormiam. = „Ich bleibe zu Hause, damit ich schlafe (… um zu schlafen).“",
+      "Domi mansi, ut dormirem. = „Ich blieb zu Hause, damit ich schlief (… um zu schlafen).“"
+     ]
+    },
+    {
+     "type": "tip",
+     "text": "Begehrende und bezweckende ut-Sätze solltest du im Deutschen nach Möglichkeit immer als Infinitivgruppe („zu …“ bzw. „um … zu“) wiedergeben."
+    },
+    {
+     "type": "text",
+     "text": "c) „(so)dass“ (folgerndes/konsekutives ut) – Verneinung: ut non („sodass nicht“)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Dormis, ut me non audias. = „Du schläfst, sodass du mich nicht hörst.“",
+      "Dormiebas, ut me non audires. = „Du schliefst, sodass du mich nicht hörtest.“"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Ob im ut-Satz der Konjunktiv Präsens oder Imperfekt steht, hängt von der Zeit des übergeordneten Satzes ab: Gegenwart → Konj. Präsens; Vergangenheit → Konj. Imperfekt."
+    }
+   ]
+  },
+  {
+   "title": "Doppelter Akkusativ",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Manche Verben ändern ihre Bedeutung, wenn sie mit zwei Akkusativen verbunden sind:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "putare (eigtl. „glauben“) + doppelter Akkusativ = „halten … für“: Te amicum bonum puto. = „Ich halte dich für einen guten Freund.“",
+      "dicere (eigtl. „sagen“) + doppelter Akkusativ = „nennen“: Quintus Iuliam amicam dicit. = „Quintus nennt Julia eine Freundin.“",
+      "vocare (eigtl. „rufen“) + doppelter Akkusativ = „nennen“: Iulia Quintum puerum stultum vocat. = „Julia nennt Quintus einen Dummkopf.“"
+     ]
+    }
+   ]
+  }
+ ]
+}

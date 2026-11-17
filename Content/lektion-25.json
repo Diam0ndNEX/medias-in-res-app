@@ -1,0 +1,290 @@
+{
+ "number": 25,
+ "title": "De Ulixe",
+ "unit": "Der Trojanische Krieg",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "poeta",
+   "forms": "poetae m.",
+   "de": "Dichter",
+   "note": "Poet; frz. poète, ital. + span. poeta",
+   "pos": "Nomen"
+  },
+  {
+   "la": "pervenire",
+   "forms": "pervenio 4, perveni, perventum",
+   "de": "kommen, gelangen",
+   "note": "wörtl.: „durchkommen“",
+   "pos": "Verb"
+  },
+  {
+   "la": "inire",
+   "forms": "ineo, inii, initum",
+   "de": "hineingehen, betreten",
+   "note": "vgl. etwas initiieren (= in Angriff nehmen), Initiative, Initialen (= Anfangsbuchstaben)",
+   "pos": "Verb"
+  },
+  {
+   "la": "exitus",
+   "forms": "exitus m.",
+   "de": "1) Ausgang; 2) Ende, Tod",
+   "note": "engl. exit",
+   "pos": "Nomen"
+  },
+  {
+   "la": "dulcis/e",
+   "forms": "",
+   "de": "süß",
+   "note": "frz. doux/douce, ital. dolce (= Nachspeise)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "forte (Adv.)",
+   "forms": "",
+   "de": "zufällig",
+   "note": "↔ fortis/e",
+   "pos": "Adverb"
+  },
+  {
+   "la": "postulare",
+   "forms": "postulo 1, -avi, -atum",
+   "de": "fordern",
+   "note": "vgl. postulieren, Postulat (= Forderung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "gratia",
+   "forms": "gratiae f.",
+   "de": "Dank",
+   "note": "ital. grazie, span. gracias; vgl. gratis (Abl.): „um den (bloßen) Dank“",
+   "pos": "Nomen"
+  },
+  {
+   "la": "gratias agere",
+   "forms": "",
+   "de": "danken, Dank sagen",
+   "note": "wörtl.: „Dank tun“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "tandem",
+   "forms": "",
+   "de": "endlich, schließlich",
+   "note": "= postremo, denique; ↔ tamen",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "plenus/a/um",
+   "forms": "(+ Gen.)",
+   "de": "voll (mit/von)",
+   "note": "frz. plein, ital. pieno, span. lleno; vgl. das Plenum (= die Vollversammlung)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "ignis",
+   "forms": "ignis m.",
+   "de": "Feuer",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "sumere",
+   "forms": "sumo 3, sumpsi, sumptum",
+   "de": "nehmen",
+   "note": "vgl. consumere",
+   "pos": "Verb"
+  },
+  {
+   "la": "frons",
+   "forms": "frontis f.",
+   "de": "Stirn",
+   "note": "ital. fronte, span. frente; vgl. Front, frontal",
+   "pos": "Nomen"
+  },
+  {
+   "la": "laedere",
+   "forms": "laedo 3, laesi, laesum",
+   "de": "verletzen",
+   "note": "vgl. lädiert",
+   "pos": "Verb"
+  },
+  {
+   "la": "vero",
+   "forms": "",
+   "de": "aber",
+   "note": "↔ verus/a/um (Adjektiv)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "constat",
+   "forms": "constitit, –",
+   "de": "es steht fest (+ ACI: dass)",
+   "note": "vgl. konstant, Konstante (= unveränderbarer Wert)",
+   "pos": "Verb"
+  },
+  {
+   "la": "posterus/a/um",
+   "forms": "",
+   "de": "folgend, nachfolgend",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "postero die",
+   "forms": "(Zeitablativ)",
+   "de": "am folgenden Tag",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "diligens (m./f./n.)",
+   "forms": "diligentis (2.F.)",
+   "de": "sorgfältig, genau",
+   "note": "engl. diligent, ital. + span. diligente",
+   "pos": "Nomen"
+  },
+  {
+   "la": "prodesse",
+   "forms": "prosum, prodes, profui, –",
+   "de": "nützen",
+   "note": "vgl. Prosit! (= „Es soll dir nützen!“)",
+   "pos": "Sonstiges"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Infinitiv Perfekt",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die Perfektinfinitive werden vom Perfektstamm gebildet:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Infinitiv Perfekt Aktiv: aktiver Perfektstamm + -isse",
+      "Infinitiv Perfekt Passiv: passiver Perfektstamm (PPP) + esse"
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Infinitiv Perfekt aktiv",
+      "Infinitiv Perfekt passiv"
+     ],
+     "rows": [
+      [
+       "a-Konjugation",
+       "amav-isse „geliebt (zu) haben“",
+       "amatum esse „geliebt worden (zu) sein“"
+      ],
+      [
+       "e-Konjugation",
+       "monu-isse „ermahnt (zu) haben“",
+       "monitum esse „ermahnt worden (zu) sein“"
+      ],
+      [
+       "konsonant. Konj.",
+       "mis-isse „geschickt (zu) haben“",
+       "missum esse „geschickt worden (zu) sein“"
+      ],
+      [
+       "i-Konjugation",
+       "audiv-isse „gehört (zu) haben“",
+       "auditum esse „gehört worden (zu) sein“"
+      ],
+      [
+       "Mischkonjugation",
+       "cep-isse „gefangen (zu) haben“",
+       "captum esse „gefangen worden (zu) sein“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Der passive Perfektinfinitiv wird im Akkusativ angegeben, da er fast ausschließlich im ACI vorkommt: amatum esse steht hier also für amatum/am/um esse (Sg.) bzw. amatos/as/a esse (Pl.)."
+    }
+   ]
+  },
+  {
+   "title": "Accusativus cum infinitivo (ACI)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der ACI ist ein aus einem Akkusativ und einem Infinitiv bestehender Satzteil, der im Deutschen meistens nicht wörtlich übersetzt werden kann, sondern zu einem „dass“-Satz umgeformt wird:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Legimus Ulixem ad speluncam pervenisse. (wörtl.: „Wir lesen Odysseus zu einer Höhle gekommen zu sein.“) = „Wir lesen, dass Odysseus zu einer Höhle gekommen ist.“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Wie du aus diesem Beispiel siehst, wird der lateinische Akkusativ im Deutschen zum Subjekt („Subjektsakkusativ“) und der Infinitiv zum Prädikat des „dass“-Satzes:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "lat. ACI",
+      "",
+      "Subjektsakkusativ",
+      "Infinitiv"
+     ],
+     "rows": [
+      [
+       "dt. Gliedsatz",
+       "„dass“ +",
+       "Nominativ",
+       "Prädikat"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Der Infinitiv drückt im ACI keine bestimmte Zeit, sondern ein Zeitverhältnis aus:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Lateinisch",
+      "Deutsch"
+     ],
+     "rows": [
+      [
+       "Inf. Präsens → gleichzeitig",
+       "Scio Iuliam venire.",
+       "„Ich weiß, dass Julia kommt.“"
+      ],
+      [
+       "Inf. Präsens → gleichzeitig",
+       "Scivi Iuliam venire.",
+       "„Ich wusste, dass Julia kam.“"
+      ],
+      [
+       "Inf. Perfekt → vorzeitig",
+       "Scio Iuliam venisse.",
+       "„Ich weiß, dass Julia gekommen ist.“"
+      ],
+      [
+       "Inf. Perfekt → vorzeitig",
+       "Scivi Iuliam venisse.",
+       "„Ich wusste, dass Julia gekommen war.“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bei der Übersetzung des Infinitivs musst du also immer die Zeit des übergeordneten Verbums mitberücksichtigen!"
+    },
+    {
+     "type": "note",
+     "text": "Das Reflexivpronomen se wird als Subjektsakkusativ im ACI mit „dass er“ bzw. „dass sie“ (je nach dem Subjekt im Hauptsatz) übersetzt: Ulixes intellexit se ad speluncam Polyphemi pervenisse. = „Odysseus erkannte, dass er zur Höhle des Polyphem gekommen war.“ – Graeci intellexerunt se ad speluncam Polyphemi pervenisse. = „Die Griechen erkannten, dass sie zur Höhle des Polyphem gekommen waren.“"
+    }
+   ]
+  }
+ ]
+}

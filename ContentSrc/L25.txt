@@ -1,0 +1,49 @@
+#25 De Ulixe | Der Trojanische Krieg | 6
+== VOKABELN
+poeta | poetae m. | Dichter | Poet; frz. poète, ital. + span. poeta
+pervenire | pervenio 4, perveni, perventum | kommen, gelangen | wörtl.: „durchkommen“
+inire | ineo, inii, initum | hineingehen, betreten | vgl. etwas initiieren (= in Angriff nehmen), Initiative, Initialen (= Anfangsbuchstaben)
+exitus | exitus m. | 1) Ausgang; 2) Ende, Tod | engl. exit
+dulcis/e | | süß | frz. doux/douce, ital. dolce (= Nachspeise)
+forte (Adv.) | | zufällig | ↔ fortis/e
+postulare | postulo 1, -avi, -atum | fordern | vgl. postulieren, Postulat (= Forderung)
+gratia | gratiae f. | Dank | ital. grazie, span. gracias; vgl. gratis (Abl.): „um den (bloßen) Dank“
+gratias agere | | danken, Dank sagen | wörtl.: „Dank tun“
+tandem | | endlich, schließlich | = postremo, denique; ↔ tamen
+plenus/a/um | (+ Gen.) | voll (mit/von) | frz. plein, ital. pieno, span. lleno; vgl. das Plenum (= die Vollversammlung)
+ignis | ignis m. | Feuer |
+sumere | sumo 3, sumpsi, sumptum | nehmen | vgl. consumere
+frons | frontis f. | Stirn | ital. fronte, span. frente; vgl. Front, frontal
+laedere | laedo 3, laesi, laesum | verletzen | vgl. lädiert
+vero | | aber | ↔ verus/a/um (Adjektiv)
+constat | constitit, – | es steht fest (+ ACI: dass) | vgl. konstant, Konstante (= unveränderbarer Wert)
+posterus/a/um | | folgend, nachfolgend |
+postero die | (Zeitablativ) | am folgenden Tag |
+diligens (m./f./n.) | diligentis (2.F.) | sorgfältig, genau | engl. diligent, ital. + span. diligente
+prodesse | prosum, prodes, profui, – | nützen | vgl. Prosit! (= „Es soll dir nützen!“)
+== GRAMMATIK
+## Infinitiv Perfekt
+Die Perfektinfinitive werden vom Perfektstamm gebildet:
+- Infinitiv Perfekt Aktiv: aktiver Perfektstamm + -isse
+- Infinitiv Perfekt Passiv: passiver Perfektstamm (PPP) + esse
+| | Infinitiv Perfekt aktiv | Infinitiv Perfekt passiv |
+| a-Konjugation | amav-isse „geliebt (zu) haben“ | amatum esse „geliebt worden (zu) sein“ |
+| e-Konjugation | monu-isse „ermahnt (zu) haben“ | monitum esse „ermahnt worden (zu) sein“ |
+| konsonant. Konj. | mis-isse „geschickt (zu) haben“ | missum esse „geschickt worden (zu) sein“ |
+| i-Konjugation | audiv-isse „gehört (zu) haben“ | auditum esse „gehört worden (zu) sein“ |
+| Mischkonjugation | cep-isse „gefangen (zu) haben“ | captum esse „gefangen worden (zu) sein“ |
+Der passive Perfektinfinitiv wird im Akkusativ angegeben, da er fast ausschließlich im ACI vorkommt: amatum esse steht hier also für amatum/am/um esse (Sg.) bzw. amatos/as/a esse (Pl.).
+## Accusativus cum infinitivo (ACI)
+Der ACI ist ein aus einem Akkusativ und einem Infinitiv bestehender Satzteil, der im Deutschen meistens nicht wörtlich übersetzt werden kann, sondern zu einem „dass“-Satz umgeformt wird:
+- Legimus Ulixem ad speluncam pervenisse. (wörtl.: „Wir lesen Odysseus zu einer Höhle gekommen zu sein.“) = „Wir lesen, dass Odysseus zu einer Höhle gekommen ist.“
+Wie du aus diesem Beispiel siehst, wird der lateinische Akkusativ im Deutschen zum Subjekt („Subjektsakkusativ“) und der Infinitiv zum Prädikat des „dass“-Satzes:
+| lat. ACI | | Subjektsakkusativ | Infinitiv |
+| dt. Gliedsatz | „dass“ + | Nominativ | Prädikat |
+Der Infinitiv drückt im ACI keine bestimmte Zeit, sondern ein Zeitverhältnis aus:
+| | Lateinisch | Deutsch |
+| Inf. Präsens → gleichzeitig | Scio Iuliam venire. | „Ich weiß, dass Julia kommt.“ |
+| Inf. Präsens → gleichzeitig | Scivi Iuliam venire. | „Ich wusste, dass Julia kam.“ |
+| Inf. Perfekt → vorzeitig | Scio Iuliam venisse. | „Ich weiß, dass Julia gekommen ist.“ |
+| Inf. Perfekt → vorzeitig | Scivi Iuliam venisse. | „Ich wusste, dass Julia gekommen war.“ |
+Bei der Übersetzung des Infinitivs musst du also immer die Zeit des übergeordneten Verbums mitberücksichtigen!
+? Das Reflexivpronomen se wird als Subjektsakkusativ im ACI mit „dass er“ bzw. „dass sie“ (je nach dem Subjekt im Hauptsatz) übersetzt: Ulixes intellexit se ad speluncam Polyphemi pervenisse. = „Odysseus erkannte, dass er zur Höhle des Polyphem gekommen war.“ – Graeci intellexerunt se ad speluncam Polyphemi pervenisse. = „Die Griechen erkannten, dass sie zur Höhle des Polyphem gekommen waren.“

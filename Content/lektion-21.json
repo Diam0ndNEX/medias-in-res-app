@@ -1,0 +1,327 @@
+{
+ "number": 21,
+ "title": "De Paridis iudicio",
+ "unit": "Der Trojanische Krieg",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "praeter (+ Akk.)",
+   "forms": "",
+   "de": "außer",
+   "note": "",
+   "pos": "Präposition"
+  },
+  {
+   "la": "discordia",
+   "forms": "discordiae f.",
+   "de": "Zwietracht, Streit",
+   "note": "ital. + span. discordia; ↔ concordia",
+   "pos": "Nomen"
+  },
+  {
+   "la": "controversia",
+   "forms": "controversiae f.",
+   "de": "Auseinandersetzung",
+   "note": "vgl. Kontroverse; aus: contra + vertere!",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iacere",
+   "forms": "iacio M, ieci, iactum",
+   "de": "werfen, schleudern",
+   "note": "vgl. projizieren, Projektor",
+   "pos": "Verb"
+  },
+  {
+   "la": "Venus",
+   "forms": "Veneris f.",
+   "de": "Venus",
+   "note": "Göttin der Liebe (griech.: Aphrodite)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "certare",
+   "forms": "certo 1, -avi, -atum",
+   "de": "1) streiten; 2) wetteifern",
+   "note": "vgl. Kon-zert",
+   "pos": "Verb"
+  },
+  {
+   "la": "iudicare",
+   "forms": "iudico 1, -avi, -atum",
+   "de": "1) urteilen, beurteilen; 2) richten",
+   "note": "vgl. iudicium, -i",
+   "pos": "Verb"
+  },
+  {
+   "la": "deligere",
+   "forms": "deligo 3, -legi, -lectum",
+   "de": "auswählen",
+   "note": "vgl. engl. election (= Wahl)",
+   "pos": "Verb"
+  },
+  {
+   "la": "praemium",
+   "forms": "praemii n.",
+   "de": "Belohnung, Preis",
+   "note": "Prämie, prämieren",
+   "pos": "Nomen"
+  },
+  {
+   "la": "praeterea (Adv.)",
+   "forms": "",
+   "de": "außerdem",
+   "note": "aus: praeter + ea (wörtl.: „außer diesem“)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "dives (m./f./n.)",
+   "forms": "divitis (2.F.)",
+   "de": "reich",
+   "note": "vgl. divitiae, -arum",
+   "pos": "Nomen"
+  },
+  {
+   "la": "fortitudo",
+   "forms": "fortitudinis f.",
+   "de": "Tapferkeit",
+   "note": "vgl. fortis/e",
+   "pos": "Nomen"
+  },
+  {
+   "la": "quia",
+   "forms": "",
+   "de": "weil",
+   "note": "= quod (Einleitung eines Kausalsatzes)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "Graecia",
+   "forms": "Graeciae f.",
+   "de": "Griechenland",
+   "note": "↔ Graeci, -orum",
+   "pos": "Nomen"
+  },
+  {
+   "la": "decernere",
+   "forms": "decerno 3, decrevi, decretum",
+   "de": "beschließen",
+   "note": "vgl. Dekret (= amtlicher Beschluss)",
+   "pos": "Verb"
+  },
+  {
+   "la": "eo (Adv.)",
+   "forms": "",
+   "de": "dorthin",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "fides",
+   "forms": "fidei f.",
+   "de": "Treue, Vertrauen (hier: Schutz)",
+   "note": "ital. fede",
+   "pos": "Nomen"
+  },
+  {
+   "la": "mandare",
+   "forms": "mando 1, -avi, -atum",
+   "de": "anvertrauen",
+   "note": "vgl. Mandant; eigentl.: in manum dare",
+   "pos": "Verb"
+  },
+  {
+   "la": "occasio",
+   "forms": "occasionis f.",
+   "de": "Gelegenheit",
+   "note": "engl. occasion, frz. occasion, span. ocasión",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iungere",
+   "forms": "iungo 3, iunxi, iunctum",
+   "de": "verbinden",
+   "note": "vgl. con-iungere",
+   "pos": "Verb"
+  },
+  {
+   "la": "maritus",
+   "forms": "mariti m.",
+   "de": "Gatte, Ehemann",
+   "note": "frz. mari, ital. marito, span. marido",
+   "pos": "Nomen"
+  },
+  {
+   "la": "aut … aut",
+   "forms": "",
+   "de": "entweder … oder",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "eiusmodi",
+   "forms": "(= huiusmodi)",
+   "de": "derartig",
+   "note": "wörtl.: „dieser Art“; vgl. modus, Lec. 12",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "Troia",
+   "forms": "Troiae f.",
+   "de": "Troja",
+   "note": "",
+   "pos": "Nomen"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Überblick über die lateinische Zeitenbildung (Indikativ)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "A) Präsensstamm:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Aktiv",
+      "Passiv"
+     ],
+     "rows": [
+      [
+       "Präsens",
+       "Sg.: -o, -s, -t; Pl.: -mus, -tis, -nt",
+       "Sg.: -or, -ris, -tur; Pl.: -mur, -mini, -ntur"
+      ],
+      [
+       "Imperfekt",
+       "Sg.: -bam, -bas, -bat; Pl.: -bamus, -batis, -bant",
+       "Sg.: -bar, -baris, -batur; Pl.: -bamur, -bamini, -bantur"
+      ],
+      [
+       "Futur (a- und e-Konjugation)",
+       "Sg.: -bo, -bis, -bit; Pl.: -bimus, -bitis, -bunt",
+       "Sg.: -bor, -beris, -bitur; Pl.: -bimur, -bimini, -buntur"
+      ],
+      [
+       "Futur (übrige Konjugationen)",
+       "Sg.: -am, -es, -et; Pl.: -emus, -etis, -ent",
+       "Sg.: -ar, -eris, -etur; Pl.: -emur, -emini, -entur"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "B) Perfektstamm:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Aktiv",
+      "Passiv"
+     ],
+     "rows": [
+      [
+       "Perfekt",
+       "Sg.: -i, -isti, -it; Pl.: -imus, -istis, -erunt",
+       "Sg.: PPP + sum, es, est; Pl.: PPP + sumus, estis, sunt"
+      ],
+      [
+       "Plusquamperfekt",
+       "Sg.: -eram, -eras, -erat; Pl.: -eramus, -eratis, -erant",
+       "Sg.: PPP + eram, eras, erat; Pl.: PPP + eramus, eratis, erant"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Adverbia (Umstandswörter)",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "Adjektiva bestimmen ein Nomen näher: Miles fortis pugnat. = „Der tapfere Soldat kämpft.“ (Frage: Was für ein Soldat kämpft?)",
+      "Adverbia bestimmen ein Verb (ad verbum = „zum Verb“!) näher: Miles fortiter pugnat. = „Der Soldat kämpft tapfer.“ (Frage: Auf welche Weise kämpft er?)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "a) Die Bildung des Adverbs in der Grundstufe ist abhängig von der Deklination des Adjektivs:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Adjektiv",
+      "Adverb"
+     ],
+     "rows": [
+      [
+       "Adj. der a-/o-Dekl. → -e",
+       "certus, certa, certum",
+       "certe („sicher“)"
+      ],
+      [
+       "Adj. der a-/o-Dekl. → -e",
+       "pulcher, pulchra, pulchrum",
+       "pulchre („schön“)"
+      ],
+      [
+       "Adj. der 3. Dekl. → -iter",
+       "fortis, forte",
+       "fortiter („tapfer“)"
+      ],
+      [
+       "Adj. der 3. Dekl. → -iter",
+       "atrox, atrocis",
+       "atrociter („wild“)"
+      ],
+      [
+       "Adj. der 3. Dekl. → -iter",
+       "celer, celeris, celere",
+       "celeriter („schnell“)"
+      ],
+      [
+       "Adj. auf -ns → -nter",
+       "prudens, prudentis",
+       "prudenter („klug“)"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Beachte folgende Ausnahmen: bonus → bene; facilis → facile."
+    },
+    {
+     "type": "text",
+     "text": "b) Bildung im Komparativ: Stamm der Grundstufe + -ius: certius („sicherer“), pulchrius („schöner“), fortius („tapferer“), atrocius („wilder“), facilius („leichter“) etc. – z. B.: Miles fortius pugnavit. = „Der Soldat kämpfte tapferer (ziemlich tapfer).“"
+    },
+    {
+     "type": "text",
+     "text": "c) Bildung im Superlativ: Superlativstamm + -e:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "certe → certissime („am sichersten“)",
+      "fortis → fortissime („am tapfersten“)",
+      "atrox → atrocissime („am wildesten“)",
+      "pulcher → pulcherrime („am schönsten“)",
+      "facilis → facillime („am leichtesten“)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "z. B.: Miles fortissime pugnavit. = „Der Soldat kämpfte am tapfersten (sehr tapfer).“"
+    },
+    {
+     "type": "note",
+     "text": "Neben den Adverbia, die von Adjektiva abgeleitet sind, gibt es auch zahlreiche Einzeladverbia: z. B. mox („bald“), statim („sofort“), olim („einst“), iterum („wieder“) etc."
+    }
+   ]
+  }
+ ]
+}

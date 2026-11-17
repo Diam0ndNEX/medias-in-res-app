@@ -1,0 +1,297 @@
+{
+ "number": 23,
+ "title": "De equo Troiano",
+ "unit": "Der Trojanische Krieg",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "Troianus/a/um",
+   "forms": "",
+   "de": "trojanisch",
+   "note": "↔ Troiani, -orum",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "Ulixes",
+   "forms": "Ulixis m.",
+   "de": "Odysseus",
+   "note": "vgl. James Joyces Roman „Ulysses“",
+   "pos": "Nomen"
+  },
+  {
+   "la": "etsi",
+   "forms": "",
+   "de": "wenn auch, obwohl",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "firmus/a/um",
+   "forms": "",
+   "de": "stark",
+   "note": "vgl. Firmung (= „Stärkung“ im Glauben)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "numquam (Adv.)",
+   "forms": "",
+   "de": "niemals",
+   "note": "span. nunca",
+   "pos": "Adverb"
+  },
+  {
+   "la": "includere",
+   "forms": "includo 3, inclusi, inclusum",
+   "de": "einschließen",
+   "note": "vgl. inkludieren; inklusive",
+   "pos": "Verb"
+  },
+  {
+   "la": "cum (+ Konj.)",
+   "forms": "",
+   "de": "1) als; 2) weil; 3) obwohl",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "apparere",
+   "forms": "appareo 2, apparui, –",
+   "de": "erscheinen",
+   "note": "engl. to appear, ital. apparire, span. aparecer",
+   "pos": "Verb"
+  },
+  {
+   "la": "intra (+ Akk.)",
+   "forms": "",
+   "de": "innerhalb",
+   "note": "vgl. intravenös, intramuskulär etc.",
+   "pos": "Präposition"
+  },
+  {
+   "la": "favere (+ Dat.)",
+   "forms": "faveo 2, favi, fautum",
+   "de": "begünstigen, bevorzugen",
+   "note": "vgl. favorisieren",
+   "pos": "Verb"
+  },
+  {
+   "la": "arx",
+   "forms": "arcis f.",
+   "de": "Burg",
+   "note": "↔ ars, artis",
+   "pos": "Nomen"
+  },
+  {
+   "la": "victoria",
+   "forms": "victoriae f.",
+   "de": "Sieg",
+   "note": "engl. victory, frz. victoire, ital. vittoria, span. victoria",
+   "pos": "Nomen"
+  },
+  {
+   "la": "vinum",
+   "forms": "vini n.",
+   "de": "Wein",
+   "note": "frz. vin, ital. + span. vino",
+   "pos": "Nomen"
+  },
+  {
+   "la": "celebrare",
+   "forms": "celebro 1, -avi, -atum",
+   "de": "feiern",
+   "note": "vgl. zelebrieren, engl. celebrities",
+   "pos": "Verb"
+  },
+  {
+   "la": "universi/ae/a",
+   "forms": "",
+   "de": "alle (gemeinsam)",
+   "note": "ital. universale; vgl. universal, Universum",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "interea (Adv.)",
+   "forms": "",
+   "de": "inzwischen",
+   "note": "aus: inter + ea = „zwischen diesen (Dingen)“",
+   "pos": "Adverb"
+  },
+  {
+   "la": "redire",
+   "forms": "redeo, redii, reditum",
+   "de": "zurückkehren",
+   "note": "↔ reddere 3, reddidi, redditum",
+   "pos": "Verb"
+  },
+  {
+   "la": "aperire",
+   "forms": "aperio 4, aperui, apertum",
+   "de": "öffnen",
+   "note": "frz. ouvrir, ital. aprire, span. abrir; vgl. Aperitif",
+   "pos": "Verb"
+  },
+  {
+   "la": "flamma",
+   "forms": "flammae f.",
+   "de": "Flamme",
+   "note": "ital. fiamma (fiammifero = Streichholz)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "consumere",
+   "forms": "consumo 3, consumpsi, consumptum",
+   "de": "1) vernichten; 2) verbrauchen",
+   "note": "vgl. konsumieren, Konsument, Konsum",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Konjunktiv Perfekt und Plusquamperfekt",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Im Gegensatz zum Konjunktiv Präsens und Imperfekt werden diese beiden Konjunktive vom Perfektstamm gebildet. Dementsprechend ist das Passiv, wie jede Form des passiven Perfektstammes, zweiteilig."
+    },
+    {
+     "type": "text",
+     "text": "a) Konjunktiv Perfekt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Aktiv: aktiver Perfektstamm + -erim, -eris, -erit (Sg.) bzw. -erimus, -eritis, -erint (Pl.)",
+      "Passiv: PPP + sim, sis, sit (Sg.) bzw. simus, sitis, sint (Pl.)"
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj. Aktiv",
+      "a-Konj. Passiv",
+      "e-Konj. Aktiv",
+      "e-Konj. Passiv"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amaverim",
+       "amatus/a sim",
+       "monuerim",
+       "monitus/a sim"
+      ],
+      [
+       "Sg. 2.P.",
+       "amaveris",
+       "amatus/a sis",
+       "monueris",
+       "monitus/a sis"
+      ],
+      [
+       "Pl. 3.P.",
+       "amaverint",
+       "amati/ae sint",
+       "monuerint",
+       "moniti/ae sint"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "b) Konjunktiv Plusquamperfekt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Aktiv: Perfektstamm + -issem, -isses, -isset (Sg.) bzw. -issemus, -issetis, -issent (Pl.)",
+      "Passiv: PPP + essem, esses, esset (Sg.) bzw. essemus, essetis, essent (Pl.)"
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj. Aktiv",
+      "a-Konj. Passiv",
+      "e-Konj. Aktiv",
+      "e-Konj. Passiv"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amavissem",
+       "amatus/a essem",
+       "monuissem",
+       "monitus/a essem"
+      ],
+      [
+       "Sg. 2.P.",
+       "amavisses",
+       "amatus/a esses",
+       "monuisses",
+       "monitus/a esses"
+      ],
+      [
+       "Pl. 3.P.",
+       "amavissent",
+       "amati/ae essent",
+       "monuissent",
+       "moniti/ae essent"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Konjunktivische cum-Sätze",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Wie bei ut zeigt auch beim Bindewort cum der Konjunktiv lediglich an, dass cum eine andere als die gewohnte Bedeutung (cum + Indikativ: „wenn“, „sooft“, „als“) hat. Darüber hinaus kannst du aus der Art des Konjunktivs ablesen, welches Zeitverhältnis der Gliedsatz zum Hauptsatz hat (Konj. Präsens und Imperfekt → gleichzeitig, Konj. Perfekt/Plqpf. → vorzeitig)."
+    },
+    {
+     "type": "text",
+     "text": "a) „als“, „nachdem“, „während“ (zeitlich/temporal)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Cum dormirem, de te somniabam. = „Als/während ich schlief, träumte ich von dir.“",
+      "Cum dormivissem, pensa feci. = „Nachdem ich geschlafen hatte, machte ich die Aufgaben.“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "b) „weil“ (begründend/kausal)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Cum mihi placeas, tibi rosam dono. = „Weil du mir gefällst, schenke ich dir eine Rose.“",
+      "Cum mihi placeres, tibi rosam donavi. = „Weil du mir gefielst, schenkte ich dir eine Rose.“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "c) „obwohl“ (einschränkend/konzessiv; oft im Hauptsatz mit tamen = „dennoch“!)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Cum te amarem, te (tamen) reliqui. = „Obwohl ich dich liebte, habe ich dich (dennoch) verlassen.“",
+      "Cum te olim amaverim, nunc aliam puellam amo. = „Obwohl ich dich einst geliebt habe, liebe ich jetzt ein anderes Mädchen.“"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "In cum-Sätzen darfst du den Konjunktiv nicht übersetzen, sondern musst ihn als Indikativ wiedergeben."
+    },
+    {
+     "type": "tip",
+     "text": "Als Erstübersetzung für cum ist „als“ meistens gut brauchbar!"
+    }
+   ]
+  }
+ ]
+}
