@@ -13,3 +13,10 @@ iOS-App (Deutsch) zum Lernen und Wiederholen von Vokabeln, Grammatik und Formen 
 - Buch: `book/pdf/`, OCR-Text: `book/ocr/`
 
 Siehe [PLAN.md](PLAN.md) für Umfang und Stand.
+
+## Web-Version (für alle ohne Sideloading)
+`web/` enthält dieselbe App als Web-App (PWA): `index.html` + Manifest + Offline-Cache + Icons.
+- Neu bauen: `python3 scripts/build_web.py` (nach jeder Inhaltsänderung)
+- Zum Hosten den Ordner `web/` auf einen statischen Webspace legen (z. B. GitHub Pages, Netlify, Cloudflare Pages).
+- iPhone: Seite in Safari öffnen → Teilen → „Zum Home-Bildschirm“. Android: Chrome → „App installieren“.
+- Der Fortschritt bleibt im Browser des jeweiligen Geräts (Backup über „Mehr“ → Fortschritt sichern).
