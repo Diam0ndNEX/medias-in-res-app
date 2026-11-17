@@ -1,0 +1,74 @@
+IQ
+2,4) Grammatica
+
+d Ist an der Silbe »r1s (1,F. Sg.) bzw. erh R
+
+Das Partizip Präsens (erstes Mittelwort) wird vom Präsensstamm gebildet un
+(übrige Fälle) zu erkennen. Es dekliniert wie die Mischstämme (> 5. 48)
+
+Singular 1 Plural Übersetzung: ’
+| | a = \ za Ä | Das Partizip Präsens Ist aktiv und gleichzeitig:
+.+t. } \m.+f. ©] amans = „liebend“ (= „einer, der liebt”); „ein Liebendap
+15 amans amantes amantia
+r z dung
+2 omantis amantium art F
+; | » als Adjektiv: Christiani orantes = „die betenden Christens
+amanti | amantibus | » als Nomen: orantes = „die Betenden”
+4| amantem | amans | amantes | amantia » als Participlum coniunctum (siehe unten)
+6 amante amantibus
+
+ebenso: monens, -entis, mittens, -entis, audiens, -entis, capiens, -entis; PPA von re: IenS, euntis
+
+Participium coniunctum (PC)
+
+Unter dem Participium coniunctum (‚verbundenes Partizip") versteht man ein Partizip, das
+* mit einem Nomen übereingestimmit ist,
+« nicht unmittelbar neben diesem Nomen steht, sondern eine Sperrung (= Klammer) bildet.
+
+Da die wörtliche Übersetzung in solchen Fällen meist nicht wirklich „deutsch“ klingt, musst du eine solche
+
+Sperrung auflösen, und zwar am besten in einen Relativsatz’
+
+* Dor Rei infa
+Christioni ad deum suum orantes e periculis servati sunt Der Relativsatz Ist die einfachste Möglichka
+. ein Participlum conlunctum zu Übersetzen
+
+Weitere Möglichkeiten: mit „als“ (t
+
+weil" (kausal), „obwohl“ (konzessiv),
+(Die Christen, zu ihrem Gott betend, wurden aus Gefahren gerettet. =) “wenn” (konditionaf) oder als Hauptsatzung
+„Die Christen, die zu ihrem Gott beteten, wurden aus Gefahren gerettet.” „und“ (beiordnend)
+
+ıIFP PpA1FPp
+
+Bei der Übersetzung von Sperrungen musst du auf die Art des Partizips achten: I
+I Merkmal | Eigenschaften | Beispiel a
+Partizip Präsens (PPA) | -ns, -ntis (3. Dekl) | aktiv + gleichzeitig amans = „einer, der liebt"
+Partizip Perfekt (PPP) | -tus/-sus (a/o-Dekl.) | passiv + vorzeitig | amatus/a/um = „einer, der geliebt worden ist
+Partizip Futur (PFA) | urus (a/0-Dekl.) aktiv + nachzeitig amaturus/a/um = „einer, der lieben wird”
+« PPA (> gleichzeitig): Im Relativsatz steht dieselbe Zeit wie im übergeordneten (9%)
+
+Satz (Beispiel siehe oben)
+Plgpf. Perf,/impf. Präs. \
+
+‚|
+
+» PPP (> vorzeitig): Die Zeit im Relativsatz liegt eine Zeitstufe vor der Zeit
+im übergeordneten Satz (vgl. S. 116):
+
+Romani ab hostibus inclusi (PPP) magno in periculo erant. (\Imperfekt)
+
+- „Die Römer, die von den Feinden eingeschlossen worden waren (Plapf.),
+befanden sich in großer Gefahr,”
+
+plapf. Perf/lmpf, Präs. || ı
+
+»PFA (> nachzeitig): Das Futurpartizip kommt nur selten als PC vor; es
+
+bezeichnet dann den Zweck einer Handlung (finale Bedeutung) und wird mit N
+„um zu...” übersetzt: —
+Präs. Futur
+
+| Marcus Aurelius Danuvium translit Germanos victurus,
+| - „Mark Aurel überquerte die Donau, um die Germanen zu besiegen.”
+

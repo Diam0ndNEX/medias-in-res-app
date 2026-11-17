@@ -1,0 +1,75 @@
+39
++.) Grammatica
+
+Konjunktiv Perfekt und Plusauamperfekt
+
+Im Gegensatz zum Konjunktiv Präsens und Imperfekt werden diese beiden Konjunktive vom Perfektstam
+Dementsprechend Ist das Passiv, wie Jede Form des passiven Perfektstammes, zweltellig.
+
+a) Konjunktiv Perfekt:
+* Aktiv; aktiver Perfektstamm + -erim, -eris, -erit (Sg.) bzw. »erimus, -eritis, -erint (Pl.)
+* Passiv: PPP + sim, sis, sit (Sg.) bzw. simus, sitis, sint (Pl.)
+
+m Pebildyg N
+
+a-Konjugation*® e-Konjugation* ]
+Aktiv Passiv Aktiv Passiv
+
+amaverim amatus/a sim monuerim monitus/a sim
+
+amaveris amatus/a sis monueris monitus/a sis |
+
+ı s + ı |
+
+Pl. | amaverint | amati/ae sint  monuerint | moniti/ae sint |
+*) Zu den Formen der übrigen Konjugationen vol. $. 1921
+
+b) Konjunktiv Plusquamperfekt: |
+
+» Aktiv: Perfektstamm + -Issem, -Isses, -Isset (5g.) bzw. -issemus, -Issetis, -issent (Pl,) j
+» Passiv: PPP + essem, esses, esset (Sg.) bzw. essemus, essetis, essent (Pl,)
+
+a-Konjugation* e-Konjugation*
+Aktiv Passiv Aktiv Passiv
+sg amavissem amatus/a essem monuissem monitus/a essem |
+amavisses amatus/a esses monuisses monitus/a esses
+N s s s \
+
+Pl. | amavissent amatilae essent monulissent | monitirae essent | |
+
+*) Zu den Formen der übrigen Konjugationen vgl. S. 1921 i
+
+Konjunktivische cum-Sätze
+
+Wie bel ut, zeigt auch beim Bindewort cum der Konjunktiv lediglich an, dass cum eine andere als die gewohnte Bede:
+(cum + Indikativ: „wenn“, „sooft“, „als”) hat. Darüber hinaus kannst du aus der Art des Konjunktivs ablesen, welches
+Zeitverhältnis der Gliedsatz zum Hauptsatz hat (Konj. Präsens und Imperfekt > gleichzeitig, Konj. Perfekt/Plgpf. > vorzeie
+
+a) „als”, „nachdem“, „während“ (zeitlich/temporal)
+Cum dormirem, de te somniabam. = „Als/während ich schlief, träumte ich von dir.”
+Cum dormivissem, pensa feci. = „Nachdem ich geschlafen hatte, machte ich die Aufgaben.”
+
+b) „weil“ (begründend/kausal)
+Cum mihi placeas, tibl rosam dono. = „Weil du mir gefällst, schenke ich dir eine Rose.”
+Cum mihl placeres, tibi rosam donavi. = „Weil du mir gefielst, schenkte ich dir eine Rose.”
+
+c) „obwohl“ (einschränkend/konzessiv; oft im Hauptsatz mit tamen = „dennoch”')
+Cum te amarem, te (tamen) reliqui. = „Obwohl ich dich liebte, habe ich dich (dennoch) verlassen.”
+Cum te olim amaverim, nunc aliam puellam amo. = „Obwohl ich dich einst geliebt habe, liebe ich jetzt ein ande
+
+Mädchen.”
+
+NOTA BENE!
+In cum-Sätzen darfst du den Konjunktiv nicht übersetzen, sondern musst ihn als Indikativ wiedergeben.
+
+‚elche Konjunktive handelt es sich jeweils und mit welcher Zeit
+
+? Überprüfe die oben angeführten Beispiele: Um w
+für die Wiedergabe der lateinischen Konjunktive im Deutschen ka
+
+werden sie wiedergegeben? Welche simple Regel
+man daraus ableiten?
+
+TIPP: Als Erstübersetzung für cum Ist „als“ meistens gut brauchbarl
+
+108

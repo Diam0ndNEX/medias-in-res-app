@@ -1,0 +1,67 @@
+Grammatica
+
+Infinitiv Präsens passiv
+
+Der Infinitiv Präsens passiv endet bei der a-, e- und /-Konjugation auf -r/, bel den übrigen auf -':
+
+a-Konj e-Konj kons. Kon]. iKon]. Mischkon|. |
+amär monöri mitt! audiri cdpi |
+„geliebt „ermahnt „geschickt „gehört „gefangen |
+zu werden” zu werden” zu werden” zu werden’ zu werden“ |
+
+Partizip Futur und Infinitiv Futur aktiv
+
+Im Lateinischen gibt es auch ein Partizip Futur. Es wird vom PPP gebildet, wobei die Endung -us/a/um durch -urusyay,
+ersetzt wird bi.
+amatus/a/um > amaturus/a/um, monitus/a/um > moniturus/a/um, missus/a/um > missurus/a/um (etc.)
+
+Verwendet wird das Partizip Futur vor allem in Kombination mit esse zur Bildung des Infinitivs Futur aktiv:
+amaturum esse, moniturum esse, dicturum esse
+
+Der Infinitiv Futur aktiv kommt fast nur im ACI vor. Wie beim Infinitiv Perfekt passiv muss dabei die Endung des Partizip,
+mit dem Subjektsakkusativ übereingestimmt werden
+
+Quintus amicos \mox venturoslesse sperat
+= „Quintus hofft, dass die Freunde bald kommen werden.’
+
+Quintus omicas\mox venturaslesse sperat
+= „Quintus hofft, dass die Freundinnen bald kommen werden.”
+
+Überblick: alle Infinitive
+
+a-Kon|. e-Konj. kons. Konj. i-Konj. j Mischkonj,
+Präsens aktiv | amäre monere mittere audire cäpere j
+Präsens passiv | amär moneri mitti audiri cäpi u
+Perfekt aktiv | amavisse monuisse misisse audivisse cepisse
+Perfekt passiv | amätum esse mönitum esse missum esse auditum esse cäptum esse
+
+auditurum esse | capturum esse
+
+Futur aktiv | amaturum esse moniturum esse | missurum esse
+NOTA BENE!
+« Der Infinitiv Präsens ist gleichzeitig. > steht für eine Handlung, die zugleich mit der Haupthandlung stattfindet
+« Der Infinitiv Perfekt ist vorzeitig. > steht für eine Handlung, die vor der Haupthandlung stattgefunden hat
+« Der Infinitiv Futur ist nachzeitig. > steht für eine Handlung, die nach der Haupthandlung stattfinden wird
+
+Nominativus cum infinitivo (NCI) \
+
+Bei einigen Verba steht im Passiv der NCI, die Verbindung eines Nominativs mit einem Infinitiv:
+
+« dicitur / dicuntur + NCI = „er/sie/es soll” (Sg.) / „sie sollen“ (Pl.); „man sagt, dass er/sie/es ..."
+« videtur / videntur + NCI = „er/sie/es scheint“ (Sg.) / „sie scheinen“ (Pl.); „es scheint, dass er/sie/es ..." 4
+Christus respondisse dicitur. = 1) „Christus soll geantwortet haben.“
+2) „Man sagt, dass Christus geantwortet hat.” ]
+Christus ei obviam venire videbatur. = 1) „Christus schien ihm entgegenzukommen.”
+2) „Es schien, dass Christus ihm entgegenkam.“ <
+
+Dativ des Interesses (Dativus commodi) N
+
+Wenn ein Dativ ausdrückt, wofür oder für wen etwas geschieht, wird er mit „für übersetzt:
+
+Fugere Petro difficile non erat. = „Zu flüchten war für Petrus nicht schwer.”
+Non scholae, sed vitae discimus. = „Nicht für die Schule, sondern fürs Leben lernen wir.“ (vgl. S. 10)
+
+126
+
+ ı — __-
+

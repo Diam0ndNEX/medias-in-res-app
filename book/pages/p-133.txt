@@ -1,0 +1,63 @@
+ .Yy
+4 > Grammatica
+
+Ablativus absolutus (Abl. abs.)
+
+Der Ablativus absolutus (Abl. abs, „losgelöster Ablativ”) besteht
+8) aus einem Nomen oder Pronomen im Ablativ und
+b) einem damit übereingestimmten Partizip (Präsens oder Perfekt)
+Diese Wortgruppe darf nicht wörtlich übersetzt werden, sondern muss zu einen Gliedsatz (meist einem Tem Por
+umgeformt werden. Dabei gelten folgende Faustregeln:
+» PARTIZIP PRÄSENS (PPA): gleichzeitig* (+ aktiv) - „während“
+Constantino ipso pugnante Maxentius Romam relinquere metuit. 5
+= „Während Konstantin selbst kämpfte, scheute sich Maxentius, Rom zu verlassen
+» PARTIZIP PERFEKT (PPP): vorzeitig* (+ passiv) - „nachdem”
+Ponte interrupto Maxentius Tiberim transire non potuit. ab j
+= „Nachdem die Brücke eingerissen worden war, konnte Maxentius den Tiber nicht überqueren.
+
+* Zum Zeitverhältnis vgl. auch das Participium coniunctum (+ 5. 130)!
+
+TIPP: Vorgangsweise beim Übersetzen:
+
+1) Suche zu jedem Partizip das Bezugswort (steht meist davor) und unterstreiche die beiden Wörter:
+2.B.: Libro in schola lecto discipuli dormiverunt.
+
+2) Wenn die beiden Wörter im Ablativ stehen, handelt es sich um einen Abl. Abs. > keine wörtliche Übersetzung!
+(falls anderer Fall > Participium coniunctum, vgl. S. 130)
+3) Bestimme die Art des Partizips und verwandle die unterstrichene Wortgruppe in einen Temporalsatz
+
+(PPA > „während” + aktiv, PPP > „nachdem“ + passiv): '
+2.B.: „Nachdem das Buch in der Schule gelesen worden war, schliefen die Schüler ein.
+
+4) Wenn der Satz passiv nicht „deutsch” klingt, verwandle ihn in einen aktiven Satz!
+z.B.: „Nachdem sie das Buch in der Schule gelesen hatten, schliefen die Schüler ein.”
+
+NOTA BENEI!
+
+Statt eines Nomens kann im Abl. abs. auch ein Pronomen stehen:
+Quo (= hoc) viso Maxentius fugit. = „Nachdem das gesehen worden war, floh Maxentius.” (besser aktiv:
+„Nachdem er das gesehen hatte, ...”)
+
+Zusammenfassung: Participium coniunctum und Ablativus absolutus
+
+Wi . | __Participium coniunctum | Ablativus absolutus
+
+besteht aus: Nomen + Partizip
+|stehtim: 7] 1. bis 6*. Fall ben. | Falls
+. R „der/die/das” „während“ bei PPA
+| earbeseeg | (Reltimat) | „nachdem beippp
+Weitere „als“ (temporal)
+bersetzungs „weil“ (kausal) l. cum + Indik. / Konj.!
+e Salichkeiten: „obwohl“ (konzessiv) > 2
+mog ü „wenn“ (konditional)
+* im Ablativ allerdings nur nach Präpositionen (z.B. de hastibus wictis = „über die besiegten Feinde”). "* ohne Präpositon
+NOTA BENE!
+Participium coniunctum und Ablativus absolutus sind sogenannte &s ertige Konstruktionen“ (sK). Diese
+
+Konstruktionen sind im Lateinischen nur Satzteile, werden im Deutschen aber als Gliedsätze
+
+Weitere satzwertige Konstruktionen sind die Infinitivkonstruktionen ACI (> S. 116) und NCI (> S. 126), die im
+Deutschen als „dass“-Sätze, also ebenfalls als Gliedsätze, übersetzt werden.
+
+134
+

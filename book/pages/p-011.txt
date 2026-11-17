@@ -1,0 +1,49 @@
+Fi l Grammatica
+
+Allgemeines
+
+&s gibt im Lateinischen keine Artikel: Persönliche Fürwörter werden oft nicht geschri
+» discipulus = „der/ein Schüler“ » sedet = „er/sie/es sitzt"
+» discipula = „die/eine Schülerin" + sedent = „sie sitzen”
+
+TIPP. Die wichtigsten Informationen stecken also in der lateinischen Wortendung!
+
+Nomina (Namenwörter)
+
+Lateinische Nomina (auch „Substantiva” genannt) werden nach ihrer Nominativendung in verschiedene
+Deklinationsklassen eingeteilt. Praktischenweise kannst du aus der Deklinationsklasse meistens das Geschlecht des
+
+Wortes ableiten:
+a-Deklination o-Deklination NOTA BENE!
+feminin (f) maskuln (m) neutrum (m) | Die Endung -a ist leider doppeldeutig:
+Saar amica amicus pensum | » amica > 1. Fall Sg. feminin
+£ „die Freundin“ „der Freund" „die Aufgabe” | » pensa > 1. Fall Pl. eines neutralen Wortes
+PDT. amicoe ange pr | (1. Fall Sg.: pensumi)
+
+„die Freundinnen” „die Freunde” „die Aufgaben“
+
+TIPP: Du solltest dir also den 1.F. Sg. (= die Form, die im Vocabularium steht) gut einprägen!
+
+Adjektiva (Eigenschaftswörter)
+
+Lateinische Adjektiva passen sich an die Nomina, auf die sie sich beziehen, in Fall, Zahl und Geschlecht an:
+discipulus bonus = „der gute Schüler“ (? maskulin)
+discipula bona = „die gute Schülerin” (> feminin)
+pensym magnum = „die große Aufgabe“ (? neutrum)
+
+Adjektiva werden daher im Vokabelverzeichnis immer mit drei Endungen angegeben:
+magnus/a/um (= magnus 3)
+
+maskulin (m) | feminin (f) _| neutrum (n.) |
+|sg. IF \ __ magnus magna magnum
+Pl, 1.F.| magni magnae magna
+
+Verba (Zeitwörter)
+
+Lateinische Verba bestehen aus Stamm und Personalendung (z.B. clama-t, sede-t).
+Der Endlaut des Stammes bestimmt, zu welcher Konjugationsklasse das Verbum gehört:
+
+« Stamm auf -a > a-Konjugation
++» Stamm auf -e ? e-Konjugation
+
+Die Endung für die 3,P. Sg. lautet #, jene 1

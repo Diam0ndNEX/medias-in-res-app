@@ -1,0 +1,52 @@
+I / Grammatica
+
+Neben der a- und e-Konjugation gibt es noch drei weitere Konjugationsklassen, die sich allerdings nur hf
+in wenigen Details voneinander unterscheiden. Wie a- und e-Konjugation sind auch sie nach dem Auslaut f
+ihres Stammes benannt: |
+
+»* konsonantische Konjugation > Stamm endet auf einen Konsonanten (Mitlaut) "
+» ‚Konjugation > Stamm endet auf langes / 1
+» Mischkonjugation* + Stamm endet auf kurzes i
+
+*) „Mischkonlugation” deswegen, weil die Formen teils nach der konsonantischen, teils nach der I-Konjugatlon gebildet werden a
+Da bei der konsonantischen Konjugation der Stamm auf einen Mitlaut endet, tritt als Bindeglied zwischen Stamm und a
+Endung ein sogenannter Bindevokal, der meistens -i- lautet: 4
+mitt -i-s 5
+s
+Stamm - Bindevokal - Endung
+N
+An den Stamm werden bei allen Konjugationen dieselben Personalendungen angefügt (vgl. 5. 20): 1
+a-Konj. e-Konj. kons. Konj. i"Konj. | Mischkonj. i
+Präsens | i
+1.P.| amo' habe-o , mitt-o audi-o | capi-o |
+9) 2.P.|ama-s habe-s mitt-i-s | audi-s | capi-s |
+3.P | ama-t habe-t mitt-i-t audi-t capi-t
+1.P. | ama-mus habe-mus | mitt-i-mus | audi-mus | edpi-mus
+2 ama-tis habe-tis mitt-i-tis audi-tis cäpi-tis
+3.P. | amao-nt habe-nt mitt-u-nt dudi-u-nt | cäpi-u-nt
+Infinitiv Präsens 3% l
+| amd-re habe-re | mitt-e-re audi-re | cäpe-re ser
+j Imperative FR j gu |
+Sg. | ama! habe! | mitt-eR audi | cäpe! =
+Pl. |ame-te! |habetet |mittitet | auditel | cöpi-ter
+ amo aus amo-o, 2 Ausnahmen: dic! („sag!*) und duc! („führ!“, vgl. Lec. 10)
+1
+NOTA BENE!
+Zu welcher Konjugationsklasse ein Verbum gehört, erkennst du nicht an der 1. Person Sg. oder am Infinitiv alleine,
+sondern erst aus der Kombination von Infinitiv Präsens und 1. Person Sg.: 3
+are, 0 > a-Konjugation j
+(Abkürzung: -are 1): z. B. amare 1 E
+-ere, -e0, > e-Konjugation
+(Abkürzung: -Ere 2): z. B. habere 2 l
+-ere, -0 > konsonantische Konjugation |
+(Abkürzung: -ere 3): z. B. mittere 3 5
+-ire, -io > i-Konjugation
+(Abkürzung: -ire 4): z. B. audire 4 1
+-ere, io > Mischkonjugation
+
+(Abkürzung: -ere M): z. B. cdpere M
+
+TIPP: Um bei den Verba auf -ere (e-, konsonantische- und Mischkonjugation) die Konjugationszugehörigkeit
+deutlich zu machen, ist bei diesen Infinitiven im Vocabularium jeweils der Akzent angegeben (-£re *
+e-Konjugation, -ere > Misch- oder konsonantische Konjugation),
+

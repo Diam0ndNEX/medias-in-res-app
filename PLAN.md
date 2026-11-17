@@ -43,19 +43,14 @@ From the table of contents (OCR of the PDF, 211 pages):
 
 The PDF is scanned images; OCR (Tesseract, German) is only good enough for searching, not for data (Latin words, tables and umlauts get mangled). So:
 
-1. OCR text is stored in the Claude Project as a **search reference** (`buch/…`).
+1. OCR text is stored in the Claude Project (`buch/…`) and in the repo (`book/ocr/`) as a **search reference**.
 2. For each lesson, the page images are read directly (vision) and **structured into JSON**, then you spot-check against the book.
 3. Order: Lektion 1 → 5 first (end-to-end proof), then batches of 5 lessons (matches the book's colour units and Wortklauberei).
 4. A small validator script checks every JSON file (required fields, no empty vocab, unique IDs) in CI.
 
-## 5. Copyright – how the public repo is handled
+## 5. Source material in the repo
 
-The textbook text, vocabulary lists and exercises belong to Veritas / the authors. A public repo must therefore contain **code only**:
-- `.gitignore` excludes `*.pdf`, `book/` and `Content/`.
-- Lesson JSON lives in a **separate private repo** (`medias-in-res-content`); the Actions workflow checks it out with a token secret during the build, so your IPA contains the content but the public repo does not.
-- Only a tiny invented sample lesson (not from the book) ships in the public repo so the app and CI run without the private content.
-
-This also means the app is for personal use (sideloaded), not an App Store release.
+The repo is private and holds the original book PDF (`book/pdf/`), the OCR text (`book/ocr/`, one file per page in `book/pages/`) and, later, the structured lesson JSON in `Content/`. App code and content are built together; there is no separate content repo. The app is for personal use (sideloaded), not an App Store release.
 
 ## 6. Roadmap
 
@@ -71,7 +66,6 @@ This also means the app is for personal use (sideloaded), not an App Store relea
 
 ## 7. Open questions
 
-1. Private content repo OK (see §5), or should content stay out of GitHub entirely?
-2. Which lesson/class are you at right now? → start content extraction there.
-3. Should Latein→Deutsch be typed or self-graded by default?
-4. App name / icon (placeholder: „Medias in Res“).
+1. Which lesson/class are you at right now? → start content extraction there.
+2. Should Latein→Deutsch be typed or self-graded by default?
+3. App name / icon (placeholder: „Medias in Res“).

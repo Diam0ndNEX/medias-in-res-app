@@ -2,7 +2,7 @@
 
 iOS-App (Deutsch) zum Lernen und Wiederholen von Vokabeln, Grammatik und Übungen aus dem Lateinbuch *Medias in Res!*.
 
-Dieses Repository enthält **nur den App-Code**. Buchinhalte (Texte, Vokabeln, Übungen) sind urheberrechtlich geschützt und liegen nicht in diesem Repo.
+Privates Repository mit App-Code und Quellmaterial (`book/`: PDF, OCR-Text).
 
 Siehe [PLAN.md](PLAN.md) für Umfang, Technik und Roadmap.
 

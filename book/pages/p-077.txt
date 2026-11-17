@@ -1,0 +1,62 @@
+Grammatica
+
+Adjektiva der dritten Deklination
+Neben den bisher bekannten Adjektiva der a/o-Deklination (2. 8. magnus/a/um) gibt es eine weitere, ebenso
+Gruppe von Adjektiva, die nach der dritten Deklination abgewandelt werden. Sie haben großteils die End Be
+I-Stämme (val. S. 50), Im Akkusativ Sg. aber +em. Gemeinsames Merkmal dieser Adjektiva ist nicht der Nominatiy,
+sondern der Genetiv auf -is!
+
+Nach dem Nominativ unterscheidet man drei Untergruppen:
+
+a) eine Endung für alle drei Geschlechter > 2. B. atrox (m./f/n.)
+b) zwei Endungen (am häufigsten!) > z.B, fortis (m/f), forte (n.)
+c) drei Endungen + z.B. celer (m.), celeris (f,), celere (n.)
+
+atrox, -ocis („wild”) fortis/-e („tapfer”) celer/-eris/-ere („schnell“)
+mA n mA n m j n.
+atrox fortis forte celer celeris celere
+s 2 atrocis fortis celeris
+an 3 atroci forti celeri i
+\ atrocem atrox Jortem forte celererm celere
+atroc| forti celer|
+15 atroces atrocia fortes fortia celeres celeria
+A atrocium fortium celerium
+3 3 atrocibus fortibus celeribus
+. ı atroces atrocia fortes fortia celeres celeria
+atrocibus Jortibus celeribus .
+NOTA BENEI
+
+» Achtung auf die Endung -i: Im Gegensatz zu den meisten Nomina der 3. Deklination steht diese Endung nicht nur
+für den Dativ Sg., sondern auch für den Ablativ Sg.: brevi tempore (6.F. Sg.: „in kurzer Zeit")
+
+* Umgekehrt ist die Endung -e bei diesen Adjektiven kein Ablativ Sg., sondern der Nominativ oder Akkusativ Sg.
+Neutrum: tempus breve (1./4. F. Sg. n.: „die kurze Zeit”)
+
+Apposition (Beisatz)
+
+Wenn ein Nomen (oder Nomen + Adjektiv) ein anderes Nomen, das im selben Fall steht, näher erklärt, spricht man von
+einer Apposition („Beisatz”):
+
+urbs Roma = „die Stadt Rom" (> urbs erklärt Roma näher)
+Romam, urbem pulchram, petimus. = „Wir besuchen die schöne Stadt Rom (= Rom, die schöne Stadt).”
+
+NOTA BENEI
+
+Beim Übersetzen muss die Apposition im Fall an das vorangestellte Nomen angepasst werden:
+Romulus nuntios ad Sabinos (4. Fall), populum vicinum (4. Fall), mittit.
+
+= „Romulus schickt Boten zu den Sabinern (3. Fall), einem benachbarten Volk (3. Fall).”
+
+Prädikativum
+
+Unter einem Prädikativum versteht man ein Nomen (oder Adjektiv), das im selben Fall wie ein anderes Nomen st
+aber nicht das Nomen, sondern das Prädikat näher bestimmt. Es wird mit „als“ übersetzt:
+
+Romani multos viros servos in patriam ducebant, = „Die Römer führten viele Männer als Sklaven in ihre
+Julia prima venit, = „Julia kam als Erste.”
+
+TIPP: Wenn du ein Subjekt oder Objekt „zu viel“ hast, probiere die Übersetzung mit „als”!
+
+Ah
+
+78
