@@ -1,0 +1,94 @@
+{
+  "number": 1,
+  "title": "De schola",
+  "unit": "Römischer Alltag",
+  "klasse": 5,
+  "pages": { "text": 10, "vocab": 11, "grammar": 12, "exercises": 13 },
+  "vocab": [
+    { "la": "schola f.", "forms": "scholae", "de": "Schule", "note": "engl. school, ital. scuola, span. escuela" },
+    { "la": "hic (Adv.)", "forms": "", "de": "hier", "note": "" },
+    { "la": "sedet", "forms": "sedi, sessum", "de": "er/sie/es sitzt", "note": "vgl. Sediment (= Ablagerung), Re-sidenz (= Wohnsitz)" },
+    { "la": "amica f.", "forms": "amicae", "de": "Freundin", "note": "frz. amie, ital. amica, span. amiga" },
+    { "la": "meus/a/um", "forms": "", "de": "mein", "note": "besitzanzeigendes Fürwort (Possessivpronomen)" },
+    { "la": "est", "forms": "", "de": "er/sie/es ist", "note": "frz. est, ital. è, span. es" },
+    { "la": "discipula f.", "forms": "discipulae", "de": "Schülerin", "note": "" },
+    { "la": "bonus/a/um", "forms": "", "de": "gut", "note": "frz. bon, ital. buono, span. bueno; vgl. Bona-Öl; der Bonus" },
+    { "la": "semper (Adv.)", "forms": "", "de": "immer", "note": "ital. sempre, span. siempre; vgl. Semperit = „Es/Er geht immer“" },
+    { "la": "sunt", "forms": "fui, –", "de": "sie sind", "note": "frz. sont, ital. sono, span. son" },
+    { "la": "et", "forms": "", "de": "und", "note": "frz. et, ital. e" },
+    { "la": "amicus m.", "forms": "amici", "de": "Freund", "note": "frz. ami, ital. amico, span. amigo" },
+    { "la": "sed", "forms": "", "de": "1) aber; 2) sondern", "note": "" },
+    { "la": "discipulus m.", "forms": "discipuli", "de": "Schüler", "note": "" },
+    { "la": "malus/a/um", "forms": "", "de": "schlecht", "note": "span. malo/a; vgl. Bonus-Malus-System" },
+    { "la": "laetus/a/um", "forms": "", "de": "froh, fröhlich", "note": "ital. lieto; vgl. die Vornamen Laetitia und Letizia" },
+    { "la": "saepe (Adv.)", "forms": "", "de": "oft", "note": "" },
+    { "la": "ridet", "forms": "risi, risum", "de": "er/sie/es lacht", "note": "frz. rire, ital. ridere, span. reír; engl. ridiculous" },
+    { "la": "cur?", "forms": "", "de": "warum?", "note": "" },
+    { "la": "nunc (Adv.)", "forms": "", "de": "jetzt, nun", "note": "vgl. engl. now" },
+    { "la": "non", "forms": "", "de": "nicht", "note": "frz. + ital. non, span. no" },
+    { "la": "pensum n.", "forms": "pensi", "de": "Aufgabe", "note": "vgl. das Arbeitspensum" },
+    { "la": "magnus/a/um", "forms": "", "de": "groß", "note": "vgl. Magnum (Eis; Schusswaffe)" },
+    { "la": "itaque", "forms": "", "de": "deshalb, daher", "note": "" },
+    { "la": "gaudet", "forms": "gavisus sum", "de": "er/sie/es freut sich", "note": "vgl. die Gaudi (= Spaß)" },
+    { "la": "diu (Adv.)", "forms": "", "de": "lange", "note": "" },
+    { "la": "laborat", "forms": "laboravi, laboratum", "de": "er/sie/es arbeitet", "note": "vgl. engl. lab(o)ur; das Labor" },
+    { "la": "libenter (Adv.)", "forms": "", "de": "gern", "note": "" },
+    { "la": "interrogat", "forms": "interrogavi, -atum", "de": "er/sie/es fragt", "note": "vgl. engl. interrogation mark (= Fragezeichen)" },
+    { "la": "respondet", "forms": "respondi, responsum", "de": "er/sie/es antwortet", "note": "ital. rispondere; vgl. Kor-respondenz (= Briefwechsel)" },
+    { "la": "tum (= tunc)", "forms": "", "de": "dann, damals", "note": "" },
+    { "la": "clamat", "forms": "clamavi, clamatum", "de": "er/sie/es ruft, schreit", "note": "ital. chiamare, span. llamar; vgl. re-klamieren, Re-klame" },
+    { "la": "laudat", "forms": "laudavi, laudatum", "de": "er/sie/es lobt", "note": "vgl. Laudatio (= Lobrede)" }
+  ],
+  "vocabNote": "Die Formen in der zweiten Spalte (Nomina: 2. Fall Sg.; Verba: Perfekt) brauchst du einstweilen nicht zu lernen, da du sie erst in späteren Kapiteln kennenlernen wirst. Wenn du sie allerdings schon jetzt mitlernst, sparst du dir später die Mühe!",
+  "grammar": [
+    {
+      "title": "Allgemeines",
+      "blocks": [
+        { "type": "text", "text": "Es gibt im Lateinischen keine Artikel:" },
+        { "type": "list", "items": ["discipulus = „der/ein Schüler“", "discipula = „die/eine Schülerin“"] },
+        { "type": "text", "text": "Persönliche Fürwörter werden oft nicht geschrieben:" },
+        { "type": "list", "items": ["sedet = „er/sie/es sitzt“", "sedent = „sie sitzen“"] },
+        { "type": "tip", "text": "Die wichtigsten Informationen stecken also in der lateinischen Wortendung!" }
+      ]
+    },
+    {
+      "title": "Nomina (Namenwörter)",
+      "blocks": [
+        { "type": "text", "text": "Lateinische Nomina (auch „Substantiva“ genannt) werden nach ihrer Nominativendung in verschiedene Deklinationsklassen eingeteilt. Praktischerweise kannst du aus der Deklinationsklasse meistens das Geschlecht des Wortes ableiten:" },
+        { "type": "table", "headers": ["", "a-Deklination feminin (f.)", "o-Deklination maskulin (m.)", "o-Deklination neutrum (n.)"],
+          "rows": [
+            ["Sg. 1.F.", "amica „die Freundin“", "amicus „der Freund“", "pensum „die Aufgabe“"],
+            ["Pl. 1.F.", "amicae „die Freundinnen“", "amici „die Freunde“", "pensa „die Aufgaben“"]
+          ] },
+        { "type": "note", "text": "Nota bene! Die Endung -a ist leider doppeldeutig: amica → 1. Fall Sg. feminin; pensa → 1. Fall Pl. eines neutralen Wortes (1. Fall Sg.: pensum!)" },
+        { "type": "tip", "text": "Du solltest dir also den 1.F. Sg. (= die Form, die im Vocabularium steht) gut einprägen!" }
+      ]
+    },
+    {
+      "title": "Adjektiva (Eigenschaftswörter)",
+      "blocks": [
+        { "type": "text", "text": "Lateinische Adjektiva passen sich an die Nomina, auf die sie sich beziehen, in Fall, Zahl und Geschlecht an:" },
+        { "type": "list", "items": ["discipulus bonus = „der gute Schüler“ (→ maskulin)", "discipula bona = „die gute Schülerin“ (→ feminin)", "pensum magnum = „die große Aufgabe“ (→ neutrum)"] },
+        { "type": "text", "text": "Adjektiva werden daher im Vokabelverzeichnis immer mit drei Endungen angegeben: magnus/a/um (= magnus 3)" },
+        { "type": "table", "headers": ["", "maskulin (m.)", "feminin (f.)", "neutrum (n.)"],
+          "rows": [
+            ["Sg. 1.F.", "magnus", "magna", "magnum"],
+            ["Pl. 1.F.", "magni", "magnae", "magna"]
+          ] }
+      ]
+    },
+    {
+      "title": "Verba (Zeitwörter)",
+      "blocks": [
+        { "type": "text", "text": "Lateinische Verba bestehen aus Stamm und Personalendung (z. B. clama-t, sede-t). Der Endlaut des Stammes bestimmt, zu welcher Konjugationsklasse das Verbum gehört:" },
+        { "type": "list", "items": ["Stamm auf -a → a-Konjugation", "Stamm auf -e → e-Konjugation"] },
+        { "type": "text", "text": "Die Endung für die 3.P. Sg. lautet -t, jene für die 3.P. Pl. -nt:" },
+        { "type": "table", "headers": ["", "a-Konjugation", "e-Konjugation"],
+          "rows": [
+            ["Sg. 3.P.", "clama-t „er/sie/es ruft“", "sede-t „er/sie/es sitzt“"],
+            ["Pl. 3.P.", "clama-nt „sie rufen“", "sede-nt „sie sitzen“"]
+          ] }
+      ]
+    }
+  ]
+}
