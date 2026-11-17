@@ -1,0 +1,310 @@
+{
+ "number": 6,
+ "title": "De Romulo et Remo",
+ "unit": "Die römische Frühzeit",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "filia",
+   "forms": "filiae f.",
+   "de": "Tochter",
+   "note": "vgl. Filiale (= Tochterunternehmen)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "tamen",
+   "forms": "",
+   "de": "dennoch, trotzdem",
+   "note": "↔ tam",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "duo/duae/duo",
+   "forms": "",
+   "de": "zwei",
+   "note": "ital. due, span. dos; vgl. Duett, Duo",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "filius",
+   "forms": "filii m.",
+   "de": "Sohn",
+   "note": "frz. fils, ital. figlio",
+   "pos": "Nomen"
+  },
+  {
+   "la": "parvus/a/um",
+   "forms": "",
+   "de": "klein",
+   "note": "↔ magnus",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "paulo post",
+   "forms": "",
+   "de": "wenig später",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "post (nach Abl.)",
+   "forms": "",
+   "de": "später",
+   "note": "↔ post + Akk.",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "appropinquare",
+   "forms": "appropinquo 1, -avi, -atum",
+   "de": "sich nähern",
+   "note": "engl. to approach",
+   "pos": "Verb"
+  },
+  {
+   "la": "liberi (Pl.)",
+   "forms": "liberorum m.",
+   "de": "die Kinder",
+   "note": "↔ libri, librorum",
+   "pos": "Nomen"
+  },
+  {
+   "la": "autem",
+   "forms": "",
+   "de": "aber",
+   "note": "immer nachgestellt: ego autem = sed ego („aber ich“)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "deinde",
+   "forms": "",
+   "de": "dann",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "portare",
+   "forms": "porto 1, portavi, -atum",
+   "de": "tragen, bringen",
+   "note": "frz. porter, ital. portare; vgl. trans-portieren, ap-portieren („heranbringen“)",
+   "pos": "Verb"
+  },
+  {
+   "la": "annus",
+   "forms": "anni m.",
+   "de": "Jahr",
+   "note": "frz. an, ital. anno, span. año; vgl. Annalen (= Jahrbücher)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "oppidum",
+   "forms": "oppidi n.",
+   "de": "Stadt",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "aedificare",
+   "forms": "aedifico 1, -avi, -atum",
+   "de": "erbauen",
+   "note": "frz. édifier, ital. edificare; vgl. aedificium",
+   "pos": "Verb"
+  },
+  {
+   "la": "regnare",
+   "forms": "regno 1, regnavi, -atum",
+   "de": "herrschen, regieren",
+   "note": "frz. régner, ital. regnare, span. reinar, engl. to reign",
+   "pos": "Verb"
+  },
+  {
+   "la": "posse",
+   "forms": "possum, potui, –",
+   "de": "können",
+   "note": "(siehe Grammatica); vgl. engl. possible",
+   "pos": "Verb"
+  },
+  {
+   "la": "sex",
+   "forms": "",
+   "de": "sechs",
+   "note": "vgl. Sextett",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "duodecim",
+   "forms": "",
+   "de": "zwölf",
+   "note": "ital. dodici; vgl. das Dutzend (= zwölf Stück)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "dis = deis",
+   "forms": "(3./6.F. Pl. m.)",
+   "de": "den Göttern",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "di = dei (= dii)",
+   "forms": "(1.F. Pl. m.)",
+   "de": "die Götter",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "gratus/a/um",
+   "forms": "",
+   "de": "1) dankbar; 2) lieb, angenehm",
+   "note": "ital. grato",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "esse",
+   "forms": "sum, fui, –",
+   "de": "(zu) sein",
+   "note": "(siehe Grammatica)",
+   "pos": "Verb"
+  },
+  {
+   "la": "auxilium",
+   "forms": "auxilii n.",
+   "de": "Hilfe",
+   "note": "span. auxilio; vgl. engl. auxiliary verbs (= Hilfszeitwörter)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "nonnulli/ae/a (Pl.)",
+   "forms": "",
+   "de": "einige",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "magnificus/a/um",
+   "forms": "",
+   "de": "großartig, prächtig",
+   "note": "frz. magnifique, ital. magnifico, span. magnífico",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "trans (+ Akk.)",
+   "forms": "",
+   "de": "über; jenseits von",
+   "note": "vgl. Transit, Transfer, Transformator; „Transdanubien“",
+   "pos": "Präposition"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "esse („sein“) und posse („können“)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die Verba esse und posse werden unregelmäßig abgewandelt, weisen aber viele Parallelen zueinander auf: posse („können“) ist nämlich eine Zusammensetzung aus potis („fähig“) + esse („sein“)."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "esse",
+      "posse"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "sum „ich bin“",
+       "possum „ich kann“"
+      ],
+      [
+       "Sg. 2.P.",
+       "es „du bist“",
+       "potes „du kannst“"
+      ],
+      [
+       "Sg. 3.P.",
+       "est „er/sie/es ist“",
+       "potest „er/sie/es kann“"
+      ],
+      [
+       "Pl. 1.P.",
+       "sumus „wir sind“",
+       "possumus „wir können“"
+      ],
+      [
+       "Pl. 2.P.",
+       "estis „ihr seid“",
+       "potestis „ihr könnt“"
+      ],
+      [
+       "Pl. 3.P.",
+       "sunt „sie sind“",
+       "possunt „sie können“"
+      ],
+      [
+       "Infinitiv",
+       "esse „(zu) sein“",
+       "posse „(zu) können“"
+      ],
+      [
+       "Imperativ Sg.",
+       "es! „sei!“",
+       "–"
+      ],
+      [
+       "Imperativ Pl.",
+       "este! „seid!“",
+       "–"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "In einigen Formen von posse hat sich die Silbe pot- zu pos- verändert, und zwar immer dort, wo die nachfolgende Silbe mit s beginnt (sum, sumus, sunt). Man nennt diese Anpassung eines Buchstaben an den folgenden Assimilation: pot-sumus → pos-sumus; ad-portare → ap-portare."
+    },
+    {
+     "type": "tip",
+     "text": "Wenn du bei den Formen von posse die Silbe pos- bzw. pot- weglässt, erhältst du die zugrunde liegende Form von esse!"
+    }
+   ]
+  },
+  {
+   "title": "Dativ des Besitzers (Dativus possessivus)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Eine Eigenheit des Lateinischen ist der Dativ des Besitzers (Dativus possessivus). Ihn darf man nicht wörtlich übersetzen, sondern man muss ihn zu einem „haben“-Satz umformen:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Rheae Silviae duo filii sunt. = (Der Rhea Silvia sind zwei Söhne. →) „Rhea Silvia hat zwei Söhne.“",
+      "Mihi amica pulchra est. = (Mir ist eine hübsche Freundin. →) „Ich habe eine hübsche Freundin.“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Mittelsablativ (Ablativus instrumenti)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Ablativ steht im Lateinischen nicht nur nach bestimmten Präpositionen, sondern auch auf bestimmte Fragen. Die häufigste lautet „WOMIT?“ / „WODURCH?“. Ein solcher Ablativ heißt Mittelsablativ (Ablativus instrumenti), da er das Mittel angibt, mithilfe dessen etwas gemacht wird."
+    },
+    {
+     "type": "text",
+     "text": "Übersetzung: „mit“, „durch“:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Romulus Remum gladio necat. = „Romulus tötet Remus mit dem Schwert.“"
+     ]
+    },
+    {
+     "type": "tip",
+     "text": "DINGE und SACHBEGRIFFE stehen im Ablativ meistens ohne, PERSONEN meist mit Präposition: „mit dem Freund“ = cum amico (→ Person!); „mit dem Schwert“ = gladio (→ Sache!)"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,465 @@
+{
+ "number": 4,
+ "title": "De spectaculis",
+ "unit": "Römischer Alltag",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "de (Präp. + Abl.)",
+   "forms": "",
+   "de": "1) von (… herab); 2) über",
+   "note": "frz. de, ital. di, span. de",
+   "pos": "Präposition"
+  },
+  {
+   "la": "cum (Präp. + Abl.)",
+   "forms": "",
+   "de": "mit",
+   "note": "ital. + span. con",
+   "pos": "Präposition"
+  },
+  {
+   "la": "sine (Präp. + Abl.)",
+   "forms": "",
+   "de": "ohne",
+   "note": "frz. sans, ital. senza, span. sin",
+   "pos": "Präposition"
+  },
+  {
+   "la": "femina",
+   "forms": "feminae f.",
+   "de": "Frau",
+   "note": "vgl. Feministin, feminin",
+   "pos": "Nomen"
+  },
+  {
+   "la": "gaudium",
+   "forms": "gaudii n.",
+   "de": "Freude",
+   "note": "vgl. „a Mordsgaudi“ (= ein riesiger Spaß)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "narro, -as",
+   "forms": "narravi, narratum",
+   "de": "erzählen",
+   "note": "span. narrar; vgl. engl. narrator",
+   "pos": "Verb"
+  },
+  {
+   "la": "Romani (Pl.)",
+   "forms": "Romanorum m.",
+   "de": "die Römer",
+   "note": "engl. the Romans („die Römer“)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "copia",
+   "forms": "copiae f.",
+   "de": "Menge, Vorrat",
+   "note": "ital. + span. copia; vgl. Kopie",
+   "pos": "Nomen"
+  },
+  {
+   "la": "e / ex (Präp. + Abl.)",
+   "forms": "",
+   "de": "aus, von",
+   "note": "(siehe Grammatica)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "terra",
+   "forms": "terrae f.",
+   "de": "Land; Erde",
+   "note": "vgl. Terrarium, Terrasse, Parterre (= Erdgeschoß)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "alienus/a/um",
+   "forms": "",
+   "de": "fremd",
+   "note": "vgl. Aliens (= die Außerirdischen/Fremden)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "pugno, -as",
+   "forms": "pugnavi, -atum",
+   "de": "kämpfen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "neco, -as",
+   "forms": "necavi, -atum",
+   "de": "töten",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "placeo, -es",
+   "forms": "placui, -itum",
+   "de": "gefallen",
+   "note": "frz. plaire, ital. piacere",
+   "pos": "Verb"
+  },
+  {
+   "la": "novus/a/um",
+   "forms": "",
+   "de": "neu",
+   "note": "vgl. re-novieren (= erneuern), In-novation",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "alius/a/ud",
+   "forms": "",
+   "de": "ein anderer",
+   "note": "↔ alienus/a/um",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "alius – alius",
+   "forms": "",
+   "de": "der eine – der andere",
+   "note": "z. B. alius interrogat, alius respondet",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "gladius",
+   "forms": "gladii m.",
+   "de": "Schwert",
+   "note": "vgl. Gladiator (= „Schwertkämpfer“), Gladiole",
+   "pos": "Nomen"
+  },
+  {
+   "la": "postremo (Adv.)",
+   "forms": "",
+   "de": "schließlich, endlich",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "supero, -as",
+   "forms": "superavi, superatum",
+   "de": "1) besiegen; 2) übertreffen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "si",
+   "forms": "",
+   "de": "wenn, falls",
+   "note": "span. si, ital. se",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "bene (Adv.)",
+   "forms": "",
+   "de": "gut",
+   "note": "frz. bien, ital. bene, span. bien; vgl. Benefizkonzert",
+   "pos": "Adverb"
+  },
+  {
+   "la": "vita",
+   "forms": "vitae f.",
+   "de": "Leben",
+   "note": "ital. vita, span. vida; vgl. Vitamine; vital (= lebendig)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "dono, -as",
+   "forms": "donavi, donatum",
+   "de": "schenken",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "pro (Präp. + Abl.)",
+   "forms": "",
+   "de": "für",
+   "note": "Pro und Kontra (= Für und Wider)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "suus/a/um",
+   "forms": "",
+   "de": "sein, ihr",
+   "note": "Possessivpronomen; ital. suo, span. su",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "a / ab (Präp. + Abl.)",
+   "forms": "",
+   "de": "von",
+   "note": "(siehe Grammatica)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "prae (Präp. + Abl.)",
+   "forms": "",
+   "de": "vor",
+   "note": "vgl. Präposition (= Vorwort)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "neque (= nec)",
+   "forms": "",
+   "de": "und nicht",
+   "note": "",
+   "pos": "Sonstiges"
+  }
+ ],
+ "vocabNote": "Ab dieser Lektion findest du in der zweiten Spalte der Vokabel bei den Nomina immer den Genetiv und das Geschlecht angegeben. Beides musst du ab jetzt unbedingt mitlernen.",
+ "grammar": [
+  {
+   "title": "Nomina der a-/o-Deklination",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Frage",
+      "a-Dekl. f.",
+      "o-Dekl. m.",
+      "o-Dekl. m.",
+      "o-Dekl. m.",
+      "o-Dekl. n."
+     ],
+     "rows": [
+      [
+       "Sg. 1",
+       "Wer?/Was?",
+       "amica",
+       "amicus",
+       "magister",
+       "puer",
+       "templum"
+      ],
+      [
+       "Sg. 2",
+       "Wessen?",
+       "amicae",
+       "amici",
+       "magistri",
+       "pueri",
+       "templi"
+      ],
+      [
+       "Sg. 3",
+       "Wem?",
+       "amicae",
+       "amico",
+       "magistro",
+       "puero",
+       "templo"
+      ],
+      [
+       "Sg. 4",
+       "Wen?/Was?",
+       "amicam",
+       "amicum",
+       "magistrum",
+       "puerum",
+       "templum"
+      ],
+      [
+       "Sg. 5",
+       "(Anrede)",
+       "amica!",
+       "amice!",
+       "magister!",
+       "puer!",
+       "templum!"
+      ],
+      [
+       "Sg. 6",
+       "(z. B. cum)",
+       "amicā",
+       "amico",
+       "magistro",
+       "puero",
+       "templo"
+      ],
+      [
+       "Pl. 1",
+       "Wer?/Was?",
+       "amicae",
+       "amici",
+       "magistri",
+       "pueri",
+       "templa"
+      ],
+      [
+       "Pl. 2",
+       "Wessen?",
+       "amicarum",
+       "amicorum",
+       "magistrorum",
+       "puerorum",
+       "templorum"
+      ],
+      [
+       "Pl. 3",
+       "Wem?",
+       "amicis",
+       "amicis",
+       "magistris",
+       "pueris",
+       "templis"
+      ],
+      [
+       "Pl. 4",
+       "Wen?/Was?",
+       "amicas",
+       "amicos",
+       "magistros",
+       "pueros",
+       "templa"
+      ],
+      [
+       "Pl. 5",
+       "(Anrede)",
+       "amicae!",
+       "amici!",
+       "magistri!",
+       "pueri!",
+       "templa!"
+      ],
+      [
+       "Pl. 6",
+       "(z. B. cum)",
+       "amicis",
+       "amicis",
+       "magistris",
+       "pueris",
+       "templis"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Der 6. Fall (Ablativ) steht nach bestimmten Präpositionen (siehe unten) und auf bestimmte Fragen."
+    },
+    {
+     "type": "text",
+     "text": "Da manche Endungen mehrere unterschiedliche Fälle bezeichnen (z. B. -ae = 2. + 3. Fall Sg., 1. + 5. Fall Pl.), musst du beim Übersetzen nach den Fällen fragen:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Quintus Lydiae forum monstrat. = „Quintus (WER? → 1.F.) zeigt Lydia (WEM? → 3.F.) das Forum (WEN?/WAS? → 4.F.).“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Adjektiva der a-/o-Deklination",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Analog zu amicus, amica und templum wandeln auch Adjektiva wie bonus/a/um (= bonus 3) ab:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m.",
+      "Pl. f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1",
+       "bonus",
+       "bona",
+       "bonum",
+       "boni",
+       "bonae",
+       "bona"
+      ],
+      [
+       "2",
+       "boni",
+       "bonae",
+       "boni",
+       "bonorum",
+       "bonarum",
+       "bonorum"
+      ],
+      [
+       "3",
+       "bono",
+       "bonae",
+       "bono",
+       "bonis",
+       "bonis",
+       "bonis"
+      ],
+      [
+       "4",
+       "bonum",
+       "bonam",
+       "bonum",
+       "bonos",
+       "bonas",
+       "bona"
+      ],
+      [
+       "5",
+       "bone!",
+       "bona!",
+       "bonum!",
+       "boni!",
+       "bonae!",
+       "bona!"
+      ],
+      [
+       "6",
+       "bono",
+       "bonā",
+       "bono",
+       "bonis",
+       "bonis",
+       "bonis"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Genauso deklinieren Adjektiva auf -er: 1.F. pulcher, pulchra, pulchrum, 2.F. pulchri, pulchrae, pulchri etc. (5.F. Sg. m. pulcher!)"
+    }
+   ]
+  },
+  {
+   "title": "Präpositionen (Vorwörter)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "A) Präpositionen mit Ablativ:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "a / ab = „von“",
+      "e / ex = „aus“, „von“",
+      "de = „von (… herab)“; „über“",
+      "cum = „mit“",
+      "sine = „ohne“",
+      "pro = „für“",
+      "prae = „vor“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "B) Präpositionen mit Akkusativ: Nach allen anderen Präpositionen steht der Akkusativ – z. B. nach ante („vor“), post („hinter“), ad („zu“, „an“, „bei“), per („durch“)."
+    },
+    {
+     "type": "note",
+     "text": "ab und ex stehen vor Vokalen (Selbstlauten), z. B. ex (ab) amphitheatro (vgl. im Englischen: an apple); a und e stehen vor Konsonanten (Mitlauten), z. B. e (a) templo (vgl. im Englischen: a banana)."
+    }
+   ]
+  }
+ ]
+}

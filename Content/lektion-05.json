@@ -1,0 +1,407 @@
+{
+ "number": 5,
+ "title": "De thermis",
+ "unit": "Römischer Alltag",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "mihi / tibi / sibi (Dativ)",
+   "forms": "",
+   "de": "mir / dir / sich",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "me / te / se (Akkusativ)",
+   "forms": "",
+   "de": "mich / dich / sich",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "delectare",
+   "forms": "delecto 1, -avi, -atum",
+   "de": "(jemanden) erfreuen",
+   "note": "sich an etwas delektieren (= erfreuen)",
+   "pos": "Verb"
+  },
+  {
+   "la": "nonne?",
+   "forms": "",
+   "de": "nicht?",
+   "note": "aus: non-ne? (Frage)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "ego / tu",
+   "forms": "",
+   "de": "ich / du",
+   "note": "(siehe Grammatica); vgl. Egoist",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "Graeci (Pl.)",
+   "forms": "Graecorum m.",
+   "de": "die Griechen",
+   "note": "↔ Graecus/a/um",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ita",
+   "forms": "",
+   "de": "so",
+   "note": "ita est = „ja“ (wörtlich?)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "inquit",
+   "forms": "",
+   "de": "er/sie sagt(e)",
+   "note": "(in die direkte Rede eingeschoben)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "num?",
+   "forms": "",
+   "de": "etwa?",
+   "note": "z. B. Num rides? = „Lachst du etwa?“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "vester/tra/trum",
+   "forms": "",
+   "de": "euer, eure",
+   "note": "frz. vôtre, ital. vostro/a",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "quoque (nachgestellt)",
+   "forms": "",
+   "de": "auch",
+   "note": "z. B. etiam tu = tu quoque",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "nobis / vobis (Dativ)",
+   "forms": "",
+   "de": "uns / euch",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "noster/tra/trum",
+   "forms": "",
+   "de": "unser, unsere",
+   "note": "frz. nôtre; vgl. Pater noster",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "in (+ Abl.)",
+   "forms": "(Frage WO?)",
+   "de": "in, auf",
+   "note": "in aedificio (WO?) = „im Gebäude“",
+   "pos": "Präposition"
+  },
+  {
+   "la": "animus",
+   "forms": "animi m.",
+   "de": "1) Sinn, Geist; 2) Mut",
+   "note": "vgl. animieren (= „anregen“)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "in animo habere",
+   "forms": "",
+   "de": "vorhaben",
+   "note": "wörtl.: „im Sinn haben“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "nos / vos (Nom. + Akk.)",
+   "forms": "",
+   "de": "wir; uns / ihr; euch",
+   "note": "(siehe Grammatica)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "quis nostrum",
+   "forms": "",
+   "de": "wer von uns",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "quis vestrum",
+   "forms": "",
+   "de": "wer von euch",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "nobiscum / vobiscum",
+   "forms": "",
+   "de": "mit uns / mit euch",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "in (+ Akk.)",
+   "forms": "(Frage WOHIN?)",
+   "de": "in, nach; gegen",
+   "note": "in aedificium (WOHIN?) = „ins Gebäude“",
+   "pos": "Präposition"
+  },
+  {
+   "la": "manere",
+   "forms": "maneo 2, mansi, mansum",
+   "de": "bleiben",
+   "note": "vgl. permanent (= dauerhaft)",
+   "pos": "Verb"
+  },
+  {
+   "la": "properare",
+   "forms": "propero 1, -avi, -atum",
+   "de": "eilen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "aqua",
+   "forms": "aquae f.",
+   "de": "Wasser",
+   "note": "ital. acqua, span. agua; vgl. Aquarium",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iterum (Adv.)",
+   "forms": "",
+   "de": "wieder(um)",
+   "note": "(Eselsbrücke: „iterum = wiederum“)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "minime (Adv.)",
+   "forms": "",
+   "de": "keineswegs; nein",
+   "note": "vgl. minimal (= sehr klein, sehr gering)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "licet (nur 3.P. Sg.)",
+   "forms": "licuit",
+   "de": "es ist erlaubt, es ist möglich",
+   "note": "vgl. die Lizenz (= Erlaubnis, Berechtigung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "otium",
+   "forms": "otii n.",
+   "de": "Freizeit, Erholung, Muße",
+   "note": "ital. ozio, span. ocio",
+   "pos": "Nomen"
+  },
+  {
+   "la": "sub (+ Akk.)",
+   "forms": "(Frage WOHIN?)",
+   "de": "unter (… hin)",
+   "note": "vgl. Subvention (= finanzielle Hilfe)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "sub (+ Abl.)",
+   "forms": "(Frage WO?)",
+   "de": "unter",
+   "note": "vgl. engl. subway, submarine",
+   "pos": "Präposition"
+  },
+  {
+   "la": "terrere",
+   "forms": "terreo 2, terrui, territum",
+   "de": "(jemanden) erschrecken",
+   "note": "vgl. jemanden terrorisieren, Terrorist",
+   "pos": "Verb"
+  }
+ ],
+ "vocabNote": "Ab dieser Lektion findest du in der ersten Spalte bei Verben immer die Nennform (Infinitiv) angegeben. In der zweiten Spalte steht zunächst die 1. Person sowie die Konjugationsklasse, zu der das Verb gehört (unbedingt mitlernen!). Bei den übrigen Formen handelt es sich um das Perfekt, das erst ab Lec. 14 auf dem Programm steht.",
+ "grammar": [
+  {
+   "title": "Personalpronomina (Persönliche Fürwörter)",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "1. Person",
+      "2. Person",
+      "3. Person (Reflexivpronomen)"
+     ],
+     "rows": [
+      [
+       "Sg. 1",
+       "ego „ich“",
+       "tu „du“",
+       "–"
+      ],
+      [
+       "Sg. 2",
+       "mei „meiner“",
+       "tui „deiner“",
+       "sui „seiner“, „ihrer“"
+      ],
+      [
+       "Sg. 3",
+       "mihi „mir“",
+       "tibi „dir“",
+       "sibi „sich“"
+      ],
+      [
+       "Sg. 4",
+       "me „mich“",
+       "te „dich“",
+       "se „sich“"
+      ],
+      [
+       "Sg. 6",
+       "a me „von mir“; mecum „mit mir“",
+       "a te „von dir“; tecum „mit dir“",
+       "a se „von sich“; secum „mit sich“"
+      ],
+      [
+       "Pl. 1",
+       "nos „wir“",
+       "vos „ihr“",
+       "–"
+      ],
+      [
+       "Pl. 2",
+       "nostri „unser“; nostrum „von uns“",
+       "vestri „euer“; vestrum „von euch“",
+       "sui „ihrer“"
+      ],
+      [
+       "Pl. 3",
+       "nobis „uns“",
+       "vobis „euch“",
+       "sibi „sich“"
+      ],
+      [
+       "Pl. 4",
+       "nos „uns“",
+       "vos „euch“",
+       "se „sich“"
+      ],
+      [
+       "Pl. 6",
+       "a nobis „von uns“; nobiscum „mit uns“",
+       "a vobis „von euch“; vobiscum „mit euch“",
+       "a se „von sich“; secum „mit sich“"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "Die Nominative des Personalpronomens werden nur bei besonderer Betonung geschrieben: Ego Iuliam amo, tu Claudiam. = „Ich liebe Julia, du (liebst) Claudia.“",
+      "mei, tui, sui, nostri, vestri sind die (sehr selten vorkommenden) Objektsgenetive: memor sum tui = „ich gedenke deiner (= ich denke an dich)“",
+      "nostrum und vestrum sind die (häufiger vorkommenden) Teilungsgenetive (Genetivus partitivus): quis vestrum? = „wer von euch?“, multi nostrum = „viele von uns“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Possessivpronomina (Besitzanzeigende Fürwörter)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Sie deklinieren wie Adjektiva:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "1. Person",
+      "2. Person",
+      "3. Person"
+     ],
+     "rows": [
+      [
+       "Sg.",
+       "meus/a/um „mein(e)“",
+       "tuus/a/um „dein(e)“",
+       "suus/a/um „sein(e)“ / „ihr(e)“"
+      ],
+      [
+       "Pl.",
+       "noster/tra/trum „unser(e)“",
+       "vester/tra/trum „euer/eure“",
+       "suus/a/um „ihr(e)“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "suus/a/um ist reflexiv (rückbezüglich), d. h. es bezieht sich immer auf das Subjekt des Satzes und wird dementsprechend mit „sein“ oder „ihr“ übersetzt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Quintus amicam suam amat. = „Quintus liebt seine Freundin.“",
+      "Claudia amicam suam amat. = „Claudia liebt ihre Freundin.“",
+      "Quintus et Claudia amicos suos amant. = „Quintus und Claudia lieben ihre Freunde.“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Präpositionen mit Akkusativ oder Ablativ",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die Präpositionen in und sub stehen entweder mit Akkusativ oder Ablativ. Dementsprechend musst du bei ihnen (im Gegensatz zu allen anderen Präpositionen!) fragen:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "in + Akk. / sub + Akk. → Frage: WOHIN? (der Akkusativ gibt eine RICHTUNG an)",
+      "in + Abl. / sub + Abl. → Frage: WO? (der Ablativ gibt einen PUNKT an)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Beispiele:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "in aquam saltat = „er springt ins Wasser“ (Akk. → WOHIN?)",
+      "in aqua sedent = „sie sitzen im Wasser“ (Abl. → WO?)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Infinitiv (Nennform)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Infinitiv Präsens aktiv ist an der Endung -re zu erkennen:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konjugation",
+      "e-Konjugation"
+     ],
+     "rows": [
+      [
+       "Infinitiv",
+       "amā-re „(zu) lieben“",
+       "monē-re „(zu) mahnen“"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

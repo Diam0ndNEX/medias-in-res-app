@@ -1,0 +1,52 @@
+#8 De Lucretia | Die römische Frühzeit | 5
+== VOKABELN
+tres (m./f.) | tria (n.) | drei | frz. trois, ital. tre, span. tres; vgl. Triathlon, Triumvirat (= Dreimännerbund)
+hora | horae f. | Stunde | engl. hour, frz. heure, ital. ora, span. hora
+facere | facio M, feci, factum | tun, machen | frz. faire, ital. fare
+neque – neque | (= nec – nec) | weder – noch | vgl. neque
+dormire | dormio 4, -ivi, -itum | schlafen | frz. dormir, ital. dormire, span. dormir
+solus/a/um | 2.F. solius, 3.F. soli | allein | ital. + span. solo/a; vgl. Solo, Solist
+duo/duae/duo | | zwei | (siehe Grammatica); ital. due; vgl. Duett, Duo
+unus/a/um | 2.F. unius, 3.F. uni | 1) ein; 2) einzig | frz. un, ital. uno, span. un; Unikat (= Einzelstück)
+primus/a/um | | der erste | ital. primo; vgl. Primel, Primar, Primat, prima, primär
+castra (Pl.) | castrorum n. | das Lager (Sg.) | vgl. Kastell (= kleines Lager), engl. castle
+resistere | resisto 3, restiti, – | sich widersetzen, Widerstand leisten | engl. to resist; vgl. resistent (= widerstandsfähig)
+committere | committo 3, commisi, commissum | begehen (ein Verbrechen); beginnen (einen Krieg) | engl. to commit (a crime)
+nisi | | wenn nicht, falls nicht | ↔ si
+parere | pareo 2, parui, – | gehorchen | vgl. parieren; ↔ parare 1
+servus | servi m. | Sklave | Servus! (erg. sum) = „Ich bin dein Diener“
+non iam | | nicht mehr | ↔ iam
+culpa | culpae f. | Schuld | ital. colpa, span. culpa
+nullus/a/um | 2.F. nullius, 3.F. nulli | kein | vgl. Null; ↔ nonnulli
+exemplum | exempli n. | Beispiel | engl. for example („zum Beispiel“)
+maxime (Adv.) | | sehr; am meisten | vgl. maximal
+familia | familiae f. | Familie | engl. family, frz. famille, ital. famiglia
+expellere | expello 3, expuli, expulsum | 1) vertreiben; 2) verjagen |
+== GRAMMATIK
+## Numeralia (Zahlwörter)
+| Ziffer | Grundzahl | Bedeutung | Ordnungszahl | Bedeutung |
+| I | unus, una, unum | „ein(s)“ | primus/a/um | „der/die/das Erste“ |
+| II | duo, duae, duo | „zwei“ | secundus/a/um | „der/die/das Zweite“ |
+| III | tres, tres, tria | „drei“ | tertius/a/um | „der/die/das Dritte“ |
+| IV | quattuor | „vier“ | quartus/a/um | „der/die/das Vierte“ |
+| V | quinque | „fünf“ | quintus/a/um | „der/die/das Fünfte“ |
+| VI | sex | „sechs“ | sextus/a/um | „der/die/das Sechste“ |
+| VII | septem | „sieben“ | septimus/a/um | „der/die/das Siebente“ |
+| VIII | octo | „acht“ | octavus/a/um | „der/die/das Achte“ |
+| IX | novem | „neun“ | nonus/a/um | „der/die/das Neunte“ |
+| X | decem | „zehn“ | decimus/a/um | „der/die/das Zehnte“ |
+| C | centum | „hundert“ | centesimus/a/um | „der/die/das Hundertste“ |
+| M | mille | „tausend“ | millesimus/a/um | „der/die/das Tausendste“ |
+Die Zahlen 1–3 werden dekliniert:
+| Fall | unus (m., f., n.) | duo (m., f., n.) | tres (m./f., n.) |
+| 1 | unus, una, unum | duo, duae, duo | tres, tria |
+| 2 | unius | duorum, duarum, duorum | trium |
+| 3 | uni | duobus, duabus, duobus | tribus |
+| 4 | unum, unam, unum | duos, duas, duo | tres, tria |
+| 6 | uno, una, uno | duobus, duabus, duobus | tribus |
+Zu mille (nicht deklinierbar) gibt es einen Plural, z. B. duo milia (= 2000). Diese Form dekliniert: 1.F. milia, 2.F. milium, 3.F. milibus, 4.F. milia, 6.F. (cum) milibus.
+? A. D. = anno Domini („im Jahr des Herrn“ = nach Christi Geburt). Das Zahlzeichen D steht für 500.
+## Zeitablativ (Ablativus temporis) und Akkusativ der Zeitstrecke
+- Bei Zeitbegriffen („Tag“, „Monat“, „Jahr“ etc.) steht auf die Frage „WANN?“ der Zeitablativ (Ablativus temporis) ohne Präposition: hora prima iterum in castris sunt = „in der (zur) ersten Stunde sind sie wieder im Lager“; secundo anno = „im zweiten Jahr“
+- Dagegen steht auf die Frage „WIE LANGE?“ der Akkusativ (Akkusativ der Zeitstrecke): tres horas equitant = „sie reiten drei Stunden (lang)“
+Unter der prima hora verstanden die Römer die Stunde, in der es hell wurde. Da der Tag von Sonnenaufgang bis Sonnenuntergang in jedem Fall in zwölf horae eingeteilt war, variierte die Dauer einer hora zwischen Winter und Sommer stark.

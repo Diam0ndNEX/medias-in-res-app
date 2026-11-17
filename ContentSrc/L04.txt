@@ -1,0 +1,71 @@
+#4 De spectaculis | Römischer Alltag | 5
+== VOKABELN
+de (Präp. + Abl.) | | 1) von (… herab); 2) über | frz. de, ital. di, span. de
+cum (Präp. + Abl.) | | mit | ital. + span. con
+sine (Präp. + Abl.) | | ohne | frz. sans, ital. senza, span. sin
+femina | feminae f. | Frau | vgl. Feministin, feminin
+gaudium | gaudii n. | Freude | vgl. „a Mordsgaudi“ (= ein riesiger Spaß)
+narro, -as | narravi, narratum | erzählen | span. narrar; vgl. engl. narrator
+Romani (Pl.) | Romanorum m. | die Römer | engl. the Romans („die Römer“)
+copia | copiae f. | Menge, Vorrat | ital. + span. copia; vgl. Kopie
+e / ex (Präp. + Abl.) | | aus, von | (siehe Grammatica)
+terra | terrae f. | Land; Erde | vgl. Terrarium, Terrasse, Parterre (= Erdgeschoß)
+alienus/a/um | | fremd | vgl. Aliens (= die Außerirdischen/Fremden)
+pugno, -as | pugnavi, -atum | kämpfen |
+neco, -as | necavi, -atum | töten |
+placeo, -es | placui, -itum | gefallen | frz. plaire, ital. piacere
+novus/a/um | | neu | vgl. re-novieren (= erneuern), In-novation
+alius/a/ud | | ein anderer | ↔ alienus/a/um
+alius – alius | | der eine – der andere | z. B. alius interrogat, alius respondet
+gladius | gladii m. | Schwert | vgl. Gladiator (= „Schwertkämpfer“), Gladiole
+postremo (Adv.) | | schließlich, endlich |
+supero, -as | superavi, superatum | 1) besiegen; 2) übertreffen |
+si | | wenn, falls | span. si, ital. se
+bene (Adv.) | | gut | frz. bien, ital. bene, span. bien; vgl. Benefizkonzert
+vita | vitae f. | Leben | ital. vita, span. vida; vgl. Vitamine; vital (= lebendig)
+dono, -as | donavi, donatum | schenken |
+pro (Präp. + Abl.) | | für | Pro und Kontra (= Für und Wider)
+suus/a/um | | sein, ihr | Possessivpronomen; ital. suo, span. su
+a / ab (Präp. + Abl.) | | von | (siehe Grammatica)
+prae (Präp. + Abl.) | | vor | vgl. Präposition (= Vorwort)
+neque (= nec) | | und nicht |
+* Ab dieser Lektion findest du in der zweiten Spalte der Vokabel bei den Nomina immer den Genetiv und das Geschlecht angegeben. Beides musst du ab jetzt unbedingt mitlernen.
+== GRAMMATIK
+## Nomina der a-/o-Deklination
+| Fall | Frage | a-Dekl. f. | o-Dekl. m. | o-Dekl. m. | o-Dekl. m. | o-Dekl. n. |
+| Sg. 1 | Wer?/Was? | amica | amicus | magister | puer | templum |
+| Sg. 2 | Wessen? | amicae | amici | magistri | pueri | templi |
+| Sg. 3 | Wem? | amicae | amico | magistro | puero | templo |
+| Sg. 4 | Wen?/Was? | amicam | amicum | magistrum | puerum | templum |
+| Sg. 5 | (Anrede) | amica! | amice! | magister! | puer! | templum! |
+| Sg. 6 | (z. B. cum) | amicā | amico | magistro | puero | templo |
+| Pl. 1 | Wer?/Was? | amicae | amici | magistri | pueri | templa |
+| Pl. 2 | Wessen? | amicarum | amicorum | magistrorum | puerorum | templorum |
+| Pl. 3 | Wem? | amicis | amicis | magistris | pueris | templis |
+| Pl. 4 | Wen?/Was? | amicas | amicos | magistros | pueros | templa |
+| Pl. 5 | (Anrede) | amicae! | amici! | magistri! | pueri! | templa! |
+| Pl. 6 | (z. B. cum) | amicis | amicis | magistris | pueris | templis |
+Der 6. Fall (Ablativ) steht nach bestimmten Präpositionen (siehe unten) und auf bestimmte Fragen.
+Da manche Endungen mehrere unterschiedliche Fälle bezeichnen (z. B. -ae = 2. + 3. Fall Sg., 1. + 5. Fall Pl.), musst du beim Übersetzen nach den Fällen fragen:
+- Quintus Lydiae forum monstrat. = „Quintus (WER? → 1.F.) zeigt Lydia (WEM? → 3.F.) das Forum (WEN?/WAS? → 4.F.).“
+## Adjektiva der a-/o-Deklination
+Analog zu amicus, amica und templum wandeln auch Adjektiva wie bonus/a/um (= bonus 3) ab:
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m. | Pl. f. | Pl. n. |
+| 1 | bonus | bona | bonum | boni | bonae | bona |
+| 2 | boni | bonae | boni | bonorum | bonarum | bonorum |
+| 3 | bono | bonae | bono | bonis | bonis | bonis |
+| 4 | bonum | bonam | bonum | bonos | bonas | bona |
+| 5 | bone! | bona! | bonum! | boni! | bonae! | bona! |
+| 6 | bono | bonā | bono | bonis | bonis | bonis |
+Genauso deklinieren Adjektiva auf -er: 1.F. pulcher, pulchra, pulchrum, 2.F. pulchri, pulchrae, pulchri etc. (5.F. Sg. m. pulcher!)
+## Präpositionen (Vorwörter)
+A) Präpositionen mit Ablativ:
+- a / ab = „von“
+- e / ex = „aus“, „von“
+- de = „von (… herab)“; „über“
+- cum = „mit“
+- sine = „ohne“
+- pro = „für“
+- prae = „vor“
+B) Präpositionen mit Akkusativ: Nach allen anderen Präpositionen steht der Akkusativ – z. B. nach ante („vor“), post („hinter“), ad („zu“, „an“, „bei“), per („durch“).
+? ab und ex stehen vor Vokalen (Selbstlauten), z. B. ex (ab) amphitheatro (vgl. im Englischen: an apple); a und e stehen vor Konsonanten (Mitlauten), z. B. e (a) templo (vgl. im Englischen: a banana).

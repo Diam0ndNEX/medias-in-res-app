@@ -1,0 +1,334 @@
+{
+ "number": 8,
+ "title": "De Lucretia",
+ "unit": "Die römische Frühzeit",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "tres (m./f.)",
+   "forms": "tria (n.)",
+   "de": "drei",
+   "note": "frz. trois, ital. tre, span. tres; vgl. Triathlon, Triumvirat (= Dreimännerbund)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "hora",
+   "forms": "horae f.",
+   "de": "Stunde",
+   "note": "engl. hour, frz. heure, ital. ora, span. hora",
+   "pos": "Nomen"
+  },
+  {
+   "la": "facere",
+   "forms": "facio M, feci, factum",
+   "de": "tun, machen",
+   "note": "frz. faire, ital. fare",
+   "pos": "Verb"
+  },
+  {
+   "la": "neque – neque",
+   "forms": "(= nec – nec)",
+   "de": "weder – noch",
+   "note": "vgl. neque",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "dormire",
+   "forms": "dormio 4, -ivi, -itum",
+   "de": "schlafen",
+   "note": "frz. dormir, ital. dormire, span. dormir",
+   "pos": "Verb"
+  },
+  {
+   "la": "solus/a/um",
+   "forms": "2.F. solius, 3.F. soli",
+   "de": "allein",
+   "note": "ital. + span. solo/a; vgl. Solo, Solist",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "duo/duae/duo",
+   "forms": "",
+   "de": "zwei",
+   "note": "(siehe Grammatica); ital. due; vgl. Duett, Duo",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "unus/a/um",
+   "forms": "2.F. unius, 3.F. uni",
+   "de": "1) ein; 2) einzig",
+   "note": "frz. un, ital. uno, span. un; Unikat (= Einzelstück)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "primus/a/um",
+   "forms": "",
+   "de": "der erste",
+   "note": "ital. primo; vgl. Primel, Primar, Primat, prima, primär",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "castra (Pl.)",
+   "forms": "castrorum n.",
+   "de": "das Lager (Sg.)",
+   "note": "vgl. Kastell (= kleines Lager), engl. castle",
+   "pos": "Nomen"
+  },
+  {
+   "la": "resistere",
+   "forms": "resisto 3, restiti, –",
+   "de": "sich widersetzen, Widerstand leisten",
+   "note": "engl. to resist; vgl. resistent (= widerstandsfähig)",
+   "pos": "Verb"
+  },
+  {
+   "la": "committere",
+   "forms": "committo 3, commisi, commissum",
+   "de": "begehen (ein Verbrechen); beginnen (einen Krieg)",
+   "note": "engl. to commit (a crime)",
+   "pos": "Verb"
+  },
+  {
+   "la": "nisi",
+   "forms": "",
+   "de": "wenn nicht, falls nicht",
+   "note": "↔ si",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "parere",
+   "forms": "pareo 2, parui, –",
+   "de": "gehorchen",
+   "note": "vgl. parieren; ↔ parare 1",
+   "pos": "Verb"
+  },
+  {
+   "la": "servus",
+   "forms": "servi m.",
+   "de": "Sklave",
+   "note": "Servus! (erg. sum) = „Ich bin dein Diener“",
+   "pos": "Nomen"
+  },
+  {
+   "la": "non iam",
+   "forms": "",
+   "de": "nicht mehr",
+   "note": "↔ iam",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "culpa",
+   "forms": "culpae f.",
+   "de": "Schuld",
+   "note": "ital. colpa, span. culpa",
+   "pos": "Nomen"
+  },
+  {
+   "la": "nullus/a/um",
+   "forms": "2.F. nullius, 3.F. nulli",
+   "de": "kein",
+   "note": "vgl. Null; ↔ nonnulli",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "exemplum",
+   "forms": "exempli n.",
+   "de": "Beispiel",
+   "note": "engl. for example („zum Beispiel“)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "maxime (Adv.)",
+   "forms": "",
+   "de": "sehr; am meisten",
+   "note": "vgl. maximal",
+   "pos": "Adverb"
+  },
+  {
+   "la": "familia",
+   "forms": "familiae f.",
+   "de": "Familie",
+   "note": "engl. family, frz. famille, ital. famiglia",
+   "pos": "Nomen"
+  },
+  {
+   "la": "expellere",
+   "forms": "expello 3, expuli, expulsum",
+   "de": "1) vertreiben; 2) verjagen",
+   "note": "",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Numeralia (Zahlwörter)",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Ziffer",
+      "Grundzahl",
+      "Bedeutung",
+      "Ordnungszahl",
+      "Bedeutung"
+     ],
+     "rows": [
+      [
+       "I",
+       "unus, una, unum",
+       "„ein(s)“",
+       "primus/a/um",
+       "„der/die/das Erste“"
+      ],
+      [
+       "II",
+       "duo, duae, duo",
+       "„zwei“",
+       "secundus/a/um",
+       "„der/die/das Zweite“"
+      ],
+      [
+       "III",
+       "tres, tres, tria",
+       "„drei“",
+       "tertius/a/um",
+       "„der/die/das Dritte“"
+      ],
+      [
+       "IV",
+       "quattuor",
+       "„vier“",
+       "quartus/a/um",
+       "„der/die/das Vierte“"
+      ],
+      [
+       "V",
+       "quinque",
+       "„fünf“",
+       "quintus/a/um",
+       "„der/die/das Fünfte“"
+      ],
+      [
+       "VI",
+       "sex",
+       "„sechs“",
+       "sextus/a/um",
+       "„der/die/das Sechste“"
+      ],
+      [
+       "VII",
+       "septem",
+       "„sieben“",
+       "septimus/a/um",
+       "„der/die/das Siebente“"
+      ],
+      [
+       "VIII",
+       "octo",
+       "„acht“",
+       "octavus/a/um",
+       "„der/die/das Achte“"
+      ],
+      [
+       "IX",
+       "novem",
+       "„neun“",
+       "nonus/a/um",
+       "„der/die/das Neunte“"
+      ],
+      [
+       "X",
+       "decem",
+       "„zehn“",
+       "decimus/a/um",
+       "„der/die/das Zehnte“"
+      ],
+      [
+       "C",
+       "centum",
+       "„hundert“",
+       "centesimus/a/um",
+       "„der/die/das Hundertste“"
+      ],
+      [
+       "M",
+       "mille",
+       "„tausend“",
+       "millesimus/a/um",
+       "„der/die/das Tausendste“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Die Zahlen 1–3 werden dekliniert:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "unus (m., f., n.)",
+      "duo (m., f., n.)",
+      "tres (m./f., n.)"
+     ],
+     "rows": [
+      [
+       "1",
+       "unus, una, unum",
+       "duo, duae, duo",
+       "tres, tria"
+      ],
+      [
+       "2",
+       "unius",
+       "duorum, duarum, duorum",
+       "trium"
+      ],
+      [
+       "3",
+       "uni",
+       "duobus, duabus, duobus",
+       "tribus"
+      ],
+      [
+       "4",
+       "unum, unam, unum",
+       "duos, duas, duo",
+       "tres, tria"
+      ],
+      [
+       "6",
+       "uno, una, uno",
+       "duobus, duabus, duobus",
+       "tribus"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Zu mille (nicht deklinierbar) gibt es einen Plural, z. B. duo milia (= 2000). Diese Form dekliniert: 1.F. milia, 2.F. milium, 3.F. milibus, 4.F. milia, 6.F. (cum) milibus."
+    },
+    {
+     "type": "note",
+     "text": "A. D. = anno Domini („im Jahr des Herrn“ = nach Christi Geburt). Das Zahlzeichen D steht für 500."
+    }
+   ]
+  },
+  {
+   "title": "Zeitablativ (Ablativus temporis) und Akkusativ der Zeitstrecke",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "Bei Zeitbegriffen („Tag“, „Monat“, „Jahr“ etc.) steht auf die Frage „WANN?“ der Zeitablativ (Ablativus temporis) ohne Präposition: hora prima iterum in castris sunt = „in der (zur) ersten Stunde sind sie wieder im Lager“; secundo anno = „im zweiten Jahr“",
+      "Dagegen steht auf die Frage „WIE LANGE?“ der Akkusativ (Akkusativ der Zeitstrecke): tres horas equitant = „sie reiten drei Stunden (lang)“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Unter der prima hora verstanden die Römer die Stunde, in der es hell wurde. Da der Tag von Sonnenaufgang bis Sonnenuntergang in jedem Fall in zwölf horae eingeteilt war, variierte die Dauer einer hora zwischen Winter und Sommer stark."
+    }
+   ]
+  }
+ ]
+}

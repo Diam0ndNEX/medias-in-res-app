@@ -1,0 +1,345 @@
+{
+ "number": 7,
+ "title": "De Romanis et Sabinis",
+ "unit": "Die römische Frühzeit",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "venire",
+   "forms": "venio 4, veni, ventum",
+   "de": "kommen",
+   "note": "frz. venir, ital. venire, span. venir",
+   "pos": "Verb"
+  },
+  {
+   "la": "habitare",
+   "forms": "habito 1, -avi, -atum",
+   "de": "wohnen; bewohnen",
+   "note": "frz. habiter, ital. abitare, span. habitar",
+   "pos": "Verb"
+  },
+  {
+   "la": "ut",
+   "forms": "",
+   "de": "1) wie; 2) als",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "apud (+ Akk.)",
+   "forms": "",
+   "de": "bei",
+   "note": "",
+   "pos": "Präposition"
+  },
+  {
+   "la": "legere",
+   "forms": "lego 3, legi, lectum",
+   "de": "lesen",
+   "note": "ital. leggere; vgl. Lektüre, Legende",
+   "pos": "Verb"
+  },
+  {
+   "la": "consilium",
+   "forms": "consilii n.",
+   "de": "Plan, Beschluss; Rat",
+   "note": "frz. conseil, ital. consiglio, span. consejo",
+   "pos": "Nomen"
+  },
+  {
+   "la": "capere",
+   "forms": "capio M, cepi, captum",
+   "de": "1) fassen, ergreifen; 2) fangen; 3) nehmen",
+   "note": "ital. capire; vgl. kapern, kapieren (= verstehen)",
+   "pos": "Verb"
+  },
+  {
+   "la": "nuntius",
+   "forms": "nuntii m.",
+   "de": "Bote; Nachricht",
+   "note": "vgl. Nuntius (= päpstlicher Botschafter)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "populus",
+   "forms": "populi m.",
+   "de": "Volk",
+   "note": "vgl. populär (= beim Volk beliebt), Populismus",
+   "pos": "Nomen"
+  },
+  {
+   "la": "mittere",
+   "forms": "mitto 3, misi, missum",
+   "de": "schicken",
+   "note": "vgl. Missionar (= einer, der ausgeschickt wurde)",
+   "pos": "Verb"
+  },
+  {
+   "la": "dicere",
+   "forms": "dico 3, dixi, dictum",
+   "de": "1) sagen; 2) nennen",
+   "note": "vgl. Diktat; Diktion (= Ausdrucksweise)",
+   "pos": "Verb"
+  },
+  {
+   "la": "parare",
+   "forms": "paro 1, paravi, -atum",
+   "de": "1) vorbereiten, bereiten; 2) erwerben",
+   "note": "vgl. etwas parat haben (= etwas vorbereitet haben)",
+   "pos": "Verb"
+  },
+  {
+   "la": "audire",
+   "forms": "audio 4, audivi, -itum",
+   "de": "hören",
+   "note": "vgl. Audio-Datei, Audienz; Auditorium (= Hörsaal)",
+   "pos": "Verb"
+  },
+  {
+   "la": "nam",
+   "forms": "",
+   "de": "denn, nämlich",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "dum (+ Präsens)",
+   "forms": "",
+   "de": "während",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "subito (Adv.)",
+   "forms": "",
+   "de": "plötzlich",
+   "note": "↔ ital. subito = „sofort“!",
+   "pos": "Adverb"
+  },
+  {
+   "la": "rapere",
+   "forms": "rapio M, rapui, raptum",
+   "de": "rauben",
+   "note": "frz. ravir, ital. rapire",
+   "pos": "Verb"
+  },
+  {
+   "la": "domum",
+   "forms": "",
+   "de": "nach Hause",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "arma (Pl.)",
+   "forms": "armorum n.",
+   "de": "Waffen",
+   "note": "frz. arme, ital. + span. arma; vgl. Armee, Alarm (aus „Ad arma!“ = „Zu den Waffen“), Armada",
+   "pos": "Nomen"
+  },
+  {
+   "la": "adiuvare",
+   "forms": "adiuvo 1, -iuvi, -iutum",
+   "de": "unterstützen, helfen",
+   "note": "vgl. Adjutant (= Hilfsoffizier eines Kommandanten)",
+   "pos": "Verb"
+  },
+  {
+   "la": "relinquere",
+   "forms": "relinquo 3, reliqui, relictum",
+   "de": "1) verlassen; 2) zurücklassen",
+   "note": "vgl. Reliquien (= Überreste von Heiligen), Relikt (= Überbleibsel)",
+   "pos": "Verb"
+  },
+  {
+   "la": "domi",
+   "forms": "",
+   "de": "zu Hause",
+   "note": "↔ domum",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "iniuria",
+   "forms": "iniuriae f.",
+   "de": "Unrecht",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "tolerare",
+   "forms": "tolero 1, -avi, -atum",
+   "de": "ertragen",
+   "note": "vgl. tolerant sein (= nachsichtig sein)",
+   "pos": "Verb"
+  },
+  {
+   "la": "bellum",
+   "forms": "belli n.",
+   "de": "Krieg",
+   "note": "vgl. Rebellion, Duell (duellum = bellum)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "bellum gerere",
+   "forms": "gero 3, gessi, gestum",
+   "de": "Krieg führen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "inter (+ Akk.)",
+   "forms": "",
+   "de": "zwischen",
+   "note": "vgl. international, Intercity-Zug, Intervall, interaktiv",
+   "pos": "Präposition"
+  },
+  {
+   "la": "contendere",
+   "forms": "contendo 3, -tendi, -tentum",
+   "de": "1) eilen; 2) kämpfen",
+   "note": "Grundbedeutung: „die Kräfte anspannen“",
+   "pos": "Verb"
+  },
+  {
+   "la": "necesse est",
+   "forms": "",
+   "de": "es ist notwendig",
+   "note": "engl. necessary; vgl. das Necessaire (= Behälter mit Reisebedarf)",
+   "pos": "Sonstiges"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Konjugationen",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Neben der a- und e-Konjugation gibt es noch drei weitere Konjugationsklassen, die sich allerdings nur in wenigen Details voneinander unterscheiden. Wie a- und e-Konjugation sind auch sie nach dem Auslaut ihres Stammes benannt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "konsonantische Konjugation → Stamm endet auf einen Konsonanten (Mitlaut)",
+      "i-Konjugation → Stamm endet auf langes i",
+      "Mischkonjugation → Stamm endet auf kurzes i („Misch“, weil die Formen teils nach der konsonantischen, teils nach der i-Konjugation gebildet werden)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Da bei der konsonantischen Konjugation der Stamm auf einen Mitlaut endet, tritt als Bindeglied zwischen Stamm und Endung ein sogenannter Bindevokal, der meistens -i- lautet: mitt-i-s (Stamm – Bindevokal – Endung)."
+    },
+    {
+     "type": "text",
+     "text": "An den Stamm werden bei allen Konjugationen dieselben Personalendungen angefügt:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "e-Konj.",
+      "kons. Konj.",
+      "i-Konj.",
+      "Mischkonj."
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amo",
+       "habe-o",
+       "mitt-o",
+       "audi-o",
+       "capi-o"
+      ],
+      [
+       "Sg. 2.P.",
+       "ama-s",
+       "habe-s",
+       "mitt-i-s",
+       "audi-s",
+       "capi-s"
+      ],
+      [
+       "Sg. 3.P.",
+       "ama-t",
+       "habe-t",
+       "mitt-i-t",
+       "audi-t",
+       "capi-t"
+      ],
+      [
+       "Pl. 1.P.",
+       "ama-mus",
+       "habe-mus",
+       "mitt-i-mus",
+       "audi-mus",
+       "capi-mus"
+      ],
+      [
+       "Pl. 2.P.",
+       "ama-tis",
+       "habe-tis",
+       "mitt-i-tis",
+       "audi-tis",
+       "capi-tis"
+      ],
+      [
+       "Pl. 3.P.",
+       "ama-nt",
+       "habe-nt",
+       "mitt-u-nt",
+       "audi-u-nt",
+       "capi-u-nt"
+      ],
+      [
+       "Infinitiv",
+       "amā-re",
+       "habē-re",
+       "mitt-e-re",
+       "audī-re",
+       "cape-re"
+      ],
+      [
+       "Imperativ Sg.",
+       "ama!",
+       "habe!",
+       "mitt-e!",
+       "audi!",
+       "cape!"
+      ],
+      [
+       "Imperativ Pl.",
+       "amā-te!",
+       "habē-te!",
+       "mitt-i-te!",
+       "audī-te!",
+       "capi-te!"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ausnahmen beim Imperativ: dic! („sag!“) und duc! („führ!“)."
+    },
+    {
+     "type": "note",
+     "text": "Zu welcher Konjugationsklasse ein Verbum gehört, erkennst du nicht an der 1. Person Sg. oder am Infinitiv alleine, sondern erst aus der Kombination von Infinitiv Präsens und 1. Person Sg."
+    },
+    {
+     "type": "list",
+     "items": [
+      "-are, -o → a-Konjugation (Abkürzung: -are 1): z. B. amare 1",
+      "-ēre, -eo → e-Konjugation (Abkürzung: -ēre 2): z. B. habēre 2",
+      "-ere, -o → konsonantische Konjugation (Abkürzung: -ere 3): z. B. mittere 3",
+      "-ire, -io → i-Konjugation (Abkürzung: -ire 4): z. B. audire 4",
+      "-ere, -io → Mischkonjugation (Abkürzung: -ere M): z. B. capere M"
+     ]
+    },
+    {
+     "type": "tip",
+     "text": "Um bei den Verba auf -ere (e-, konsonantische und Mischkonjugation) die Konjugationszugehörigkeit deutlich zu machen, ist bei diesen Infinitiven im Vocabularium jeweils der Akzent angegeben (-ére → e-Konjugation, -ere → Misch- oder konsonantische Konjugation)."
+    }
+   ]
+  }
+ ]
+}

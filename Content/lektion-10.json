@@ -1,0 +1,391 @@
+{
+ "number": 10,
+ "title": "De Hannibale",
+ "unit": "Die römische Frühzeit",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "imperator",
+   "forms": "imperatoris m.",
+   "de": "1) Feldherr; 2) Kaiser",
+   "note": "eigentl.: „Befehlshaber“ (vgl. imperare!)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "virtus",
+   "forms": "virtutis f.",
+   "de": "1) Tapferkeit; 2) Tugend",
+   "note": "eigentl.: „Mannhaftigkeit“ (vgl. vir = Mann)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "copiae (Pl.)",
+   "forms": "copiarum f.",
+   "de": "Truppen",
+   "note": "↔ copia, -ae (Sg.)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ducere",
+   "forms": "duco 3, duxi, ductum",
+   "de": "führen",
+   "note": "vgl. reduzieren",
+   "pos": "Verb"
+  },
+  {
+   "la": "navis",
+   "forms": "navis f.",
+   "de": "Schiff",
+   "note": "Navigation (= Steuerung des Schiffs); vgl. engl. navy",
+   "pos": "Nomen"
+  },
+  {
+   "la": "mare",
+   "forms": "maris n.",
+   "de": "Meer",
+   "note": "frz. mer, ital. mare; vgl. Marine",
+   "pos": "Nomen"
+  },
+  {
+   "la": "audere",
+   "forms": "audeo 2, ausus sum",
+   "de": "wagen",
+   "note": "frz. oser, ital. osare, span. osar",
+   "pos": "Verb"
+  },
+  {
+   "la": "amittere",
+   "forms": "amitto 3, amisi, amissum",
+   "de": "verlieren",
+   "note": "wörtl.: „wegschicken“",
+   "pos": "Verb"
+  },
+  {
+   "la": "pugna",
+   "forms": "pugnae f.",
+   "de": "Kampf",
+   "note": "vgl. pugnare",
+   "pos": "Nomen"
+  },
+  {
+   "la": "vincere",
+   "forms": "vinco 3, vici, victum",
+   "de": "siegen, besiegen",
+   "note": "frz. vaincre, ital. vincere, span. vencer",
+   "pos": "Verb"
+  },
+  {
+   "la": "pars",
+   "forms": "partis f.",
+   "de": "Teil",
+   "note": "engl. part; vgl. partiell (= teilweise)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "timor",
+   "forms": "timoris m.",
+   "de": "Furcht, Angst",
+   "note": "ital. timore, span. temor; vgl. timere",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ne … quidem",
+   "forms": "",
+   "de": "nicht einmal …",
+   "note": "z. B. ne tu quidem",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "prohibere",
+   "forms": "prohibeo 2, -ui, -itum",
+   "de": "1) ab-, fernhalten; 2) hindern, verhindern",
+   "note": "ital. proibire, span. prohibir; vgl. engl. to prohibit („verbieten“)",
+   "pos": "Verb"
+  },
+  {
+   "la": "occidere",
+   "forms": "occido 3, occidi, occisum",
+   "de": "töten",
+   "note": "ital. uccidere",
+   "pos": "Verb"
+  },
+  {
+   "la": "porta",
+   "forms": "portae f.",
+   "de": "Tor, Tür",
+   "note": "frz. porte, ital. porta; vgl. Portal, Portier",
+   "pos": "Nomen"
+  },
+  {
+   "la": "urbs",
+   "forms": "urbis f.",
+   "de": "Stadt",
+   "note": "vgl. engl. suburb; urban (= städtisch)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "summus/a/um",
+   "forms": "",
+   "de": "der höchste; sehr hoch",
+   "note": "vgl. Summe; engl. summit (= Höhepunkt)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "honor",
+   "forms": "honoris m.",
+   "de": "Ehre, Ansehen",
+   "note": "vgl. honorieren (= belohnen); engl. honour",
+   "pos": "Nomen"
+  },
+  {
+   "la": "facere",
+   "forms": "(mit doppeltem Akk.)",
+   "de": "zu etwas machen",
+   "note": "z. B. te amicam meam facio",
+   "pos": "Verb"
+  },
+  {
+   "la": "patria",
+   "forms": "patriae f.",
+   "de": "Heimat",
+   "note": "ital. + span. patria; vgl. Patriot",
+   "pos": "Nomen"
+  },
+  {
+   "la": "pax",
+   "forms": "pacis f.",
+   "de": "Friede",
+   "note": "engl. peace; vgl. Pazifist (= Kriegsgegner), Pazifik",
+   "pos": "Nomen"
+  },
+  {
+   "la": "hostis",
+   "forms": "hostis m.",
+   "de": "Feind",
+   "note": "vgl. engl. hostile (= feindlich)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "liberare (+ Abl.)",
+   "forms": "libero 1, -avi, -atum",
+   "de": "befreien (von)",
+   "note": "vgl. liberalisieren (= von Regelungen befreien)",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "„Dritte“ Deklination: Misch- und i-Stämme",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Zur dritten Deklination gehören nicht nur die Konsonantenstämme (siehe vorige Lektion), sondern auch die Mischstämme und die i-Stämme. Die drei Untergruppen unterscheiden sich nur in einigen wenigen Details voneinander: im Akkusativ und Ablativ Sg. sowie im Genetiv Pl. Auch bei Misch- und i-Stämmen sind die Nominative sehr unterschiedlich, gemeinsam ist allen Wörtern wieder der Genetiv auf -is."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Frage",
+      "Mischst. f.",
+      "Mischst. f.",
+      "i-Stamm f.",
+      "i-Stamm n."
+     ],
+     "rows": [
+      [
+       "Sg. 1",
+       "Wer?/Was?",
+       "navis („Schiff“)",
+       "urbs („Stadt“)",
+       "turris („Turm“)",
+       "mare („Meer“)"
+      ],
+      [
+       "Sg. 2",
+       "Wessen?",
+       "navis",
+       "urbis",
+       "turris",
+       "maris"
+      ],
+      [
+       "Sg. 3",
+       "Wem?",
+       "navi",
+       "urbi",
+       "turri",
+       "mari"
+      ],
+      [
+       "Sg. 4",
+       "Wen?/Was?",
+       "navem",
+       "urbem",
+       "turrim",
+       "mare"
+      ],
+      [
+       "Sg. 5",
+       "(Anrede)",
+       "navis!",
+       "urbs!",
+       "turris!",
+       "mare!"
+      ],
+      [
+       "Sg. 6",
+       "Womit? Wodurch?",
+       "nave",
+       "urbe",
+       "turri",
+       "mari"
+      ],
+      [
+       "Pl. 1",
+       "Wer?",
+       "naves",
+       "urbes",
+       "turres",
+       "maria"
+      ],
+      [
+       "Pl. 2",
+       "Wessen?",
+       "navium",
+       "urbium",
+       "turrium",
+       "marium"
+      ],
+      [
+       "Pl. 3",
+       "Wem?",
+       "navibus",
+       "urbibus",
+       "turribus",
+       "maribus"
+      ],
+      [
+       "Pl. 4",
+       "Wen?/Was?",
+       "naves",
+       "urbes",
+       "turres",
+       "maria"
+      ],
+      [
+       "Pl. 5",
+       "(Anrede)",
+       "naves!",
+       "urbes!",
+       "turres!",
+       "maria!"
+      ],
+      [
+       "Pl. 6",
+       "Womit? Wodurch?",
+       "navibus",
+       "urbibus",
+       "turribus",
+       "maribus"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Die Mischstämme sind großteils feminin. Zu ihnen gehören zwei Gruppen von Nomina:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Wörter, bei denen der 1. und 2. F. gleich (nämlich auf -is) lauten: z. B. navis, navis („Schiff“).",
+      "Wörter, deren Stamm auf zwei oder mehr Mitlaute endet: z. B. urbs, urb-is („Stadt“); pars, part-is („Teil“)."
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Auch bei den i-Stämmen gibt es zwei Gruppen:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "feminin sind bestimmte, extra zu lernende Wörter wie turris, -is („Turm“).",
+      "neutrum sind alle Nomina auf -e oder -al: z. B. mare, -is („Meer“); animal, -alis („Tier“)."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Zusammenfassung: Unterschiede in der 3. Deklination",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "4.F. Sg. m./f.",
+      "6.F. Sg.",
+      "1./4.F. Pl. n.",
+      "2.F. Pl."
+     ],
+     "rows": [
+      [
+       "Konsonantenstämme",
+       "-em",
+       "-e",
+       "-a",
+       "-um"
+      ],
+      [
+       "Mischstämme",
+       "-em",
+       "-e",
+       "–",
+       "-ium"
+      ],
+      [
+       "i-Stämme",
+       "-im",
+       "-i",
+       "-ia",
+       "-ium"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Die Gemeinsamkeiten der drei Untergruppen der 3. Deklination sind wesentlich größer als ihre Unterschiede. Zu den i-Stämmen gehören nur wenige, selten vorkommende Wörter, wie z. B. mare und turris."
+    }
+   ]
+  },
+  {
+   "title": "Ablativ der Trennung (Ablativus separationis)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Er steht auf die Frage „WOVON?“ und wird dementsprechend mit „von“ übersetzt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "timore liberare = „von der Furcht befreien“",
+      "urbe prohibere = „von der Stadt fern halten“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ablativ der Eigenschaft (Ablativus qualitatis)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Er gibt die Eigenschaft einer Person an. Erstübersetzung: „von“, oft aber auch frei:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "vir summa virtute = „ein Mann von höchster Tapferkeit“ / „ein sehr tapferer Mann“"
+     ]
+    }
+   ]
+  }
+ ]
+}

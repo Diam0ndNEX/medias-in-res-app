@@ -1,0 +1,61 @@
+#2 Quid grammaticus docet? | Römischer Alltag | 5
+== VOKABELN
+quid? | | was? |
+docet | docui, doctum | er/sie/es lehrt, unterrichtet | vgl. dozieren, Dozent (= Hochschullehrer)
+ubi? | | wo? |
+iam | | schon | span. ya
+exspectat | exspectavi, -atum | er/sie/es erwartet | engl. to expect
+intrat | intravi, intratum | er/sie/es tritt ein, betritt | engl. to enter, frz. entrer, ital. entrare, span. entrar
+salve!/salvete! | | sei/seid gegrüßt! | ital. salve
+magister m. | magistri | Lehrer | frz. maître; vgl. Maestro (= Dirigent)
+amat | amavi, amatum | er/sie/es liebt | vgl. Amateur (= „Liebhaber“, ↔ Profi)
+non solum – sed etiam | | nicht nur – sondern auch |
+etiam | | auch, sogar | ↔ iam
+lingua f. | linguae | 1) Zunge; 2) Sprache | engl. language, frz. langue, ital. lingua
+Latinus/a/um | (Adjektiv!) | lateinisch |
+Graecus/a/um | (Adjektiv!) | griechisch | engl. Greek, Greece, span. griego
+liber m. | libri | Buch | ital. + span. libro; vgl. engl. library (= Bibliothek)
+quam | | wie |
+pulcher/chra/chrum | | schön, hübsch |
+verbum n. | verbi | Wort | vgl. verbal (= durch Worte)
+secum | | mit sich, bei sich |
+cogitat | cogitavi, cogitatum | er/sie/es denkt |
+puer m. | pueri | Bub | pueril (= kindlich)
+puella f. | puellae | Mädchen |
+quod | | weil | ↔ quid
+quis? | | wer? |
+habet | habui, habitum | er/sie/es hat | engl. to have, frz. avoir, ital. avere, span. haber
+spectat | spectavi, -atum | er/sie/es schaut an, er/sie/es betrachtet | vgl. Spektakel, spektakulär; engl. spectator (= Zuschauer)
+oculus m. | oculi | Auge | vgl. Mon-okel (= Einglas), Okular
+tuus/a/um | | dein | ital. tuo, span. tu
+monet | monui, monitum | er/sie/es (er)mahnt | vgl. Monitor (= elektronisches Anzeigegerät)
+iratus/a/um | | zornig, erzürnt |
+== GRAMMATIK
+## Wörter auf -er
+Unter den männlichen Nomina der o-Deklination gibt es nicht nur solche auf -us, sondern auch einige auf -er:
+- magister = „der Lehrer“
+- puer = „der Bub“
+Auch unter den Adjektiva haben einige in der männlichen Form die Endung -er statt -us:
+- pulcher (m.), pulchra (f.), pulchrum (n.) = „schön“
+Abgesehen vom 1.F. Sg. deklinieren diese Wörter so wie die übrigen Wörter der o-Deklination (amicus bzw. magnus/a/um).
+## Akkusativ (4. Fall)
+Der Akkusativ hat folgendes „Erkennungszeichen“:
+- Sg. → -m
+- Pl. → -s (m. + f.) bzw. -a (n.)
+Nach dem Akkusativ fragt man mit „WEN?“ oder „WAS?“: Quintus Iuliam spectat. = „Quintus betrachtet Julia.“ (WEN betrachtet er?)
+| | a-Dekl. (f.) | o-Dekl. (m.) | o-Dekl. (m.) | o-Dekl. (m.) | o-Dekl. (n.) |
+| Sg. 1.F. | amica | amicus | magister | puer | pensum |
+| Sg. 4.F. | amicam | amicum | magistrum | puerum | pensum |
+| Pl. 1.F. | amicae | amici | magistri | pueri | pensa |
+| Pl. 4.F. | amicas | amicos | magistros | pueros | pensa |
+Der Unterschied zwischen magister und puer besteht darin, dass bei puer in allen Fällen das -e- erhalten bleibt, während es bei magister verschwindet.
+? 1) Die Endung -um kann Akkusativ Sg. sein, bei neutralen Wörtern aber auch Nominativ Sg.: amicum → 4. F. von amicus = „den Freund“; pensum → 1. F. von pensum = „die Aufgabe“ (z. B.: macht mir großen Spaß) oder 4. F. = „die Aufgabe“ (z. B.: mache ich nicht).
+? 2) Bei neutralen Wörtern sind Nominativ und Akkusativ immer gleich! Nom. und Akk. Plural enden bei allen Neutra auf -a.
+## Adjektiva (Eigenschaftswörter)
+Die Adjektiva haben im Akkusativ dieselben Endungen wie die Nomina:
+| | m. | f. | n. |
+| Sg. 1.F. | bonus | bona | bonum |
+| Sg. 4.F. | bonum | bonam | bonum |
+| Pl. 1.F. | boni | bonae | bona |
+| Pl. 4.F. | bonos | bonas | bona |
+Ebenso dekliniert: 1. F.: pulcher, pulchra, pulchrum → 4. F.: pulchrum, pulchram, pulchrum (etc.)

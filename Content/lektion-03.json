@@ -1,0 +1,379 @@
+{
+ "number": 3,
+ "title": "Quam pulchra Roma est!",
+ "unit": "Römischer Alltag",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "Roma f.",
+   "forms": "Romae",
+   "de": "Rom",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "per (Präp. + Akk.)",
+   "forms": "",
+   "de": "durch",
+   "note": "vgl. perforieren (= durchlöchern), per … (Mail, Post etc.)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "via f.",
+   "forms": "viae",
+   "de": "Weg, Straße",
+   "note": "ital. via, span. vía; vgl. Viadukt (= Brücke über ein Tal)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ambulo, -as",
+   "forms": "ambulavi, ambulatum",
+   "de": "gehen, spazieren",
+   "note": "vgl. Ambulatorium, Ambulanz",
+   "pos": "Verb"
+  },
+  {
+   "la": "multi/ae/a (Plural)",
+   "forms": "",
+   "de": "viele",
+   "note": "vgl. Multivitaminsaft, Multitasking, Multitalent",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "multum (n. Sg.)",
+   "forms": "",
+   "de": "viel",
+   "note": "ital. molto",
+   "pos": "Nomen"
+  },
+  {
+   "la": "aedificium n.",
+   "forms": "aedificii",
+   "de": "Gebäude",
+   "note": "ital. + span. edificio",
+   "pos": "Nomen"
+  },
+  {
+   "la": "video, -es",
+   "forms": "vidi, visum",
+   "de": "sehen",
+   "note": "ital. vedere; vgl. das Video, Videorekorder",
+   "pos": "Verb"
+  },
+  {
+   "la": "-que",
+   "forms": "",
+   "de": "und",
+   "note": "z. B. Quintus Gaiusque = Quintus et Gaius",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "clarus/a/um",
+   "forms": "",
+   "de": "1) berühmt; 2) hell",
+   "note": "vgl. klar; Clara (= „die Berühmte“)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "monstro, -as",
+   "forms": "monstravi, monstratum",
+   "de": "zeigen",
+   "note": "vgl. Monstranz (= Behälter, in dem die Hostie gezeigt wird)",
+   "pos": "Verb"
+  },
+  {
+   "la": "spectaculum n.",
+   "forms": "spectaculi",
+   "de": "Schauspiel",
+   "note": "vgl. Spektakel; ↔ spectat",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ibi",
+   "forms": "",
+   "de": "dort",
+   "note": "↔ ubi",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "statua f.",
+   "forms": "statuae",
+   "de": "Statue",
+   "note": "ital. statua, span. estatua",
+   "pos": "Nomen"
+  },
+  {
+   "la": "vir m.",
+   "forms": "viri",
+   "de": "Mann",
+   "note": "vgl. Triumvirat (= Dreimännerbund); viril (= männlich)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "-ne",
+   "forms": "",
+   "de": "(Fragepartikel, unübersetzt)",
+   "note": "z. B. Amasne Iuliam? = „Liebst du Julia?“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "certe (Adv.)",
+   "forms": "",
+   "de": "sicherlich",
+   "note": "ital. certo, span. cierto, engl. certainly",
+   "pos": "Adverb"
+  },
+  {
+   "la": "forum n.",
+   "forms": "fori",
+   "de": "Forum; Marktplatz",
+   "note": "vgl. Forensik = Gerichtsmedizin (das Gericht tagte am Forum!)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "Romanus/a/um",
+   "forms": "",
+   "de": "römisch",
+   "note": "engl. Roman; vgl. Romanisierung",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "templum n.",
+   "forms": "templi",
+   "de": "Tempel",
+   "note": "frz. temple, ital. tempio, span. templo",
+   "pos": "Nomen"
+  },
+  {
+   "la": "tam",
+   "forms": "",
+   "de": "so",
+   "note": "↔ tum",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "deus m.",
+   "forms": "dei",
+   "de": "Gott",
+   "note": "frz. dieu, ital. dio, span. dios",
+   "pos": "Nomen"
+  },
+  {
+   "la": "dea f.",
+   "forms": "deae",
+   "de": "Göttin",
+   "note": "frz. déesse, ital. dea, span. diosa",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ante (Präp. + Akk.)",
+   "forms": "",
+   "de": "vor",
+   "note": "vgl. Antipasto (= Vorspeise), antizipieren (= vorwegnehmen)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "post (Präp. + Akk.)",
+   "forms": "",
+   "de": "nach; hinter",
+   "note": "vgl. post mortem (= „nach dem Tod“)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "solum (Adv.)",
+   "forms": "",
+   "de": "nur",
+   "note": "ital. solo, span. sólo; vgl. non solum – sed etiam",
+   "pos": "Adverb"
+  },
+  {
+   "la": "ad (Präp. + Akk.)",
+   "forms": "",
+   "de": "zu, an, bei",
+   "note": "",
+   "pos": "Präposition"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Konjugation",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Da im Lateinischen persönliche Fürwörter nur selten geschrieben werden, sagt die Endung aus, um welche Person es sich handelt. Die folgenden Endungen gelten für alle Konjugationen im Präsensstamm (= Präsens, Futur, Imperfekt):"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Singular",
+      "Plural"
+     ],
+     "rows": [
+      [
+       "1.P.",
+       "-o (→ ich)",
+       "-mus (→ wir)"
+      ],
+      [
+       "2.P.",
+       "-s (→ du)",
+       "-tis (→ ihr)"
+      ],
+      [
+       "3.P.",
+       "-t (→ er/sie/es)",
+       "-nt (→ sie)"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Bei einigen Zeiten und Verben lautet die 1.P. Sg. auch -m."
+    },
+    {
+     "type": "text",
+     "text": "Durch das Anfügen dieser Personalendungen an den Stamm ergeben sich für das Präsens folgende Konjugationsmuster:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konjugation",
+      "e-Konjugation"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amo „ich liebe“",
+       "mone-o „ich mahne“"
+      ],
+      [
+       "Sg. 2.P.",
+       "ama-s „du liebst“",
+       "mone-s „du mahnst“"
+      ],
+      [
+       "Sg. 3.P.",
+       "ama-t „er/sie liebt“",
+       "mone-t „er/sie mahnt“"
+      ],
+      [
+       "Pl. 1.P.",
+       "ama-mus „wir lieben“",
+       "mone-mus „wir mahnen“"
+      ],
+      [
+       "Pl. 2.P.",
+       "ama-tis „ihr liebt“",
+       "mone-tis „ihr mahnt“"
+      ],
+      [
+       "Pl. 3.P.",
+       "ama-nt „sie lieben“",
+       "mone-nt „sie mahnen“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "amo ist entstanden aus ama-o."
+    }
+   ]
+  },
+  {
+   "title": "Imperativ (Befehlsform)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Imperativ ist die Befehlsform. Sie besteht im Singular aus dem reinen, also endungslosen Stamm, im Plural aus dem Stamm + -te:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konjugation",
+      "e-Konjugation"
+     ],
+     "rows": [
+      [
+       "Sg.",
+       "specta! „schau!“",
+       "responde! „antworte!“"
+      ],
+      [
+       "Pl.",
+       "specta-te! „schaut!“",
+       "responde-te! „antwortet!“"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Vokativ (5. Fall, Anredefall)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Im Lateinischen gibt es einen eigenen Fall für die direkte Anrede: den Vokativ („Ruf-Fall“). Er sieht in der Regel aus wie der Nominativ."
+    },
+    {
+     "type": "list",
+     "items": [
+      "Specta, amica! = „Schau, Freundin!“",
+      "Spectate, amici! = „Schaut, Freunde!“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ausnahmen im Singular:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Maskuline Wörter der o-Deklination auf -us → Vokativ Sg. auf -e (z. B.: amice! = „Freund!“)",
+      "Nomina auf -ius → Vokativ Sg. auf -i (z. B.: Gai! = „Gaius!“)"
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Sg.",
+      "Iulia",
+      "Quintus",
+      "Gaius",
+      "vir"
+     ],
+     "rows": [
+      [
+       "1.F.",
+       "Iulia",
+       "Quintus",
+       "Gaius",
+       "vir"
+      ],
+      [
+       "5.F.",
+       "Iulia!",
+       "Quinte!",
+       "Gai!",
+       "vir!"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Im Plural gilt die Regel ausnahmslos: 5. F. = 1. F."
+    },
+    {
+     "type": "tip",
+     "text": "Einen Vokativ erkennst du am Beistrich davor und/oder am Ruf- bzw. Fragezeichen danach!"
+    },
+    {
+     "type": "tip",
+     "text": "Da der Vokativ der Anredefall ist, darfst du im Deutschen keinen Artikel davor setzen!"
+    }
+   ]
+  }
+ ]
+}

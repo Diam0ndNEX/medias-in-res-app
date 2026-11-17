@@ -1,0 +1,62 @@
+#9 Quem Romani maxime timent? | Die römische Frühzeit | 5
+== VOKABELN
+quem? | | wen? | (siehe Grammatica)
+timere | timeo 2, timui, – | fürchten; sich fürchten | ital. temere, span. temer
+Galli | Gallorum m. | die Gallier (= Kelten) | frz. Gaulois
+flumen | fluminis n. | Fluss | ital. fiume
+miles | militis m. | Soldat | vgl. Militär
+fugere (+ Akk.) | fugio M, fugi, – | flüchten (vor), fliehen | vgl. Zentrifuge, Refugium (= Rückzugsort)
+occupare | occupo 1, -avi, -atum | besetzen | frz. occuper, ital. occupare; vgl. okkupieren
+delere | deleo 2, delevi, deletum | zerstören | vgl. engl. to delete = „löschen“
+oppugnare | oppugno 1, -avi, -atum | bestürmen, belagern | wörtlich: „dagegenkämpfen“
+expugnare | expugno 1, -avi, -atum | erobern | wörtlich: „herauskämpfen“
+nox | noctis f. (2. F. Pl. -ium) | Nacht | frz. nuit, ital. notte, span. noche
+constituere | constituo 3, constitui, constitutum | beschließen, festsetzen | vgl. Konstitution (= Verfassung)
+clam (Adv.) | | heimlich | vgl. klammheimlich (= ganz heimlich)
+ascendere | ascendo 3, ascendi, ascensum | hinaufsteigen, besteigen | vgl. Aszendent; frz. ascenseur, ital. ascensore, span. ascensor
+homo | hominis m. | Mensch | frz. homme; Homo sapiens
+canis | canis m. | Hund | frz. chien, ital. cane; Cave canem
+Iuno | Iunonis f. | Juno (griech. Hera) | Gattin des Jupiter
+sacer/cra/crum | | 1) heilig; 2) geweiht | vgl. Sakristei, Sakrament, sakral
+quamquam | | obwohl |
+carere (+ Abl.) | careo 2, carui, – | frei sein (von …), nicht haben | z. B. otio careo = (ich bin frei von Freizeit →) „ich habe keine Freizeit“; vgl. Karenz
+vox | vocis f. | Stimme | engl. voice, frz. voix, ital. voce, span. voz
+clamor | clamoris m. | Geschrei, Lärm | frz. clameur, ital. clamore; vgl. clamare
+statim (Adv.) | | sofort, sogleich |
+ceteri/ae/a (Pl.) | | die übrigen | etc. (et cetera) = „und das Übrige“
+servare | servo 1, -avi, -atum | 1) retten; 2) bewahren | vgl. konservieren
+gloria | gloriae f. | Ruhm, Ehre | vgl. Gloria; glorreich (= ruhmreich)
+nomen | nominis n. | Name | vgl. Nomen est omen = „Der Name ist Vorzeichen“
+accipere | accipio M, accepi, acceptum | 1) erhalten; 2) aufnehmen; 3) annehmen | vgl. akzeptieren (= etwas annehmen)
+== GRAMMATIK
+## „Dritte“ Deklination: Konsonantenstämme
+Die dritte Deklination ist ein Sammelbegriff für verschiedene Nomina (Substantiva), die zwar sehr unterschiedliche Nominative, sonst aber weitgehend gleiche Kasusendungen haben. Die in diesem Stück vorkommenden Wörter gehören zu den sogenannten Konsonantenstämmen, da ihr Stamm auf einen Konsonanten (Mitlaut) endet.
+Den Stamm erkennst du, wenn du vom Genetiv Sg. die Endung -is weglässt:
+- homin-is → Stamm homin-
+- voc-is → Stamm voc-
+- flumin-is → Stamm flumin-
+Das Geschlecht der Wörter der 3. Deklination kann maskulin, feminin oder neutrum sein.
+| Fall | Frage | maskulin | feminin | neutrum |
+| Sg. 1 | Wer?/Was? | homo | vox | flumen |
+| Sg. 2 | Wessen? | hominis | vocis | fluminis |
+| Sg. 3 | Wem? | homini | voci | flumini |
+| Sg. 4 | Wen?/Was? | hominem | vocem | flumen |
+| Sg. 5 | (Anrede) | homo! | vox! | flumen! |
+| Sg. 6 | Womit? Wodurch? | cum homine | voce | flumine |
+| Pl. 1 | Wer? | homines | voces | flumina |
+| Pl. 2 | Wessen? | hominum | vocum | fluminum |
+| Pl. 3 | Wem? | hominibus | vocibus | fluminibus |
+| Pl. 4 | Wen?/Was? | homines | voces | flumina |
+| Pl. 5 | (Anrede) | homines! | voces! | flumina! |
+| Pl. 6 | Womit? Wodurch? | cum hominibus | vocibus | fluminibus |
+? Einige Endungen der 3. Deklination sind „verwechslungsanfällig“ mit der a- bzw. o-Deklination: -is → 3. Dekl. 2.F. Sg. (hominis = „des Menschen“), aber a-/o-Dekl. 3./6.F. Pl. (amicis = „den Freunden“). -i → 3. Dekl. 3.F. Sg. (homini = „dem Menschen“), aber o-Dekl. 2.F. Sg. (amici = „des Freundes“) oder 1.F. Pl. (amici = „die Freunde“).
+! Dass ein Wort zur 3. Deklination gehört, erkennst du am Genetiv Singular auf -is. Bei den Vokabeln musst du daher immer den Genetiv Singular (und das Geschlecht) mitlernen!
+## Quis?/Quid? („Wer?“/„Was?“)
+Bei quis?/quid? handelt es sich um das substantivische Fragepronomen (Interrogativpronomen). Substantivisch heißt, dass es nicht übereingestimmt wird, sondern wie ein Substantiv (= Nomen) alleine steht: z. B. Quem vides? = „Wen siehst du?“
+| Fall | Person | Sache | Bedeutung |
+| 1.F. | quis? | quid? | „wer?“ / „was?“ |
+| 2.F. | cuius? | cuius? | „wessen?“ |
+| 3.F. | cui? | cui? | „wem?“ |
+| 4.F. | quem? | quid? | „wen?“ / „was?“ |
+| 6.F. | a quo? / cum quo? | a quo? / cum quo? | „von wem?“ / „mit wem?“ |
+Das adjektivische Fragepronomen ist dagegen mit einem Nomen übereingestimmt: qui, quae, quod (→ Lektion 12): z. B. Quem canem vides? = „Welchen Hund siehst du?“

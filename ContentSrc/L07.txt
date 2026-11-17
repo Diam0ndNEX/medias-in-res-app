@@ -1,0 +1,57 @@
+#7 De Romanis et Sabinis | Die römische Frühzeit | 5
+== VOKABELN
+venire | venio 4, veni, ventum | kommen | frz. venir, ital. venire, span. venir
+habitare | habito 1, -avi, -atum | wohnen; bewohnen | frz. habiter, ital. abitare, span. habitar
+ut | | 1) wie; 2) als |
+apud (+ Akk.) | | bei |
+legere | lego 3, legi, lectum | lesen | ital. leggere; vgl. Lektüre, Legende
+consilium | consilii n. | Plan, Beschluss; Rat | frz. conseil, ital. consiglio, span. consejo
+capere | capio M, cepi, captum | 1) fassen, ergreifen; 2) fangen; 3) nehmen | ital. capire; vgl. kapern, kapieren (= verstehen)
+nuntius | nuntii m. | Bote; Nachricht | vgl. Nuntius (= päpstlicher Botschafter)
+populus | populi m. | Volk | vgl. populär (= beim Volk beliebt), Populismus
+mittere | mitto 3, misi, missum | schicken | vgl. Missionar (= einer, der ausgeschickt wurde)
+dicere | dico 3, dixi, dictum | 1) sagen; 2) nennen | vgl. Diktat; Diktion (= Ausdrucksweise)
+parare | paro 1, paravi, -atum | 1) vorbereiten, bereiten; 2) erwerben | vgl. etwas parat haben (= etwas vorbereitet haben)
+audire | audio 4, audivi, -itum | hören | vgl. Audio-Datei, Audienz; Auditorium (= Hörsaal)
+nam | | denn, nämlich |
+dum (+ Präsens) | | während |
+subito (Adv.) | | plötzlich | ↔ ital. subito = „sofort“!
+rapere | rapio M, rapui, raptum | rauben | frz. ravir, ital. rapire
+domum | | nach Hause |
+arma (Pl.) | armorum n. | Waffen | frz. arme, ital. + span. arma; vgl. Armee, Alarm (aus „Ad arma!“ = „Zu den Waffen“), Armada
+adiuvare | adiuvo 1, -iuvi, -iutum | unterstützen, helfen | vgl. Adjutant (= Hilfsoffizier eines Kommandanten)
+relinquere | relinquo 3, reliqui, relictum | 1) verlassen; 2) zurücklassen | vgl. Reliquien (= Überreste von Heiligen), Relikt (= Überbleibsel)
+domi | | zu Hause | ↔ domum
+iniuria | iniuriae f. | Unrecht |
+tolerare | tolero 1, -avi, -atum | ertragen | vgl. tolerant sein (= nachsichtig sein)
+bellum | belli n. | Krieg | vgl. Rebellion, Duell (duellum = bellum)
+bellum gerere | gero 3, gessi, gestum | Krieg führen |
+inter (+ Akk.) | | zwischen | vgl. international, Intercity-Zug, Intervall, interaktiv
+contendere | contendo 3, -tendi, -tentum | 1) eilen; 2) kämpfen | Grundbedeutung: „die Kräfte anspannen“
+necesse est | | es ist notwendig | engl. necessary; vgl. das Necessaire (= Behälter mit Reisebedarf)
+== GRAMMATIK
+## Konjugationen
+Neben der a- und e-Konjugation gibt es noch drei weitere Konjugationsklassen, die sich allerdings nur in wenigen Details voneinander unterscheiden. Wie a- und e-Konjugation sind auch sie nach dem Auslaut ihres Stammes benannt:
+- konsonantische Konjugation → Stamm endet auf einen Konsonanten (Mitlaut)
+- i-Konjugation → Stamm endet auf langes i
+- Mischkonjugation → Stamm endet auf kurzes i („Misch“, weil die Formen teils nach der konsonantischen, teils nach der i-Konjugation gebildet werden)
+Da bei der konsonantischen Konjugation der Stamm auf einen Mitlaut endet, tritt als Bindeglied zwischen Stamm und Endung ein sogenannter Bindevokal, der meistens -i- lautet: mitt-i-s (Stamm – Bindevokal – Endung).
+An den Stamm werden bei allen Konjugationen dieselben Personalendungen angefügt:
+| | a-Konj. | e-Konj. | kons. Konj. | i-Konj. | Mischkonj. |
+| Sg. 1.P. | amo | habe-o | mitt-o | audi-o | capi-o |
+| Sg. 2.P. | ama-s | habe-s | mitt-i-s | audi-s | capi-s |
+| Sg. 3.P. | ama-t | habe-t | mitt-i-t | audi-t | capi-t |
+| Pl. 1.P. | ama-mus | habe-mus | mitt-i-mus | audi-mus | capi-mus |
+| Pl. 2.P. | ama-tis | habe-tis | mitt-i-tis | audi-tis | capi-tis |
+| Pl. 3.P. | ama-nt | habe-nt | mitt-u-nt | audi-u-nt | capi-u-nt |
+| Infinitiv | amā-re | habē-re | mitt-e-re | audī-re | cape-re |
+| Imperativ Sg. | ama! | habe! | mitt-e! | audi! | cape! |
+| Imperativ Pl. | amā-te! | habē-te! | mitt-i-te! | audī-te! | capi-te! |
+Ausnahmen beim Imperativ: dic! („sag!“) und duc! („führ!“).
+? Zu welcher Konjugationsklasse ein Verbum gehört, erkennst du nicht an der 1. Person Sg. oder am Infinitiv alleine, sondern erst aus der Kombination von Infinitiv Präsens und 1. Person Sg.
+- -are, -o → a-Konjugation (Abkürzung: -are 1): z. B. amare 1
+- -ēre, -eo → e-Konjugation (Abkürzung: -ēre 2): z. B. habēre 2
+- -ere, -o → konsonantische Konjugation (Abkürzung: -ere 3): z. B. mittere 3
+- -ire, -io → i-Konjugation (Abkürzung: -ire 4): z. B. audire 4
+- -ere, -io → Mischkonjugation (Abkürzung: -ere M): z. B. capere M
+! Um bei den Verba auf -ere (e-, konsonantische und Mischkonjugation) die Konjugationszugehörigkeit deutlich zu machen, ist bei diesen Infinitiven im Vocabularium jeweils der Akzent angegeben (-ére → e-Konjugation, -ere → Misch- oder konsonantische Konjugation).

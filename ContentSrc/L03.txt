@@ -1,0 +1,64 @@
+#3 Quam pulchra Roma est! | Römischer Alltag | 5
+== VOKABELN
+Roma f. | Romae | Rom |
+per (Präp. + Akk.) | | durch | vgl. perforieren (= durchlöchern), per … (Mail, Post etc.)
+via f. | viae | Weg, Straße | ital. via, span. vía; vgl. Viadukt (= Brücke über ein Tal)
+ambulo, -as | ambulavi, ambulatum | gehen, spazieren | vgl. Ambulatorium, Ambulanz
+multi/ae/a (Plural) | | viele | vgl. Multivitaminsaft, Multitasking, Multitalent
+multum (n. Sg.) | | viel | ital. molto
+aedificium n. | aedificii | Gebäude | ital. + span. edificio
+video, -es | vidi, visum | sehen | ital. vedere; vgl. das Video, Videorekorder
+-que | | und | z. B. Quintus Gaiusque = Quintus et Gaius
+clarus/a/um | | 1) berühmt; 2) hell | vgl. klar; Clara (= „die Berühmte“)
+monstro, -as | monstravi, monstratum | zeigen | vgl. Monstranz (= Behälter, in dem die Hostie gezeigt wird)
+spectaculum n. | spectaculi | Schauspiel | vgl. Spektakel; ↔ spectat
+ibi | | dort | ↔ ubi
+statua f. | statuae | Statue | ital. statua, span. estatua
+vir m. | viri | Mann | vgl. Triumvirat (= Dreimännerbund); viril (= männlich)
+-ne | | (Fragepartikel, unübersetzt) | z. B. Amasne Iuliam? = „Liebst du Julia?“
+certe (Adv.) | | sicherlich | ital. certo, span. cierto, engl. certainly
+forum n. | fori | Forum; Marktplatz | vgl. Forensik = Gerichtsmedizin (das Gericht tagte am Forum!)
+Romanus/a/um | | römisch | engl. Roman; vgl. Romanisierung
+templum n. | templi | Tempel | frz. temple, ital. tempio, span. templo
+tam | | so | ↔ tum
+deus m. | dei | Gott | frz. dieu, ital. dio, span. dios
+dea f. | deae | Göttin | frz. déesse, ital. dea, span. diosa
+ante (Präp. + Akk.) | | vor | vgl. Antipasto (= Vorspeise), antizipieren (= vorwegnehmen)
+post (Präp. + Akk.) | | nach; hinter | vgl. post mortem (= „nach dem Tod“)
+solum (Adv.) | | nur | ital. solo, span. sólo; vgl. non solum – sed etiam
+ad (Präp. + Akk.) | | zu, an, bei |
+== GRAMMATIK
+## Konjugation
+Da im Lateinischen persönliche Fürwörter nur selten geschrieben werden, sagt die Endung aus, um welche Person es sich handelt. Die folgenden Endungen gelten für alle Konjugationen im Präsensstamm (= Präsens, Futur, Imperfekt):
+| | Singular | Plural |
+| 1.P. | -o (→ ich) | -mus (→ wir) |
+| 2.P. | -s (→ du) | -tis (→ ihr) |
+| 3.P. | -t (→ er/sie/es) | -nt (→ sie) |
+Bei einigen Zeiten und Verben lautet die 1.P. Sg. auch -m.
+Durch das Anfügen dieser Personalendungen an den Stamm ergeben sich für das Präsens folgende Konjugationsmuster:
+| | a-Konjugation | e-Konjugation |
+| Sg. 1.P. | amo „ich liebe“ | mone-o „ich mahne“ |
+| Sg. 2.P. | ama-s „du liebst“ | mone-s „du mahnst“ |
+| Sg. 3.P. | ama-t „er/sie liebt“ | mone-t „er/sie mahnt“ |
+| Pl. 1.P. | ama-mus „wir lieben“ | mone-mus „wir mahnen“ |
+| Pl. 2.P. | ama-tis „ihr liebt“ | mone-tis „ihr mahnt“ |
+| Pl. 3.P. | ama-nt „sie lieben“ | mone-nt „sie mahnen“ |
+amo ist entstanden aus ama-o.
+## Imperativ (Befehlsform)
+Der Imperativ ist die Befehlsform. Sie besteht im Singular aus dem reinen, also endungslosen Stamm, im Plural aus dem Stamm + -te:
+| | a-Konjugation | e-Konjugation |
+| Sg. | specta! „schau!“ | responde! „antworte!“ |
+| Pl. | specta-te! „schaut!“ | responde-te! „antwortet!“ |
+## Vokativ (5. Fall, Anredefall)
+Im Lateinischen gibt es einen eigenen Fall für die direkte Anrede: den Vokativ („Ruf-Fall“). Er sieht in der Regel aus wie der Nominativ.
+- Specta, amica! = „Schau, Freundin!“
+- Spectate, amici! = „Schaut, Freunde!“
+Ausnahmen im Singular:
+- Maskuline Wörter der o-Deklination auf -us → Vokativ Sg. auf -e (z. B.: amice! = „Freund!“)
+- Nomina auf -ius → Vokativ Sg. auf -i (z. B.: Gai! = „Gaius!“)
+| Sg. | Iulia | Quintus | Gaius | vir |
+| 1.F. | Iulia | Quintus | Gaius | vir |
+| 5.F. | Iulia! | Quinte! | Gai! | vir! |
+Im Plural gilt die Regel ausnahmslos: 5. F. = 1. F.
+! Einen Vokativ erkennst du am Beistrich davor und/oder am Ruf- bzw. Fragezeichen danach!
+! Da der Vokativ der Anredefall ist, darfst du im Deutschen keinen Artikel davor setzen!

@@ -1,0 +1,375 @@
+{
+ "number": 2,
+ "title": "Quid grammaticus docet?",
+ "unit": "Römischer Alltag",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "quid?",
+   "forms": "",
+   "de": "was?",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "docet",
+   "forms": "docui, doctum",
+   "de": "er/sie/es lehrt, unterrichtet",
+   "note": "vgl. dozieren, Dozent (= Hochschullehrer)",
+   "pos": "Verb"
+  },
+  {
+   "la": "ubi?",
+   "forms": "",
+   "de": "wo?",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "iam",
+   "forms": "",
+   "de": "schon",
+   "note": "span. ya",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "exspectat",
+   "forms": "exspectavi, -atum",
+   "de": "er/sie/es erwartet",
+   "note": "engl. to expect",
+   "pos": "Verb"
+  },
+  {
+   "la": "intrat",
+   "forms": "intravi, intratum",
+   "de": "er/sie/es tritt ein, betritt",
+   "note": "engl. to enter, frz. entrer, ital. entrare, span. entrar",
+   "pos": "Verb"
+  },
+  {
+   "la": "salve!/salvete!",
+   "forms": "",
+   "de": "sei/seid gegrüßt!",
+   "note": "ital. salve",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "magister m.",
+   "forms": "magistri",
+   "de": "Lehrer",
+   "note": "frz. maître; vgl. Maestro (= Dirigent)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "amat",
+   "forms": "amavi, amatum",
+   "de": "er/sie/es liebt",
+   "note": "vgl. Amateur (= „Liebhaber“, ↔ Profi)",
+   "pos": "Verb"
+  },
+  {
+   "la": "non solum – sed etiam",
+   "forms": "",
+   "de": "nicht nur – sondern auch",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "etiam",
+   "forms": "",
+   "de": "auch, sogar",
+   "note": "↔ iam",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "lingua f.",
+   "forms": "linguae",
+   "de": "1) Zunge; 2) Sprache",
+   "note": "engl. language, frz. langue, ital. lingua",
+   "pos": "Nomen"
+  },
+  {
+   "la": "Latinus/a/um",
+   "forms": "(Adjektiv!)",
+   "de": "lateinisch",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "Graecus/a/um",
+   "forms": "(Adjektiv!)",
+   "de": "griechisch",
+   "note": "engl. Greek, Greece, span. griego",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "liber m.",
+   "forms": "libri",
+   "de": "Buch",
+   "note": "ital. + span. libro; vgl. engl. library (= Bibliothek)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "quam",
+   "forms": "",
+   "de": "wie",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "pulcher/chra/chrum",
+   "forms": "",
+   "de": "schön, hübsch",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "verbum n.",
+   "forms": "verbi",
+   "de": "Wort",
+   "note": "vgl. verbal (= durch Worte)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "secum",
+   "forms": "",
+   "de": "mit sich, bei sich",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "cogitat",
+   "forms": "cogitavi, cogitatum",
+   "de": "er/sie/es denkt",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "puer m.",
+   "forms": "pueri",
+   "de": "Bub",
+   "note": "pueril (= kindlich)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "puella f.",
+   "forms": "puellae",
+   "de": "Mädchen",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "quod",
+   "forms": "",
+   "de": "weil",
+   "note": "↔ quid",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "quis?",
+   "forms": "",
+   "de": "wer?",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "habet",
+   "forms": "habui, habitum",
+   "de": "er/sie/es hat",
+   "note": "engl. to have, frz. avoir, ital. avere, span. haber",
+   "pos": "Verb"
+  },
+  {
+   "la": "spectat",
+   "forms": "spectavi, -atum",
+   "de": "er/sie/es schaut an, er/sie/es betrachtet",
+   "note": "vgl. Spektakel, spektakulär; engl. spectator (= Zuschauer)",
+   "pos": "Verb"
+  },
+  {
+   "la": "oculus m.",
+   "forms": "oculi",
+   "de": "Auge",
+   "note": "vgl. Mon-okel (= Einglas), Okular",
+   "pos": "Nomen"
+  },
+  {
+   "la": "tuus/a/um",
+   "forms": "",
+   "de": "dein",
+   "note": "ital. tuo, span. tu",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "monet",
+   "forms": "monui, monitum",
+   "de": "er/sie/es (er)mahnt",
+   "note": "vgl. Monitor (= elektronisches Anzeigegerät)",
+   "pos": "Verb"
+  },
+  {
+   "la": "iratus/a/um",
+   "forms": "",
+   "de": "zornig, erzürnt",
+   "note": "",
+   "pos": "Adjektiv"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Wörter auf -er",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Unter den männlichen Nomina der o-Deklination gibt es nicht nur solche auf -us, sondern auch einige auf -er:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "magister = „der Lehrer“",
+      "puer = „der Bub“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Auch unter den Adjektiva haben einige in der männlichen Form die Endung -er statt -us:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "pulcher (m.), pulchra (f.), pulchrum (n.) = „schön“"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Abgesehen vom 1.F. Sg. deklinieren diese Wörter so wie die übrigen Wörter der o-Deklination (amicus bzw. magnus/a/um)."
+    }
+   ]
+  },
+  {
+   "title": "Akkusativ (4. Fall)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Der Akkusativ hat folgendes „Erkennungszeichen“:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Sg. → -m",
+      "Pl. → -s (m. + f.) bzw. -a (n.)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Nach dem Akkusativ fragt man mit „WEN?“ oder „WAS?“: Quintus Iuliam spectat. = „Quintus betrachtet Julia.“ (WEN betrachtet er?)"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Dekl. (f.)",
+      "o-Dekl. (m.)",
+      "o-Dekl. (m.)",
+      "o-Dekl. (m.)",
+      "o-Dekl. (n.)"
+     ],
+     "rows": [
+      [
+       "Sg. 1.F.",
+       "amica",
+       "amicus",
+       "magister",
+       "puer",
+       "pensum"
+      ],
+      [
+       "Sg. 4.F.",
+       "amicam",
+       "amicum",
+       "magistrum",
+       "puerum",
+       "pensum"
+      ],
+      [
+       "Pl. 1.F.",
+       "amicae",
+       "amici",
+       "magistri",
+       "pueri",
+       "pensa"
+      ],
+      [
+       "Pl. 4.F.",
+       "amicas",
+       "amicos",
+       "magistros",
+       "pueros",
+       "pensa"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Der Unterschied zwischen magister und puer besteht darin, dass bei puer in allen Fällen das -e- erhalten bleibt, während es bei magister verschwindet."
+    },
+    {
+     "type": "note",
+     "text": "1) Die Endung -um kann Akkusativ Sg. sein, bei neutralen Wörtern aber auch Nominativ Sg.: amicum → 4. F. von amicus = „den Freund“; pensum → 1. F. von pensum = „die Aufgabe“ (z. B.: macht mir großen Spaß) oder 4. F. = „die Aufgabe“ (z. B.: mache ich nicht)."
+    },
+    {
+     "type": "note",
+     "text": "2) Bei neutralen Wörtern sind Nominativ und Akkusativ immer gleich! Nom. und Akk. Plural enden bei allen Neutra auf -a."
+    }
+   ]
+  },
+  {
+   "title": "Adjektiva (Eigenschaftswörter)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die Adjektiva haben im Akkusativ dieselben Endungen wie die Nomina:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "m.",
+      "f.",
+      "n."
+     ],
+     "rows": [
+      [
+       "Sg. 1.F.",
+       "bonus",
+       "bona",
+       "bonum"
+      ],
+      [
+       "Sg. 4.F.",
+       "bonum",
+       "bonam",
+       "bonum"
+      ],
+      [
+       "Pl. 1.F.",
+       "boni",
+       "bonae",
+       "bona"
+      ],
+      [
+       "Pl. 4.F.",
+       "bonos",
+       "bonas",
+       "bona"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Ebenso dekliniert: 1. F.: pulcher, pulchra, pulchrum → 4. F.: pulchrum, pulchram, pulchrum (etc.)"
+    }
+   ]
+  }
+ ]
+}

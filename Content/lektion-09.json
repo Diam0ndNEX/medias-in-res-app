@@ -1,0 +1,389 @@
+{
+ "number": 9,
+ "title": "Quem Romani maxime timent?",
+ "unit": "Die römische Frühzeit",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "quem?",
+   "forms": "",
+   "de": "wen?",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "timere",
+   "forms": "timeo 2, timui, –",
+   "de": "fürchten; sich fürchten",
+   "note": "ital. temere, span. temer",
+   "pos": "Verb"
+  },
+  {
+   "la": "Galli",
+   "forms": "Gallorum m.",
+   "de": "die Gallier (= Kelten)",
+   "note": "frz. Gaulois",
+   "pos": "Nomen"
+  },
+  {
+   "la": "flumen",
+   "forms": "fluminis n.",
+   "de": "Fluss",
+   "note": "ital. fiume",
+   "pos": "Nomen"
+  },
+  {
+   "la": "miles",
+   "forms": "militis m.",
+   "de": "Soldat",
+   "note": "vgl. Militär",
+   "pos": "Nomen"
+  },
+  {
+   "la": "fugere (+ Akk.)",
+   "forms": "fugio M, fugi, –",
+   "de": "flüchten (vor), fliehen",
+   "note": "vgl. Zentrifuge, Refugium (= Rückzugsort)",
+   "pos": "Verb"
+  },
+  {
+   "la": "occupare",
+   "forms": "occupo 1, -avi, -atum",
+   "de": "besetzen",
+   "note": "frz. occuper, ital. occupare; vgl. okkupieren",
+   "pos": "Verb"
+  },
+  {
+   "la": "delere",
+   "forms": "deleo 2, delevi, deletum",
+   "de": "zerstören",
+   "note": "vgl. engl. to delete = „löschen“",
+   "pos": "Verb"
+  },
+  {
+   "la": "oppugnare",
+   "forms": "oppugno 1, -avi, -atum",
+   "de": "bestürmen, belagern",
+   "note": "wörtlich: „dagegenkämpfen“",
+   "pos": "Verb"
+  },
+  {
+   "la": "expugnare",
+   "forms": "expugno 1, -avi, -atum",
+   "de": "erobern",
+   "note": "wörtlich: „herauskämpfen“",
+   "pos": "Verb"
+  },
+  {
+   "la": "nox",
+   "forms": "noctis f. (2. F. Pl. -ium)",
+   "de": "Nacht",
+   "note": "frz. nuit, ital. notte, span. noche",
+   "pos": "Nomen"
+  },
+  {
+   "la": "constituere",
+   "forms": "constituo 3, constitui, constitutum",
+   "de": "beschließen, festsetzen",
+   "note": "vgl. Konstitution (= Verfassung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "clam (Adv.)",
+   "forms": "",
+   "de": "heimlich",
+   "note": "vgl. klammheimlich (= ganz heimlich)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "ascendere",
+   "forms": "ascendo 3, ascendi, ascensum",
+   "de": "hinaufsteigen, besteigen",
+   "note": "vgl. Aszendent; frz. ascenseur, ital. ascensore, span. ascensor",
+   "pos": "Verb"
+  },
+  {
+   "la": "homo",
+   "forms": "hominis m.",
+   "de": "Mensch",
+   "note": "frz. homme; Homo sapiens",
+   "pos": "Nomen"
+  },
+  {
+   "la": "canis",
+   "forms": "canis m.",
+   "de": "Hund",
+   "note": "frz. chien, ital. cane; Cave canem",
+   "pos": "Nomen"
+  },
+  {
+   "la": "Iuno",
+   "forms": "Iunonis f.",
+   "de": "Juno (griech. Hera)",
+   "note": "Gattin des Jupiter",
+   "pos": "Nomen"
+  },
+  {
+   "la": "sacer/cra/crum",
+   "forms": "",
+   "de": "1) heilig; 2) geweiht",
+   "note": "vgl. Sakristei, Sakrament, sakral",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "quamquam",
+   "forms": "",
+   "de": "obwohl",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "carere (+ Abl.)",
+   "forms": "careo 2, carui, –",
+   "de": "frei sein (von …), nicht haben",
+   "note": "z. B. otio careo = (ich bin frei von Freizeit →) „ich habe keine Freizeit“; vgl. Karenz",
+   "pos": "Verb"
+  },
+  {
+   "la": "vox",
+   "forms": "vocis f.",
+   "de": "Stimme",
+   "note": "engl. voice, frz. voix, ital. voce, span. voz",
+   "pos": "Nomen"
+  },
+  {
+   "la": "clamor",
+   "forms": "clamoris m.",
+   "de": "Geschrei, Lärm",
+   "note": "frz. clameur, ital. clamore; vgl. clamare",
+   "pos": "Nomen"
+  },
+  {
+   "la": "statim (Adv.)",
+   "forms": "",
+   "de": "sofort, sogleich",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "ceteri/ae/a (Pl.)",
+   "forms": "",
+   "de": "die übrigen",
+   "note": "etc. (et cetera) = „und das Übrige“",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "servare",
+   "forms": "servo 1, -avi, -atum",
+   "de": "1) retten; 2) bewahren",
+   "note": "vgl. konservieren",
+   "pos": "Verb"
+  },
+  {
+   "la": "gloria",
+   "forms": "gloriae f.",
+   "de": "Ruhm, Ehre",
+   "note": "vgl. Gloria; glorreich (= ruhmreich)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "nomen",
+   "forms": "nominis n.",
+   "de": "Name",
+   "note": "vgl. Nomen est omen = „Der Name ist Vorzeichen“",
+   "pos": "Nomen"
+  },
+  {
+   "la": "accipere",
+   "forms": "accipio M, accepi, acceptum",
+   "de": "1) erhalten; 2) aufnehmen; 3) annehmen",
+   "note": "vgl. akzeptieren (= etwas annehmen)",
+   "pos": "Verb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "„Dritte“ Deklination: Konsonantenstämme",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die dritte Deklination ist ein Sammelbegriff für verschiedene Nomina (Substantiva), die zwar sehr unterschiedliche Nominative, sonst aber weitgehend gleiche Kasusendungen haben. Die in diesem Stück vorkommenden Wörter gehören zu den sogenannten Konsonantenstämmen, da ihr Stamm auf einen Konsonanten (Mitlaut) endet."
+    },
+    {
+     "type": "text",
+     "text": "Den Stamm erkennst du, wenn du vom Genetiv Sg. die Endung -is weglässt:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "homin-is → Stamm homin-",
+      "voc-is → Stamm voc-",
+      "flumin-is → Stamm flumin-"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Das Geschlecht der Wörter der 3. Deklination kann maskulin, feminin oder neutrum sein."
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Frage",
+      "maskulin",
+      "feminin",
+      "neutrum"
+     ],
+     "rows": [
+      [
+       "Sg. 1",
+       "Wer?/Was?",
+       "homo",
+       "vox",
+       "flumen"
+      ],
+      [
+       "Sg. 2",
+       "Wessen?",
+       "hominis",
+       "vocis",
+       "fluminis"
+      ],
+      [
+       "Sg. 3",
+       "Wem?",
+       "homini",
+       "voci",
+       "flumini"
+      ],
+      [
+       "Sg. 4",
+       "Wen?/Was?",
+       "hominem",
+       "vocem",
+       "flumen"
+      ],
+      [
+       "Sg. 5",
+       "(Anrede)",
+       "homo!",
+       "vox!",
+       "flumen!"
+      ],
+      [
+       "Sg. 6",
+       "Womit? Wodurch?",
+       "cum homine",
+       "voce",
+       "flumine"
+      ],
+      [
+       "Pl. 1",
+       "Wer?",
+       "homines",
+       "voces",
+       "flumina"
+      ],
+      [
+       "Pl. 2",
+       "Wessen?",
+       "hominum",
+       "vocum",
+       "fluminum"
+      ],
+      [
+       "Pl. 3",
+       "Wem?",
+       "hominibus",
+       "vocibus",
+       "fluminibus"
+      ],
+      [
+       "Pl. 4",
+       "Wen?/Was?",
+       "homines",
+       "voces",
+       "flumina"
+      ],
+      [
+       "Pl. 5",
+       "(Anrede)",
+       "homines!",
+       "voces!",
+       "flumina!"
+      ],
+      [
+       "Pl. 6",
+       "Womit? Wodurch?",
+       "cum hominibus",
+       "vocibus",
+       "fluminibus"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Einige Endungen der 3. Deklination sind „verwechslungsanfällig“ mit der a- bzw. o-Deklination: -is → 3. Dekl. 2.F. Sg. (hominis = „des Menschen“), aber a-/o-Dekl. 3./6.F. Pl. (amicis = „den Freunden“). -i → 3. Dekl. 3.F. Sg. (homini = „dem Menschen“), aber o-Dekl. 2.F. Sg. (amici = „des Freundes“) oder 1.F. Pl. (amici = „die Freunde“)."
+    },
+    {
+     "type": "tip",
+     "text": "Dass ein Wort zur 3. Deklination gehört, erkennst du am Genetiv Singular auf -is. Bei den Vokabeln musst du daher immer den Genetiv Singular (und das Geschlecht) mitlernen!"
+    }
+   ]
+  },
+  {
+   "title": "Quis?/Quid? („Wer?“/„Was?“)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Bei quis?/quid? handelt es sich um das substantivische Fragepronomen (Interrogativpronomen). Substantivisch heißt, dass es nicht übereingestimmt wird, sondern wie ein Substantiv (= Nomen) alleine steht: z. B. Quem vides? = „Wen siehst du?“"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Person",
+      "Sache",
+      "Bedeutung"
+     ],
+     "rows": [
+      [
+       "1.F.",
+       "quis?",
+       "quid?",
+       "„wer?“ / „was?“"
+      ],
+      [
+       "2.F.",
+       "cuius?",
+       "cuius?",
+       "„wessen?“"
+      ],
+      [
+       "3.F.",
+       "cui?",
+       "cui?",
+       "„wem?“"
+      ],
+      [
+       "4.F.",
+       "quem?",
+       "quid?",
+       "„wen?“ / „was?“"
+      ],
+      [
+       "6.F.",
+       "a quo? / cum quo?",
+       "a quo? / cum quo?",
+       "„von wem?“ / „mit wem?“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Das adjektivische Fragepronomen ist dagegen mit einem Nomen übereingestimmt: qui, quae, quod (→ Lektion 12): z. B. Quem canem vides? = „Welchen Hund siehst du?“"
+    }
+   ]
+  }
+ ]
+}

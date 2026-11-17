@@ -1,0 +1,70 @@
+#5 De thermis | Römischer Alltag | 5
+== VOKABELN
+mihi / tibi / sibi (Dativ) | | mir / dir / sich | (siehe Grammatica)
+me / te / se (Akkusativ) | | mich / dich / sich | (siehe Grammatica)
+delectare | delecto 1, -avi, -atum | (jemanden) erfreuen | sich an etwas delektieren (= erfreuen)
+nonne? | | nicht? | aus: non-ne? (Frage)
+ego / tu | | ich / du | (siehe Grammatica); vgl. Egoist
+Graeci (Pl.) | Graecorum m. | die Griechen | ↔ Graecus/a/um
+ita | | so | ita est = „ja“ (wörtlich?)
+inquit | | er/sie sagt(e) | (in die direkte Rede eingeschoben)
+num? | | etwa? | z. B. Num rides? = „Lachst du etwa?“
+vester/tra/trum | | euer, eure | frz. vôtre, ital. vostro/a
+quoque (nachgestellt) | | auch | z. B. etiam tu = tu quoque
+nobis / vobis (Dativ) | | uns / euch | (siehe Grammatica)
+noster/tra/trum | | unser, unsere | frz. nôtre; vgl. Pater noster
+in (+ Abl.) | (Frage WO?) | in, auf | in aedificio (WO?) = „im Gebäude“
+animus | animi m. | 1) Sinn, Geist; 2) Mut | vgl. animieren (= „anregen“)
+in animo habere | | vorhaben | wörtl.: „im Sinn haben“
+nos / vos (Nom. + Akk.) | | wir; uns / ihr; euch | (siehe Grammatica)
+quis nostrum | | wer von uns | (siehe Grammatica)
+quis vestrum | | wer von euch | (siehe Grammatica)
+nobiscum / vobiscum | | mit uns / mit euch | (siehe Grammatica)
+in (+ Akk.) | (Frage WOHIN?) | in, nach; gegen | in aedificium (WOHIN?) = „ins Gebäude“
+manere | maneo 2, mansi, mansum | bleiben | vgl. permanent (= dauerhaft)
+properare | propero 1, -avi, -atum | eilen |
+aqua | aquae f. | Wasser | ital. acqua, span. agua; vgl. Aquarium
+iterum (Adv.) | | wieder(um) | (Eselsbrücke: „iterum = wiederum“)
+minime (Adv.) | | keineswegs; nein | vgl. minimal (= sehr klein, sehr gering)
+licet (nur 3.P. Sg.) | licuit | es ist erlaubt, es ist möglich | vgl. die Lizenz (= Erlaubnis, Berechtigung)
+otium | otii n. | Freizeit, Erholung, Muße | ital. ozio, span. ocio
+sub (+ Akk.) | (Frage WOHIN?) | unter (… hin) | vgl. Subvention (= finanzielle Hilfe)
+sub (+ Abl.) | (Frage WO?) | unter | vgl. engl. subway, submarine
+terrere | terreo 2, terrui, territum | (jemanden) erschrecken | vgl. jemanden terrorisieren, Terrorist
+* Ab dieser Lektion findest du in der ersten Spalte bei Verben immer die Nennform (Infinitiv) angegeben. In der zweiten Spalte steht zunächst die 1. Person sowie die Konjugationsklasse, zu der das Verb gehört (unbedingt mitlernen!). Bei den übrigen Formen handelt es sich um das Perfekt, das erst ab Lec. 14 auf dem Programm steht.
+== GRAMMATIK
+## Personalpronomina (Persönliche Fürwörter)
+| Fall | 1. Person | 2. Person | 3. Person (Reflexivpronomen) |
+| Sg. 1 | ego „ich“ | tu „du“ | – |
+| Sg. 2 | mei „meiner“ | tui „deiner“ | sui „seiner“, „ihrer“ |
+| Sg. 3 | mihi „mir“ | tibi „dir“ | sibi „sich“ |
+| Sg. 4 | me „mich“ | te „dich“ | se „sich“ |
+| Sg. 6 | a me „von mir“; mecum „mit mir“ | a te „von dir“; tecum „mit dir“ | a se „von sich“; secum „mit sich“ |
+| Pl. 1 | nos „wir“ | vos „ihr“ | – |
+| Pl. 2 | nostri „unser“; nostrum „von uns“ | vestri „euer“; vestrum „von euch“ | sui „ihrer“ |
+| Pl. 3 | nobis „uns“ | vobis „euch“ | sibi „sich“ |
+| Pl. 4 | nos „uns“ | vos „euch“ | se „sich“ |
+| Pl. 6 | a nobis „von uns“; nobiscum „mit uns“ | a vobis „von euch“; vobiscum „mit euch“ | a se „von sich“; secum „mit sich“ |
+- Die Nominative des Personalpronomens werden nur bei besonderer Betonung geschrieben: Ego Iuliam amo, tu Claudiam. = „Ich liebe Julia, du (liebst) Claudia.“
+- mei, tui, sui, nostri, vestri sind die (sehr selten vorkommenden) Objektsgenetive: memor sum tui = „ich gedenke deiner (= ich denke an dich)“
+- nostrum und vestrum sind die (häufiger vorkommenden) Teilungsgenetive (Genetivus partitivus): quis vestrum? = „wer von euch?“, multi nostrum = „viele von uns“
+## Possessivpronomina (Besitzanzeigende Fürwörter)
+Sie deklinieren wie Adjektiva:
+| | 1. Person | 2. Person | 3. Person |
+| Sg. | meus/a/um „mein(e)“ | tuus/a/um „dein(e)“ | suus/a/um „sein(e)“ / „ihr(e)“ |
+| Pl. | noster/tra/trum „unser(e)“ | vester/tra/trum „euer/eure“ | suus/a/um „ihr(e)“ |
+suus/a/um ist reflexiv (rückbezüglich), d. h. es bezieht sich immer auf das Subjekt des Satzes und wird dementsprechend mit „sein“ oder „ihr“ übersetzt:
+- Quintus amicam suam amat. = „Quintus liebt seine Freundin.“
+- Claudia amicam suam amat. = „Claudia liebt ihre Freundin.“
+- Quintus et Claudia amicos suos amant. = „Quintus und Claudia lieben ihre Freunde.“
+## Präpositionen mit Akkusativ oder Ablativ
+Die Präpositionen in und sub stehen entweder mit Akkusativ oder Ablativ. Dementsprechend musst du bei ihnen (im Gegensatz zu allen anderen Präpositionen!) fragen:
+- in + Akk. / sub + Akk. → Frage: WOHIN? (der Akkusativ gibt eine RICHTUNG an)
+- in + Abl. / sub + Abl. → Frage: WO? (der Ablativ gibt einen PUNKT an)
+Beispiele:
+- in aquam saltat = „er springt ins Wasser“ (Akk. → WOHIN?)
+- in aqua sedent = „sie sitzen im Wasser“ (Abl. → WO?)
+## Infinitiv (Nennform)
+Der Infinitiv Präsens aktiv ist an der Endung -re zu erkennen:
+| | a-Konjugation | e-Konjugation |
+| Infinitiv | amā-re „(zu) lieben“ | monē-re „(zu) mahnen“ |
