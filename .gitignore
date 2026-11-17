@@ -1,0 +1,8 @@
+*.pdf
+book/
+Content/
+*.xcodeproj
+build/
+DerivedData/
+.DS_Store
+*.ipa
