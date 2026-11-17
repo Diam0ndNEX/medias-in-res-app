@@ -1,0 +1,65 @@
+#14 De Tartaro | Aus der griechischen Mythologie | 5
+== VOKABELN
+fuit | Perfekt von est | er/sie/es war | (siehe Grammatica)
+hic, haec, hoc | | dieser/e/es | hinweisendes Fürwort (siehe Grammatica)
+cena | cenae f. | Mahlzeit, Mahl | frz. cène, ital. + span. cena (= Abendessen)
+invitare | invito 1, -avi, invitatum | einladen | engl. to invite, frz. inviter, ital. invitare
+quidam, quaedam, quoddam | 2.F. cuiusdam, 3.F. cuidam | Sg.: ein (gewisser); Pl.: einige | Deklination wie qui/quae/quod + -dam
+facinus | facinoris n. | 1) Tat; 2) Untat | abgeleitet vom Verbum facere (= tun)
+prudentia | prudentiae f. | Klugheit | engl. + frz. prudence, ital. prudenza, span. prudencia
+intellegere | intellego 3, intellexi, intellectum | erkennen, einsehen | vgl. Intelligenz, intelligent
+reddere | reddo 3, reddidi, redditum | zurückgeben | aus: re- („zurück-“) + dare
+poena | poenae f. | Strafe | vgl. Pönale (= Strafgeld), Penalty (= Strafstoß)
+poenas solvere | | eine Strafe verbüßen | wörtlich: „Strafgeld zahlen“
+stare | sto 1, steti, statum | stehen | vgl. Station, Statue; statisch (= stillstehend)
+arbor | arboris f. | Baum | Nota bene: Bäume galten als weiblich!
+sitis | sitis f. (i-Stamm) | Durst | ital. sete, span. sed
+fames | famis f. | Hunger | frz. faim, ital. fame
+cum (Konjunktion) | | 1) wenn, sooft; 2) als | ↔ cum + Abl.
+bibere | bibo 3, bibi, – | trinken | frz. boire, ital. bere, span. beber
+improbus/a/um | | schlecht, böse |
+scelus | sceleris n. | Verbrechen |
+mors | mortis f. | Tod | frz. mort, ital. morte, span. muerte
+contra (+ Akk.) | | gegen | vgl. Kontrast; Pro und Kontra (= Für und Wider)
+natura | naturae f. | Natur | engl. + frz. nature, ital. natura
+genus | generis n. | 1) Art; 2) Geschlecht | engl. gender, frz. genre, ital. genere
+punire | punio 4, punivi, -itum | bestrafen | frz. punir, ital. punire; vgl. poena
+saxum | saxi n. | Fels | ital. sasso
+vis (Sg.) | vim (4.F.), vi (6.F.) f. | 1) Kraft; 2) Gewalt | ↔ vir, viri (= Mann)
+vires (Pl.) | virium f. | die Kräfte | Viribus unitis („mit vereinten Kräften“)
+paene (Adv.) | | fast, beinahe | vgl. engl. pen-insula („Fast-Insel“ = Halbinsel)
+== GRAMMATIK
+## Perfekt + Plusquamperfekt aktiv
+Diese beiden lateinischen Zeiten sind im Gegensatz zum Deutschen einfache Verbalformen, d. h. sie werden nicht, wie im Deutschen, durch ein Hilfszeitwort + Mittelwort gebildet (z. B. „ich habe gesungen“), sondern indem bestimmte Endungen an den aktiven Perfektstamm treten.
+Der aktive Perfektstamm ist von Konjugation zu Konjugation unterschiedlich:
+| | Präsensstamm | aktiver Perfektstamm |
+| a-Konjugation | amo, amas … amare | -av- (amav-) |
+| e-Konjugation | moneo, mones … monēre | -u- (monu-) |
+| konsonantische K. | mitto, mittis … mittere | verschieden (z. B. mis-) |
+| i-Konjugation | audio, audis … audire | -iv- (audiv-) |
+| Mischkonjugation | capio, capis … capere | verschieden (z. B. cep-) |
+Das bedeutet (leider): Da es keine Regel gibt, musst du den Perfektstamm für jedes Wort der konsonantischen und Mischkonjugation extra lernen!
+Die Endungen, die an den Perfektstamm angefügt werden, sind dagegen für alle Konjugationen gleich:
+| | Perfekt Sg. | Perfekt Pl. | Plusquamperfekt Sg. | Plusquamperfekt Pl. |
+| 1.P. | -i | -imus | -eram | -eramus |
+| 2.P. | -isti | -istis | -eras | -eratis |
+| 3.P. | -it | -ērunt | -erat | -erant |
+Beispiele für die a-Konjugation:
+| | Perfekt | Plusquamperfekt |
+| Sg. 1.P. | amavi „ich habe geliebt“ | amaveram „ich hatte geliebt“ |
+| Sg. 2.P. | amavisti „du hast geliebt“ | amaveras „du hattest geliebt“ |
+| Sg. 3.P. | amavit „er/sie hat geliebt“ | amaverat „er/sie hatte geliebt“ |
+| Pl. 1.P. | amavimus „wir haben geliebt“ | amaveramus „wir hatten geliebt“ |
+| Pl. 2.P. | amavistis „ihr habt geliebt“ | amaveratis „ihr hattet geliebt“ |
+| Pl. 3.P. | amavērunt „sie haben geliebt“ | amaverant „sie hatten geliebt“ |
+Das Perfekt ist die lateinische Erzählzeit: Es beschreibt einmalige, in der Vergangenheit abgeschlossene Vorgänge. Es wird im Deutschen entweder mit dem Präteritum oder (in Gliedsätzen) mit dem Perfekt wiedergegeben: Veni, vidi, vici. = „Ich kam, sah und siegte.“
+Das Plusquamperfekt (wörtlich: „mehr als vergangen“) drückt eine Handlung aus, die vor dem Perfekt stattgefunden hat: Quintus, qui Iuliam amaverat (Plqpf.), postremo Claudiam in matrimonium duxit (Perfekt). = „Quintus, der Julia geliebt hatte, heiratete schließlich Claudia.“
+? Achtung auf die 3.P. Plural: duxērunt = „sie haben geführt“ (→ Perfekt); duxerant = „sie hatten geführt“ (→ Plqpf.)
+## hic, haec, hoc
+Bei diesem Wort handelt es sich um ein weiteres Demonstrativpronomen. Bedeutung: „dieser, diese, dieses“:
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m. | Pl. f. | Pl. n. |
+| 1 | hic | haec | hoc | hi | hae | haec |
+| 2 | huius | huius | huius | horum | harum | horum |
+| 3 | huic | huic | huic | his | his | his |
+| 4 | hunc | hanc | hoc | hos | has | haec |
+| 6 | hoc | hac | hoc | his | his | his |

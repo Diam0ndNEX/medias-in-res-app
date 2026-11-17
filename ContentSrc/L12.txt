@@ -1,0 +1,52 @@
+#12 De Minotauro | Aus der griechischen Mythologie | 5
+== VOKABELN
+pater | patris m. | Vater | vgl. Patriarch (= Familienoberhaupt); ↔ patria, -ae = „Vaterland“
+quaerere | quaero 3, quaesivi, quaesitum | 1) suchen (+ Akk.); 2) fragen (+ ab/ex) | quaero amicam = ich suche die Freundin; quaero ab amica = ich frage die Freundin
+parentes (Pl.) | parentum m. | Eltern | engl. + frz. parents
+qui, quae, quod | | 1) welcher/e/es; 2) der/die/das | (Relativpronomen, siehe Grammatica)
+nihil | | nichts | vgl. Nihilist (= einer, der an nichts glaubt)
+nihil nisi | | nichts außer; nur | (wörtl.: „nichts, wenn nicht“)
+debere (+ Inf.) | debeo 2, -ui, -itum | müssen | frz. devoir, ital. dovere, span. deber
+caput | capitis n. | Kopf, Haupt | vgl. engl. capital; vgl. Kapuze, Kapitän
+periculum | periculi n. | Gefahr | vgl. ital. pericoloso
+interficere | interficio M, interfeci, interfectum | töten | = necare, occidere
+miser/era/erum | | 1) arm, elend; 2) unglücklich | vgl. miserabel; die Misere (= Notlage)
+navigare | navigo 1, -avi, -atum | segeln, mit dem Schiff fahren | vgl. navis, -is; navigieren (= „steuern“)
+adulescens | adulescentis m. | junger Mann | vgl. die Adoleszenz (= Jugendalter)
+iuvare | iuvo 1, iuvi, iutum | unterstützen, helfen | = adiuvare (Lec. 7)
+nemo | | niemand |
+invenire | invenio 4, inveni, inventum | 1) finden; 2) erfinden | wörtl.: „darauf-kommen“; engl. invention, to invent
+cura | curae f. | Sorge | vgl. Kur
+quomodo | | wie | (wörtlich: „auf welche Weise?“)
+modus | modi m. | Art, Weise | vgl. Mode (= Art, sich anzuziehen)
+dare | do 1, dedi, datum | geben | ital. dare, span. dar; vgl. Dativ („Gib-Fall“)
+medius/a/um | | der mittlere; in der Mitte | vgl. engl. medium (z. B. Kleidergröße, Steak), mediterran
+medio in labyrintho | | mitten im Labyrinth |
+paratus/a/um | | bereit | vgl. parare (Lec. 7); vgl. „etwas parat haben“
+atque (= ac) | | und | = et, -que
+== GRAMMATIK
+## qui, quae, quod
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m. | Pl. f. | Pl. n. |
+| 1 | qui | quae | quod | qui | quae | quae |
+| 2 | cuius | cuius | cuius | quorum | quarum | quorum |
+| 3 | cui | cui | cui | quibus | quibus | quibus |
+| 4 | quem | quam | quod | quos | quas | quae |
+| 6 | quo | qua | quo | quibus | quibus | quibus |
+? Die Präposition cum wird an die Ablativformen meist angehängt: quocum, quacum, quibuscum.
+Verwendungsarten von qui, quae, quod:
+- als adjektivisches Fragepronomen (→ Bezugswort dahinter): „welcher?“, „welche?“, „welches?“ – Quod monstrum liberos devorat? = „Welches Ungeheuer verschlingt die Kinder?“
+- als Relativpronomen (als Einleitung eines Relativsatzes → nach Beistrich, Bezugswort davor): „der“, „die“, „das“ / „welcher“, „welche“, „welches“ – Monstrum, quod liberos devorat, Minotaurus est. = „Das Ungeheuer, das (welches) die Kinder verschlingt, ist der Minotaurus.“
+? Im Gegensatz zu quis?, quid? (vgl. Lec. 9) ist qui, quae, quod ein adjektivisches Fragepronomen, d. h. es ist – wie ein Adjektiv – immer mit einem Substantiv (Nomen) übereingestimmt, während quis?/quid? immer alleine steht: Qui puer clamat? („Welcher Bub schreit?“) ↔ Quis clamat? („Wer schreit?“)
+## Relativsätze (bezügliche Gliedsätze, Attributsätze)
+Die häufigste Verwendungsart von qui, quae, quod ist die als Relativpronomen (bezügliches Fürwort).
+- Dieses bezieht sich in Zahl und Geschlecht auf ein (meist davor stehendes) Bezugswort.
+- Der Fall richtet sich danach, wie man nach dem Pronomen im Gliedsatz fragt.
+Theseus navem, in qua liberi sunt, ascendit. = „Theseus besteigt das Schiff, in dem die Kinder sind.“ – in qua: Zahl → Sg. (wie navem); Geschlecht → feminin (wie navem); Fall → 6. F. („Wo sind die Kinder?“)
+Übersetzung des Relativpronomens (achte besonders auf den Genetiv!):
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m./f./n. |
+| 1 | „der“ | „die“ | „das“ | „die“ |
+| 2 | „dessen“ | „deren“ | „dessen“ | „deren“ |
+| 3 | „dem“ | „der“ | „dem“ | „denen“ |
+| 4 | „den“ | „die“ | „das“ | „die“ |
+| 6 | „mit dem“ | „mit der“ | „mit dem“ | „mit denen“ |
+Die Übersetzung des lateinischen Ablativs hängt davon ab, um welchen Ablativ es sich handelt: „durch den“, „mit dem“, „von dem“ etc.

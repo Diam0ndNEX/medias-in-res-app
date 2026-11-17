@@ -1,0 +1,336 @@
+{
+ "number": 12,
+ "title": "De Minotauro",
+ "unit": "Aus der griechischen Mythologie",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "pater",
+   "forms": "patris m.",
+   "de": "Vater",
+   "note": "vgl. Patriarch (= Familienoberhaupt); ↔ patria, -ae = „Vaterland“",
+   "pos": "Nomen"
+  },
+  {
+   "la": "quaerere",
+   "forms": "quaero 3, quaesivi, quaesitum",
+   "de": "1) suchen (+ Akk.); 2) fragen (+ ab/ex)",
+   "note": "quaero amicam = ich suche die Freundin; quaero ab amica = ich frage die Freundin",
+   "pos": "Verb"
+  },
+  {
+   "la": "parentes (Pl.)",
+   "forms": "parentum m.",
+   "de": "Eltern",
+   "note": "engl. + frz. parents",
+   "pos": "Nomen"
+  },
+  {
+   "la": "qui, quae, quod",
+   "forms": "",
+   "de": "1) welcher/e/es; 2) der/die/das",
+   "note": "(Relativpronomen, siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "nihil",
+   "forms": "",
+   "de": "nichts",
+   "note": "vgl. Nihilist (= einer, der an nichts glaubt)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "nihil nisi",
+   "forms": "",
+   "de": "nichts außer; nur",
+   "note": "(wörtl.: „nichts, wenn nicht“)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "debere (+ Inf.)",
+   "forms": "debeo 2, -ui, -itum",
+   "de": "müssen",
+   "note": "frz. devoir, ital. dovere, span. deber",
+   "pos": "Verb"
+  },
+  {
+   "la": "caput",
+   "forms": "capitis n.",
+   "de": "Kopf, Haupt",
+   "note": "vgl. engl. capital; vgl. Kapuze, Kapitän",
+   "pos": "Nomen"
+  },
+  {
+   "la": "periculum",
+   "forms": "periculi n.",
+   "de": "Gefahr",
+   "note": "vgl. ital. pericoloso",
+   "pos": "Nomen"
+  },
+  {
+   "la": "interficere",
+   "forms": "interficio M, interfeci, interfectum",
+   "de": "töten",
+   "note": "= necare, occidere",
+   "pos": "Verb"
+  },
+  {
+   "la": "miser/era/erum",
+   "forms": "",
+   "de": "1) arm, elend; 2) unglücklich",
+   "note": "vgl. miserabel; die Misere (= Notlage)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "navigare",
+   "forms": "navigo 1, -avi, -atum",
+   "de": "segeln, mit dem Schiff fahren",
+   "note": "vgl. navis, -is; navigieren (= „steuern“)",
+   "pos": "Verb"
+  },
+  {
+   "la": "adulescens",
+   "forms": "adulescentis m.",
+   "de": "junger Mann",
+   "note": "vgl. die Adoleszenz (= Jugendalter)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iuvare",
+   "forms": "iuvo 1, iuvi, iutum",
+   "de": "unterstützen, helfen",
+   "note": "= adiuvare (Lec. 7)",
+   "pos": "Verb"
+  },
+  {
+   "la": "nemo",
+   "forms": "",
+   "de": "niemand",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "invenire",
+   "forms": "invenio 4, inveni, inventum",
+   "de": "1) finden; 2) erfinden",
+   "note": "wörtl.: „darauf-kommen“; engl. invention, to invent",
+   "pos": "Verb"
+  },
+  {
+   "la": "cura",
+   "forms": "curae f.",
+   "de": "Sorge",
+   "note": "vgl. Kur",
+   "pos": "Nomen"
+  },
+  {
+   "la": "quomodo",
+   "forms": "",
+   "de": "wie",
+   "note": "(wörtlich: „auf welche Weise?“)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "modus",
+   "forms": "modi m.",
+   "de": "Art, Weise",
+   "note": "vgl. Mode (= Art, sich anzuziehen)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "dare",
+   "forms": "do 1, dedi, datum",
+   "de": "geben",
+   "note": "ital. dare, span. dar; vgl. Dativ („Gib-Fall“)",
+   "pos": "Verb"
+  },
+  {
+   "la": "medius/a/um",
+   "forms": "",
+   "de": "der mittlere; in der Mitte",
+   "note": "vgl. engl. medium (z. B. Kleidergröße, Steak), mediterran",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "medio in labyrintho",
+   "forms": "",
+   "de": "mitten im Labyrinth",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "paratus/a/um",
+   "forms": "",
+   "de": "bereit",
+   "note": "vgl. parare (Lec. 7); vgl. „etwas parat haben“",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "atque (= ac)",
+   "forms": "",
+   "de": "und",
+   "note": "= et, -que",
+   "pos": "Sonstiges"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "qui, quae, quod",
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m.",
+      "Pl. f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1",
+       "qui",
+       "quae",
+       "quod",
+       "qui",
+       "quae",
+       "quae"
+      ],
+      [
+       "2",
+       "cuius",
+       "cuius",
+       "cuius",
+       "quorum",
+       "quarum",
+       "quorum"
+      ],
+      [
+       "3",
+       "cui",
+       "cui",
+       "cui",
+       "quibus",
+       "quibus",
+       "quibus"
+      ],
+      [
+       "4",
+       "quem",
+       "quam",
+       "quod",
+       "quos",
+       "quas",
+       "quae"
+      ],
+      [
+       "6",
+       "quo",
+       "qua",
+       "quo",
+       "quibus",
+       "quibus",
+       "quibus"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Die Präposition cum wird an die Ablativformen meist angehängt: quocum, quacum, quibuscum."
+    },
+    {
+     "type": "text",
+     "text": "Verwendungsarten von qui, quae, quod:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "als adjektivisches Fragepronomen (→ Bezugswort dahinter): „welcher?“, „welche?“, „welches?“ – Quod monstrum liberos devorat? = „Welches Ungeheuer verschlingt die Kinder?“",
+      "als Relativpronomen (als Einleitung eines Relativsatzes → nach Beistrich, Bezugswort davor): „der“, „die“, „das“ / „welcher“, „welche“, „welches“ – Monstrum, quod liberos devorat, Minotaurus est. = „Das Ungeheuer, das (welches) die Kinder verschlingt, ist der Minotaurus.“"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Im Gegensatz zu quis?, quid? (vgl. Lec. 9) ist qui, quae, quod ein adjektivisches Fragepronomen, d. h. es ist – wie ein Adjektiv – immer mit einem Substantiv (Nomen) übereingestimmt, während quis?/quid? immer alleine steht: Qui puer clamat? („Welcher Bub schreit?“) ↔ Quis clamat? („Wer schreit?“)"
+    }
+   ]
+  },
+  {
+   "title": "Relativsätze (bezügliche Gliedsätze, Attributsätze)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Die häufigste Verwendungsart von qui, quae, quod ist die als Relativpronomen (bezügliches Fürwort)."
+    },
+    {
+     "type": "list",
+     "items": [
+      "Dieses bezieht sich in Zahl und Geschlecht auf ein (meist davor stehendes) Bezugswort.",
+      "Der Fall richtet sich danach, wie man nach dem Pronomen im Gliedsatz fragt."
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Theseus navem, in qua liberi sunt, ascendit. = „Theseus besteigt das Schiff, in dem die Kinder sind.“ – in qua: Zahl → Sg. (wie navem); Geschlecht → feminin (wie navem); Fall → 6. F. („Wo sind die Kinder?“)"
+    },
+    {
+     "type": "text",
+     "text": "Übersetzung des Relativpronomens (achte besonders auf den Genetiv!):"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m./f./n."
+     ],
+     "rows": [
+      [
+       "1",
+       "„der“",
+       "„die“",
+       "„das“",
+       "„die“"
+      ],
+      [
+       "2",
+       "„dessen“",
+       "„deren“",
+       "„dessen“",
+       "„deren“"
+      ],
+      [
+       "3",
+       "„dem“",
+       "„der“",
+       "„dem“",
+       "„denen“"
+      ],
+      [
+       "4",
+       "„den“",
+       "„die“",
+       "„das“",
+       "„die“"
+      ],
+      [
+       "6",
+       "„mit dem“",
+       "„mit der“",
+       "„mit dem“",
+       "„mit denen“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Die Übersetzung des lateinischen Ablativs hängt davon ab, um welchen Ablativ es sich handelt: „durch den“, „mit dem“, „von dem“ etc."
+    }
+   ]
+  }
+ ]
+}

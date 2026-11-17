@@ -1,0 +1,419 @@
+{
+ "number": 14,
+ "title": "De Tartaro",
+ "unit": "Aus der griechischen Mythologie",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "fuit",
+   "forms": "Perfekt von est",
+   "de": "er/sie/es war",
+   "note": "(siehe Grammatica)",
+   "pos": "Verb"
+  },
+  {
+   "la": "hic, haec, hoc",
+   "forms": "",
+   "de": "dieser/e/es",
+   "note": "hinweisendes Fürwort (siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "cena",
+   "forms": "cenae f.",
+   "de": "Mahlzeit, Mahl",
+   "note": "frz. cène, ital. + span. cena (= Abendessen)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "invitare",
+   "forms": "invito 1, -avi, invitatum",
+   "de": "einladen",
+   "note": "engl. to invite, frz. inviter, ital. invitare",
+   "pos": "Verb"
+  },
+  {
+   "la": "quidam, quaedam, quoddam",
+   "forms": "2.F. cuiusdam, 3.F. cuidam",
+   "de": "Sg.: ein (gewisser); Pl.: einige",
+   "note": "Deklination wie qui/quae/quod + -dam",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "facinus",
+   "forms": "facinoris n.",
+   "de": "1) Tat; 2) Untat",
+   "note": "abgeleitet vom Verbum facere (= tun)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "prudentia",
+   "forms": "prudentiae f.",
+   "de": "Klugheit",
+   "note": "engl. + frz. prudence, ital. prudenza, span. prudencia",
+   "pos": "Nomen"
+  },
+  {
+   "la": "intellegere",
+   "forms": "intellego 3, intellexi, intellectum",
+   "de": "erkennen, einsehen",
+   "note": "vgl. Intelligenz, intelligent",
+   "pos": "Verb"
+  },
+  {
+   "la": "reddere",
+   "forms": "reddo 3, reddidi, redditum",
+   "de": "zurückgeben",
+   "note": "aus: re- („zurück-“) + dare",
+   "pos": "Verb"
+  },
+  {
+   "la": "poena",
+   "forms": "poenae f.",
+   "de": "Strafe",
+   "note": "vgl. Pönale (= Strafgeld), Penalty (= Strafstoß)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "poenas solvere",
+   "forms": "",
+   "de": "eine Strafe verbüßen",
+   "note": "wörtlich: „Strafgeld zahlen“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "stare",
+   "forms": "sto 1, steti, statum",
+   "de": "stehen",
+   "note": "vgl. Station, Statue; statisch (= stillstehend)",
+   "pos": "Verb"
+  },
+  {
+   "la": "arbor",
+   "forms": "arboris f.",
+   "de": "Baum",
+   "note": "Nota bene: Bäume galten als weiblich!",
+   "pos": "Nomen"
+  },
+  {
+   "la": "sitis",
+   "forms": "sitis f. (i-Stamm)",
+   "de": "Durst",
+   "note": "ital. sete, span. sed",
+   "pos": "Nomen"
+  },
+  {
+   "la": "fames",
+   "forms": "famis f.",
+   "de": "Hunger",
+   "note": "frz. faim, ital. fame",
+   "pos": "Nomen"
+  },
+  {
+   "la": "cum (Konjunktion)",
+   "forms": "",
+   "de": "1) wenn, sooft; 2) als",
+   "note": "↔ cum + Abl.",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "bibere",
+   "forms": "bibo 3, bibi, –",
+   "de": "trinken",
+   "note": "frz. boire, ital. bere, span. beber",
+   "pos": "Verb"
+  },
+  {
+   "la": "improbus/a/um",
+   "forms": "",
+   "de": "schlecht, böse",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "scelus",
+   "forms": "sceleris n.",
+   "de": "Verbrechen",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "mors",
+   "forms": "mortis f.",
+   "de": "Tod",
+   "note": "frz. mort, ital. morte, span. muerte",
+   "pos": "Nomen"
+  },
+  {
+   "la": "contra (+ Akk.)",
+   "forms": "",
+   "de": "gegen",
+   "note": "vgl. Kontrast; Pro und Kontra (= Für und Wider)",
+   "pos": "Präposition"
+  },
+  {
+   "la": "natura",
+   "forms": "naturae f.",
+   "de": "Natur",
+   "note": "engl. + frz. nature, ital. natura",
+   "pos": "Nomen"
+  },
+  {
+   "la": "genus",
+   "forms": "generis n.",
+   "de": "1) Art; 2) Geschlecht",
+   "note": "engl. gender, frz. genre, ital. genere",
+   "pos": "Nomen"
+  },
+  {
+   "la": "punire",
+   "forms": "punio 4, punivi, -itum",
+   "de": "bestrafen",
+   "note": "frz. punir, ital. punire; vgl. poena",
+   "pos": "Verb"
+  },
+  {
+   "la": "saxum",
+   "forms": "saxi n.",
+   "de": "Fels",
+   "note": "ital. sasso",
+   "pos": "Nomen"
+  },
+  {
+   "la": "vis (Sg.)",
+   "forms": "vim (4.F.), vi (6.F.) f.",
+   "de": "1) Kraft; 2) Gewalt",
+   "note": "↔ vir, viri (= Mann)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "vires (Pl.)",
+   "forms": "virium f.",
+   "de": "die Kräfte",
+   "note": "Viribus unitis („mit vereinten Kräften“)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "paene (Adv.)",
+   "forms": "",
+   "de": "fast, beinahe",
+   "note": "vgl. engl. pen-insula („Fast-Insel“ = Halbinsel)",
+   "pos": "Adverb"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Perfekt + Plusquamperfekt aktiv",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Diese beiden lateinischen Zeiten sind im Gegensatz zum Deutschen einfache Verbalformen, d. h. sie werden nicht, wie im Deutschen, durch ein Hilfszeitwort + Mittelwort gebildet (z. B. „ich habe gesungen“), sondern indem bestimmte Endungen an den aktiven Perfektstamm treten."
+    },
+    {
+     "type": "text",
+     "text": "Der aktive Perfektstamm ist von Konjugation zu Konjugation unterschiedlich:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Präsensstamm",
+      "aktiver Perfektstamm"
+     ],
+     "rows": [
+      [
+       "a-Konjugation",
+       "amo, amas … amare",
+       "-av- (amav-)"
+      ],
+      [
+       "e-Konjugation",
+       "moneo, mones … monēre",
+       "-u- (monu-)"
+      ],
+      [
+       "konsonantische K.",
+       "mitto, mittis … mittere",
+       "verschieden (z. B. mis-)"
+      ],
+      [
+       "i-Konjugation",
+       "audio, audis … audire",
+       "-iv- (audiv-)"
+      ],
+      [
+       "Mischkonjugation",
+       "capio, capis … capere",
+       "verschieden (z. B. cep-)"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Das bedeutet (leider): Da es keine Regel gibt, musst du den Perfektstamm für jedes Wort der konsonantischen und Mischkonjugation extra lernen!"
+    },
+    {
+     "type": "text",
+     "text": "Die Endungen, die an den Perfektstamm angefügt werden, sind dagegen für alle Konjugationen gleich:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Perfekt Sg.",
+      "Perfekt Pl.",
+      "Plusquamperfekt Sg.",
+      "Plusquamperfekt Pl."
+     ],
+     "rows": [
+      [
+       "1.P.",
+       "-i",
+       "-imus",
+       "-eram",
+       "-eramus"
+      ],
+      [
+       "2.P.",
+       "-isti",
+       "-istis",
+       "-eras",
+       "-eratis"
+      ],
+      [
+       "3.P.",
+       "-it",
+       "-ērunt",
+       "-erat",
+       "-erant"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Beispiele für die a-Konjugation:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Perfekt",
+      "Plusquamperfekt"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amavi „ich habe geliebt“",
+       "amaveram „ich hatte geliebt“"
+      ],
+      [
+       "Sg. 2.P.",
+       "amavisti „du hast geliebt“",
+       "amaveras „du hattest geliebt“"
+      ],
+      [
+       "Sg. 3.P.",
+       "amavit „er/sie hat geliebt“",
+       "amaverat „er/sie hatte geliebt“"
+      ],
+      [
+       "Pl. 1.P.",
+       "amavimus „wir haben geliebt“",
+       "amaveramus „wir hatten geliebt“"
+      ],
+      [
+       "Pl. 2.P.",
+       "amavistis „ihr habt geliebt“",
+       "amaveratis „ihr hattet geliebt“"
+      ],
+      [
+       "Pl. 3.P.",
+       "amavērunt „sie haben geliebt“",
+       "amaverant „sie hatten geliebt“"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Das Perfekt ist die lateinische Erzählzeit: Es beschreibt einmalige, in der Vergangenheit abgeschlossene Vorgänge. Es wird im Deutschen entweder mit dem Präteritum oder (in Gliedsätzen) mit dem Perfekt wiedergegeben: Veni, vidi, vici. = „Ich kam, sah und siegte.“"
+    },
+    {
+     "type": "text",
+     "text": "Das Plusquamperfekt (wörtlich: „mehr als vergangen“) drückt eine Handlung aus, die vor dem Perfekt stattgefunden hat: Quintus, qui Iuliam amaverat (Plqpf.), postremo Claudiam in matrimonium duxit (Perfekt). = „Quintus, der Julia geliebt hatte, heiratete schließlich Claudia.“"
+    },
+    {
+     "type": "note",
+     "text": "Achtung auf die 3.P. Plural: duxērunt = „sie haben geführt“ (→ Perfekt); duxerant = „sie hatten geführt“ (→ Plqpf.)"
+    }
+   ]
+  },
+  {
+   "title": "hic, haec, hoc",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Bei diesem Wort handelt es sich um ein weiteres Demonstrativpronomen. Bedeutung: „dieser, diese, dieses“:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m.",
+      "Pl. f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1",
+       "hic",
+       "haec",
+       "hoc",
+       "hi",
+       "hae",
+       "haec"
+      ],
+      [
+       "2",
+       "huius",
+       "huius",
+       "huius",
+       "horum",
+       "harum",
+       "horum"
+      ],
+      [
+       "3",
+       "huic",
+       "huic",
+       "huic",
+       "his",
+       "his",
+       "his"
+      ],
+      [
+       "4",
+       "hunc",
+       "hanc",
+       "hoc",
+       "hos",
+       "has",
+       "haec"
+      ],
+      [
+       "6",
+       "hoc",
+       "hac",
+       "hoc",
+       "his",
+       "his",
+       "his"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

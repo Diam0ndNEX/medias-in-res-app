@@ -1,0 +1,375 @@
+{
+ "number": 11,
+ "title": "Quis Iovem non amat?",
+ "unit": "Aus der griechischen Mythologie",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "Iuppiter",
+   "forms": "Iovis m.",
+   "de": "Jupiter",
+   "note": "griech. Zeus",
+   "pos": "Nomen"
+  },
+  {
+   "la": "scire",
+   "forms": "scio 4, scivi, scitum",
+   "de": "wissen",
+   "note": "vgl. engl. science",
+   "pos": "Verb"
+  },
+  {
+   "la": "is, ea, id",
+   "forms": "",
+   "de": "1) dieser/e/es; 2) er, sie, es",
+   "note": "hinweisendes Fürwort (siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "vocare",
+   "forms": "voco 1, -avi, -atum",
+   "de": "1) rufen; 2) nennen",
+   "note": "vgl. vox, vocis; vgl. Vokativ („Ruf-Fall“), Advokat",
+   "pos": "Verb"
+  },
+  {
+   "la": "imperare",
+   "forms": "impero 1, -avi, -atum",
+   "de": "befehlen",
+   "note": "vgl. Imperator, Imperativ",
+   "pos": "Verb"
+  },
+  {
+   "la": "mons",
+   "forms": "montis m.",
+   "de": "Berg",
+   "note": "engl. mount, frz. mont, ital. + span. monte",
+   "pos": "Nomen"
+  },
+  {
+   "la": "rex",
+   "forms": "regis m.",
+   "de": "König",
+   "note": "frz. roi, ital. re, span. rey",
+   "pos": "Nomen"
+  },
+  {
+   "la": "litus",
+   "forms": "litoris n.",
+   "de": "Küste, Strand",
+   "note": "ital. lido, span. litoral",
+   "pos": "Nomen"
+  },
+  {
+   "la": "eius",
+   "forms": "(2.F. Sg.)",
+   "de": "dessen/deren",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "eorum/earum",
+   "forms": "(2.F. Pl.)",
+   "de": "deren",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "iussum",
+   "forms": "iussi n.",
+   "de": "Befehl",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "conficere",
+   "forms": "conficio M, confeci, confectum",
+   "de": "1) ausführen, anfertigen; 2) beenden",
+   "note": "vgl. facere M",
+   "pos": "Verb"
+  },
+  {
+   "la": "solere",
+   "forms": "soleo 2, solitus sum",
+   "de": "gewohnt sein, pflegen",
+   "note": "span. soler",
+   "pos": "Verb"
+  },
+  {
+   "la": "idem, eadem, idem",
+   "forms": "",
+   "de": "der-, die-, dasselbe",
+   "note": "(siehe Grammatica); vgl. ident, identisch",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "locus",
+   "forms": "loci m.",
+   "de": "Ort, Stelle, Platz",
+   "note": "vgl. Lokal, lokalisieren; der Lokus (= WC)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "virgo",
+   "forms": "virginis f.",
+   "de": "Mädchen, Jungfrau",
+   "note": "engl. virgin, frz. vierge, ital. vergine, span. virgen",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ludere",
+   "forms": "ludo 3, lusi, lusum",
+   "de": "spielen",
+   "note": "vgl. Präludium (= Vorspiel)",
+   "pos": "Verb"
+  },
+  {
+   "la": "taurus",
+   "forms": "tauri m.",
+   "de": "Stier",
+   "note": "ital. + span. toro; vgl. Torero (= Stierkämpfer)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "multitudo",
+   "forms": "multitudinis f.",
+   "de": "Menge",
+   "note": "vgl. multi/ae/a",
+   "pos": "Nomen"
+  },
+  {
+   "la": "conspicere",
+   "forms": "conspicio M, conspexi, conspectum",
+   "de": "erblicken",
+   "note": "vgl. in-spizieren (= genau untersuchen)",
+   "pos": "Verb"
+  },
+  {
+   "la": "pulchritudo",
+   "forms": "pulchritudinis f.",
+   "de": "Schönheit",
+   "note": "vgl. pulcher/ra/rum",
+   "pos": "Nomen"
+  },
+  {
+   "la": "primo (Adv.)",
+   "forms": "",
+   "de": "zuerst",
+   "note": "vgl. Primel; ↔ primus/a/um (Adj.)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "tangere",
+   "forms": "tango 3, tetigi, tactum",
+   "de": "berühren",
+   "note": "vgl. Tangente, tangieren, Tangens; engl. contact",
+   "pos": "Verb"
+  },
+  {
+   "la": "corpus",
+   "forms": "corporis n.",
+   "de": "Körper",
+   "note": "vgl. der Korpus; das Corpus delicti (= Beweisstück)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "mox (Adv.)",
+   "forms": "",
+   "de": "bald",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "insula",
+   "forms": "insulae f.",
+   "de": "Insel",
+   "note": "engl. island, frz. île, ital. isola, span. isla",
+   "pos": "Nomen"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Demonstrativpronomina: is, ea, id",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Demonstrativpronomina sind hinweisende Fürwörter (demonstrare = „zeigen“, „hinweisen“, vgl. Demonstration). is, ea, id: „dieser, diese, dieses“"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m.",
+      "Pl. f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1",
+       "is",
+       "ea",
+       "id",
+       "ii",
+       "eae",
+       "ea"
+      ],
+      [
+       "2",
+       "eius",
+       "eius",
+       "eius",
+       "eorum",
+       "earum",
+       "eorum"
+      ],
+      [
+       "3",
+       "ei",
+       "ei",
+       "ei",
+       "iis (= eis)",
+       "iis (= eis)",
+       "iis (= eis)"
+      ],
+      [
+       "4",
+       "eum",
+       "eam",
+       "id",
+       "eos",
+       "eas",
+       "ea"
+      ],
+      [
+       "6",
+       "eo",
+       "eā",
+       "eo",
+       "iis (= eis)",
+       "iis (= eis)",
+       "iis (= eis)"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "is, ea, id wird auf drei Arten verwendet:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "a) als Demonstrativpronomen (→ mit einem Nomen übereingestimmt): „dieser, diese, dieses“ – Videte eum taurum! = „Seht diesen Stier!“",
+      "b) als Personalpronomen der 3.P. (→ nicht übereingestimmt): „er, sie, es“ – In monte boves regis sunt: Duc eos ad litus! = „Auf dem Berg sind die Rinder des Königs: Führe sie zur Küste!“",
+      "c) als Possessivpronomen → nur in den Genetivformen eius (Sg.) = „dessen“ („sein“) / „deren“ („ihr“) und eorum / earum (Pl.) „deren“ („ihr“) – Mercurius Iovem adiuvat et eius iussa conficit. = „Merkur hilft Jupiter und führt dessen Befehle aus.“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "idem, eadem, idem: „derselbe, dieselbe, dasselbe“",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Dieses Pronomen setzt sich aus den Formen von is, ea, id und -dem („-selbe“) zusammen:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m.",
+      "Pl. f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1",
+       "idem",
+       "eadem",
+       "idem",
+       "iidem",
+       "eaedem",
+       "eadem"
+      ],
+      [
+       "2",
+       "eiusdem",
+       "eiusdem",
+       "eiusdem",
+       "eorundem",
+       "earundem",
+       "eorundem"
+      ],
+      [
+       "3",
+       "eidem",
+       "eidem",
+       "eidem",
+       "iisdem",
+       "iisdem",
+       "iisdem"
+      ],
+      [
+       "4",
+       "eundem",
+       "eandem",
+       "idem",
+       "eosdem",
+       "easdem",
+       "eadem"
+      ],
+      [
+       "6",
+       "eodem",
+       "eādem",
+       "eodem",
+       "iisdem",
+       "iisdem",
+       "iisdem"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Genetiv der Eigenschaft (Genetivus qualitatis)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Er gibt – wie der Ablativ der Eigenschaft – die Eigenschaft einer Person oder Sache an. Er wird auch so wie der Ablativus qualitatis übersetzt: mit „von“ oder frei (d. h. mit einem Adjektiv):"
+    },
+    {
+     "type": "list",
+     "items": [
+      "taurus summae pulchritudinis = „ein Stier von höchster Schönheit“ / „ein sehr schöner Stier“",
+      "puer decem annorum = „ein Bub von zehn Jahren“ / „ein zehnjähriger Bub“",
+      "miles magnae virtutis = „ein Soldat von großer Tapferkeit“ / „ein sehr tapferer Soldat“"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Teilungsgenetiv (Genetivus partitivus)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Er steht nach Pronomina und Mengenangaben und hebt einen Teil aus einer Menge heraus. Übersetzung: meist „von“, z. B.:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "quis vestrum? = „wer von euch?“",
+      "multi nostrum = „viele von uns“",
+      "quid novi? = (was des Neuen =) „Was (gibt es) Neues?“",
+      "multum auri = (viel des Goldes =) „viel Gold“"
+     ]
+    }
+   ]
+  }
+ ]
+}

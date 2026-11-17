@@ -1,0 +1,477 @@
+{
+ "number": 15,
+ "title": "De Orpheo et Eurydice",
+ "unit": "Aus der griechischen Mythologie",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "ille, illa, illud",
+   "forms": "",
+   "de": "jener/e/es",
+   "note": "vgl. die Artikel: frz. le/la, ital. il/la, span. el/la",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "et … et",
+   "forms": "",
+   "de": "sowohl … als auch",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "animal (i-Stamm)",
+   "forms": "animalis n.",
+   "de": "1) Tier; 2) Lebewesen",
+   "note": "engl. + frz. + span. animal, ital. animale",
+   "pos": "Nomen"
+  },
+  {
+   "la": "carmen",
+   "forms": "carminis n.",
+   "de": "Lied",
+   "note": "vgl. Carmina Burana (Carl Orff)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "canere",
+   "forms": "cano 3, cecini, –",
+   "de": "singen, besingen",
+   "note": "frz. chanter, ital. cantare, span. cantar",
+   "pos": "Verb"
+  },
+  {
+   "la": "olim (Adv.)",
+   "forms": "",
+   "de": "einst",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "matrimonium",
+   "forms": "matrimonii n.",
+   "de": "Ehe",
+   "note": "ital. + span. matrimonio, engl. matrimony",
+   "pos": "Nomen"
+  },
+  {
+   "la": "in matrimonium ducere",
+   "forms": "",
+   "de": "heiraten (vom Mann aus)",
+   "note": "wörtl.: „(die Frau) in die Ehe führen“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "dolor",
+   "forms": "doloris m.",
+   "de": "Schmerz",
+   "note": "frz. douleur, ital. dolore, span. dolor",
+   "pos": "Nomen"
+  },
+  {
+   "la": "flere",
+   "forms": "fleo 2, flevi, fletum",
+   "de": "weinen",
+   "note": "vgl. flennen",
+   "pos": "Verb"
+  },
+  {
+   "la": "dolere",
+   "forms": "doleo 2, dolui, –",
+   "de": "trauern, Schmerz empfinden",
+   "note": "vgl. dolor",
+   "pos": "Verb"
+  },
+  {
+   "la": "ipse, ipsa, ipsum",
+   "forms": "",
+   "de": "selbst",
+   "note": "(siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "regina",
+   "forms": "reginae f.",
+   "de": "Königin",
+   "note": "ital. regina",
+   "pos": "Nomen"
+  },
+  {
+   "la": "movere",
+   "forms": "moveo 2, movi, motum",
+   "de": "bewegen; beeindrucken",
+   "note": "engl. to move, movie; vgl. motivieren, Motor",
+   "pos": "Verb"
+  },
+  {
+   "la": "postquam",
+   "forms": "(+ Perfekt)",
+   "de": "nachdem",
+   "note": "",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "cuncti/ae/a (Pl.!)",
+   "forms": "",
+   "de": "alle; alles (n.)",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "frustra (Adv.)",
+   "forms": "",
+   "de": "vergeblich",
+   "note": "vgl. Frustration (= enttäuschte Erwartung)",
+   "pos": "Adverb"
+  },
+  {
+   "la": "desinere",
+   "forms": "desino 3, desii, –",
+   "de": "aufhören, ablassen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "considere",
+   "forms": "consido 3, consedi, –",
+   "de": "sich niedersetzen",
+   "note": "↔ sedere 2",
+   "pos": "Verb"
+  },
+  {
+   "la": "ignotus/a/um",
+   "forms": "",
+   "de": "unbekannt",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "eram, eras … (etc.)",
+   "forms": "",
+   "de": "ich war, du warst … (etc.)",
+   "note": "(Imperfekt von esse, siehe Grammatica)",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "condicio",
+   "forms": "condicionis f.",
+   "de": "Bedingung",
+   "note": "vgl. Konditionalsatz (= Bedingungssatz)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "uxor",
+   "forms": "uxoris f.",
+   "de": "Gattin, Ehefrau",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iter",
+   "forms": "itineris n.",
+   "de": "1) Weg; 2) Reise",
+   "note": "ital. + span. itinerario",
+   "pos": "Nomen"
+  },
+  {
+   "la": "iter facere",
+   "forms": "",
+   "de": "reisen, marschieren",
+   "note": "wörtl.: „eine Reise machen“",
+   "pos": "Sonstiges"
+  },
+  {
+   "la": "vertere",
+   "forms": "verto 3, verti, versum",
+   "de": "wenden, drehen",
+   "note": "vgl. konvertieren (= die Religion wechseln)",
+   "pos": "Verb"
+  },
+  {
+   "la": "domus",
+   "forms": "domus f.",
+   "de": "Haus",
+   "note": "vgl. Dom, Domizil (= Wohnsitz)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "longus/a/um",
+   "forms": "",
+   "de": "lang",
+   "note": "engl. long; vgl. Longinus (= großer Mensch)",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "lux",
+   "forms": "lucis f.",
+   "de": "Licht",
+   "note": "ital. luce, span. luz; vgl. Luzifer („Lichtbringer“)",
+   "pos": "Nomen"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Imperfekt",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Das lateinische Imperfekt wird vom Präsensstamm (!) gebildet. Zwischen den Stamm und die Endungen tritt das Erkennungszeichen -ba-. (Nota bene: Davor steht immer -e-, nur bei der a-Konjugation -a-!)"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "a-Konj.",
+      "e-Konj.",
+      "kons. Konj.",
+      "i-Konj.",
+      "Mischkonj.",
+      "esse",
+      "posse"
+     ],
+     "rows": [
+      [
+       "Sg. 1.P.",
+       "amabam",
+       "monebam",
+       "mittebam",
+       "audiebam",
+       "capiebam",
+       "eram",
+       "poteram"
+      ],
+      [
+       "Sg. 2.P.",
+       "amabas",
+       "monebas",
+       "mittebas",
+       "audiebas",
+       "capiebas",
+       "eras",
+       "poteras"
+      ],
+      [
+       "Sg. 3.P.",
+       "amabat",
+       "monebat",
+       "mittebat",
+       "audiebat",
+       "capiebat",
+       "erat",
+       "poterat"
+      ],
+      [
+       "Pl. 1.P.",
+       "amabamus",
+       "monebamus",
+       "mittebamus",
+       "audiebamus",
+       "capiebamus",
+       "eramus",
+       "poteramus"
+      ],
+      [
+       "Pl. 2.P.",
+       "amabatis",
+       "monebatis",
+       "mittebatis",
+       "audiebatis",
+       "capiebatis",
+       "eratis",
+       "poteratis"
+      ],
+      [
+       "Pl. 3.P.",
+       "amabant",
+       "monebant",
+       "mittebant",
+       "audiebant",
+       "capiebant",
+       "erant",
+       "poterant"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Übersetzung: Das Imperfekt stellt lang andauernde oder wiederholte Handlungen dar. Es wird mit dem Präteritum wiedergegeben: Orpheus homines carminibus suis delectabat. = „Orpheus erfreute die Menschen mit seinen Liedern.“ (→ er tat es immer wieder)"
+    },
+    {
+     "type": "text",
+     "text": "Unterschied Perfekt ↔ Imperfekt:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "",
+      "Lat. Imperfekt",
+      "Lat. Perfekt"
+     ],
+     "rows": [
+      [
+       "Was drückt die Zeit aus?",
+       "a) wiederholte Handlung; b) länger dauernde Handlung",
+       "einmalige Handlung (= Erzählzeit!)"
+      ],
+      [
+       "Grafische Entsprechung",
+       "Zeitdauer (Linie: –)",
+       "Zeitpunkt (Punkt: •)"
+      ],
+      [
+       "Wiedergabe im Deutschen",
+       "Präteritum",
+       "Präteritum / Perfekt"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Zeitleiste: Plqpf. → Perfekt / Imperfekt → Präsens"
+    },
+    {
+     "type": "note",
+     "text": "Perfekt und Imperfekt sind gleich weit vom Präsens entfernt, drücken aber Unterschiedliches aus."
+    },
+    {
+     "type": "text",
+     "text": "Beispiel: Dormiebam; subito magister me clamavit. = „Ich schlief; plötzlich rief mich der Lehrer.“ (dormiebam = Imperfekt: (an-)dauernd; clamavit = Perfekt: einmal)"
+    }
+   ]
+  },
+  {
+   "title": "Demonstrativpronomina (hinweisende Fürwörter)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "ille, illa, illud: „jener, jene, jenes“"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m.",
+      "Pl. f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1",
+       "ille",
+       "illa",
+       "illud",
+       "illi",
+       "illae",
+       "illa"
+      ],
+      [
+       "2",
+       "illius",
+       "illius",
+       "illius",
+       "illorum",
+       "illarum",
+       "illorum"
+      ],
+      [
+       "3",
+       "illi",
+       "illi",
+       "illi",
+       "illis",
+       "illis",
+       "illis"
+      ],
+      [
+       "4",
+       "illum",
+       "illam",
+       "illud",
+       "illos",
+       "illas",
+       "illa"
+      ],
+      [
+       "6",
+       "illo",
+       "illa",
+       "illo",
+       "illis",
+       "illis",
+       "illis"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "ipse, ipsa, ipsum: „selbst“"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "Sg. m.",
+      "Sg. f.",
+      "Sg. n.",
+      "Pl. m.",
+      "Pl. f.",
+      "Pl. n."
+     ],
+     "rows": [
+      [
+       "1",
+       "ipse",
+       "ipsa",
+       "ipsum",
+       "ipsi",
+       "ipsae",
+       "ipsa"
+      ],
+      [
+       "2",
+       "ipsius",
+       "ipsius",
+       "ipsius",
+       "ipsorum",
+       "ipsarum",
+       "ipsorum"
+      ],
+      [
+       "3",
+       "ipsi",
+       "ipsi",
+       "ipsi",
+       "ipsis",
+       "ipsis",
+       "ipsis"
+      ],
+      [
+       "4",
+       "ipsum",
+       "ipsam",
+       "ipsum",
+       "ipsos",
+       "ipsas",
+       "ipsa"
+      ],
+      [
+       "6",
+       "ipso",
+       "ipsa",
+       "ipso",
+       "ipsis",
+       "ipsis",
+       "ipsis"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Viele Pronomina haben im Genetiv Sg. die Endung -ius und im Dativ Sg. -i (jeweils für alle drei Geschlechter). Auch einige Adjektiva, die ansonsten nach der a-/o-Deklination abwandeln, weisen diese Besonderheit („Pronominale Deklination“) auf, z. B.: solus/a/um („allein“), unus/a/um („ein“, „einzig“), nullus/a/um („kein“)."
+    }
+   ]
+  }
+ ]
+}

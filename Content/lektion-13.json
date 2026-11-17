@@ -1,0 +1,275 @@
+{
+ "number": 13,
+ "title": "De Daedalo et Icaro",
+ "unit": "Aus der griechischen Mythologie",
+ "klasse": 5,
+ "vocab": [
+  {
+   "la": "amor",
+   "forms": "amoris m.",
+   "de": "Liebe",
+   "note": "frz. amour, ital. amore, span. amor; vgl. Amor",
+   "pos": "Nomen"
+  },
+  {
+   "la": "cupere",
+   "forms": "cupio M, cupivi, -itum",
+   "de": "wünschen, begehren",
+   "note": "↔ capere M",
+   "pos": "Verb"
+  },
+  {
+   "la": "petere",
+   "forms": "peto 3, petivi, petitum",
+   "de": "„anstreben“",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "petere a/ab",
+   "forms": "(+ Abl.)",
+   "de": "bitten, erbitten",
+   "note": "peto a te auxilium = „ich bitte dich um Hilfe“, „ich erbitte Hilfe von dir“",
+   "pos": "Verb"
+  },
+  {
+   "la": "manus",
+   "forms": "manus f.",
+   "de": "Hand",
+   "note": "vgl. manuell, Manufaktur, Maniküre",
+   "pos": "Nomen"
+  },
+  {
+   "la": "artificium",
+   "forms": "artificii n.",
+   "de": "Kunstwerk",
+   "note": "zusammengesetzt aus: ars + facere",
+   "pos": "Nomen"
+  },
+  {
+   "la": "res",
+   "forms": "rei f.",
+   "de": "Sache",
+   "note": "vgl. Medias in Res!; vgl. realisieren, realistisch",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ars",
+   "forms": "artis f.",
+   "de": "1) Kunst; 2) Technik",
+   "note": "engl. + frz. art, ital. + span. arte; vgl. Artist",
+   "pos": "Nomen"
+  },
+  {
+   "la": "casus",
+   "forms": "casus m.",
+   "de": "1) Fall; 2) Zufall; 3) Unglücksfall",
+   "note": "engl. case (= Fall), frz. cas, ital. + span. caso",
+   "pos": "Nomen"
+  },
+  {
+   "la": "coniungere",
+   "forms": "coniungo 3, coniunxi, coniunctum",
+   "de": "1) verbinden; 2) vereinigen",
+   "note": "vgl. Konjunktion (= Bindewort)",
+   "pos": "Verb"
+  },
+  {
+   "la": "dies",
+   "forms": "diei m.",
+   "de": "Tag",
+   "note": "span. día; vgl. engl. diary (= Tagebuch)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "opus",
+   "forms": "operis n.",
+   "de": "Werk",
+   "note": "ital. opera; vgl. das Opus (= Musikwerk)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "meridies",
+   "forms": "meridiei m.",
+   "de": "Mittag",
+   "note": "vgl. Meridian (= „Mittagslinie“), a. m. (= ante meridiem)",
+   "pos": "Nomen"
+  },
+  {
+   "la": "sol",
+   "forms": "solis m.",
+   "de": "Sonne",
+   "note": "frz. soleil, ital. sole, span. sol; vgl. Solarium",
+   "pos": "Nomen"
+  },
+  {
+   "la": "caelum",
+   "forms": "caeli n.",
+   "de": "Himmel",
+   "note": "engl. ceiling, frz. ciel, ital. + span. cielo",
+   "pos": "Nomen"
+  },
+  {
+   "la": "metus",
+   "forms": "metus m.",
+   "de": "Furcht, Angst",
+   "note": "= timor, -oris",
+   "pos": "Nomen"
+  },
+  {
+   "la": "denique (Adv.)",
+   "forms": "",
+   "de": "schließlich, endlich",
+   "note": "= postremo",
+   "pos": "Adverb"
+  },
+  {
+   "la": "neglegere",
+   "forms": "neglego 3, neglexi, neglectum",
+   "de": "missachten, ignorieren",
+   "note": "engl. to neglect, frz. négliger",
+   "pos": "Verb"
+  },
+  {
+   "la": "solvere",
+   "forms": "solvo 3, solvi, solutum",
+   "de": "auflösen, lösen",
+   "note": "engl. to solve (a problem); solution (= Lösung)",
+   "pos": "Verb"
+  },
+  {
+   "la": "cadere",
+   "forms": "cado 3, cecidi, –",
+   "de": "fallen",
+   "note": "de-kadent (= verfallen, entartet); vgl. casus, -us",
+   "pos": "Verb"
+  },
+  {
+   "la": "mortuus/a/um",
+   "forms": "",
+   "de": "tot, gestorben",
+   "note": "frz. mort; vgl. Mortalität (= Sterblichkeit)",
+   "pos": "Adjektiv"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "e- und u-Deklination",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Diese beiden Deklinationen unterscheiden sich in erster Linie durch den Auslaut ihres Stammes, der -e bzw. -u lautet (der reine, endungslose Stamm ist jeweils im Ablativ Sg. zu sehen). Die Endungen sind großteils identisch:"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Fall",
+      "e-Dekl. (res, rei f.)",
+      "u-Dekl. (casus, -us m.)"
+     ],
+     "rows": [
+      [
+       "Sg. 1/5",
+       "res („Sache“)",
+       "casus („Fall“)"
+      ],
+      [
+       "Sg. 2",
+       "rei",
+       "casus"
+      ],
+      [
+       "Sg. 3",
+       "rei",
+       "casui"
+      ],
+      [
+       "Sg. 4",
+       "rem",
+       "casum"
+      ],
+      [
+       "Sg. 6",
+       "re",
+       "casu"
+      ],
+      [
+       "Pl. 1/5",
+       "res",
+       "casus"
+      ],
+      [
+       "Pl. 2",
+       "rerum",
+       "casuum"
+      ],
+      [
+       "Pl. 3",
+       "rebus",
+       "casibus"
+      ],
+      [
+       "Pl. 4",
+       "res",
+       "casus"
+      ],
+      [
+       "Pl. 6",
+       "rebus",
+       "casibus"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Geschlechtsregeln:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Nomina der e-Deklination sind feminin. (Ausnahmen: dies „Tag“ und meridies „Mittag“ sind maskulin.)",
+      "Nomina der u-Deklination auf -us sind meist maskulin. (Ausnahmen: domus „Haus“, manus „Hand“ sind feminin.)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Es gibt auch einige wenige neutrale Nomina auf -u (2.F. -us), z. B. cornu, -us „Horn“ (1./4. Pl.: cornua!)."
+    }
+   ]
+  },
+  {
+   "title": "Objektsgenetiv (Genetivus obiectivus)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Manchmal kann es vorkommen, dass die wörtliche Übersetzung eines lateinischen Genetivs keinen Sinn ergibt, so z. B. bei amor patriae: „die Liebe der Heimat“ ist nicht sinnvoll, da die Heimat ja keine Person ist, die jemanden lieben kann. Also muss die Übersetzung wohl eher heißen: „die Liebe zur Heimat“."
+    },
+    {
+     "type": "text",
+     "text": "Einen solchen Genetiv, der nicht wörtlich, sondern nur mithilfe einer passenden Präposition übersetzt werden kann, nennt man Genetivus obiectivus, da er das „Objekt“ (den Gegenstand) einer Handlung bezeichnet:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "amor patriae = „die Liebe zur Heimat“ (= die Heimatliebe) (→ jemand liebt die Heimat, sie ist „Objekt“ seiner Liebe)"
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Es kann jedoch auch vorkommen, dass sowohl die „normale“ Übersetzung als auch die mit Präposition möglich ist. In diesem Fall entscheidet der Kontext über die richtige Übersetzung: metus Romanorum ="
+    },
+    {
+     "type": "list",
+     "items": [
+      "a) „die Angst der Römer“ („normaler“ Genetiv = Genetivus subiectivus → die Römer fürchten sich, sie sind Subjekt)",
+      "b) „die Angst vor den Römern“ (Genetivus obiectivus → man fürchtet die Römer, sie sind Objekt)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Welche der beiden Übersetzungen die richtige ist, ergibt sich nur aus dem Zusammenhang! Insgesamt kommt der Genetivus obiectivus aber wesentlich seltener vor als der Genetivus subiectivus!"
+    }
+   ]
+  }
+ ]
+}

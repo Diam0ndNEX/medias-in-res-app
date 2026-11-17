@@ -1,0 +1,66 @@
+#15 De Orpheo et Eurydice | Aus der griechischen Mythologie | 5
+== VOKABELN
+ille, illa, illud | | jener/e/es | vgl. die Artikel: frz. le/la, ital. il/la, span. el/la
+et … et | | sowohl … als auch |
+animal (i-Stamm) | animalis n. | 1) Tier; 2) Lebewesen | engl. + frz. + span. animal, ital. animale
+carmen | carminis n. | Lied | vgl. Carmina Burana (Carl Orff)
+canere | cano 3, cecini, – | singen, besingen | frz. chanter, ital. cantare, span. cantar
+olim (Adv.) | | einst |
+matrimonium | matrimonii n. | Ehe | ital. + span. matrimonio, engl. matrimony
+in matrimonium ducere | | heiraten (vom Mann aus) | wörtl.: „(die Frau) in die Ehe führen“
+dolor | doloris m. | Schmerz | frz. douleur, ital. dolore, span. dolor
+flere | fleo 2, flevi, fletum | weinen | vgl. flennen
+dolere | doleo 2, dolui, – | trauern, Schmerz empfinden | vgl. dolor
+ipse, ipsa, ipsum | | selbst | (siehe Grammatica)
+regina | reginae f. | Königin | ital. regina
+movere | moveo 2, movi, motum | bewegen; beeindrucken | engl. to move, movie; vgl. motivieren, Motor
+postquam | (+ Perfekt) | nachdem |
+cuncti/ae/a (Pl.!) | | alle; alles (n.) |
+frustra (Adv.) | | vergeblich | vgl. Frustration (= enttäuschte Erwartung)
+desinere | desino 3, desii, – | aufhören, ablassen |
+considere | consido 3, consedi, – | sich niedersetzen | ↔ sedere 2
+ignotus/a/um | | unbekannt |
+eram, eras … (etc.) | | ich war, du warst … (etc.) | (Imperfekt von esse, siehe Grammatica)
+condicio | condicionis f. | Bedingung | vgl. Konditionalsatz (= Bedingungssatz)
+uxor | uxoris f. | Gattin, Ehefrau |
+iter | itineris n. | 1) Weg; 2) Reise | ital. + span. itinerario
+iter facere | | reisen, marschieren | wörtl.: „eine Reise machen“
+vertere | verto 3, verti, versum | wenden, drehen | vgl. konvertieren (= die Religion wechseln)
+domus | domus f. | Haus | vgl. Dom, Domizil (= Wohnsitz)
+longus/a/um | | lang | engl. long; vgl. Longinus (= großer Mensch)
+lux | lucis f. | Licht | ital. luce, span. luz; vgl. Luzifer („Lichtbringer“)
+== GRAMMATIK
+## Imperfekt
+Das lateinische Imperfekt wird vom Präsensstamm (!) gebildet. Zwischen den Stamm und die Endungen tritt das Erkennungszeichen -ba-. (Nota bene: Davor steht immer -e-, nur bei der a-Konjugation -a-!)
+| | a-Konj. | e-Konj. | kons. Konj. | i-Konj. | Mischkonj. | esse | posse |
+| Sg. 1.P. | amabam | monebam | mittebam | audiebam | capiebam | eram | poteram |
+| Sg. 2.P. | amabas | monebas | mittebas | audiebas | capiebas | eras | poteras |
+| Sg. 3.P. | amabat | monebat | mittebat | audiebat | capiebat | erat | poterat |
+| Pl. 1.P. | amabamus | monebamus | mittebamus | audiebamus | capiebamus | eramus | poteramus |
+| Pl. 2.P. | amabatis | monebatis | mittebatis | audiebatis | capiebatis | eratis | poteratis |
+| Pl. 3.P. | amabant | monebant | mittebant | audiebant | capiebant | erant | poterant |
+Übersetzung: Das Imperfekt stellt lang andauernde oder wiederholte Handlungen dar. Es wird mit dem Präteritum wiedergegeben: Orpheus homines carminibus suis delectabat. = „Orpheus erfreute die Menschen mit seinen Liedern.“ (→ er tat es immer wieder)
+Unterschied Perfekt ↔ Imperfekt:
+| | Lat. Imperfekt | Lat. Perfekt |
+| Was drückt die Zeit aus? | a) wiederholte Handlung; b) länger dauernde Handlung | einmalige Handlung (= Erzählzeit!) |
+| Grafische Entsprechung | Zeitdauer (Linie: –) | Zeitpunkt (Punkt: •) |
+| Wiedergabe im Deutschen | Präteritum | Präteritum / Perfekt |
+Zeitleiste: Plqpf. → Perfekt / Imperfekt → Präsens
+? Perfekt und Imperfekt sind gleich weit vom Präsens entfernt, drücken aber Unterschiedliches aus.
+Beispiel: Dormiebam; subito magister me clamavit. = „Ich schlief; plötzlich rief mich der Lehrer.“ (dormiebam = Imperfekt: (an-)dauernd; clamavit = Perfekt: einmal)
+## Demonstrativpronomina (hinweisende Fürwörter)
+ille, illa, illud: „jener, jene, jenes“
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m. | Pl. f. | Pl. n. |
+| 1 | ille | illa | illud | illi | illae | illa |
+| 2 | illius | illius | illius | illorum | illarum | illorum |
+| 3 | illi | illi | illi | illis | illis | illis |
+| 4 | illum | illam | illud | illos | illas | illa |
+| 6 | illo | illa | illo | illis | illis | illis |
+ipse, ipsa, ipsum: „selbst“
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m. | Pl. f. | Pl. n. |
+| 1 | ipse | ipsa | ipsum | ipsi | ipsae | ipsa |
+| 2 | ipsius | ipsius | ipsius | ipsorum | ipsarum | ipsorum |
+| 3 | ipsi | ipsi | ipsi | ipsis | ipsis | ipsis |
+| 4 | ipsum | ipsam | ipsum | ipsos | ipsas | ipsa |
+| 6 | ipso | ipsa | ipso | ipsis | ipsis | ipsis |
+? Viele Pronomina haben im Genetiv Sg. die Endung -ius und im Dativ Sg. -i (jeweils für alle drei Geschlechter). Auch einige Adjektiva, die ansonsten nach der a-/o-Deklination abwandeln, weisen diese Besonderheit („Pronominale Deklination“) auf, z. B.: solus/a/um („allein“), unus/a/um („ein“, „einzig“), nullus/a/um („kein“).

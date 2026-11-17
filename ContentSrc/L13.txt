@@ -1,0 +1,49 @@
+#13 De Daedalo et Icaro | Aus der griechischen Mythologie | 5
+== VOKABELN
+amor | amoris m. | Liebe | frz. amour, ital. amore, span. amor; vgl. Amor
+cupere | cupio M, cupivi, -itum | wünschen, begehren | ↔ capere M
+petere | peto 3, petivi, petitum | „anstreben“ |
+petere a/ab | (+ Abl.) | bitten, erbitten | peto a te auxilium = „ich bitte dich um Hilfe“, „ich erbitte Hilfe von dir“
+manus | manus f. | Hand | vgl. manuell, Manufaktur, Maniküre
+artificium | artificii n. | Kunstwerk | zusammengesetzt aus: ars + facere
+res | rei f. | Sache | vgl. Medias in Res!; vgl. realisieren, realistisch
+ars | artis f. | 1) Kunst; 2) Technik | engl. + frz. art, ital. + span. arte; vgl. Artist
+casus | casus m. | 1) Fall; 2) Zufall; 3) Unglücksfall | engl. case (= Fall), frz. cas, ital. + span. caso
+coniungere | coniungo 3, coniunxi, coniunctum | 1) verbinden; 2) vereinigen | vgl. Konjunktion (= Bindewort)
+dies | diei m. | Tag | span. día; vgl. engl. diary (= Tagebuch)
+opus | operis n. | Werk | ital. opera; vgl. das Opus (= Musikwerk)
+meridies | meridiei m. | Mittag | vgl. Meridian (= „Mittagslinie“), a. m. (= ante meridiem)
+sol | solis m. | Sonne | frz. soleil, ital. sole, span. sol; vgl. Solarium
+caelum | caeli n. | Himmel | engl. ceiling, frz. ciel, ital. + span. cielo
+metus | metus m. | Furcht, Angst | = timor, -oris
+denique (Adv.) | | schließlich, endlich | = postremo
+neglegere | neglego 3, neglexi, neglectum | missachten, ignorieren | engl. to neglect, frz. négliger
+solvere | solvo 3, solvi, solutum | auflösen, lösen | engl. to solve (a problem); solution (= Lösung)
+cadere | cado 3, cecidi, – | fallen | de-kadent (= verfallen, entartet); vgl. casus, -us
+mortuus/a/um | | tot, gestorben | frz. mort; vgl. Mortalität (= Sterblichkeit)
+== GRAMMATIK
+## e- und u-Deklination
+Diese beiden Deklinationen unterscheiden sich in erster Linie durch den Auslaut ihres Stammes, der -e bzw. -u lautet (der reine, endungslose Stamm ist jeweils im Ablativ Sg. zu sehen). Die Endungen sind großteils identisch:
+| Fall | e-Dekl. (res, rei f.) | u-Dekl. (casus, -us m.) |
+| Sg. 1/5 | res („Sache“) | casus („Fall“) |
+| Sg. 2 | rei | casus |
+| Sg. 3 | rei | casui |
+| Sg. 4 | rem | casum |
+| Sg. 6 | re | casu |
+| Pl. 1/5 | res | casus |
+| Pl. 2 | rerum | casuum |
+| Pl. 3 | rebus | casibus |
+| Pl. 4 | res | casus |
+| Pl. 6 | rebus | casibus |
+Geschlechtsregeln:
+- Nomina der e-Deklination sind feminin. (Ausnahmen: dies „Tag“ und meridies „Mittag“ sind maskulin.)
+- Nomina der u-Deklination auf -us sind meist maskulin. (Ausnahmen: domus „Haus“, manus „Hand“ sind feminin.)
+? Es gibt auch einige wenige neutrale Nomina auf -u (2.F. -us), z. B. cornu, -us „Horn“ (1./4. Pl.: cornua!).
+## Objektsgenetiv (Genetivus obiectivus)
+Manchmal kann es vorkommen, dass die wörtliche Übersetzung eines lateinischen Genetivs keinen Sinn ergibt, so z. B. bei amor patriae: „die Liebe der Heimat“ ist nicht sinnvoll, da die Heimat ja keine Person ist, die jemanden lieben kann. Also muss die Übersetzung wohl eher heißen: „die Liebe zur Heimat“.
+Einen solchen Genetiv, der nicht wörtlich, sondern nur mithilfe einer passenden Präposition übersetzt werden kann, nennt man Genetivus obiectivus, da er das „Objekt“ (den Gegenstand) einer Handlung bezeichnet:
+- amor patriae = „die Liebe zur Heimat“ (= die Heimatliebe) (→ jemand liebt die Heimat, sie ist „Objekt“ seiner Liebe)
+Es kann jedoch auch vorkommen, dass sowohl die „normale“ Übersetzung als auch die mit Präposition möglich ist. In diesem Fall entscheidet der Kontext über die richtige Übersetzung: metus Romanorum =
+- a) „die Angst der Römer“ („normaler“ Genetiv = Genetivus subiectivus → die Römer fürchten sich, sie sind Subjekt)
+- b) „die Angst vor den Römern“ (Genetivus obiectivus → man fürchtet die Römer, sie sind Objekt)
+? Welche der beiden Übersetzungen die richtige ist, ergibt sich nur aus dem Zusammenhang! Insgesamt kommt der Genetivus obiectivus aber wesentlich seltener vor als der Genetivus subiectivus!

@@ -1,0 +1,60 @@
+#11 Quis Iovem non amat? | Aus der griechischen Mythologie | 5
+== VOKABELN
+Iuppiter | Iovis m. | Jupiter | griech. Zeus
+scire | scio 4, scivi, scitum | wissen | vgl. engl. science
+is, ea, id | | 1) dieser/e/es; 2) er, sie, es | hinweisendes Fürwort (siehe Grammatica)
+vocare | voco 1, -avi, -atum | 1) rufen; 2) nennen | vgl. vox, vocis; vgl. Vokativ („Ruf-Fall“), Advokat
+imperare | impero 1, -avi, -atum | befehlen | vgl. Imperator, Imperativ
+mons | montis m. | Berg | engl. mount, frz. mont, ital. + span. monte
+rex | regis m. | König | frz. roi, ital. re, span. rey
+litus | litoris n. | Küste, Strand | ital. lido, span. litoral
+eius | (2.F. Sg.) | dessen/deren | (siehe Grammatica)
+eorum/earum | (2.F. Pl.) | deren | (siehe Grammatica)
+iussum | iussi n. | Befehl |
+conficere | conficio M, confeci, confectum | 1) ausführen, anfertigen; 2) beenden | vgl. facere M
+solere | soleo 2, solitus sum | gewohnt sein, pflegen | span. soler
+idem, eadem, idem | | der-, die-, dasselbe | (siehe Grammatica); vgl. ident, identisch
+locus | loci m. | Ort, Stelle, Platz | vgl. Lokal, lokalisieren; der Lokus (= WC)
+virgo | virginis f. | Mädchen, Jungfrau | engl. virgin, frz. vierge, ital. vergine, span. virgen
+ludere | ludo 3, lusi, lusum | spielen | vgl. Präludium (= Vorspiel)
+taurus | tauri m. | Stier | ital. + span. toro; vgl. Torero (= Stierkämpfer)
+multitudo | multitudinis f. | Menge | vgl. multi/ae/a
+conspicere | conspicio M, conspexi, conspectum | erblicken | vgl. in-spizieren (= genau untersuchen)
+pulchritudo | pulchritudinis f. | Schönheit | vgl. pulcher/ra/rum
+primo (Adv.) | | zuerst | vgl. Primel; ↔ primus/a/um (Adj.)
+tangere | tango 3, tetigi, tactum | berühren | vgl. Tangente, tangieren, Tangens; engl. contact
+corpus | corporis n. | Körper | vgl. der Korpus; das Corpus delicti (= Beweisstück)
+mox (Adv.) | | bald |
+insula | insulae f. | Insel | engl. island, frz. île, ital. isola, span. isla
+== GRAMMATIK
+## Demonstrativpronomina: is, ea, id
+Demonstrativpronomina sind hinweisende Fürwörter (demonstrare = „zeigen“, „hinweisen“, vgl. Demonstration). is, ea, id: „dieser, diese, dieses“
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m. | Pl. f. | Pl. n. |
+| 1 | is | ea | id | ii | eae | ea |
+| 2 | eius | eius | eius | eorum | earum | eorum |
+| 3 | ei | ei | ei | iis (= eis) | iis (= eis) | iis (= eis) |
+| 4 | eum | eam | id | eos | eas | ea |
+| 6 | eo | eā | eo | iis (= eis) | iis (= eis) | iis (= eis) |
+is, ea, id wird auf drei Arten verwendet:
+- a) als Demonstrativpronomen (→ mit einem Nomen übereingestimmt): „dieser, diese, dieses“ – Videte eum taurum! = „Seht diesen Stier!“
+- b) als Personalpronomen der 3.P. (→ nicht übereingestimmt): „er, sie, es“ – In monte boves regis sunt: Duc eos ad litus! = „Auf dem Berg sind die Rinder des Königs: Führe sie zur Küste!“
+- c) als Possessivpronomen → nur in den Genetivformen eius (Sg.) = „dessen“ („sein“) / „deren“ („ihr“) und eorum / earum (Pl.) „deren“ („ihr“) – Mercurius Iovem adiuvat et eius iussa conficit. = „Merkur hilft Jupiter und führt dessen Befehle aus.“
+## idem, eadem, idem: „derselbe, dieselbe, dasselbe“
+Dieses Pronomen setzt sich aus den Formen von is, ea, id und -dem („-selbe“) zusammen:
+| Fall | Sg. m. | Sg. f. | Sg. n. | Pl. m. | Pl. f. | Pl. n. |
+| 1 | idem | eadem | idem | iidem | eaedem | eadem |
+| 2 | eiusdem | eiusdem | eiusdem | eorundem | earundem | eorundem |
+| 3 | eidem | eidem | eidem | iisdem | iisdem | iisdem |
+| 4 | eundem | eandem | idem | eosdem | easdem | eadem |
+| 6 | eodem | eādem | eodem | iisdem | iisdem | iisdem |
+## Genetiv der Eigenschaft (Genetivus qualitatis)
+Er gibt – wie der Ablativ der Eigenschaft – die Eigenschaft einer Person oder Sache an. Er wird auch so wie der Ablativus qualitatis übersetzt: mit „von“ oder frei (d. h. mit einem Adjektiv):
+- taurus summae pulchritudinis = „ein Stier von höchster Schönheit“ / „ein sehr schöner Stier“
+- puer decem annorum = „ein Bub von zehn Jahren“ / „ein zehnjähriger Bub“
+- miles magnae virtutis = „ein Soldat von großer Tapferkeit“ / „ein sehr tapferer Soldat“
+## Teilungsgenetiv (Genetivus partitivus)
+Er steht nach Pronomina und Mengenangaben und hebt einen Teil aus einer Menge heraus. Übersetzung: meist „von“, z. B.:
+- quis vestrum? = „wer von euch?“
+- multi nostrum = „viele von uns“
+- quid novi? = (was des Neuen =) „Was (gibt es) Neues?“
+- multum auri = (viel des Goldes =) „viel Gold“
