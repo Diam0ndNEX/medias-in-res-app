@@ -109,7 +109,13 @@ td:first-child{font-style:normal;font-weight:600}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center;z-index:20}
 .sheet{background:var(--bg);border-radius:18px 18px 0 0;max-width:640px;width:100%;max-height:92vh;overflow:auto;padding:24px 22px calc(24px + var(--safe-bottom))}
 .center{text-align:center}
-.flash{position:relative;touch-action:pan-y;transition:transform .15s}
+.flash{position:relative;touch-action:pan-y;will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.flash .tint{position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0}
+.flash .tint.yes{background:rgba(46,157,79,.38)}.flash .tint.no{background:rgba(212,55,44,.38)}
+.flash.enter{animation:cardin .18s ease-out}
+@keyframes cardin{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+/* Karte darf beim Wischen den Bildschirm verlassen, ohne die Seite zu verbreitern */
+.noxo{margin:0 -16px;padding:0 16px;overflow-x:hidden;overflow-x:clip}
 .hidecell{border:0;border-radius:6px;background:rgba(118,118,128,.18);min-width:60px;padding:4px 8px;cursor:pointer;font-style:normal}
 .search{position:sticky;top:calc(var(--top-h) / var(--z));z-index:3;margin:0 -16px;padding:6px 16px 10px;background:var(--bg);display:flex;gap:8px;align-items:center}
 .search .field{position:relative;flex:1}
@@ -428,42 +434,81 @@ function quizView(el, questions, o) {
 }
 
 // ---------- Karteikarten ----------
+// Falsch beantwortete Karten kommen nur EINMAL später wieder (nach ca. 8 Karten); nur die erste Antwort zählt fürs Lernfach.
 function flashView(el, items, dir) {
-  let queue = shuffle(items).sort((a, b) => box(a) - box(b)), revealed = false, knew = 0, total = 0, d = resolveDir(dir);
+  el.classList.add("noxo");
+  let queue = shuffle(items).sort((a, b) => box(a) - box(b)), revealed = false, d = resolveDir(dir), busy = false, fresh = true;
+  const first = new Map(), requeued = new Set();
+  const knew = () => [...first.values()].filter(Boolean).length;
+  function result() {
+    const missed = items.filter(c => first.get(c.id) === false);
+    el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">${missed.length ? "💪" : "✅"}</div><h2 style="margin:6px 0">Geschafft!</h2><p>${knew()} von ${first.size} gleich gewusst</p></div>
+      ${missed.length ? `<div class="ghead" style="margin-top:20px">Noch nicht sicher (${missed.length})</div><div class="group">${missed.map(c => `<div class="row"><div class="grow"><div class="hl">${esc(c.la)}</div><div class="sub">${esc(c.de)}</div></div></div>`).join("")}</div>
+      <button class="btn primary full" id="again">Diese ${missed.length} nochmal üben</button>` : ""}
+      <button class="btn full" id="fin" style="margin-top:10px">Fertig</button>`;
+    el.querySelector("#fin").onclick = pop;
+    const ag = el.querySelector("#again");
+    if (ag) ag.onclick = () => { items = missed; queue = shuffle(missed); first.clear(); requeued.clear(); revealed = false; fresh = true; window.scrollTo(0, 0); draw(); autoSay(); };
+  }
   function draw() {
     const c = queue[0];
-    if (!c) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">✅</div><h2>Geschafft!</h2><p>${knew} von ${total} gewusst</p><button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
-    const front = d === "laDe";
+    if (!c) return result();
+    const front = d === "laDe", retry = first.has(c.id), enter = fresh; fresh = false;
     el.innerHTML = `<div class="sub center" style="margin-bottom:10px">Noch ${queue.length} Karten · wische → gewusst, ← nicht gewusst</div>
-      <div class="card flash" id="fc" style="min-height:260px;display:flex;flex-direction:column;justify-content:center;gap:10px">
+      <div class="card flash ${enter ? "enter" : ""}" id="fc" style="min-height:260px;display:flex;flex-direction:column;justify-content:center;gap:10px">
+        <div class="tint" id="tint"></div>
+        ${retry ? `<div class="tiny" style="color:var(--orange);font-weight:700">↺ WIEDERHOLUNG</div>` : ""}
         <div class="prompt">${esc(front ? c.la : c.de)}</div>${front && fFront(c) ? `<div class="sub">${esc(c.forms)}</div>` : ""}
         ${revealed ? `<hr style="border:0;border-top:.5px solid var(--line);width:100%"><div style="font-size:22px">${esc(front ? c.de : c.la)}</div>${front && !fFront(c) && fBack(c) ? `<div class="sub" style="font-size:19px;color:var(--text)">${esc(c.forms)}</div>` : ""}${!front && fBack(c) ? `<div class="sub">${esc(c.forms)}</div>` : ""}${c.note ? `<div class="expl">${esc(c.note)}</div>` : ""}` : `<div class="tiny">${P.s.learnForms && front && realForms(c) ? "Bedeutung und Formen überlegen, dann aufdecken" : "Tippen zum Aufdecken"}</div>`}
         <div><button class="btn" id="say">🔊</button> <button class="btn" id="star" style="color:var(--orange)">${isStar(c) ? "★" : "☆"}</button></div>
         <div class="tiny">Lektion ${c.lesson} · Box ${box(c)}</div></div>
       ${revealed ? `<div class="btns"><button class="btn red" id="no">✗ Nicht gewusst</button><button class="btn green" id="yes">✓ Gewusst</button></div>` : `<button class="btn primary full" id="rev" style="margin-top:14px">Aufdecken</button>`}`;
-    const fc = el.querySelector("#fc");
-    fc.onclick = e => { if (e.target.closest("button")) return; if (!revealed) { revealed = true; draw(); } };
+    const fc = el.querySelector("#fc"), tint = el.querySelector("#tint");
+    let sx = 0, sy = 0, dx = 0, lock = null, raf = 0, moved = false;
+    fc.onclick = e => { if (moved) { moved = false; return; } if (e.target.closest("button")) return; if (!revealed) { revealed = true; draw(); } };
     el.querySelector("#say").onclick = () => speakLatin(speakable(c));
     el.querySelector("#star").onclick = () => { toggleStar(c); draw(); };
     const rv = el.querySelector("#rev"); if (rv) rv.onclick = () => { revealed = true; draw(); };
-    const y = el.querySelector("#yes"); if (y) { y.onclick = () => ans(true); el.querySelector("#no").onclick = () => ans(false); }
-    let sx = null;
-    fc.addEventListener("touchstart", e => { sx = e.touches[0].clientX; }, { passive: true });
-    fc.addEventListener("touchmove", e => { if (sx === null || !revealed) return; const dx = e.touches[0].clientX - sx; fc.style.transform = `translateX(${dx}px) rotate(${dx / 20}deg)`; fc.style.background = dx > 40 ? "rgba(46,157,79,.2)" : dx < -40 ? "rgba(212,55,44,.2)" : ""; }, { passive: true });
-    fc.addEventListener("touchend", e => { if (sx === null) return; const dx = e.changedTouches[0].clientX - sx; sx = null; fc.style.transform = ""; fc.style.background = ""; if (!revealed) return; if (dx > 100) ans(true); else if (dx < -100) ans(false); });
+    const y = el.querySelector("#yes"); if (y) { y.onclick = () => fly(true); el.querySelector("#no").onclick = () => fly(false); }
+    const paint = () => { raf = 0; fc.style.transform = `translate3d(${dx}px,0,0) rotate(${dx / 22}deg)`; tint.className = "tint " + (dx > 0 ? "yes" : "no"); tint.style.opacity = Math.min(1, Math.abs(dx) / 140); };
+    function snapBack() { dx = 0; fc.style.transition = "transform .22s cubic-bezier(.2,.8,.2,1)"; fc.style.transform = ""; tint.style.transition = "opacity .2s"; tint.style.opacity = 0; }
+    function fly(ok) {
+      if (busy) return; busy = true; if (raf) { cancelAnimationFrame(raf); raf = 0; }
+      const off = (ok ? 1 : -1) * Math.round(innerWidth);
+      fc.style.transition = "transform .2s ease-in, opacity .2s"; fc.style.transform = `translate3d(${off}px,0,0) rotate(${ok ? 18 : -18}deg)`; fc.style.opacity = 0;
+      tint.className = "tint " + (ok ? "yes" : "no"); tint.style.opacity = 1;
+      setTimeout(() => ans(ok), 190);
+    }
+    fc.addEventListener("touchstart", e => { if (busy || e.touches.length !== 1) return; sx = e.touches[0].clientX; sy = e.touches[0].clientY; lock = null; dx = 0; moved = false; fc.style.transition = "none"; tint.style.transition = "none"; }, { passive: true });
+    fc.addEventListener("touchmove", e => {
+      if (!revealed || busy) return;
+      const t = e.touches[0], mx = t.clientX - sx, my = t.clientY - sy;
+      if (!lock) { if (Math.abs(mx) < 8 && Math.abs(my) < 8) return; lock = Math.abs(mx) > Math.abs(my) ? "x" : "y"; }
+      if (lock !== "x") return;
+      moved = true; if (e.cancelable) e.preventDefault(); dx = mx; if (!raf) raf = requestAnimationFrame(paint);
+    }, { passive: false });
+    fc.addEventListener("touchend", () => { if (lock !== "x") { lock = null; return; } lock = null; if (raf) { cancelAnimationFrame(raf); raf = 0; } Math.abs(dx) > 90 ? fly(dx > 0) : snapBack(); });
+    fc.addEventListener("touchcancel", () => { if (lock === "x") { lock = null; if (raf) { cancelAnimationFrame(raf); raf = 0; } snapBack(); } });
   }
   function autoSay() { if (P.s.autoSpeak && queue[0] && d === "laDe") setTimeout(() => { if (el.isConnected) speakLatin(speakable(queue[0])); }, 250); }
-  function ans(ok) { const c = queue.shift(); buzz(ok); record(c, ok); total++; if (ok) knew++; else queue.splice(Math.min(3, queue.length), 0, c); revealed = false; d = resolveDir(dir); draw(); autoSay(); }
+  function ans(ok) {
+    const c = queue.shift(); buzz(ok);
+    if (!first.has(c.id)) { first.set(c.id, ok); record(c, ok); }
+    if (!ok && !requeued.has(c.id)) { requeued.add(c.id); queue.splice(Math.min(8, queue.length), 0, c); }
+    revealed = false; busy = false; fresh = true; d = resolveDir(dir); draw(); autoSay();
+  }
   draw(); autoSay();
 }
 
 // ---------- Eintippen ----------
 function typingView(el, items, dir) {
-  let queue = shuffle(items), res = null, right = 0, total = 0, d = resolveDir(dir), last = "";
+  let queue = shuffle(items), res = null, d = resolveDir(dir), last = "";
+  const first = new Map(), requeued = new Set();
+  const right = () => [...first.values()].filter(Boolean).length;
   function draw() {
     const v = queue[0];
-    if (!v) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">⌨️</div><h2>${right} von ${total} richtig</h2><button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
-    el.innerHTML = `<div class="sub center" style="margin-bottom:10px">Noch ${queue.length} · ${right}/${total} richtig</div>
+    if (!v) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">⌨️</div><h2>${right()} von ${first.size} gleich richtig</h2><button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
+    el.innerHTML = `<div class="sub center" style="margin-bottom:10px">Noch ${queue.length} · ${right()}/${first.size} richtig${first.has(v.id) ? ' · <span style="color:var(--orange)">↺ Wiederholung</span>' : ""}</div>
       <div class="card"><div class="prompt">${esc(d === "laDe" ? v.la : v.de)}</div>${d === "laDe" && fFront(v) ? `<div class="sub">${esc(v.forms)}</div>` : ""}
       <div class="tiny" style="margin-top:6px">${d === "laDe" ? "Deutsche Bedeutung eintippen" : "Lateinisches Wort eintippen"}</div></div>
       <form id="f" style="margin-top:14px"><input type="text" id="inp" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Antwort" ${res !== null ? "disabled" : ""} value="${esc(last)}"></form>
@@ -473,10 +518,11 @@ function typingView(el, items, dir) {
     const inp = el.querySelector("#inp");
     el.querySelector("#f").onsubmit = e => { e.preventDefault(); res === null ? check() : next(); };
     if (res === null) { setTimeout(() => inp.focus(), 50); el.querySelector("#chk").onclick = check; el.querySelector("#idk").onclick = () => { inp.value = ""; check(); }; }
-    else { el.querySelector("#nx").onclick = next; const o = el.querySelector("#ovr"); if (o) o.onclick = () => { record(v, true); right++; res = true; draw(); }; }
+    else { el.querySelector("#nx").onclick = next; const o = el.querySelector("#ovr"); if (o) o.onclick = () => { if (!requeued.has(v.id)) { first.set(v.id, true); record(v, true); } res = true; draw(); }; }
   }
-  function check() { const v = queue[0], val = el.querySelector("#inp").value; last = val; res = checkAnswer(val, d === "laDe" ? v.de : headLa(v)); total++; if (res) right++; buzz(res); record(v, res); draw(); }
-  function next() { const v = queue.shift(); if (res === false) queue.splice(Math.min(4, queue.length), 0, v); res = null; last = ""; d = resolveDir(dir); draw(); }
+  // Nur die erste Antwort zählt fürs Lernfach; falsche Wörter kommen einmal später wieder
+  function check() { const v = queue[0], val = el.querySelector("#inp").value; last = val; res = checkAnswer(val, d === "laDe" ? v.de : headLa(v)); buzz(res); if (!first.has(v.id)) { first.set(v.id, res); record(v, res); } draw(); }
+  function next() { const v = queue.shift(); if (res === false && !requeued.has(v.id)) { requeued.add(v.id); queue.splice(Math.min(8, queue.length), 0, v); } res = null; last = ""; d = resolveDir(dir); draw(); }
   draw();
 }
 
