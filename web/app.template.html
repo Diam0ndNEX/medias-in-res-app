@@ -144,6 +144,12 @@ const vocabIn = (a, b) => lessonsIn(a, b).flatMap(l => l.vocab);
 const headLa = v => { let s = v.la; const i = s.indexOf(" ("); if (i >= 0) s = s.slice(0, i); s = s.replace(/ (m|f|n)\.$/, ""); return s.trim(); };
 const speakable = v => headLa(v).replace(/\//g, " ").replace(/–/g, " ");
 const hasStem = v => v.pos === "Verb" && v.forms.includes(",");
+// Formen (Genitiv/Stammformen): "show" = immer sichtbar, "reveal" = erst beim Aufdecken, "hide" = ausgeblendet.
+// "Formen mitlernen": Formen gehören zur Antwort -> vorne versteckt, werden extra abgefragt.
+const realForms = v => !!v.forms && !v.forms.startsWith("(") && !/Frage/.test(v.forms);
+const fMode = () => P.s.forms || "show";
+const fFront = v => (fMode() === "show" && !P.s.learnForms) ? v.forms : "";
+const fBack = v => (P.s.learnForms || fMode() !== "hide") ? v.forms : "";
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const rnd = () => Math.random() < 0.5;
@@ -152,7 +158,7 @@ const rnd = () => Math.random() < 0.5;
 const KEY = "mir-progress-v1";
 const DEFAULTS = { items: {}, days: {}, tests: [], highscores: {}, starred: [],
   s: { typing: false, tolerant: true, goal: 30, from: 1, to: 5, pos: "Alle", dir: "laDe", count: 20, onboarded: false, sound: true,
-       theme: "system", zoom: 1, rate: 0.85, autoSpeak: false, lastVersion: "" } };
+       forms: "show", learnForms: false, theme: "system", zoom: 1, rate: 0.85, autoSpeak: false, lastVersion: "" } };
 let P;
 try { P = JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { P = null; }
 P = Object.assign(structuredClone(DEFAULTS), P || {});
@@ -163,7 +169,10 @@ const dayKey = d => { const z = n => String(n).padStart(2, "0"); return d.getFul
 const INTERVAL = { 1: 0, 2: 1, 3: 3, 4: 7, 5: 14 };
 const st = v => P.items[v.id] || { box: 0, right: 0, wrong: 0 };
 const box = v => st(v).box || 0;
-function countActivity() { const k = dayKey(new Date()); P.days[k] = (P.days[k] || 0) + 1; save(); updateBadge(); }
+function countActivity() {
+  const k = dayKey(new Date()), before = P.days[k] || 0; P.days[k] = before + 1; save(); updateBadge();
+  if (before + 1 === P.s.goal) toast("Tagesziel erreicht! 🎉 " + P.s.goal + " Fragen", null, 3500);
+}
 function record(v, ok) {
   const s = Object.assign({ box: 0, right: 0, wrong: 0 }, P.items[v.id]);
   s.lastSeen = Date.now();
@@ -222,8 +231,28 @@ function distract(item, pool, count, key) {
 function mc(prompt, correct, wrong, extra) { const opts = shuffle([...wrong, correct]); return Object.assign({ prompt, options: opts, correct: opts.indexOf(correct), hint: "", expl: "", cat: "" }, extra); }
 const resolveDir = d => d === "mixed" ? (rnd() ? "laDe" : "deLa") : d;
 function qVocab(v, pool, dir) {
-  if (resolveDir(dir) === "laDe") return mc(v.la, v.de, distract(v, pool, 3, x => x.de), { hint: v.forms, item: v, expl: v.note, speak: speakable(v), cat: "Vokabel" });
-  return mc(v.de, v.la, distract(v, pool, 3, x => x.la), { hint: v.pos === "Sonstiges" ? "" : v.pos, item: v, expl: [v.forms, v.note].filter(Boolean).join(" · "), cat: "Vokabel" });
+  const late = !fFront(v) ? fBack(v) : "";  // Formen erst nach der Antwort zeigen
+  if (resolveDir(dir) === "laDe") return mc(v.la, v.de, distract(v, pool, 3, x => x.de), { hint: fFront(v), item: v, expl: [late, v.note].filter(Boolean).join(" · "), speak: speakable(v), cat: "Vokabel" });
+  return mc(v.de, v.la, distract(v, pool, 3, x => x.la), { hint: v.pos === "Sonstiges" ? "" : v.pos, item: v, expl: [fBack(v), v.note].filter(Boolean).join(" · "), cat: "Vokabel" });
+}
+// Formen abfragen: Genitiv + Geschlecht (Nomen), Stammformen (Verben)
+function qForms(v, pool) {
+  if (!realForms(v)) return null;
+  const cls = x => (x.pos === "Verb" ? (x.forms.match(/ (\d|M)\b/) || [])[1] : (x.forms.match(/\b([mfn])\.$/) || [])[1]);
+  const mine = cls(v), cand = [...pool, ...ALL].filter(x => x !== v && x.pos === v.pos && realForms(x) && x.forms !== v.forms);
+  const wrong = [], seen = new Set([v.forms]);
+  for (const list of [shuffle(cand.filter(x => cls(x) === mine)), shuffle(cand)]) for (const x of list) { if (wrong.length >= 3) break; if (!seen.has(x.forms)) { seen.add(x.forms); wrong.push(x.forms); } }
+  if (wrong.length < 3) return null;
+  const hint = v.pos === "Verb" ? "Wie lauten die Stammformen?" : v.pos === "Nomen" ? "Genitiv und Geschlecht?" : "Welche Formen gehören dazu?";
+  return mc(v.la, v.forms, wrong, { hint, item: v, onlyWrong: true, expl: v.la + " = " + v.de, speak: speakable(v), cat: "Formen" });
+}
+// „Formen mitlernen“: nach jeder Vokabelfrage folgt die passende Formenfrage
+function withForms(qs, pool) {
+  if (!P.s.learnForms) return qs;
+  const out = [];
+  for (const q of qs) { out.push(q);
+    if (q.item && q.cat !== "Formen") { const f = qForms(q.item, pool); if (f) { q.expl = q.item.note || ""; out.push(f); } } }
+  return out;
 }
 function qTrueFalse(v, pool) {
   const shown = rnd() ? v.de : (distract(v, pool, 1, x => x.de)[0] || v.de); const ok = shown === v.de;
@@ -307,6 +336,7 @@ const MODES = {
   listen: ["Hör-Modus", "Wort anhören, Bedeutung wählen", "🎧", "--purple"],
   blitz: ["Blitzrunde (60 s)", "So viele wie möglich in 60 Sekunden", "⚡", "--purple"],
   typing: ["Eintippen", "Übersetzung selbst eintippen", "⌨️", "--blue"],
+  forms: ["Formen lernen", "Genitiv und Stammformen zum Wort", "📝", "--teal"],
   stem: ["Stammformen", "Perfekt bilden und erkennen", "🔤", "--teal"],
   foreign: ["Fremdwort-Detektiv", "Welches Wort steckt im Fremdwort?", "🔎", "--teal"],
   fid: ["Formen bestimmen", "Fall, Zahl, Person … bestimmen", "🧮", "--indigo"],
@@ -334,9 +364,10 @@ function startMode(m, cfg) {
   if (m === "exam") return push("Schularbeit", el => examSetup(el, cfg));
   const ls = lessonsIn(cfg.from, cfg.to); let qs;
   switch (m) {
-    case "mc": qs = limited(cfg, shuffle(pool)).map(v => qVocab(v, pool, cfg.dir)); break;
+    case "mc": qs = withForms(limited(cfg, shuffle(pool)).map(v => qVocab(v, pool, cfg.dir)), pool); break;
     case "tf": qs = limited(cfg, shuffle(pool)).map(v => qTrueFalse(v, pool)); break;
-    case "listen": qs = limited(cfg, shuffle(pool)).map(v => qListen(v, pool)); break;
+    case "listen": qs = withForms(limited(cfg, shuffle(pool)).map(v => qListen(v, pool)), pool); break;
+    case "forms": qs = limited(cfg, shuffle(pool).map(v => qForms(v, pool)).filter(Boolean)); break;
     case "blitz": qs = [...shuffle(pool), ...shuffle(pool)].slice(0, 200).map(v => qVocab(v, pool, cfg.dir)); break;
     case "stem": qs = limited(cfg, shuffle(pool).map(v => qStem(v, pool)).filter(Boolean)); break;
     case "foreign": qs = limited(cfg, shuffle(pool).map(v => qForeign(v, pool)).filter(Boolean)); break;
@@ -370,7 +401,7 @@ function quizView(el, questions, o) {
   }
   function pick(k) {
     if (chosen !== null) return; const q = deck[i]; chosen = k; const ok = k === q.correct; buzz(ok);
-    answered.push({ q, k, ok }); if (q.item) record(q.item, ok); else countActivity();
+    answered.push({ q, k, ok }); if (q.item) { if (q.onlyWrong && ok) countActivity(); else record(q.item, ok); } else countActivity();
     draw(); if (o.auto) setTimeout(next, ok ? 350 : 900);
   }
   function next() { if (done) return; chosen = null; i++; if (i >= deck.length) finish(); else { draw(); autoSay(); } }
@@ -405,8 +436,8 @@ function flashView(el, items, dir) {
     const front = d === "laDe";
     el.innerHTML = `<div class="sub center" style="margin-bottom:10px">Noch ${queue.length} Karten · wische → gewusst, ← nicht gewusst</div>
       <div class="card flash" id="fc" style="min-height:260px;display:flex;flex-direction:column;justify-content:center;gap:10px">
-        <div class="prompt">${esc(front ? c.la : c.de)}</div>${front && c.forms ? `<div class="sub">${esc(c.forms)}</div>` : ""}
-        ${revealed ? `<hr style="border:0;border-top:.5px solid var(--line);width:100%"><div style="font-size:22px">${esc(front ? c.de : c.la)}</div>${!front && c.forms ? `<div class="sub">${esc(c.forms)}</div>` : ""}${c.note ? `<div class="expl">${esc(c.note)}</div>` : ""}` : `<div class="tiny">Tippen zum Aufdecken</div>`}
+        <div class="prompt">${esc(front ? c.la : c.de)}</div>${front && fFront(c) ? `<div class="sub">${esc(c.forms)}</div>` : ""}
+        ${revealed ? `<hr style="border:0;border-top:.5px solid var(--line);width:100%"><div style="font-size:22px">${esc(front ? c.de : c.la)}</div>${front && !fFront(c) && fBack(c) ? `<div class="sub" style="font-size:19px;color:var(--text)">${esc(c.forms)}</div>` : ""}${!front && fBack(c) ? `<div class="sub">${esc(c.forms)}</div>` : ""}${c.note ? `<div class="expl">${esc(c.note)}</div>` : ""}` : `<div class="tiny">${P.s.learnForms && front && realForms(c) ? "Bedeutung und Formen überlegen, dann aufdecken" : "Tippen zum Aufdecken"}</div>`}
         <div><button class="btn" id="say">🔊</button> <button class="btn" id="star" style="color:var(--orange)">${isStar(c) ? "★" : "☆"}</button></div>
         <div class="tiny">Lektion ${c.lesson} · Box ${box(c)}</div></div>
       ${revealed ? `<div class="btns"><button class="btn red" id="no">✗ Nicht gewusst</button><button class="btn green" id="yes">✓ Gewusst</button></div>` : `<button class="btn primary full" id="rev" style="margin-top:14px">Aufdecken</button>`}`;
@@ -433,10 +464,10 @@ function typingView(el, items, dir) {
     const v = queue[0];
     if (!v) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">⌨️</div><h2>${right} von ${total} richtig</h2><button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
     el.innerHTML = `<div class="sub center" style="margin-bottom:10px">Noch ${queue.length} · ${right}/${total} richtig</div>
-      <div class="card"><div class="prompt">${esc(d === "laDe" ? v.la : v.de)}</div>${d === "laDe" && v.forms ? `<div class="sub">${esc(v.forms)}</div>` : ""}
+      <div class="card"><div class="prompt">${esc(d === "laDe" ? v.la : v.de)}</div>${d === "laDe" && fFront(v) ? `<div class="sub">${esc(v.forms)}</div>` : ""}
       <div class="tiny" style="margin-top:6px">${d === "laDe" ? "Deutsche Bedeutung eintippen" : "Lateinisches Wort eintippen"}</div></div>
       <form id="f" style="margin-top:14px"><input type="text" id="inp" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Antwort" ${res !== null ? "disabled" : ""} value="${esc(last)}"></form>
-      ${res !== null ? `<div class="card" style="margin-top:12px"><div class="hl" style="color:var(${res ? "--green" : "--red"})">${res ? "Richtig! ✅" : "Leider falsch ❌"}</div><div>${esc(v.la)} = ${esc(v.de)}</div>${v.forms ? `<div class="sub">${esc(v.forms)}</div>` : ""}</div>
+      ${res !== null ? `<div class="card" style="margin-top:12px"><div class="hl" style="color:var(${res ? "--green" : "--red"})">${res ? "Richtig! ✅" : "Leider falsch ❌"}</div><div>${esc(v.la)} = ${esc(v.de)}</div>${fBack(v) ? `<div class="sub">${esc(v.forms)}</div>` : ""}</div>
         <div class="btns">${res ? "" : `<button class="btn" id="ovr">Doch gewusst</button>`}<button class="btn primary" id="nx">Weiter</button></div>`
         : `<div class="btns"><button class="btn" id="idk">Weiß nicht</button><button class="btn primary" id="chk">Prüfen</button></div>`}`;
     const inp = el.querySelector("#inp");
@@ -564,7 +595,7 @@ function lessonsTab(el) {
   const w = dailyWord(), next = LESSONS.find(l => mastered(l.vocab) < .8) || LESSONS[LESSONS.length - 1];
   let html = `<div class="group"><div class="row" id="dw" style="display:block;cursor:pointer"><div class="tiny" style="color:var(--orange);font-weight:700">☀️ VOKABEL DES TAGES</div>
       <div style="display:flex;align-items:baseline;gap:8px"><div style="font-size:24px;font-weight:800;flex:1">${esc(w.la)}</div><button class="btn" id="dwsay" style="min-height:34px;padding:4px 10px">🔊</button></div>
-      ${w.forms ? `<div class="sub">${esc(w.forms)}</div>` : ""}<div id="dwde" class="sub">Tippen zum Aufdecken</div><div class="tiny">Lektion ${w.lesson}</div></div>
+      ${fFront(w) ? `<div class="sub">${esc(w.forms)}</div>` : ""}<div id="dwde" class="sub">Tippen zum Aufdecken</div><div class="tiny">Lektion ${w.lesson}</div></div>
     <div class="row link" id="cont"><div style="font-size:24px">➡️</div><div class="grow"><div class="hl">Weiterlernen</div><div class="sub">Lektion ${next.number}: ${esc(next.title)} · ${Math.round(mastered(next.vocab) * 100)} % sitzen</div></div></div>
     <div class="row"><div class="grow" style="color:var(--orange)">🔥 ${streak()} Tage</div><div class="sub">📅 ${dueCount()} fällig</div></div></div>`;
   for (const u of UNITS) {
@@ -572,27 +603,28 @@ function lessonsTab(el) {
       `<div class="row link" data-l="${l.number}">${ring(mastered(l.vocab), l.number)}<div class="grow"><div class="hl">${esc(l.title)}</div><div class="sub">${l.vocab.length} Vokabeln · ${l.grammar.length} Grammatik-Themen</div></div></div>`).join("") + `</div>`;
   }
   el.innerHTML = html;
-  el.querySelector("#dw").onclick = e => { if (e.target.closest("button")) return; el.querySelector("#dwde").innerHTML = esc(w.de) + (w.note ? `<div class="tiny">${esc(w.note)}</div>` : ""); };
+  el.querySelector("#dw").onclick = e => { if (e.target.closest("button")) return; el.querySelector("#dwde").innerHTML = esc(w.de) + (!fFront(w) && fBack(w) ? `<div class="sub">${esc(w.forms)}</div>` : "") + (w.note ? `<div class="tiny">${esc(w.note)}</div>` : ""); };
   el.querySelector("#dwsay").onclick = () => speakLatin(speakable(w));
   el.querySelector("#cont").onclick = () => openLesson(next);
   el.querySelectorAll("[data-l]").forEach(r => r.onclick = () => openLesson(byNum(+r.dataset.l)));
 }
 function openLesson(l) { push("Lektion " + l.number + ": " + l.title, el => lessonDetail(el, l)); }
 function lessonDetail(el, l) {
-  let t = 0, hide = false;
+  let t = 0, hide = "no";
   function draw() {
     el.innerHTML = `<div class="seg">${["Vokabeln", "Grammatik", "Üben"].map((x, k) => `<button data-t="${k}" class="${k === t ? "on" : ""}">${x}</button>`).join("")}</div><div id="c"></div>`;
     el.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { t = +b.dataset.t; draw(); });
     const c = el.querySelector("#c");
     if (t === 0) {
-      c.innerHTML = `<div class="group"><label class="row"><div class="grow">Deutsch verdecken</div><input type="checkbox" id="hide" ${hide ? "checked" : ""}></label></div>
-        <div class="group">${l.vocab.map((v, k) => vocabRow(v, hide, k)).join("")}</div>${l.vocabNote ? `<div class="gfoot">${esc(l.vocabNote)}</div>` : ""}`;
-      c.querySelector("#hide").onchange = e => { hide = e.target.checked; draw(); };
+      c.innerHTML = `<div class="seg" id="hd">${[["no", "Alles zeigen"], ["de", "Deutsch verdecken"], ["la", "Latein verdecken"]].map(([k, x]) => `<button data-h="${k}" class="${hide === k ? "on" : ""}">${x}</button>`).join("")}</div>
+        <div class="sub center" style="margin-bottom:8px">Zum Aufdecken auf eine Zeile tippen</div>
+        <div class="group">${l.vocab.map((v, k) => vocabRow(v, hide === "no" ? false : hide, k)).join("")}</div>${l.vocabNote ? `<div class="gfoot">${esc(l.vocabNote)}</div>` : ""}`;
+      c.querySelectorAll("#hd [data-h]").forEach(b => b.onclick = () => { hide = b.dataset.h; draw(); });
       bindVocabRows(c, l.vocab);
     } else if (t === 1) { c.innerHTML = grammarHTML(l.grammar); }
     else {
       const cfg = { from: l.number, to: l.number, pos: "Alle", dir: "mixed", count: 0 };
-      c.innerHTML = `<div class="ghead">Vokabeln dieser Lektion</div><div class="group">${["flash", "mc", "tf", "match", "listen", ...(P.s.typing ? ["typing"] : []), "stem", "foreign", "mistakes"].map(modeRow).join("")}</div>
+      c.innerHTML = `<div class="ghead">Vokabeln dieser Lektion</div><div class="group">${["flash", "mc", "tf", "match", "listen", ...(P.s.typing ? ["typing"] : []), "forms", "stem", "foreign", "mistakes"].map(modeRow).join("")}</div>
         <div class="ghead">Grammatik dieser Lektion</div><div class="group">${["fid", "fbuild", "tables"].map(modeRow).join("")}</div><div class="group">${modeRow("exam")}</div>`;
       bindModes(c, cfg);
     }
@@ -601,15 +633,20 @@ function lessonDetail(el, l) {
 }
 function dots(b) { return b ? `<span class="dots">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= b ? "on" : ""}"></i>`).join("")}</span>` : ""; }
 function vocabRow(v, hide, k, showL) {
-  return `<div class="row" data-v="${k}" style="display:block"><div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap"><span class="hl">${esc(v.la)}</span>${v.forms ? `<span class="sub">${esc(v.forms)}</span>` : ""}
+  const hd = hide === true || hide === "de", hl = hide === "la";
+  const vis = showL || (!!fFront(v) && !hl), can = showL || !!fBack(v);
+  const mk = (txt, hidden, cls) => hidden ? `<span class="${cls} cv" data-r="${esc(txt)}">• • •</span>` : `<span class="${cls}">${esc(txt)}</span>`;
+  return `<div class="row" data-v="${k}" style="display:block"><div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">${mk(v.la, hl, "hl")}${v.forms && can ? mk(v.forms, !vis, "sub") : ""}
     <span style="margin-left:auto;display:flex;align-items:center;gap:6px">${showL ? `<span class="pill">L${v.lesson}</span>` : ""}${dots(box(v))}
     <button class="btn" data-say="${k}" style="min-height:30px;padding:2px 8px">🔊</button><button class="btn star" data-star="${k}" style="min-height:30px;padding:2px 8px">${isStar(v) ? "★" : "☆"}</button></span></div>
-    <div class="de">${hide ? "• • •" : esc(v.de)}</div>${v.note && !hide ? `<div class="sub">${esc(v.note)}</div>` : ""}</div>`;
+    <div class="de">${hd ? mk(v.de, true, "x") : esc(v.de)}</div>${v.note ? `<div class="sub nt" ${hd ? "hidden" : ""}>${esc(v.note)}</div>` : ""}</div>`;
 }
 function bindVocabRows(root, list) {
   root.querySelectorAll("[data-say]").forEach(b => b.onclick = e => { e.stopPropagation(); speakLatin(speakable(list[+b.dataset.say])); });
   root.querySelectorAll("[data-star]").forEach(b => b.onclick = e => { e.stopPropagation(); const v = list[+b.dataset.star]; toggleStar(v); b.textContent = isStar(v) ? "★" : "☆"; });
-  root.querySelectorAll("[data-v]").forEach(r => r.onclick = () => { const v = list[+r.dataset.v]; const d = r.querySelector(".de"); d.textContent = d.textContent === "• • •" ? v.de : d.textContent; });
+  root.querySelectorAll("[data-v]").forEach(r => r.onclick = () => {
+    r.querySelectorAll(".cv").forEach(x => { x.textContent = x.dataset.r; x.classList.remove("cv"); });
+    const n = r.querySelector(".nt"); if (n) n.hidden = false; });
 }
 function grammarHTML(sections) {
   return sections.map(s => `<div class="gsec"><h3>${esc(s.title)}</h3>${s.blocks.map(b => {
@@ -621,6 +658,16 @@ function grammarHTML(sections) {
 }
 
 // ---------- Üben ----------
+function formsHTML() {
+  const f = fMode();
+  return `<div class="sub">Formen zum Wort (z. B. „amicus, -i m.“ oder „laudo 1, -avi, -atum“)</div>
+    <div class="seg" id="fm">${[["show", "Immer zeigen"], ["reveal", "Beim Aufdecken"], ["hide", "Ausblenden"]].map(([k, l]) => `<button data-f="${k}" class="${f === k ? "on" : ""}">${l}</button>`).join("")}</div>
+    <label class="row" style="padding:2px 0"><div class="grow">Formen mitlernen<div class="sub">Formen gehören zur Antwort und werden extra abgefragt</div></div><input type="checkbox" id="lf" ${P.s.learnForms ? "checked" : ""}></label>`;
+}
+function bindForms(el, re) {
+  el.querySelectorAll("#fm [data-f]").forEach(b => b.onclick = () => { P.s.forms = b.dataset.f; re(); });
+  el.querySelector("#lf").onchange = e => { P.s.learnForms = e.target.checked; re(); };
+}
 function practiceTab(el) {
   const s = P.s; const cfg = () => ({ from: s.from, to: s.to, pos: s.pos, dir: s.dir, count: s.count });
   if (!NUMS.includes(s.from)) s.from = NUMS[0]; if (!NUMS.includes(s.to)) s.to = NUMS[NUMS.length - 1];
@@ -631,18 +678,20 @@ function practiceTab(el) {
       <div class="row"><div class="grow">Wortart</div><select id="pos">${opt(POS, s.pos)}</select></div>
       <div class="row" style="display:block"><div class="seg" id="dir">${[["laDe", "Lat → Dt"], ["deLa", "Dt → Lat"], ["mixed", "Gemischt"]].map(([k, l]) => `<button data-d="${k}" class="${s.dir === k ? "on" : ""}">${l}</button>`).join("")}</div>
       <div class="seg" id="cnt">${[[10, "10"], [20, "20"], [40, "40"], [0, "Alle"]].map(([k, l]) => `<button data-c="${k}" class="${s.count === k ? "on" : ""}">${l}</button>`).join("")}</div>
-      <div class="sub">${cfgItems(cfg()).length} Vokabeln in ${rangeLabel(cfg())}</div></div></div>
+      <div class="sub">${cfgItems(cfg()).length} Vokabeln in ${rangeLabel(cfg())}</div></div>
+      <div class="row" style="display:block">${formsHTML()}</div></div>
     <div class="ghead">Heute</div><div class="group">${["daily", "mistakes", "starred"].map(modeRow).join("")}</div>
     <div class="gfoot">${dueCount()} Karten sind heute fällig. Die tägliche Wiederholung nimmt alle Lektionen.</div>
-    <div class="ghead">Vokabeln</div><div class="group">${["flash", "mc", "tf", "match", "listen", "blitz", ...(s.typing ? ["typing"] : []), "stem", "foreign"].map(modeRow).join("")}</div>
+    <div class="ghead">Vokabeln</div><div class="group">${["flash", "mc", "tf", "match", "listen", "blitz", ...(s.typing ? ["typing"] : []), "forms", "stem", "foreign"].map(modeRow).join("")}</div>
     <div class="ghead">Grammatik</div><div class="group">${["fid", "fbuild", "tables"].map(modeRow).join("")}</div>
     <div class="ghead">Test</div><div class="group">${modeRow("exam")}</div>`;
-  const re = () => { save(); render(); };
+  const re = () => { save(); current().scroll = window.scrollY; render(); };
   el.querySelector("#from").onchange = e => { s.from = +e.target.value; if (s.to < s.from) s.to = s.from; re(); };
   el.querySelector("#to").onchange = e => { s.to = +e.target.value; if (s.from > s.to) s.from = s.to; re(); };
   el.querySelector("#pos").onchange = e => { s.pos = e.target.value; re(); };
   el.querySelectorAll("[data-d]").forEach(b => b.onclick = () => { s.dir = b.dataset.d; re(); });
   el.querySelectorAll("[data-c]").forEach(b => b.onclick = () => { s.count = +b.dataset.c; re(); });
+  bindForms(el, re);
   bindModes(el, cfg());
 }
 
@@ -714,6 +763,8 @@ function settingsTab(el) {
       <label class="row"><div class="grow">Wörter automatisch vorlesen</div><input type="checkbox" id="auto" ${s.autoSpeak ? "checked" : ""}></label>
       <div class="row link" id="test"><div class="grow">Probe anhören: „Salve, discipuli!“</div></div></div>
     <div class="gfoot">Vorlesen nutzt die italienische Stimme deines Geräts – die klingt dem Schullatein am ähnlichsten.</div>
+    <div class="ghead">Formen</div><div class="group"><div class="row" style="display:block">${formsHTML()}</div></div>
+    <div class="gfoot">„Formen mitlernen“: Karteikarten zeigen vorne nur das Wort. Multiple Choice und Hör-Modus fragen nach der Bedeutung noch die Formen ab. Mit „Formen lernen“ im Üben-Tab übst du nur die Formen.</div>
     <div class="ghead">Üben</div><div class="group">
       <label class="row"><div class="grow">Eintippen-Modus anzeigen</div><input type="checkbox" id="typ" ${s.typing ? "checked" : ""}></label>
       ${s.typing ? `<label class="row"><div class="grow">Tolerante Prüfung</div><input type="checkbox" id="tol" ${s.tolerant ? "checked" : ""}></label>` : ""}
@@ -739,7 +790,8 @@ function settingsTab(el) {
   el.querySelector("#test").onclick = () => speakLatin("Salve, discipuli!");
   el.querySelector("#news").onclick = () => whatsNew(null);
   el.querySelector("#upd").onclick = checkUpdate;
-  const re = () => { save(); render(); };
+  const re = () => { save(); current().scroll = window.scrollY; render(); };
+  bindForms(el, re);
   el.querySelector("#typ").onchange = e => { s.typing = e.target.checked; re(); };
   const tol = el.querySelector("#tol"); if (tol) tol.onchange = e => { s.tolerant = e.target.checked; re(); };
   el.querySelector("#snd").onchange = e => { s.sound = e.target.checked; re(); };
