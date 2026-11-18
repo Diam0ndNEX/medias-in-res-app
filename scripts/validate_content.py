@@ -57,6 +57,16 @@ for f in files:
             elif not b.get("text"):
                 err(f, f"empty {t} block in '{s.get('title')}'")
 
+# Vokabel-IDs (Lektion|Latein) müssen im ganzen Buch eindeutig sein – der Lernfortschritt hängt daran.
+_seen = {}
+for f in files:
+    d = json.load(open(f, encoding="utf-8"))
+    for v in d.get("vocab", []):
+        k = f"{d.get('number')}|{v.get('la')}"
+        if k in _seen:
+            err(f, f"duplicate vocab id {k}")
+        _seen[k] = 1
+
 print(f"{len(files)} lesson file(s) checked, {len(errors)} problem(s)")
 for e in errors:
     print(" -", e)

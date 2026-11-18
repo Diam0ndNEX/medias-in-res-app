@@ -65,7 +65,7 @@
    "forms": "",
    "de": "er/sie/es scheint",
    "note": "(NCI, siehe Grammatica)",
-   "pos": "Sonstiges"
+   "pos": "Verb"
   },
   {
    "la": "dominus",
@@ -79,7 +79,7 @@
    "forms": "",
    "de": "wohin",
    "note": "↔ eo",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "vadere",
@@ -93,7 +93,7 @@
    "forms": "",
    "de": "er/sie/es soll (angeblich)",
    "note": "(NCI, siehe Grammatica)",
-   "pos": "Sonstiges"
+   "pos": "Verb"
   },
   {
    "la": "lacrima",
@@ -114,7 +114,7 @@
    "forms": "",
    "de": "so",
    "note": "= ita, tam",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "salus",

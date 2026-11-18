@@ -23,7 +23,7 @@
    "forms": "",
    "de": "1) wie; 2) als",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "apud (+ Akk.)",
@@ -100,14 +100,14 @@
    "forms": "",
    "de": "denn, nämlich",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "dum (+ Präsens)",
    "forms": "",
    "de": "während",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "subito (Adv.)",
@@ -128,7 +128,7 @@
    "forms": "",
    "de": "nach Hause",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "arma (Pl.)",
@@ -156,7 +156,7 @@
    "forms": "",
    "de": "zu Hause",
    "note": "↔ domum",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "iniuria",

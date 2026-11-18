@@ -9,7 +9,7 @@
    "forms": "",
    "de": "was?",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "docet",
@@ -23,14 +23,14 @@
    "forms": "",
    "de": "wo?",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "iam",
    "forms": "",
    "de": "schon",
    "note": "span. ya",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "exspectat",
@@ -79,7 +79,7 @@
    "forms": "",
    "de": "auch, sogar",
    "note": "↔ iam",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "lingua f.",
@@ -163,14 +163,14 @@
    "forms": "",
    "de": "weil",
    "note": "↔ quid",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "quis?",
    "forms": "",
    "de": "wer?",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "habet",

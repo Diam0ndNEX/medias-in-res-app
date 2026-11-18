@@ -86,7 +86,7 @@
    "forms": "",
    "de": "aber",
    "note": "= autem, sed; ↔ atque (ac) = „und“",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "auctoritas",
@@ -128,7 +128,7 @@
    "forms": "(am Satzanfang)",
    "de": "dieser, diese, dieses",
    "note": "(„Relativer Anschluss“, siehe Grammatica)",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "circumvenire",
@@ -184,7 +184,7 @@
    "forms": "",
    "de": "oder",
    "note": "↔ autem",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "ubi (+ Perfekt)",

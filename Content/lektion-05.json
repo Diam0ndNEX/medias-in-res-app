@@ -9,14 +9,14 @@
    "forms": "",
    "de": "mir / dir / sich",
    "note": "(siehe Grammatica)",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "me / te / se (Akkusativ)",
    "forms": "",
    "de": "mich / dich / sich",
    "note": "(siehe Grammatica)",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "delectare",
@@ -37,7 +37,7 @@
    "forms": "",
    "de": "ich / du",
    "note": "(siehe Grammatica); vgl. Egoist",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "Graeci (Pl.)",
@@ -51,14 +51,14 @@
    "forms": "",
    "de": "so",
    "note": "ita est = „ja“ (wörtlich?)",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "inquit",
    "forms": "",
    "de": "er/sie sagt(e)",
    "note": "(in die direkte Rede eingeschoben)",
-   "pos": "Sonstiges"
+   "pos": "Verb"
   },
   {
    "la": "num?",
@@ -79,14 +79,14 @@
    "forms": "",
    "de": "auch",
    "note": "z. B. etiam tu = tu quoque",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "nobis / vobis (Dativ)",
    "forms": "",
    "de": "uns / euch",
    "note": "(siehe Grammatica)",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "noster/tra/trum",

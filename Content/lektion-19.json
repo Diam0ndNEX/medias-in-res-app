@@ -128,21 +128,21 @@
    "forms": "adsum, ades, adfui, –",
    "de": "da sein, anwesend sein",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Verb"
   },
   {
    "la": "quidem",
    "forms": "",
    "de": "zwar, freilich",
    "note": "↔ ne … quidem",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "iste, ista, istud",
    "forms": "",
    "de": "dieser/e/es (da)",
    "note": "abschätzig gemeint! (Deklination: wie ille/illa/illud)",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "defendere",

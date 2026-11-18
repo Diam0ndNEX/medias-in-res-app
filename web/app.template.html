@@ -125,6 +125,7 @@ td:first-child{font-style:normal;font-weight:600}
 .ver{font-size:12px;color:var(--muted);text-align:center;margin-top:8px}
 .changes h3{margin:16px 0 4px;font-size:17px}.changes ul{margin:4px 0;padding-left:20px}.changes li{margin:3px 0}
 .pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:8px;background:rgba(118,118,128,.15);color:var(--muted)}
+.heat{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;gap:3px;padding:14px;justify-content:center}.heat i{width:18px;height:18px;border-radius:4px;background:var(--fill,#8882)}.heat .h1{background:#34c75955}.heat .h2{background:#34c759aa}.heat .h3{background:#34c759}.heat .hf{visibility:hidden}
 </style>
 </head>
 <body>
@@ -164,12 +165,73 @@ const rnd = () => Math.random() < 0.5;
 const KEY = "mir-progress-v1";
 const DEFAULTS = { items: {}, days: {}, tests: [], highscores: {}, starred: [],
   s: { typing: false, tolerant: true, goal: 30, from: 1, to: 5, pos: "Alle", dir: "laDe", count: 20, onboarded: false, sound: true,
-       forms: "show", learnForms: false, theme: "system", zoom: 1, rate: 0.85, autoSpeak: false, lastVersion: "" } };
-let P;
-try { P = JSON.parse(localStorage.getItem(KEY)) || null; } catch (e) { P = null; }
-P = Object.assign(structuredClone(DEFAULTS), P || {});
-P.s = Object.assign(structuredClone(DEFAULTS.s), P.s || {});
-function save() { try { localStorage.setItem(KEY, JSON.stringify(P)); } catch (e) {} }
+       forms: "show", learnForms: false, theme: "system", zoom: 1, rate: 0.85, autoSpeak: false, lastVersion: "", nagAt: 0 } };
+const KEY_BAK = KEY + "-bak", SCHEMA = 2;
+const num = (x, d = 0) => (typeof x === "number" && isFinite(x) ? x : d);
+// Prüft und bereinigt gespeicherte oder importierte Daten (nie blind vertrauen).
+function sanitize(d) {
+  const o = structuredClone(DEFAULTS); let fixed = 0;
+  if (!d || typeof d !== "object") return { P: o, fixed: 0, ok: false };
+  if (d.s && typeof d.s === "object") for (const k of Object.keys(DEFAULTS.s)) if (typeof d.s[k] === typeof DEFAULTS.s[k]) o.s[k] = d.s[k]; else if (k in d.s) fixed++;
+  o.s.goal = Math.min(200, Math.max(10, Math.round(num(o.s.goal, 30))));
+  if (!["show", "reveal", "hide"].includes(o.s.forms)) o.s.forms = "show";
+  if (d.items && typeof d.items === "object") for (const [id, it] of Object.entries(d.items)) {
+    if (!it || typeof it !== "object") { fixed++; continue; }
+    const x = { box: Math.min(5, Math.max(0, Math.round(num(it.box)))), right: Math.max(0, Math.round(num(it.right))), wrong: Math.max(0, Math.round(num(it.wrong))) };
+    if (num(it.lastSeen)) x.lastSeen = it.lastSeen; if (num(it.lastWrong)) x.lastWrong = it.lastWrong;
+    if (x.box && !x.lastSeen) x.lastSeen = Date.now();
+    if (x.box !== it.box || x.right !== it.right || x.wrong !== it.wrong) fixed++;
+    o.items[id] = x;
+  }
+  if (d.days && typeof d.days === "object") for (const [k, n] of Object.entries(d.days)) { if (/^\d{4}-\d\d-\d\d$/.test(k) && num(n) > 0) o.days[k] = Math.round(n); else fixed++; }
+  if (Array.isArray(d.tests)) o.tests = d.tests.filter(t => t && typeof t === "object" && num(t.total) > 0 && num(t.date));
+  if (d.highscores && typeof d.highscores === "object") for (const [k, n] of Object.entries(d.highscores)) if (num(n) > 0) o.highscores[k] = n;
+  if (Array.isArray(d.starred)) o.starred = [...new Set(d.starred.filter(x => typeof x === "string"))];
+  o.lastBackup = num(d.lastBackup); o.v = SCHEMA;
+  return { P: o, fixed, ok: true };
+}
+// Führt zwei Stände zusammen (jeweils das Bessere / Neuere gewinnt).
+function mergeData(a, b) {
+  const o = structuredClone(a);
+  for (const [id, it] of Object.entries(b.items)) { const c = o.items[id]; if (!c || num(it.lastSeen) > num(c.lastSeen)) o.items[id] = { ...it, right: Math.max(it.right, c ? c.right : 0), wrong: Math.max(it.wrong, c ? c.wrong : 0) }; else { c.right = Math.max(c.right, it.right); c.wrong = Math.max(c.wrong, it.wrong); } }
+  for (const [k, n] of Object.entries(b.days)) o.days[k] = Math.max(o.days[k] || 0, n);
+  const seen = new Set(o.tests.map(t => t.date)); b.tests.forEach(t => { if (!seen.has(t.date)) o.tests.push(t); }); o.tests.sort((x, y) => y.date - x.date);
+  for (const [k, n] of Object.entries(b.highscores)) o.highscores[k] = Math.max(o.highscores[k] || 0, n);
+  o.starred = [...new Set([...o.starred, ...b.starred])]; o.lastBackup = Math.max(o.lastBackup || 0, b.lastBackup || 0);
+  return o;
+}
+let P, loadInfo = { fixed: 0, recovered: false, corrupt: false };
+function loadStored() {
+  for (const [key, rec] of [[KEY, false], [KEY_BAK, true]]) {
+    let raw = null; try { raw = localStorage.getItem(key); } catch (e) {}
+    if (!raw) continue;
+    try { const r = sanitize(JSON.parse(raw)); if (r.ok) { loadInfo = { fixed: r.fixed, recovered: rec, corrupt: false }; return r.P; } } catch (e) {}
+    loadInfo.corrupt = true;
+  }
+  return structuredClone(DEFAULTS);
+}
+P = loadStored();
+let saveFailed = false, lastSaved = 0, lastBakDay = "";
+function save() {
+  try {
+    P.v = SCHEMA; const txt = JSON.stringify(P);
+    const today = dayKey(new Date());
+    if (lastBakDay !== today) { // einmal pro Tag den letzten guten Stand als Sicherheitskopie behalten
+      lastBakDay = today; const prev = localStorage.getItem(KEY); if (prev && prev.length > 20) localStorage.setItem(KEY_BAK, prev);
+    }
+    localStorage.setItem(KEY, txt); lastSaved = Date.now();
+    if (saveFailed) { saveFailed = false; toast("Speichern funktioniert wieder ✅"); }
+    return true;
+  } catch (e) {
+    if (!saveFailed) { saveFailed = true; toast("⚠️ Fortschritt konnte nicht gespeichert werden! Bitte unter Einstellungen → Backup sichern.", null, 6000); }
+    return false;
+  }
+}
+try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {}); } catch (e) {}
+window.addEventListener("pagehide", () => save());
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") save(); });
+// Zweites Fenster/Tab: Änderungen übernehmen statt überschreiben
+window.addEventListener("storage", e => { if (e.key === KEY && e.newValue) { try { const r = sanitize(JSON.parse(e.newValue)); if (r.ok) { P = r.P; drawTabs(); render(); } } catch (x) {} } });
 
 const dayKey = d => { const z = n => String(n).padStart(2, "0"); return d.getFullYear() + "-" + z(d.getMonth() + 1) + "-" + z(d.getDate()); };
 const INTERVAL = { 1: 0, 2: 1, 3: 3, 4: 7, 5: 14 };
@@ -181,8 +243,8 @@ function countActivity() {
 }
 function record(v, ok) {
   const s = Object.assign({ box: 0, right: 0, wrong: 0 }, P.items[v.id]);
-  s.lastSeen = Date.now();
-  if (ok) { s.right++; s.box = Math.min(Math.max(s.box, 1) + 1, 5); } else { s.wrong++; s.box = 1; s.lastWrong = Date.now(); }
+  const due = !s.box || !s.lastSeen || Date.now() - s.lastSeen >= INTERVAL[s.box] * 864e5 - 36e5;
+  if (ok) { s.right++; if (due) { s.box = Math.min(Math.max(s.box, 1) + 1, 5); s.lastSeen = Date.now(); } } else { s.wrong++; s.box = 1; s.lastSeen = s.lastWrong = Date.now(); }
   P.items[v.id] = s; countActivity();
 }
 const isDue = v => { const s = st(v); if (!s.box || !s.lastSeen) return false; return Date.now() - s.lastSeen >= INTERVAL[s.box] * 864e5 - 36e5; };
@@ -227,7 +289,7 @@ function checkAnswer(input, target) {
 }
 
 // ---------- Fragen ----------
-const POS = ["Alle", "Nomen", "Verb", "Adjektiv", "Adverb", "Präposition", "Sonstiges"];
+const POS = ["Alle", "Nomen", "Verb", "Adjektiv", "Adverb", "Pronomen", "Konjunktion", "Präposition", "Sonstiges"];
 function distract(item, pool, count, key) {
   const ck = key(item), res = [];
   const add = list => { for (const v of shuffle(list)) { if (res.length >= count) return; const k = key(v); if (k && k !== ck && !res.includes(k)) res.push(k); } };
@@ -773,11 +835,19 @@ function statsTab(el) {
   const m = ALL.filter(v => box(v) >= 4).length, seen = ALL.filter(v => box(v) > 0).length, goal = P.s.goal;
   const days = [...Array(7)].map((_, k) => { const d = new Date(); d.setDate(d.getDate() - 6 + k); return [d.toLocaleDateString("de-AT", { weekday: "short" }), P.days[dayKey(d)] || 0]; });
   const mx = Math.max(1, ...days.map(d => d[1]));
+  const boxes = [["neu", ALL.filter(v => !box(v)).length], ...[1, 2, 3, 4, 5].map(b => ["B" + b, ALL.filter(v => box(v) === b).length])], bmx = Math.max(1, ...boxes.map(b => b[1]));
+  const fc = (() => { const eod = new Date(); eod.setHours(24, 0, 0, 0); const cnt = Array(7).fill(0);
+    ALL.forEach(v => { const x = st(v); if (!x.box || !x.lastSeen) return; const due = x.lastSeen + INTERVAL[x.box] * 864e5 - 36e5; const k = due < eod ? 0 : Math.floor((due - eod) / 864e5) + 1; if (k < 7) cnt[k]++; });
+    return cnt.map((n, k) => { const d = new Date(); d.setDate(d.getDate() + k); return [k === 0 ? "heute" : d.toLocaleDateString("de-AT", { weekday: "short" }), n]; }); })(), fmx = Math.max(1, ...fc.map(d => d[1]));
+  const heat = (() => { const t = new Date(); t.setHours(12); const start = new Date(t); start.setDate(t.getDate() - ((t.getDay() + 6) % 7) - 77); let h = ""; for (let i = 0; i < 84; i++) { const d = new Date(start); d.setDate(start.getDate() + i); const n = d > t ? -1 : (P.days[dayKey(d)] || 0); const lv = n < 0 ? "f" : n === 0 ? 0 : n >= P.s.goal ? 3 : n >= P.s.goal / 2 ? 2 : 1; h += `<i class="h${lv}" title="${dayKey(d)}: ${Math.max(0, n)}"></i>`; } return h; })();
   const hard = ALL.filter(v => st(v).wrong > 0).sort((a, b) => (st(b).wrong * 3 - st(b).right) - (st(a).wrong * 3 - st(a).right)).slice(0, 20);
   el.innerHTML = `<div class="group"><div class="stats3"><div>🔥<div class="v">${streak()}</div><div class="sub">Tage Serie</div></div><div>🎯<div class="v">${todayCount()}/${goal}</div><div class="sub">Heute</div></div><div>✅<div class="v">${m}</div><div class="sub">sitzen</div></div></div>
       <div style="padding:0 16px 14px"><div class="bar"><i style="width:${Math.min(100, todayCount() / goal * 100)}%"></i></div><div class="tiny">${todayCount() >= goal ? "Tagesziel erreicht! 🎉" : "Tagesziel"}</div></div></div>
     <div class="ghead">Abzeichen</div><div class="group">${badgesHTML()}</div>
     <div class="ghead">Letzte 7 Tage</div><div class="group"><div class="bars">${days.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / mx * 80)}px"></span>${l}</div>`).join("")}</div></div>
+    <div class="ghead">Wörter nach Box</div><div class="group"><div class="bars">${boxes.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / bmx * 80)}px"></span>${l}</div>`).join("")}</div></div>
+    <div class="ghead">Fällig in den nächsten Tagen</div><div class="group"><div class="bars">${fc.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / fmx * 80)}px"></span>${l}</div>`).join("")}</div></div>
+    <div class="ghead">Letzte 12 Wochen</div><div class="group"><div class="heat">${heat}</div></div>
     <div class="ghead">Gesamt</div><div class="group">${[["Vokabeln im Buch", ALL.length], ["Schon geübt", seen], ["Sitzen (Box 4–5)", m], ["Beantwortete Fragen", totalAnswered()]].map(([a, b]) => `<div class="row"><div class="grow">${a}</div><div class="sub">${b}</div></div>`).join("")}</div>
     <div class="ghead">Fortschritt pro Lektion</div><div class="group">${LESSONS.map(l => `<div class="row" style="display:block"><div style="display:flex"><span class="grow">${l.number}. ${esc(l.title)}</span><span class="sub">${Math.round(mastered(l.vocab) * 100)} %</span></div><div class="bar" style="margin-top:4px"><i style="width:${mastered(l.vocab) * 100}%"></i></div></div>`).join("")}</div>
     ${hard.length ? `<div class="ghead">Schwierigste Wörter</div><div class="group">${hard.map(v => `<div class="row"><div class="grow"><div class="hl">${esc(v.la)}</div><div class="sub">${esc(v.de)}</div></div><span style="color:var(--red)">✗ ${st(v).wrong}</span></div>`).join("")}</div>` : ""}
@@ -821,8 +891,9 @@ function settingsTab(el) {
       <b>iPhone (Safari):</b> Teilen-Knopf <span class="pill">⬆︎</span> → „Zum Home-Bildschirm“.<br><b>Android (Chrome):</b> Menü ⋮ → „App installieren“ bzw. „Zum Startbildschirm hinzufügen“.<br><span class="sub">Dann startet die App im Vollbild mit eigenem Icon.</span></div></div>
     <div class="ghead">Backup</div><div class="group">
       <div class="row link" id="exp"><div class="grow">Fortschritt sichern (Text kopieren)</div></div>
-      <div class="row link" id="imp"><div class="grow">Fortschritt wiederherstellen</div></div></div>
-    <div class="gfoot">Der Fortschritt wird nur in diesem Browser gespeichert. Sichere ihn ab und zu, z. B. in einer Notiz.</div>
+      <div class="row link" id="imp"><div class="grow">Fortschritt wiederherstellen</div></div>
+      <div class="row link" id="health"><div class="grow">Datenstatus &amp; Reparatur</div><div class="sub">${saveFailed ? "⚠️" : "✅"}</div></div></div>
+    <div class="gfoot">Der Fortschritt wird nur in diesem Browser gespeichert. ${P.lastBackup ? "Letzte Sicherung: " + new Date(P.lastBackup).toLocaleDateString("de-AT") + "." : "Du hast noch keine Sicherung gemacht."} Sichere ihn ab und zu, z. B. in einer Notiz.</div>
     <div class="group"><div class="row link" id="reset" style="color:var(--red)"><div class="grow">Gesamten Fortschritt löschen</div></div></div>
     <div class="ghead">Über</div><div class="group">
       <div class="row"><div class="grow">Version</div><div class="sub">${APP_VERSION}</div></div>
@@ -850,17 +921,60 @@ function settingsTab(el) {
     const dl = e.querySelector("#dl");
     if (/claude/.test(location.host) || window.self !== window.top) dl.remove();
     else try { dl.href = URL.createObjectURL(new Blob([txt], { type: "application/json" })); } catch (x) {}
-    e.querySelector("#cp").onclick = async () => { try { await navigator.clipboard.writeText(txt); e.querySelector("#m").textContent = "Kopiert ✅"; } catch (x) { const t = e.querySelector("#t"); t.focus(); t.select(); e.querySelector("#m").textContent = "Text ist markiert – jetzt kopieren."; } };
+    const done = () => { P.lastBackup = Date.now(); save(); };
+    const dl2 = e.querySelector("#dl"); if (dl2) dl2.onclick = done;
+    e.querySelector("#cp").onclick = async () => { try { await navigator.clipboard.writeText(txt); done(); e.querySelector("#m").textContent = "Kopiert ✅"; } catch (x) { const t = e.querySelector("#t"); t.focus(); t.select(); done(); e.querySelector("#m").textContent = "Text ist markiert – jetzt kopieren."; } };
   });
   el.querySelector("#imp").onclick = () => push("Wiederherstellen", e => {
     e.innerHTML = `<p class="sub">Füge den gesicherten Text ein oder wähle die Datei.</p><textarea id="t" rows="8" style="width:100%"></textarea>
       <input type="file" id="f" accept=".json,application/json,text/plain" style="margin:10px 0"><button class="btn primary full" id="go">Wiederherstellen</button><p id="m" class="sub"></p>`;
     e.querySelector("#f").onchange = ev => { const f = ev.target.files[0]; if (f) f.text().then(t => e.querySelector("#t").value = t); };
-    e.querySelector("#go").onclick = () => { try { const d = JSON.parse(e.querySelector("#t").value); if (!d || typeof d !== "object" || !d.items) throw 0;
-      P = Object.assign(structuredClone(DEFAULTS), d); P.s = Object.assign(structuredClone(DEFAULTS.s), d.s || {}); save(); e.querySelector("#m").textContent = "Fortschritt wiederhergestellt ✅"; drawTabs(); }
-      catch (x) { e.querySelector("#m").textContent = "Der Text konnte nicht gelesen werden."; } };
+    e.querySelector("#go").onclick = () => {
+      const m = e.querySelector("#m"); let r;
+      try { r = sanitize(JSON.parse(e.querySelector("#t").value)); if (!r.ok || !(Object.keys(r.P.items).length || Object.keys(r.P.days).length)) throw 0; }
+      catch (x) { m.textContent = "Der Text konnte nicht gelesen werden – ist das wirklich ein Backup?"; return; }
+      const n = Object.keys(r.P.items).length, d = Object.keys(r.P.days).length, tot = Object.values(r.P.days).reduce((a, b) => a + b, 0);
+      sheet(`<h2 style="margin-top:0">Backup gefunden</h2><p class="sub">${n} geübte Wörter, ${d} Lerntage, ${tot} beantwortete Fragen.${r.fixed ? " (" + r.fixed + " fehlerhafte Einträge wurden repariert.)" : ""}</p>
+        <p class="sub"><b>Zusammenführen</b> behält deinen jetzigen Stand und ergänzt das Backup (jeweils das Bessere gewinnt). <b>Ersetzen</b> überschreibt alles.</p>
+        <div class="btns"><button class="btn" id="c">Abbrechen</button><button class="btn" id="mg">Zusammenführen</button><button class="btn red" id="rp">Ersetzen</button></div>`,
+        (rt, close) => {
+          const fin = msg => { close(); save(); m.textContent = msg; drawTabs(); };
+          rt.querySelector("#c").onclick = close;
+          rt.querySelector("#mg").onclick = () => { const keep = P.s; P = mergeData(P, r.P); P.s = keep; fin("Zusammengeführt ✅"); };
+          rt.querySelector("#rp").onclick = () => { try { localStorage.setItem(KEY_BAK, JSON.stringify(P)); } catch (x) {} P = r.P; fin("Fortschritt wiederhergestellt ✅"); };
+        });
+    };
   });
+  el.querySelector("#health").onclick = () => push("Datenstatus", dataHealth);
   el.querySelector("#reset").onclick = () => confirmSheet("Wirklich alles löschen?", "Dein gesamter Lernfortschritt geht verloren.", "Löschen", () => { const keep = P.s; P = structuredClone(DEFAULTS); P.s = keep; save(); render(); });
+}
+
+// ---------- Datenstatus ----------
+function dataHealth(e) {
+  const ids = new Set(ALL.map(v => v.id)), orphans = Object.keys(P.items).filter(id => !ids.has(id)), starOrph = P.starred.filter(id => !ids.has(id));
+  let size = 0; try { size = (localStorage.getItem(KEY) || "").length; } catch (x) {}
+  const bak = (() => { try { return !!localStorage.getItem(KEY_BAK); } catch (x) { return false; } })();
+  const rows = [["Gespeichert", saveFailed ? "⚠️ Fehler" : (lastSaved ? "✅ " + new Date(lastSaved).toLocaleTimeString("de-AT", { timeStyle: "short" }) : "✅ bereit")],
+    ["Geübte Wörter", Object.keys(P.items).length + " von " + ALL.length], ["Lerntage", Object.keys(P.days).length], ["Merkliste", P.starred.length], ["Schularbeiten", P.tests.length],
+    ["Datengröße", (size / 1024).toFixed(1) + " KB"], ["Sicherheitskopie", bak ? "vorhanden" : "noch nicht"],
+    ["Dauerhafter Speicher", "…"], ["Verwaiste Einträge", orphans.length + starOrph.length]];
+  e.innerHTML = `<div class="group">${rows.map(([a, b], i) => `<div class="row"><div class="grow">${a}</div><div class="sub" id="r${i}">${b}</div></div>`).join("")}</div>
+    <div class="btns"><button class="btn primary full" id="fix">Daten prüfen &amp; reparieren</button></div>${bak ? `<div class="btns"><button class="btn full" id="rst">Sicherheitskopie zurückspielen</button></div>` : ""}<p id="m" class="sub"></p>
+    <p class="tiny">iPhone-Tipp: Als App auf dem Home-Bildschirm bleibt der Speicher stabiler als im Safari-Tab. iOS kann Daten von Webseiten, die lange nicht geöffnet wurden, löschen – darum ab und zu ein Backup machen.</p>`;
+  try { navigator.storage.persisted().then(p => { e.querySelector("#r7").textContent = p ? "✅ ja" : "nicht zugesagt"; }).catch(() => {}); } catch (x) { e.querySelector("#r7").textContent = "unbekannt"; }
+  e.querySelector("#fix").onclick = () => {
+    const r = sanitize(P); const keep = Object.keys(P.items).length; P = mergeData(structuredClone(DEFAULTS), r.P); P.s = r.P.s; P.lastBackup = r.P.lastBackup;
+    const n = r.fixed; save(); e.querySelector("#m").textContent = n ? n + " fehlerhafte Einträge repariert ✅" : "Alles in Ordnung ✅ (" + keep + " Wörter geprüft)";
+  };
+  const rs = e.querySelector("#rst"); if (rs) rs.onclick = () => confirmSheet("Sicherheitskopie zurückspielen?", "Dein jetziger Stand wird durch die automatische Kopie vom letzten Lerntag ersetzt.", "Zurückspielen", () => {
+    try { const r = sanitize(JSON.parse(localStorage.getItem(KEY_BAK))); if (r.ok) { P = r.P; save(); e.querySelector("#m").textContent = "Zurückgespielt ✅"; drawTabs(); } } catch (x) { e.querySelector("#m").textContent = "Kopie nicht lesbar."; } });
+}
+function backupNag() {
+  const ans = totalAnswered(), last = P.lastBackup || 0;
+  if (ans >= 100 && Date.now() - last > 14 * 864e5 && Date.now() - (P.s.nagAt || 0) > 3 * 864e5) {
+    P.s.nagAt = Date.now(); save();
+    toast("💾 Zeit für ein Backup – tippen", () => { switchTab && switchTab("settings"); }, 6000);
+  }
 }
 
 // ---------- Dialoge ----------
@@ -904,6 +1018,8 @@ applyLook();
 render();
 if (!P.s.onboarded) { onboarding(); P.s.lastVersion = APP_VERSION; save(); }
 else if (P.s.lastVersion !== APP_VERSION) { const prev = P.s.lastVersion; P.s.lastVersion = APP_VERSION; save(); whatsNew(prev || "1.0.0"); }
+if (loadInfo.recovered) toast("Dein Fortschritt wurde aus der Sicherheitskopie wiederhergestellt ♻️", null, 5000); else if (loadInfo.corrupt) toast("Gespeicherte Daten waren beschädigt – neu gestartet.", null, 5000);
+backupNag();
 try { if (speechSynthesis) speechSynthesis.getVoices(); } catch (e) {}
 if ("serviceWorker" in navigator && location.protocol === "https:" && !/claude/.test(location.host)) {
   let hadController = !!navigator.serviceWorker.controller;

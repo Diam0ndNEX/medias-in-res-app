@@ -30,14 +30,14 @@
    "forms": "",
    "de": "1) welcher/e/es; 2) der/die/das",
    "note": "(Relativpronomen, siehe Grammatica)",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "nihil",
    "forms": "",
    "de": "nichts",
    "note": "vgl. Nihilist (= einer, der an nichts glaubt)",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "nihil nisi",
@@ -107,7 +107,7 @@
    "forms": "",
    "de": "niemand",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Pronomen"
   },
   {
    "la": "invenire",
@@ -128,7 +128,7 @@
    "forms": "",
    "de": "wie",
    "note": "(wörtlich: „auf welche Weise?“)",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "modus",
@@ -170,7 +170,7 @@
    "forms": "",
    "de": "und",
    "note": "= et, -que",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   }
  ],
  "grammar": [

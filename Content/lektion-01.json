@@ -44,7 +44,7 @@
    "forms": "",
    "de": "er/sie/es ist",
    "note": "frz. est, ital. è, span. es",
-   "pos": "Sonstiges"
+   "pos": "Verb"
   },
   {
    "la": "discipula f.",
@@ -79,7 +79,7 @@
    "forms": "",
    "de": "und",
    "note": "frz. et, ital. e",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "amicus m.",
@@ -93,7 +93,7 @@
    "forms": "",
    "de": "1) aber; 2) sondern",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "discipulus m.",
@@ -135,7 +135,7 @@
    "forms": "",
    "de": "warum?",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "nunc (Adv.)",
@@ -149,7 +149,7 @@
    "forms": "",
    "de": "nicht",
    "note": "frz. + ital. non, span. no",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "pensum n.",
@@ -170,7 +170,7 @@
    "forms": "",
    "de": "deshalb, daher",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "gaudet",
@@ -219,7 +219,7 @@
    "forms": "",
    "de": "dann, damals",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Adverb"
   },
   {
    "la": "clamat",

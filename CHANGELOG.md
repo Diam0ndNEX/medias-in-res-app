@@ -8,6 +8,18 @@ Versionsnummern nach dem Schema **MAJOR.MINOR.PATCH**:
 Die Nummer steht in `VERSION` und gilt für Web-App und iOS-App. Bei jedem Update: `VERSION` erhöhen und oben einen neuen Abschnitt eintragen.
 Die Punkte der Abschnitte erscheinen in der App unter „Was ist neu?“.
 
+## 1.3.0 – 18.11.2026
+- Vokabeln noch einmal komplett mit dem Buch abgeglichen (alle 756 Einträge, Lektion 1–30): keine falschen oder fehlenden Wörter gefunden
+- Wortarten genauer: neue Filter „Pronomen“ und „Konjunktion“, Verben und Adverbien richtig eingeordnet
+- Sicherer Speicher: Fortschritt wird beim Verlassen der App sofort gespeichert, einmal täglich entsteht eine automatische Sicherheitskopie
+- Beschädigte oder fehlerhafte Daten werden beim Start erkannt und repariert bzw. aus der Sicherheitskopie wiederhergestellt
+- Warnung, falls das Speichern einmal nicht klappt; dauerhafter Speicher wird beim Browser angefragt
+- Zwei offene Fenster überschreiben sich nicht mehr gegenseitig
+- Lernplan korrigiert: Eine Vokabel steigt nur noch auf, wenn sie wirklich zur Wiederholung dran war (nicht mehrmals am selben Tag)
+- Backup: Wiederherstellen zeigt vorher eine Übersicht und bietet „Zusammenführen“ oder „Ersetzen“; Erinnerung an Backups alle 2 Wochen
+- Neu: „Datenstatus & Reparatur“ unter Mehr → Backup
+- Statistik: Wörter nach Box, Wiederholungen der nächsten 7 Tage und Kalender der letzten 12 Wochen
+
 ## 1.2.1 – 17.11.2026
 - Behoben: Wischen bei den Karteikarten ruckelte und zog Nachbilder; die Seite verschob sich dabei seitlich. Die Karte folgt jetzt flüssig dem Finger, springt bei zu kurzem Wischen zurück und fliegt sonst weg
 - Behoben: Falsch beantwortete Wörter kamen alle paar Karten wieder, bis sie richtig waren – wenige Wörter liefen so in einer Schleife. Jetzt kommt jedes falsche Wort nur einmal später wieder (mit „↺ Wiederholung“)
