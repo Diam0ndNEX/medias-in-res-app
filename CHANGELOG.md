@@ -8,6 +8,14 @@ Versionsnummern nach dem Schema **MAJOR.MINOR.PATCH**:
 Die Nummer steht in `VERSION` und gilt für Web-App und iOS-App. Bei jedem Update: `VERSION` erhöhen und oben einen neuen Abschnitt eintragen.
 Die Punkte der Abschnitte erscheinen in der App unter „Was ist neu?“.
 
+## 1.6.0 – 20.11.2026
+- Fortschritt repariert: Der Lektions-Fortschritt bewegt sich jetzt sofort bei jeder Übung (Karteikarten, Multiple Choice, Eintippen, Zuordnen …) – du musst nicht mehr tagelang auf Box 4 warten
+- Neu: Wortstufen (Neu, Gesehen, Lernend, Bekannt, Gelernt, Gemeistert) mit Punkten pro Wort; Eintippen zählt mehr als Richtig/Falsch
+- Neu: Lernerfolg nach jeder Übung („+40 Punkte, 5 Wörter aufgestiegen, Lektion 3: 42 % → 55 %“)
+- Neu: Ränge von Tiro bis Imperator mit Punktekonto in der Statistik
+- Neu: Tages-Training mit fälligen, schwachen und neuen Wörtern; neue Wörter pro Tag einstellbar
+- Neu: Übung „Schwache Wörter“, Stufenleiste pro Lektion, Stufen-Diagramm, zwei neue Abzeichen
+
 ## 1.5.0 – 20.11.2026
 - Neu: Repetitiones – alle Wiederholungsübungen zu Lektion 1–30 mit Lösungen und Übersetzungen
 - Neu: Autorenlektüre – alle Originaltexte (Cäsar, Bibel, Legenda Aurea, Marco Polo, Vespucci, Busbecq …) mit Vokabelhilfen, Übersetzung, Arbeitsaufgaben und Infos; dazu die lateinischen Inschriften aus Wien und Innsbruck

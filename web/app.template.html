@@ -99,6 +99,10 @@ td:first-child{font-style:normal;font-weight:600}
 .tile{border:0;border-radius:10px;padding:10px 6px;min-height:58px;background:var(--card);box-shadow:0 1px 3px rgba(0,0,0,.08);font-size:15px;cursor:pointer}
 .tile.sel{outline:3px solid var(--orange)}.tile.bad{background:var(--red);color:#fff}.tile.gone{visibility:hidden}
 .stats3{display:flex}.stats3>div{flex:1;text-align:center;padding:10px 4px}.stats3 .v{font-size:24px;font-weight:800}
+.sbar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:rgba(118,118,128,.2);margin-top:6px}.sbar i{display:block;height:100%}
+.sbar .s1{background:#ff9f0a}.sbar .s2{background:#ffd60a}.sbar .s3{background:#a4d65e}.sbar .s4{background:#34c759}.sbar .s5{background:#0a84ff}
+.dots.st5 i.on{background:#0a84ff}.dots.st1 i.on,.dots.st2 i.on{background:var(--orange)}
+.gain{margin-top:10px;padding:10px 12px;border-radius:12px;background:rgba(52,199,89,.14);font-size:15px;line-height:1.5}
 .bar{height:6px;border-radius:3px;background:rgba(118,118,128,.2);overflow:hidden}.bar>i{display:block;height:100%;background:var(--green)}
 .bars{display:flex;align-items:flex-end;gap:8px;height:120px;padding:10px 16px}
 .bars div{flex:1;text-align:center;font-size:11px;color:var(--muted);display:flex;flex-direction:column;justify-content:flex-end;height:100%}
@@ -167,8 +171,9 @@ const rnd = () => Math.random() < 0.5;
 
 // ---------- Speicher ----------
 const KEY = "mir-progress-v1";
-const DEFAULTS = { items: {}, days: {}, tests: [], highscores: {}, starred: [],
-  s: { typing: false, tolerant: true, goal: 30, from: 1, to: 5, pos: "Alle", dir: "laDe", count: 20, onboarded: false, sound: true,
+const XP_BASE = { 0: 0, 1: 10, 2: 35, 3: 55, 4: 80, 5: 100 };
+const DEFAULTS = { items: {}, days: {}, tests: [], highscores: {}, starred: [], xp: 0,
+  s: { typing: false, tolerant: true, goal: 30, newPerDay: 5, from: 1, to: 5, pos: "Alle", dir: "laDe", count: 20, onboarded: false, sound: true,
        forms: "show", learnForms: false, theme: "system", zoom: 1, rate: 0.85, autoSpeak: false, lastVersion: "", nagAt: 0 } };
 const KEY_BAK = KEY + "-bak", SCHEMA = 2;
 const num = (x, d = 0) => (typeof x === "number" && isFinite(x) ? x : d);
@@ -178,10 +183,13 @@ function sanitize(d) {
   if (!d || typeof d !== "object") return { P: o, fixed: 0, ok: false };
   if (d.s && typeof d.s === "object") for (const k of Object.keys(DEFAULTS.s)) if (typeof d.s[k] === typeof DEFAULTS.s[k]) o.s[k] = d.s[k]; else if (k in d.s) fixed++;
   o.s.goal = Math.min(200, Math.max(10, Math.round(num(o.s.goal, 30))));
+  o.s.newPerDay = Math.min(30, Math.max(0, Math.round(num(o.s.newPerDay, 5))));
   if (!["show", "reveal", "hide"].includes(o.s.forms)) o.s.forms = "show";
   if (d.items && typeof d.items === "object") for (const [id, it] of Object.entries(d.items)) {
     if (!it || typeof it !== "object") { fixed++; continue; }
-    const x = { box: Math.min(5, Math.max(0, Math.round(num(it.box)))), right: Math.max(0, Math.round(num(it.right))), wrong: Math.max(0, Math.round(num(it.wrong))) };
+    const bx = Math.min(5, Math.max(0, Math.round(num(it.box))));
+    const x = { box: bx, right: Math.max(0, Math.round(num(it.right))), wrong: Math.max(0, Math.round(num(it.wrong))), xp: Math.min(bx >= 4 ? 100 : 80, Math.max(0, Math.round(num(it.xp, XP_BASE[bx])))) };
+    if (num(it.first)) x.first = it.first;
     if (num(it.lastSeen)) x.lastSeen = it.lastSeen; if (num(it.lastWrong)) x.lastWrong = it.lastWrong;
     if (x.box && !x.lastSeen) x.lastSeen = Date.now();
     if (x.box !== it.box || x.right !== it.right || x.wrong !== it.wrong) fixed++;
@@ -191,17 +199,17 @@ function sanitize(d) {
   if (Array.isArray(d.tests)) o.tests = d.tests.filter(t => t && typeof t === "object" && num(t.total) > 0 && num(t.date));
   if (d.highscores && typeof d.highscores === "object") for (const [k, n] of Object.entries(d.highscores)) if (num(n) > 0) o.highscores[k] = n;
   if (Array.isArray(d.starred)) o.starred = [...new Set(d.starred.filter(x => typeof x === "string"))];
-  o.lastBackup = num(d.lastBackup); o.v = SCHEMA;
+  o.lastBackup = num(d.lastBackup); o.xp = Math.max(0, Math.round(num(d.xp))); o.v = SCHEMA;
   return { P: o, fixed, ok: true };
 }
 // Führt zwei Stände zusammen (jeweils das Bessere / Neuere gewinnt).
 function mergeData(a, b) {
   const o = structuredClone(a);
-  for (const [id, it] of Object.entries(b.items)) { const c = o.items[id]; if (!c || num(it.lastSeen) > num(c.lastSeen)) o.items[id] = { ...it, right: Math.max(it.right, c ? c.right : 0), wrong: Math.max(it.wrong, c ? c.wrong : 0) }; else { c.right = Math.max(c.right, it.right); c.wrong = Math.max(c.wrong, it.wrong); } }
+  for (const [id, it] of Object.entries(b.items)) { const c = o.items[id]; if (!c || num(it.lastSeen) > num(c.lastSeen)) o.items[id] = { ...it, right: Math.max(it.right, c ? c.right : 0), wrong: Math.max(it.wrong, c ? c.wrong : 0), xp: Math.max(num(it.xp), c ? num(c.xp) : 0) }; else { c.right = Math.max(c.right, it.right); c.wrong = Math.max(c.wrong, it.wrong); c.xp = Math.max(num(c.xp), num(it.xp)); } }
   for (const [k, n] of Object.entries(b.days)) o.days[k] = Math.max(o.days[k] || 0, n);
   const seen = new Set(o.tests.map(t => t.date)); b.tests.forEach(t => { if (!seen.has(t.date)) o.tests.push(t); }); o.tests.sort((x, y) => y.date - x.date);
   for (const [k, n] of Object.entries(b.highscores)) o.highscores[k] = Math.max(o.highscores[k] || 0, n);
-  o.starred = [...new Set([...o.starred, ...b.starred])]; o.lastBackup = Math.max(o.lastBackup || 0, b.lastBackup || 0);
+  o.xp = Math.max(num(o.xp), num(b.xp)); o.starred = [...new Set([...o.starred, ...b.starred])]; o.lastBackup = Math.max(o.lastBackup || 0, b.lastBackup || 0);
   return o;
 }
 let P, loadInfo = { fixed: 0, recovered: false, corrupt: false };
@@ -241,19 +249,46 @@ const dayKey = d => { const z = n => String(n).padStart(2, "0"); return d.getFul
 const INTERVAL = { 1: 0, 2: 1, 3: 3, 4: 7, 5: 14 };
 const st = v => P.items[v.id] || { box: 0, right: 0, wrong: 0 };
 const box = v => st(v).box || 0;
-function countActivity() {
-  const k = dayKey(new Date()), before = P.days[k] || 0; P.days[k] = before + 1; save(); updateBadge();
+// --- Lernsystem: zwei Ebenen ---
+// 1) Wort-Punkte (xp 0–100): steigen SOFORT bei richtigen Antworten in jeder Übung → Stufen + Lektions-Fortschritt.
+//    Bis 80 durch Üben; die letzten 20 gibt es erst, wenn das Wort in Box 4–5 (Wiederholung an anderen Tagen) sitzt.
+// 2) Leitner-Boxen 1–5: bestimmen, wann ein Wort wieder fällig ist (Langzeitgedächtnis).
+const STAGES = ["Neu", "Gesehen", "Lernend", "Bekannt", "Gelernt", "Gemeistert"];
+const RANKS = [[0, "Tiro", "🌱"], [250, "Miles", "🛡️"], [750, "Veteranus", "⚔️"], [1500, "Optio", "🏹"], [3000, "Centurio", "🎖️"], [6000, "Tribunus", "🏛️"], [10000, "Legatus", "🦅"], [20000, "Imperator", "👑"]];
+const rankIdx = x => { let r = 0; RANKS.forEach((q, i) => { if (x >= q[0]) r = i; }); return r; };
+const rankOf = () => RANKS[rankIdx(P.xp || 0)];
+function addXp(n) { const a = rankIdx(P.xp || 0); P.xp = (P.xp || 0) + n; const b = rankIdx(P.xp); if (b > a) toast("Neuer Rang: " + RANKS[b][2] + " " + RANKS[b][1] + "!", null, 3500); }
+function stage(v) { const s = P.items[v.id]; if (!s || !(s.right + s.wrong)) return 0; const x = s.xp || 0; return x < 20 ? 1 : x < 45 ? 2 : x < 80 ? 3 : (s.box >= 4 && x >= 100) ? 5 : 4; }
+const wscore = v => { const s = P.items[v.id]; return s ? Math.min(s.xp || 0, 100) / 100 : 0; };
+const learned = items => items.length ? items.reduce((a, v) => a + wscore(v), 0) / items.length : 0;
+function countActivity(pts = 3) {
+  const k = dayKey(new Date()), before = P.days[k] || 0; P.days[k] = before + 1; if (pts) addXp(pts); save(); updateBadge();
   if (before + 1 === P.s.goal) toast("Tagesziel erreicht! 🎉 " + P.s.goal + " Fragen", null, 3500);
 }
-function record(v, ok) {
-  const s = Object.assign({ box: 0, right: 0, wrong: 0 }, P.items[v.id]);
+// w = Gewicht der Übungsart (Eintippen zählt mehr als Richtig/Falsch)
+function record(v, ok, w = 1) {
+  const L = byNum(v.lesson), l0 = L ? learned(L.vocab) : 0;
+  const s = Object.assign({ box: 0, right: 0, wrong: 0, xp: 0 }, P.items[v.id]);
+  if (!s.first) s.first = Date.now();
   const due = !s.box || !s.lastSeen || Date.now() - s.lastSeen >= INTERVAL[s.box] * 864e5 - 36e5;
-  if (ok) { s.right++; if (due) { s.box = Math.min(Math.max(s.box, 1) + 1, 5); s.lastSeen = Date.now(); } } else { s.wrong++; s.box = 1; s.lastSeen = s.lastWrong = Date.now(); }
-  P.items[v.id] = s; countActivity();
+  if (ok) { s.right++; if (due) { s.box = Math.min(Math.max(s.box, 1) + 1, 5); s.lastSeen = Date.now(); } s.xp = Math.min(s.box >= 4 ? 100 : 80, (s.xp || 0) + Math.round(16 * w)); if (s.box >= 4) s.xp = Math.max(s.xp, 80); }
+  else { s.wrong++; s.box = 1; s.lastSeen = s.lastWrong = Date.now(); s.xp = Math.min(80, Math.max(0, (s.xp || 0) - 20)); }
+  P.items[v.id] = s; addXp(ok ? Math.max(1, Math.round(10 * w)) : 1); countActivity(0);
+  if (L && l0 < .8 && learned(L.vocab) >= .8) toast("Lektion " + L.number + " gelernt! 📕🎉", null, 3500);
 }
 const isDue = v => { const s = st(v); if (!s.box || !s.lastSeen) return false; return Date.now() - s.lastSeen >= INTERVAL[s.box] * 864e5 - 36e5; };
 const dueCount = () => ALL.filter(isDue).length;
-const dueItems = () => [...shuffle(ALL.filter(isDue)), ...ALL.filter(v => !box(v)).slice(0, 10)].slice(0, 40);
+const startOfDay = () => { const d = new Date(); d.setHours(0, 0, 0, 0); return +d; };
+const newToday = () => ALL.filter(v => { const s = P.items[v.id]; return s && s.first >= startOfDay(); }).length;
+const isWeak = v => { const s = P.items[v.id]; return !!s && s.right + s.wrong > 0 && (s.xp || 0) < 45; };
+// Tages-Training: fällige Wörter + schwache Wörter + ein paar neue (Tageslimit in den Einstellungen)
+function sessionItems() {
+  const due = shuffle(ALL.filter(isDue)).slice(0, 25), ids = new Set(due.map(v => v.id));
+  const weak = shuffle(ALL.filter(v => !ids.has(v.id) && isWeak(v) && st(v).wrong > 0)).slice(0, 10); weak.forEach(v => ids.add(v.id));
+  const fresh = ALL.filter(v => !P.items[v.id]).slice(0, Math.max(0, P.s.newPerDay - newToday()));
+  return [...due, ...weak, ...fresh];
+}
+const dueItems = sessionItems;
 const mistakes = items => items.filter(v => { const s = st(v); return s.wrong > 0 && s.box <= 2; });
 const mastered = items => items.length ? items.filter(v => box(v) >= 4).length / items.length : 0;
 const isStar = v => P.starred.includes(v.id);
@@ -506,7 +541,8 @@ function dictView(el) {
 
 // ---------- Modi ----------
 const MODES = {
-  daily: ["Tägliche Wiederholung", "Fällige Karten aus allen Lektionen", "📅", "--orange"],
+  daily: ["Tages-Training", "Fällige, schwache und neue Wörter – dein Plan für heute", "📅", "--orange"],
+  weak: ["Schwache Wörter", "Gesehen, aber noch nicht sicher (Stufe 1–2)", "🌱", "--orange"],
   mistakes: ["Fehlerkiste", "Nur Wörter, die du falsch hattest", "⚠️", "--orange"],
   starred: ["Merkliste", "Deine markierten Wörter (★)", "★", "--orange"],
   flash: ["Karteikarten", "Umdrehen, selbst bewerten, wischen", "🃏", "--blue"],
@@ -540,9 +576,9 @@ function startMode(m, cfg) {
   const pool = cfgItems(cfg), title = MODES[m][0];
   const empty = txt => push(title, el => { el.innerHTML = `<div class="card" style="margin-top:30px"><div style="font-size:44px">📭</div><h2>Nichts zu üben</h2><p class="sub">${txt}</p></div>`; });
   const items = { flash: () => limited(cfg, shuffle(pool)), typing: () => limited(cfg, shuffle(pool)), match: () => limited(cfg, shuffle(pool)),
-    daily: dueItems, mistakes: () => mistakes(pool), starred: () => pool.filter(isStar) };
+    daily: dueItems, weak: () => pool.filter(isWeak).sort((a, b) => (st(a).xp || 0) - (st(b).xp || 0)), mistakes: () => mistakes(pool), starred: () => pool.filter(isStar) };
   if (items[m]) { const it = items[m]();
-    if (!it.length) return empty(m === "daily" ? "Heute ist nichts fällig. Komm morgen wieder!" : m === "starred" ? "Tippe in einer Vokabelliste oder auf einer Karteikarte auf ☆, dann erscheint das Wort hier." : m === "mistakes" ? "Super – in diesem Bereich hast du gerade keine Fehler." : "Keine Vokabeln in diesem Bereich.");
+    if (!it.length) return empty(m === "daily" ? "Heute ist alles erledigt: nichts fällig und das Limit für neue Wörter ist erreicht. Mehr neue Wörter stellst du unter Einstellungen ein." : m === "weak" ? "Super – im Moment gibt es hier keine schwachen Wörter." : m === "starred" ? "Tippe in einer Vokabelliste oder auf einer Karteikarte auf ☆, dann erscheint das Wort hier." : m === "mistakes" ? "Super – in diesem Bereich hast du gerade keine Fehler." : "Keine Vokabeln in diesem Bereich.");
     if (m === "typing") return push(title, el => typingView(el, it, cfg.dir));
     if (m === "match") return push(title, el => matchView(el, it));
     return push(title, el => flashView(el, it, cfg.dir)); }
@@ -571,11 +607,12 @@ function startMode(m, cfg) {
     case "proverb": qs = limited(cfg, shuffle(ANHANG.proverbs).map(qProverb)); break;
   }
   if (!qs || !qs.length) return empty("In diesem Bereich gibt es dafür keine passenden Inhalte.");
-  push(title, el => quizView(el, qs, { time: m === "blitz" ? 60 : 0, auto: m === "blitz", speak: m === "listen", hs: m === "blitz" ? "blitz-" + cfg.from + "-" + cfg.to : null }));
+  push(title, el => quizView(el, qs, { w: m === "tf" ? .5 : m === "blitz" ? .6 : 1, time: m === "blitz" ? 60 : 0, auto: m === "blitz", speak: m === "listen", hs: m === "blitz" ? "blitz-" + cfg.from + "-" + cfg.to : null }));
 }
 
 // ---------- Quiz ----------
 function quizView(el, questions, o) {
+  const sn = sessSnap(questions.filter(q => q.item).map(q => q.item));
   let deck = questions, i = 0, chosen = null, answered = [], left = o.time || 0, done = false, retry = false, timer = null, rec = false;
   const correct = () => answered.filter(a => a.ok).length;
   if (o.time) timer = setInterval(() => { if (done) return clearInterval(timer); if (!el.isConnected) return; left--; if (left <= 0) finish(); else { const t = el.querySelector("#tleft"); if (t) t.textContent = left + " s"; } }, 1000);
@@ -597,7 +634,7 @@ function quizView(el, questions, o) {
   }
   function pick(k) {
     if (chosen !== null) return; const q = deck[i]; chosen = k; const ok = k === q.correct; buzz(ok);
-    answered.push({ q, k, ok }); if (q.item) { if (q.onlyWrong && ok) countActivity(); else record(q.item, ok); } else countActivity();
+    answered.push({ q, k, ok }); if (q.item) { if (q.onlyWrong && ok) countActivity(); else record(q.item, ok, o.w ?? 1); } else countActivity();
     draw(); if (o.auto) setTimeout(next, ok ? 350 : 900);
   }
   function next() { if (done) return; chosen = null; i++; if (i >= deck.length) finish(); else { draw(); autoSay(); } }
@@ -611,7 +648,7 @@ function quizView(el, questions, o) {
   function result() {
     const total = o.exam ? deck.length : answered.length, g = grade(correct(), total), wrong = answered.filter(a => !a.ok);
     el.innerHTML = `<div class="card"><div style="font-size:50px">${o.exam ? "🎓" : "🏅"}</div><h2 style="margin:6px 0">${correct()} von ${total} richtig</h2>
-      ${o.exam ? `<div class="hl">Note: ${g} – ${GRADE[g]}</div>` : ""}${rec ? `<div class="hl">🏆 Neuer Rekord!</div>` : ""}</div>
+      ${gainHTML(sn)}${o.exam ? `<div class="hl">Note: ${g} – ${GRADE[g]}</div>` : ""}${rec ? `<div class="hl">🏆 Neuer Rekord!</div>` : ""}</div>
       ${wrong.length ? `<div class="ghead" style="margin-top:20px">Fehler (${wrong.length})</div><div class="group">${wrong.map(a => `<div class="row"><div class="grow">
         <div class="hl">${esc(a.q.prompt === "🔊" ? a.q.expl : a.q.prompt)}</div>${a.q.hint && a.q.prompt !== "🔊" ? `<div class="sub">${esc(a.q.hint)}</div>` : ""}
         <div style="color:var(--green)">Richtig: ${esc(a.q.options[a.q.correct])}</div><div class="sub" style="color:var(--red)">Deine Antwort: ${esc(a.q.options[a.k])}</div></div></div>`).join("")}</div>
@@ -623,16 +660,24 @@ function quizView(el, questions, o) {
   draw(); autoSay();
 }
 
+// ---------- Lernerfolg am Ende einer Übung ----------
+function sessSnap(items) { const u = [...new Map(items.map(v => [v.id, v])).values()]; return { xp: P.xp || 0, items: u, st: new Map(u.map(v => [v.id, stage(v)])), ls: new Map([...new Set(u.map(v => v.lesson))].slice(0, 4).map(n => [n, byNum(n) ? learned(byNum(n).vocab) : 0])) }; }
+function gainHTML(sn) {
+  const dx = (P.xp || 0) - sn.xp, up = sn.items.filter(v => stage(v) > sn.st.get(v.id)).length;
+  const ln = [...sn.ls].map(([n, a]) => [n, a, learned(byNum(n).vocab)]).filter(x => x[2] > x[1] + .004).map(x => `<div>Lektion ${x[0]}: ${Math.round(x[1] * 100)} % → <b>${Math.round(x[2] * 100)} %</b> gelernt</div>`).join("");
+  if (dx <= 0 && !up && !ln) return "";
+  return `<div class="gain"><div>+${dx} Punkte${up ? ` · ⬆️ ${up} ${up === 1 ? "Wort" : "Wörter"} aufgestiegen` : ""}</div>${ln}</div>`;
+}
 // ---------- Karteikarten ----------
 // Falsch beantwortete Karten kommen nur EINMAL später wieder (nach ca. 8 Karten); nur die erste Antwort zählt fürs Lernfach.
 function flashView(el, items, dir) {
   el.classList.add("noxo");
   let queue = shuffle(items).sort((a, b) => box(a) - box(b)), revealed = false, d = resolveDir(dir), busy = false, fresh = true;
-  const first = new Map(), requeued = new Set();
+  const first = new Map(), requeued = new Set(), sn = sessSnap(items);
   const knew = () => [...first.values()].filter(Boolean).length;
   function result() {
     const missed = items.filter(c => first.get(c.id) === false);
-    el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">${missed.length ? "💪" : "✅"}</div><h2 style="margin:6px 0">Geschafft!</h2><p>${knew()} von ${first.size} gleich gewusst</p></div>
+    el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">${missed.length ? "💪" : "✅"}</div><h2 style="margin:6px 0">Geschafft!</h2><p>${knew()} von ${first.size} gleich gewusst</p>${gainHTML(sn)}</div>
       ${missed.length ? `<div class="ghead" style="margin-top:20px">Noch nicht sicher (${missed.length})</div><div class="group">${missed.map(c => `<div class="row"><div class="grow"><div class="hl">${esc(c.la)}</div><div class="sub">${esc(c.de)}</div></div></div>`).join("")}</div>
       <button class="btn primary full" id="again">Diese ${missed.length} nochmal üben</button>` : ""}
       <button class="btn full" id="fin" style="margin-top:10px">Fertig</button>`;
@@ -651,7 +696,7 @@ function flashView(el, items, dir) {
         <div class="prompt">${esc(front ? c.la : c.de)}</div>${front && fFront(c) ? `<div class="sub">${esc(c.forms)}</div>` : ""}
         ${revealed ? `<hr style="border:0;border-top:.5px solid var(--line);width:100%"><div style="font-size:22px">${esc(front ? c.de : c.la)}</div>${front && !fFront(c) && fBack(c) ? `<div class="sub" style="font-size:19px;color:var(--text)">${esc(c.forms)}</div>` : ""}${!front && fBack(c) ? `<div class="sub">${esc(c.forms)}</div>` : ""}${c.note ? `<div class="expl">${esc(c.note)}</div>` : ""}` : `<div class="tiny">${P.s.learnForms && front && realForms(c) ? "Bedeutung und Formen überlegen, dann aufdecken" : "Tippen zum Aufdecken"}</div>`}
         <div><button class="btn" id="say">🔊</button> <button class="btn" id="star" style="color:var(--orange)">${isStar(c) ? "★" : "☆"}</button></div>
-        <div class="tiny">Lektion ${c.lesson} · Box ${box(c)}</div></div>
+        <div class="tiny">Lektion ${c.lesson} · ${STAGES[stage(c)]}</div></div>
       ${revealed ? `<div class="btns"><button class="btn red" id="no">✗ Nicht gewusst</button><button class="btn green" id="yes">✓ Gewusst</button></div>` : `<button class="btn primary full" id="rev" style="margin-top:14px">Aufdecken</button>`}`;
     const fc = el.querySelector("#fc"), tint = el.querySelector("#tint");
     let sx = 0, sy = 0, dx = 0, lock = null, raf = 0, moved = false;
@@ -683,7 +728,7 @@ function flashView(el, items, dir) {
   function autoSay() { if (P.s.autoSpeak && queue[0] && d === "laDe") setTimeout(() => { if (el.isConnected) speakLatin(speakable(queue[0])); }, 250); }
   function ans(ok) {
     const c = queue.shift(); buzz(ok);
-    if (!first.has(c.id)) { first.set(c.id, ok); record(c, ok); }
+    if (!first.has(c.id)) { first.set(c.id, ok); record(c, ok, .8); }
     if (!ok && !requeued.has(c.id)) { requeued.add(c.id); queue.splice(Math.min(8, queue.length), 0, c); }
     revealed = false; busy = false; fresh = true; d = resolveDir(dir); draw(); autoSay();
   }
@@ -693,11 +738,11 @@ function flashView(el, items, dir) {
 // ---------- Eintippen ----------
 function typingView(el, items, dir) {
   let queue = shuffle(items), res = null, d = resolveDir(dir), last = "";
-  const first = new Map(), requeued = new Set();
+  const first = new Map(), requeued = new Set(), sn = sessSnap(items);
   const right = () => [...first.values()].filter(Boolean).length;
   function draw() {
     const v = queue[0];
-    if (!v) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">⌨️</div><h2>${right()} von ${first.size} gleich richtig</h2><button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
+    if (!v) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">⌨️</div><h2>${right()} von ${first.size} gleich richtig</h2>${gainHTML(sn)}<button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
     el.innerHTML = `<div class="sub center" style="margin-bottom:10px">Noch ${queue.length} · ${right()}/${first.size} richtig${first.has(v.id) ? ' · <span style="color:var(--orange)">↺ Wiederholung</span>' : ""}</div>
       <div class="card"><div class="prompt">${esc(d === "laDe" ? v.la : v.de)}</div>${d === "laDe" && fFront(v) ? `<div class="sub">${esc(v.forms)}</div>` : ""}
       <div class="tiny" style="margin-top:6px">${d === "laDe" ? "Deutsche Bedeutung eintippen" : "Lateinisches Wort eintippen"}</div></div>
@@ -708,16 +753,17 @@ function typingView(el, items, dir) {
     const inp = el.querySelector("#inp");
     el.querySelector("#f").onsubmit = e => { e.preventDefault(); res === null ? check() : next(); };
     if (res === null) { setTimeout(() => inp.focus(), 50); el.querySelector("#chk").onclick = check; el.querySelector("#idk").onclick = () => { inp.value = ""; check(); }; }
-    else { el.querySelector("#nx").onclick = next; const o = el.querySelector("#ovr"); if (o) o.onclick = () => { if (!requeued.has(v.id)) { first.set(v.id, true); record(v, true); } res = true; draw(); }; }
+    else { el.querySelector("#nx").onclick = next; const o = el.querySelector("#ovr"); if (o) o.onclick = () => { if (!requeued.has(v.id)) { first.set(v.id, true); record(v, true, 1.5); } res = true; draw(); }; }
   }
   // Nur die erste Antwort zählt fürs Lernfach; falsche Wörter kommen einmal später wieder
-  function check() { const v = queue[0], val = el.querySelector("#inp").value; last = val; res = checkAnswer(val, d === "laDe" ? v.de : headLa(v)); buzz(res); if (!first.has(v.id)) { first.set(v.id, res); record(v, res); } draw(); }
+  function check() { const v = queue[0], val = el.querySelector("#inp").value; last = val; res = checkAnswer(val, d === "laDe" ? v.de : headLa(v)); buzz(res); if (!first.has(v.id)) { first.set(v.id, res); record(v, res, 1.5); } draw(); }
   function next() { const v = queue.shift(); if (res === false && !requeued.has(v.id)) { requeued.add(v.id); queue.splice(Math.min(8, queue.length), 0, v); } res = null; last = ""; d = resolveDir(dir); draw(); }
   draw();
 }
 
 // ---------- Zuordnen ----------
 function matchView(el, items) {
+  const sn = sessSnap(items);
   let remaining = shuffle(items), round = [], L = [], R = [], sel = null, mistakesSet = new Set(), sec = 0, done = false;
   const timer = setInterval(() => { if (done) return clearInterval(timer); if (!el.isConnected) return; sec++; const t = el.querySelector("#sec"); if (t) t.textContent = sec + " s"; }, 1000);
   el.cleanup = () => clearInterval(timer);
@@ -725,14 +771,14 @@ function matchView(el, items) {
     for (const v of remaining) { if (round.length < 6 && !used.has(v.de)) { used.add(v.de); round.push(v); } else rest.push(v); }
     remaining = rest; if (!round.length) { done = true; return draw(); } L = shuffle(round); R = shuffle(round); draw(); }
   function draw() {
-    if (done) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">🧩</div><h2>Alle Paare gefunden!</h2><p>Zeit: ${sec} s · Fehler: ${mistakesSet.size}</p><button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
+    if (done) { el.innerHTML = `<div class="card" style="margin-top:20px"><div style="font-size:50px">🧩</div><h2>Alle Paare gefunden!</h2><p>Zeit: ${sec} s · Fehler: ${mistakesSet.size}</p>${gainHTML(sn)}<button class="btn primary" id="fin">Fertig</button></div>`; el.querySelector("#fin").onclick = pop; return; }
     el.innerHTML = `<div class="qhead"><span>⏱ <b id="sec">${sec} s</b></span><span>Noch ${remaining.length + round.length} Paare</span></div>
       <div class="mgrid"><div style="display:flex;flex-direction:column;gap:8px">${L.map(v => `<button class="tile ${round.includes(v) ? "" : "gone"} ${sel === v ? "sel" : ""}" data-l="${esc(v.id)}">${esc(v.la)}</button>`).join("")}</div>
       <div style="display:flex;flex-direction:column;gap:8px">${R.map(v => `<button class="tile ${round.includes(v) ? "" : "gone"}" data-r="${esc(v.id)}">${esc(v.de)}</button>`).join("")}</div></div>`;
     el.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { sel = round.find(v => v.id === b.dataset.l); draw(); });
     el.querySelectorAll("[data-r]").forEach(b => b.onclick = () => {
       if (!sel) return; const v = round.find(x => x.id === b.dataset.r);
-      if (v === sel) { buzz(true); record(v, !mistakesSet.has(v.id)); round = round.filter(x => x !== v); sel = null; if (!round.length) nextRound(); else draw(); }
+      if (v === sel) { buzz(true); record(v, !mistakesSet.has(v.id), .6); round = round.filter(x => x !== v); sel = null; if (!round.length) nextRound(); else draw(); }
       else { buzz(false); mistakesSet.add(sel.id); b.classList.add("bad"); setTimeout(() => b.classList.remove("bad"), 400); }
     });
   }
@@ -825,20 +871,24 @@ function drawTabs() {
 function updateBadge() { drawTabs(); }
 
 // ---------- Lektionen ----------
+function stageBar(items) {
+  const n = items.length || 1, c = STAGES.map((_, i) => items.filter(v => stage(v) === i).length);
+  return `<div class="sbar" title="${STAGES.map((l, i) => l + ": " + c[i]).join(" · ")}">${c.map((k, i) => k ? `<i class="s${i}" style="width:${k / n * 100}%"></i>` : "").join("")}</div>`;
+}
 function ring(p, n) { const r = 17, c = 2 * Math.PI * r;
   return `<svg class="ring" viewBox="0 0 40 40"><circle cx="20" cy="20" r="${r}" fill="none" stroke="rgba(118,118,128,.25)" stroke-width="4"/><circle cx="20" cy="20" r="${r}" fill="none" stroke="var(--green)" stroke-width="4" stroke-linecap="round" stroke-dasharray="${c * p} ${c}" transform="rotate(-90 20 20)"/><text x="20" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor">${n}</text></svg>`; }
 function lessonsTab(el) {
-  const w = dailyWord(), pw = dailyProverb(), next = LESSONS.find(l => mastered(l.vocab) < .8) || LESSONS[LESSONS.length - 1];
+  const w = dailyWord(), pw = dailyProverb(), next = LESSONS.find(l => learned(l.vocab) < .8) || LESSONS[LESSONS.length - 1], rk = rankOf();
   let html = `<div class="group"><div class="row" id="dw" style="display:block;cursor:pointer"><div class="tiny" style="color:var(--orange);font-weight:700">☀️ VOKABEL DES TAGES</div>
       <div style="display:flex;align-items:baseline;gap:8px"><div style="font-size:24px;font-weight:800;flex:1">${esc(w.la)}</div><button class="btn" id="dwsay" style="min-height:34px;padding:4px 10px">🔊</button></div>
       ${fFront(w) ? `<div class="sub">${esc(w.forms)}</div>` : ""}<div id="dwde" class="sub">Tippen zum Aufdecken</div><div class="tiny">Lektion ${w.lesson}</div></div>
     <div class="row" id="pw" style="display:block;cursor:pointer"><div class="tiny" style="color:var(--purple);font-weight:700">💬 SPRICHWORT DES TAGES</div>
       <div style="font-size:18px;font-weight:700;font-style:italic">${esc(pw.la)}</div><div id="pwde" class="sub">Tippen zum Aufdecken</div></div>
-    <div class="row link" id="cont"><div style="font-size:24px">➡️</div><div class="grow"><div class="hl">Weiterlernen</div><div class="sub">Lektion ${next.number}: ${esc(next.title)} · ${Math.round(mastered(next.vocab) * 100)} % sitzen</div></div></div>
-    <div class="row"><div class="grow" style="color:var(--orange)">🔥 ${streak()} Tage</div><div class="sub">📅 ${dueCount()} fällig</div></div></div>`;
+    <div class="row link" id="cont"><div style="font-size:24px">➡️</div><div class="grow"><div class="hl">Weiterlernen</div><div class="sub">Lektion ${next.number}: ${esc(next.title)} · ${Math.round(learned(next.vocab) * 100)} % gelernt</div></div></div>
+    <div class="row" id="trn"><div class="grow" style="color:var(--orange)">🔥 ${streak()} Tage</div><div class="sub">📅 ${dueCount()} fällig · ${rk[2]} ${rk[1]}</div></div></div>`;
   for (const u of UNITS) {
     html += `<div class="ghead">${esc(u)}</div><div class="group">` + LESSONS.filter(l => l.unit === u).map(l =>
-      `<div class="row link" data-l="${l.number}">${ring(mastered(l.vocab), l.number)}<div class="grow"><div class="hl">${esc(l.title)}</div><div class="sub">${l.vocab.length} Vokabeln · ${l.grammar.length} Grammatik-Themen</div></div></div>`).join("") + `</div>`;
+      `<div class="row link" data-l="${l.number}">${ring(learned(l.vocab), l.number)}<div class="grow"><div class="hl">${esc(l.title)}</div><div class="sub">${l.vocab.length} Vokabeln · ${Math.round(learned(l.vocab) * 100)} % gelernt · ${l.grammar.length} Grammatik</div></div></div>`).join("") + `</div>`;
   }
   html += `<div class="ghead">Anhang (nach Lektion 30)</div><div class="group">${ANHANG.sections.map((x, k) => `<div class="row link" data-a="${k}"><div style="font-size:24px">${x.icon}</div><div class="grow"><div class="hl">${esc(x.title)}</div><div class="sub">${esc(x.sub)}</div></div></div>`).join("")}
     <div class="row link" id="az"><div style="font-size:24px">📚</div><div class="grow"><div class="hl">Wörterverzeichnis A–Z</div><div class="sub">Alle ${ALL.length} Vokabeln alphabetisch mit Lektion</div></div></div></div>`;
@@ -859,7 +909,8 @@ function lessonDetail(el, l) {
     el.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { t = +b.dataset.t; draw(); });
     const c = el.querySelector("#c");
     if (t === 0) {
-      c.innerHTML = `<div class="seg" id="hd">${[["no", "Alles zeigen"], ["de", "Deutsch verdecken"], ["la", "Latein verdecken"]].map(([k, x]) => `<button data-h="${k}" class="${hide === k ? "on" : ""}">${x}</button>`).join("")}</div>
+      c.innerHTML = `<div class="row" style="display:block;margin-bottom:10px;border-radius:12px"><div style="display:flex"><span class="grow hl">${Math.round(learned(l.vocab) * 100)} % gelernt</span><span class="sub">${Math.round(mastered(l.vocab) * 100)} % gefestigt</span></div>${stageBar(l.vocab)}<div class="tiny" style="margin-top:6px">${STAGES.map((x, i) => x + " " + l.vocab.filter(v => stage(v) === i).length).join(" · ")}</div></div>
+        <div class="seg" id="hd">${[["no", "Alles zeigen"], ["de", "Deutsch verdecken"], ["la", "Latein verdecken"]].map(([k, x]) => `<button data-h="${k}" class="${hide === k ? "on" : ""}">${x}</button>`).join("")}</div>
         <div class="sub center" style="margin-bottom:8px">Zum Aufdecken auf eine Zeile tippen</div>
         <div class="group">${l.vocab.map((v, k) => vocabRow(v, hide === "no" ? false : hide, k)).join("")}</div>${l.vocabNote ? `<div class="gfoot">${esc(l.vocabNote)}</div>` : ""}`;
       c.querySelectorAll("#hd [data-h]").forEach(b => b.onclick = () => { hide = b.dataset.h; draw(); });
@@ -867,20 +918,20 @@ function lessonDetail(el, l) {
     } else if (t === 1) { c.innerHTML = grammarHTML(l.grammar); }
     else {
       const cfg = { from: l.number, to: l.number, pos: "Alle", dir: "mixed", count: 0 };
-      c.innerHTML = `<div class="ghead">Vokabeln dieser Lektion</div><div class="group">${["flash", "mc", "tf", "match", "listen", ...(P.s.typing ? ["typing"] : []), "forms", "stem", "foreign", "mistakes"].map(modeRow).join("")}</div>
+      c.innerHTML = `<div class="ghead">Vokabeln dieser Lektion</div><div class="group">${["flash", "mc", "tf", "match", "listen", ...(P.s.typing ? ["typing"] : []), "forms", "stem", "foreign", "weak", "mistakes"].map(modeRow).join("")}</div>
         <div class="ghead">Grammatik dieser Lektion</div><div class="group">${["fid", "fbuild", "tables"].map(modeRow).join("")}</div><div class="group">${modeRow("exam")}</div>`;
       bindModes(c, cfg);
     }
   }
   draw();
 }
-function dots(b) { return b ? `<span class="dots">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= b ? "on" : ""}"></i>`).join("")}</span>` : ""; }
+function dots(b) { return b ? `<span class="dots st${b}" title="${STAGES[b]}">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= b ? "on" : ""}"></i>`).join("")}</span>` : ""; }
 function vocabRow(v, hide, k, showL) {
   const hd = hide === true || hide === "de", hl = hide === "la";
   const vis = showL || (!!fFront(v) && !hl), can = showL || !!fBack(v);
   const mk = (txt, hidden, cls) => hidden ? `<span class="${cls} cv" data-r="${esc(txt)}">• • •</span>` : `<span class="${cls}">${esc(txt)}</span>`;
   return `<div class="row" data-v="${k}" style="display:block"><div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">${mk(v.la, hl, "hl")}${v.forms && can ? mk(v.forms, !vis, "sub") : ""}
-    <span style="margin-left:auto;display:flex;align-items:center;gap:6px">${showL ? `<span class="pill">L${v.lesson}</span>` : ""}${dots(box(v))}
+    <span style="margin-left:auto;display:flex;align-items:center;gap:6px">${showL ? `<span class="pill">L${v.lesson}</span>` : ""}${dots(stage(v))}
     <button class="btn" data-say="${k}" style="min-height:30px;padding:2px 8px">🔊</button><button class="btn star" data-star="${k}" style="min-height:30px;padding:2px 8px">${isStar(v) ? "★" : "☆"}</button></span></div>
     <div class="de">${hd ? mk(v.de, true, "x") : esc(v.de)}</div>${v.note ? `<div class="sub nt" ${hd ? "hidden" : ""}>${esc(v.note)}</div>` : ""}</div>`;
 }
@@ -925,8 +976,8 @@ function practiceTab(el) {
       <div class="seg" id="cnt">${[[10, "10"], [20, "20"], [40, "40"], [0, "Alle"]].map(([k, l]) => `<button data-c="${k}" class="${s.count === k ? "on" : ""}">${l}</button>`).join("")}</div>
       <div class="sub">${cfgItems(cfg()).length} Vokabeln in ${rangeLabel(cfg())}</div></div>
       <div class="row" style="display:block">${formsHTML()}</div></div>
-    <div class="ghead">Heute</div><div class="group">${["daily", "mistakes", "starred"].map(modeRow).join("")}</div>
-    <div class="gfoot">${dueCount()} Karten sind heute fällig. Die tägliche Wiederholung nimmt alle Lektionen.</div>
+    <div class="ghead">Heute</div><div class="group">${["daily", "weak", "mistakes", "starred"].map(modeRow).join("")}</div>
+    <div class="gfoot">${dueCount()} Wörter sind fällig, ${Math.max(0, P.s.newPerDay - newToday())} neue sind heute noch geplant. Das Tages-Training nimmt alle Lektionen.</div>
     <div class="ghead">Vokabeln</div><div class="group">${["flash", "mc", "tf", "match", "listen", "blitz", ...(s.typing ? ["typing"] : []), "forms", "stem", "foreign"].map(modeRow).join("")}</div>
     <div class="ghead">Grammatik</div><div class="group">${["fid", "fbuild", "tables"].map(modeRow).join("")}</div>
     <div class="ghead">Anhang</div><div class="group">${["tasks", "stembook", "aform", "affix", "figure", "proverb"].map(modeRow).join("")}</div>
@@ -975,32 +1026,35 @@ function statsTab(el) {
   const m = ALL.filter(v => box(v) >= 4).length, seen = ALL.filter(v => box(v) > 0).length, goal = P.s.goal;
   const days = [...Array(7)].map((_, k) => { const d = new Date(); d.setDate(d.getDate() - 6 + k); return [d.toLocaleDateString("de-AT", { weekday: "short" }), P.days[dayKey(d)] || 0]; });
   const mx = Math.max(1, ...days.map(d => d[1]));
+  const stages = STAGES.map((l, i) => [l, ALL.filter(v => stage(v) === i).length]), smx = Math.max(1, ...stages.map(x => x[1])), rk = rankOf(), nx = RANKS[rankIdx(P.xp) + 1];
   const boxes = [["neu", ALL.filter(v => !box(v)).length], ...[1, 2, 3, 4, 5].map(b => ["B" + b, ALL.filter(v => box(v) === b).length])], bmx = Math.max(1, ...boxes.map(b => b[1]));
   const fc = (() => { const eod = new Date(); eod.setHours(24, 0, 0, 0); const cnt = Array(7).fill(0);
     ALL.forEach(v => { const x = st(v); if (!x.box || !x.lastSeen) return; const due = x.lastSeen + INTERVAL[x.box] * 864e5 - 36e5; const k = due < eod ? 0 : Math.floor((due - eod) / 864e5) + 1; if (k < 7) cnt[k]++; });
     return cnt.map((n, k) => { const d = new Date(); d.setDate(d.getDate() + k); return [k === 0 ? "heute" : d.toLocaleDateString("de-AT", { weekday: "short" }), n]; }); })(), fmx = Math.max(1, ...fc.map(d => d[1]));
   const heat = (() => { const t = new Date(); t.setHours(12); const start = new Date(t); start.setDate(t.getDate() - ((t.getDay() + 6) % 7) - 77); let h = ""; for (let i = 0; i < 84; i++) { const d = new Date(start); d.setDate(start.getDate() + i); const n = d > t ? -1 : (P.days[dayKey(d)] || 0); const lv = n < 0 ? "f" : n === 0 ? 0 : n >= P.s.goal ? 3 : n >= P.s.goal / 2 ? 2 : 1; h += `<i class="h${lv}" title="${dayKey(d)}: ${Math.max(0, n)}"></i>`; } return h; })();
   const hard = ALL.filter(v => st(v).wrong > 0).sort((a, b) => (st(b).wrong * 3 - st(b).right) - (st(a).wrong * 3 - st(a).right)).slice(0, 20);
-  el.innerHTML = `<div class="group"><div class="stats3"><div>🔥<div class="v">${streak()}</div><div class="sub">Tage Serie</div></div><div>🎯<div class="v">${todayCount()}/${goal}</div><div class="sub">Heute</div></div><div>✅<div class="v">${m}</div><div class="sub">sitzen</div></div></div>
+  el.innerHTML = `<div class="group"><div class="row" style="display:block"><div style="display:flex;align-items:center;gap:10px"><div style="font-size:34px">${rk[2]}</div><div class="grow"><div class="hl">${rk[1]}</div><div class="sub">${P.xp} Punkte${nx ? " · noch " + (nx[0] - P.xp) + " bis " + nx[1] : " · höchster Rang"}</div></div></div>${nx ? `<div class="bar" style="margin-top:8px"><i style="width:${(P.xp - rk[0]) / (nx[0] - rk[0]) * 100}%"></i></div>` : ""}</div><div class="stats3"><div>🔥<div class="v">${streak()}</div><div class="sub">Tage Serie</div></div><div>🎯<div class="v">${todayCount()}/${goal}</div><div class="sub">Heute</div></div><div>✅<div class="v">${m}</div><div class="sub">gemeistert</div></div></div>
       <div style="padding:0 16px 14px"><div class="bar"><i style="width:${Math.min(100, todayCount() / goal * 100)}%"></i></div><div class="tiny">${todayCount() >= goal ? "Tagesziel erreicht! 🎉" : "Tagesziel"}</div></div></div>
     <div class="ghead">Abzeichen</div><div class="group">${badgesHTML()}</div>
     <div class="ghead">Letzte 7 Tage</div><div class="group"><div class="bars">${days.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / mx * 80)}px"></span>${l}</div>`).join("")}</div></div>
-    <div class="ghead">Wörter nach Box</div><div class="group"><div class="bars">${boxes.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / bmx * 80)}px"></span>${l}</div>`).join("")}</div></div>
+    <div class="ghead">Wörter nach Stufe</div><div class="group"><div class="bars">${stages.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / smx * 80)}px"></span>${l}</div>`).join("")}</div></div>
+    <div class="ghead">Wiederholungs-Boxen</div><div class="group"><div class="bars">${boxes.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / bmx * 80)}px"></span>${l}</div>`).join("")}</div></div>
     <div class="ghead">Fällig in den nächsten Tagen</div><div class="group"><div class="bars">${fc.map(([l, n]) => `<div>${n}<span class="b" style="height:${Math.max(4, n / fmx * 80)}px"></span>${l}</div>`).join("")}</div></div>
     <div class="ghead">Letzte 12 Wochen</div><div class="group"><div class="heat">${heat}</div></div>
-    <div class="ghead">Gesamt</div><div class="group">${[["Vokabeln im Buch", ALL.length], ["Schon geübt", seen], ["Sitzen (Box 4–5)", m], ["Beantwortete Fragen", totalAnswered()]].map(([a, b]) => `<div class="row"><div class="grow">${a}</div><div class="sub">${b}</div></div>`).join("")}</div>
-    <div class="ghead">Fortschritt pro Lektion</div><div class="group">${LESSONS.map(l => `<div class="row" style="display:block"><div style="display:flex"><span class="grow">${l.number}. ${esc(l.title)}</span><span class="sub">${Math.round(mastered(l.vocab) * 100)} %</span></div><div class="bar" style="margin-top:4px"><i style="width:${mastered(l.vocab) * 100}%"></i></div></div>`).join("")}</div>
+    <div class="ghead">Gesamt</div><div class="group">${[["Vokabeln im Buch", ALL.length], ["Schon geübt", seen], ["Gelernt (Stufe 4–5)", ALL.filter(v => stage(v) >= 4).length], ["Gemeistert (Box 4–5)", m], ["Beantwortete Fragen", totalAnswered()]].map(([a, b]) => `<div class="row"><div class="grow">${a}</div><div class="sub">${b}</div></div>`).join("")}</div>
+    <div class="ghead">Fortschritt pro Lektion</div><div class="group">${LESSONS.map(l => `<div class="row" style="display:block"><div style="display:flex"><span class="grow">${l.number}. ${esc(l.title)}</span><span class="sub">${Math.round(learned(l.vocab) * 100)} % gelernt · ${Math.round(mastered(l.vocab) * 100)} % fest</span></div>${stageBar(l.vocab)}</div>`).join("")}</div><div class="gfoot">Bis 80 % kommst du durch Üben. Die letzten 20 % gibt es erst, wenn ein Wort nach Tagen wiederholt wurde und sitzt (Box 4–5).</div>
     ${hard.length ? `<div class="ghead">Schwierigste Wörter</div><div class="group">${hard.map(v => `<div class="row"><div class="grow"><div class="hl">${esc(v.la)}</div><div class="sub">${esc(v.de)}</div></div><span style="color:var(--red)">✗ ${st(v).wrong}</span></div>`).join("")}</div>` : ""}
     ${P.tests.length ? `<div class="ghead">Schularbeiten</div><div class="group">${P.tests.slice(0, 20).map(t => `<div class="row"><div class="grow">${esc(t.range)}<div class="sub">${new Date(t.date).toLocaleString("de-AT", { dateStyle: "medium", timeStyle: "short" })}</div></div><span>${t.correct}/${t.total}</span><b style="margin-left:10px">${t.grade}</b></div>`).join("")}</div>` : ""}
     ${Object.keys(P.highscores).length ? `<div class="ghead">Rekorde Blitzrunde</div><div class="group">${Object.entries(P.highscores).sort().map(([k, v]) => `<div class="row"><div class="grow">${k.replace("blitz-", "Lektion ").replace("-", "–")}</div><div class="sub">${v}</div></div>`).join("")}</div>` : ""}`;
 }
 function badgesHTML() {
   const m = ALL.filter(v => box(v) >= 4).length, ans = totalAnswered(), ls = longestStreak();
-  const rng = (a, b) => lessonsIn(a, b).every(l => mastered(l.vocab) >= .8);
+  const rng = (a, b) => lessonsIn(a, b).every(l => learned(l.vocab) >= .8);
   const best = Math.max(0, ...Object.values(P.highscores)), bestGrade = Math.min(9, ...P.tests.map(t => t.grade));
   const B = [["🚩", "Medias in res", "Erste Frage beantwortet", ans >= 1], ["🚶", "Fleißig", "500 Fragen", ans >= 500], ["🏃", "Marathon", "2000 Fragen", ans >= 2000],
     ["🔥", "Funke", "3 Tage in Folge", ls >= 3], ["🔥", "Feuer", "7 Tage in Folge", ls >= 7], ["☀️", "Sol invictus", "30 Tage in Folge", ls >= 30],
     ["📕", "Lektion gemeistert", "Alle Vokabeln einer Lektion sitzen", LESSONS.some(l => mastered(l.vocab) >= .999)],
+    ["🛡️", "Miles", "Rang Miles erreicht (250 Punkte)", P.xp >= 250], ["🦅", "Legatus", "Rang Legatus erreicht", P.xp >= 10000],
     ["💯", "Centurio", "100 Vokabeln sitzen", m >= 100], ["👑", "Imperator", "500 Vokabeln sitzen", m >= 500],
     ["🏛️", "Halbzeit", "Lektion 1–15 zu 80 %", rng(1, 15)], ["🌿", "Veni, vidi, vici", "Alle 30 Lektionen zu 80 %", rng(1, 30)],
     ["🎓", "Summa cum laude", "Schularbeit mit Note 1", bestGrade === 1], ["⚡", "Blitzmerker", "30 richtige in einer Blitzrunde", best >= 30]];
@@ -1026,7 +1080,8 @@ function settingsTab(el) {
       ${s.typing ? `<label class="row"><div class="grow">Tolerante Prüfung</div><input type="checkbox" id="tol" ${s.tolerant ? "checked" : ""}></label>` : ""}
       <label class="row"><div class="grow">Vibration (Android)</div><input type="checkbox" id="snd" ${s.sound ? "checked" : ""}></label></div>
     <div class="gfoot">Standardmäßig wird alles durch Antippen geübt. Tolerant: kleine Tippfehler und eine von mehreren Bedeutungen zählen als richtig.</div>
-    <div class="ghead">Tagesziel</div><div class="group"><div class="row"><div class="grow">${s.goal} Fragen pro Tag</div><button class="btn" id="gm">−</button><button class="btn" id="gp">+</button></div></div>
+    <div class="ghead">Tagesziel</div><div class="group"><div class="row"><div class="grow">${s.goal} Fragen pro Tag</div><button class="btn" id="gm">−</button><button class="btn" id="gp">+</button></div>
+      <div class="row"><div class="grow">${s.newPerDay} neue Wörter pro Tag<div class="sub">Für das Tages-Training</div></div><button class="btn" id="nm">−</button><button class="btn" id="np">+</button></div></div>
     <div class="ghead">Auf den Home-Bildschirm</div><div class="group"><div class="row" style="display:block">
       <b>iPhone (Safari):</b> Teilen-Knopf <span class="pill">⬆︎</span> → „Zum Home-Bildschirm“.<br><b>Android (Chrome):</b> Menü ⋮ → „App installieren“ bzw. „Zum Startbildschirm hinzufügen“.<br><span class="sub">Dann startet die App im Vollbild mit eigenem Icon.</span></div></div>
     <div class="ghead">Backup</div><div class="group">
@@ -1054,6 +1109,8 @@ function settingsTab(el) {
   el.querySelector("#snd").onchange = e => { s.sound = e.target.checked; re(); };
   el.querySelector("#gm").onclick = () => { s.goal = Math.max(10, s.goal - 10); re(); };
   el.querySelector("#gp").onclick = () => { s.goal = Math.min(200, s.goal + 10); re(); };
+  el.querySelector("#nm").onclick = () => { s.newPerDay = Math.max(0, s.newPerDay - 1); re(); };
+  el.querySelector("#np").onclick = () => { s.newPerDay = Math.min(30, s.newPerDay + 1); re(); };
   el.querySelector("#exp").onclick = () => push("Fortschritt sichern", e => {
     const txt = JSON.stringify(P);
     e.innerHTML = `<p class="sub">Kopiere diesen Text und bewahre ihn auf (z. B. in Notizen).</p><textarea id="t" rows="10" style="width:100%" readonly>${esc(txt)}</textarea>
