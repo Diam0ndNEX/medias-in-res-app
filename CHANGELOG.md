@@ -8,6 +8,17 @@ Versionsnummern nach dem Schema **MAJOR.MINOR.PATCH**:
 Die Nummer steht in `VERSION` und gilt für Web-App und iOS-App. Bei jedem Update: `VERSION` erhöhen und oben einen neuen Abschnitt eintragen.
 Die Punkte der Abschnitte erscheinen in der App unter „Was ist neu?“.
 
+## 1.4.0 – 20.11.2026
+- Neu: Buchanhang nach Lektion 30 in der App – unter „Lektionen“ → „Anhang“
+- Formenlehre: alle Deklinationen, Steigerung und alle Konjugationen (Indikativ/Konjunktiv, Aktiv/Passiv) plus esse, posse, ire, ferre, velle
+- Stammformen der Verba (143 Verba, geordnet nach Perfektbildung, mit PPP und Lektion)
+- Vorsilben, Nachsilben, Stilmittel, 37 Sprichwörter mit Bedeutung und Wortklauberei 26–30
+- Neue „Lektion 31“: die 25 Lernvokabeln zur Autorenlektüre und die Tipps fürs Wörterbuch
+- Vokabelverzeichnis des Buchs komplett abgeglichen: 31 fehlende Wörter ergänzt (z. B. Zahlwörter, maior/minor/optimus/pessimus, turris, theatrum, sive – sive, quisquis)
+- Neue Übungen: Stammformen-Liste, Formenlehre-Training, Vor- und Nachsilben, Stilmittel, Sprichwörter
+- Neu: Sprichwort des Tages auf der Startseite und Wörterverzeichnis A–Z mit Buchstaben-Sprung
+- Suche findet jetzt auch alles aus dem Anhang; neue Wortart „Zahlwort“
+
 ## 1.3.0 – 18.11.2026
 - Vokabeln noch einmal komplett mit dem Buch abgeglichen (alle 756 Einträge, Lektion 1–30): keine falschen oder fehlenden Wörter gefunden
 - Wortarten genauer: neue Filter „Pronomen“ und „Konjunktion“, Verben und Adverbien richtig eingeordnet

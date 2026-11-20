@@ -164,6 +164,62 @@
    "de": "der/die/das letzte",
    "note": "vgl. Ultimatum (= letzte Aufforderung)",
    "pos": "Adjektiv"
+  },
+  {
+   "la": "maior, maius",
+   "forms": "maioris (2.F.)",
+   "de": "größer",
+   "note": "Komparativ zu magnus. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "minor, minus",
+   "forms": "minoris (2.F.)",
+   "de": "kleiner",
+   "note": "Komparativ zu parvus. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "minimus/a/um",
+   "forms": "",
+   "de": "der kleinste",
+   "note": "vgl. minimal. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "optimus/a/um",
+   "forms": "",
+   "de": "der beste",
+   "note": "vgl. optimal. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "peior, peius",
+   "forms": "peioris (2.F.)",
+   "de": "schlechter",
+   "note": "Komparativ zu malus. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "pessimus/a/um",
+   "forms": "",
+   "de": "der schlechteste",
+   "note": "vgl. Pessimist. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "plus",
+   "forms": "pluris (2.F.)",
+   "de": "mehr",
+   "note": "vgl. Plus. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "plures/a (Pl.)",
+   "forms": "plurium (2.F.)",
+   "de": "mehr, mehrere",
+   "note": "vgl. Plural. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
   }
  ],
  "vocabNote": "Ab dieser Lektion findest du in der zweiten Spalte auch das PPP (Partizip Perfekt Passiv, Mittelwort der Vergangenheit). Diese letzte Form der lateinischen Stammformen musst du von nun an immer mitlernen.",

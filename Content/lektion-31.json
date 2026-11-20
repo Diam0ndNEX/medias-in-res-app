@@ -1,0 +1,240 @@
+{
+ "number": 31,
+ "title": "Lernvokabel zur Autorenlektüre",
+ "unit": "Anhang: Auf zur Autorenlektüre!",
+ "klasse": 6,
+ "vocab": [
+  {
+   "la": "ait",
+   "forms": "",
+   "de": "er/sie sagt(e)",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "aliqui/aliqua/aliquod",
+   "forms": "",
+   "de": "irgendein",
+   "note": "",
+   "pos": "Pronomen"
+  },
+  {
+   "la": "aliquis/aliquid",
+   "forms": "",
+   "de": "irgendjemand/-etwas",
+   "note": "",
+   "pos": "Pronomen"
+  },
+  {
+   "la": "aut – aut",
+   "forms": "",
+   "de": "entweder – oder",
+   "note": "",
+   "pos": "Konjunktion"
+  },
+  {
+   "la": "beatus/a/um",
+   "forms": "",
+   "de": "1) glücklich; 2) heilig",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "caro",
+   "forms": "carnis f.",
+   "de": "Fleisch",
+   "note": "vgl. Karneval, Chili con carne",
+   "pos": "Nomen"
+  },
+  {
+   "la": "cibus",
+   "forms": "cibi m.",
+   "de": "Speise",
+   "note": "",
+   "pos": "Nomen"
+  },
+  {
+   "la": "ergo (Adv.)",
+   "forms": "",
+   "de": "also, daher",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "et",
+   "forms": "",
+   "de": "1) und; 2) auch (= etiam)",
+   "note": "",
+   "pos": "Konjunktion"
+  },
+  {
+   "la": "fieri",
+   "forms": "fio, factus sum",
+   "de": "1) werden; 2) geschehen; 3) gemacht werden",
+   "note": "dient als Passiv zu facere",
+   "pos": "Verb"
+  },
+  {
+   "la": "igitur (Adv.)",
+   "forms": "",
+   "de": "also, daher",
+   "note": "",
+   "pos": "Adverb"
+  },
+  {
+   "la": "mori",
+   "forms": "morior M, mortuus sum",
+   "de": "sterben",
+   "note": "vgl. mortuus/a/um, mors",
+   "pos": "Verb"
+  },
+  {
+   "la": "ob (+ Akk.)",
+   "forms": "",
+   "de": "wegen",
+   "note": "",
+   "pos": "Präposition"
+  },
+  {
+   "la": "pergere",
+   "forms": "pergo 3, perrexi, perrectum",
+   "de": "aufbrechen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "praecipere",
+   "forms": "praecipio M, praecepi, praeceptum",
+   "de": "befehlen",
+   "note": "",
+   "pos": "Verb"
+  },
+  {
+   "la": "qui-/quae-/quodcumque",
+   "forms": "",
+   "de": "wer auch immer",
+   "note": "",
+   "pos": "Pronomen"
+  },
+  {
+   "la": "quisquam/quidquam",
+   "forms": "",
+   "de": "irgendjemand/-etwas",
+   "note": "",
+   "pos": "Pronomen"
+  },
+  {
+   "la": "quod",
+   "forms": "",
+   "de": "1) weil; 2) dass",
+   "note": "",
+   "pos": "Konjunktion"
+  },
+  {
+   "la": "si quis/quid",
+   "forms": "",
+   "de": "wenn jemand/etwas",
+   "note": "",
+   "pos": "Pronomen"
+  },
+  {
+   "la": "talis/e",
+   "forms": "",
+   "de": "solch",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "tantus/a/um",
+   "forms": "",
+   "de": "so groß",
+   "note": "",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "uti",
+   "forms": "utor 3, usus sum (+ Abl.)",
+   "de": "gebrauchen, benützen",
+   "note": "vgl. usus, -us",
+   "pos": "Verb"
+  },
+  {
+   "la": "uti (= ut)",
+   "forms": "",
+   "de": "wie; dass, damit, sodass",
+   "note": "",
+   "pos": "Konjunktion"
+  },
+  {
+   "la": "vel",
+   "forms": "",
+   "de": "oder",
+   "note": "",
+   "pos": "Konjunktion"
+  },
+  {
+   "la": "vel – vel",
+   "forms": "",
+   "de": "entweder – oder",
+   "note": "",
+   "pos": "Konjunktion"
+  }
+ ],
+ "vocabNote": "Diese Wörter stehen im Buch auf S. 154 als „Wichtige Lernvokabel“ für die Originaltexte (Autorenlektüre).",
+ "grammar": [
+  {
+   "title": "Auf zur Autorenlektüre!",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Alle Texte, die du bisher im Buch übersetzt hast, waren speziell für den Anfangsunterricht zusammengestellt. Der nächste große Schritt ist das Übersetzen von Originaltexten – also von Texten, die in den letzten 2000 Jahren von Autoren der Antike, des Mittelalters und der Neuzeit verfasst wurden."
+    },
+    {
+     "type": "text",
+     "text": "Ab jetzt kommen in einem Text nicht mehr nur wenige, bestimmte Grammatik-Themen vor: Du solltest alle Grammatik-Kapitel jederzeit abrufbereit haben."
+    },
+    {
+     "type": "text",
+     "text": "Neben dem Übersetzen wird auch das Interpretieren der lateinischen Texte wichtig. Bei Schularbeiten bekommst du zwei Texte: einen Übersetzungstext (ÜT) und einen Interpretationstext (IT), den du nicht übersetzen, sondern nur so weit verstehen musst, dass du Arbeitsaufgaben dazu lösen kannst."
+    },
+    {
+     "type": "text",
+     "text": "Von nun an darfst du bei Schularbeiten auch das Wörterbuch verwenden."
+    },
+    {
+     "type": "list",
+     "items": [
+      "I. Die Romanisierung Europas: Texte über die Gallier, Germanen und Britannier",
+      "II. Österreich in lateinischen Quellen: österreichische Heilige, Wien im 15. Jh., lateinische Inschriften",
+      "III. Das Christentum als prägende Kraft Europas: Vulgata (lateinische Bibel), Legenda Aurea und Ordensregel des hl. Benedikt",
+      "IV. Begegnung mit fremden Kulturen: Texte über China, Amerika und die Osmanen"
+     ]
+    },
+    {
+     "type": "tip",
+     "text": "Damit du den Grundwortschatz nicht vergisst, wiederhole ihn regelmäßig – z. B. mit der täglichen Wiederholung in dieser App."
+    }
+   ]
+  },
+  {
+   "title": "Tipps für die Benützung des Wörterbuchs",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "1. Schlage so selten wie möglich nach! Je öfter du nachschlägst, desto mehr Zeit verlierst du. Je größer dein Grundwortschatz, umso seltener musst du nachschlagen. Stell dir einen Satz wie ein Puzzle vor: Wenn du sieben oder acht von zehn Wörtern weißt, ergibt sich die Bedeutung der fehlenden oft von selbst – danach kannst du zur Bestätigung nachschlagen.",
+      "2. Nimm nicht automatisch das erste Wort, das so aussieht wie das im Text! Unter populus gibt es zwei Einträge: „Volk“ und „Pappel“. Achte auf die Kennzeichnung gleich lautender Einträge (hochgestellte Ziffern oder römische Ziffern: populus¹/populus² bzw. I. populus/II. populus).",
+      "3. Wähle nicht automatisch die erste Bedeutung! Die erste Bedeutung ist nicht zwangsläufig die passende – lies immer alle Hauptbedeutungen. Beispiel: Bei liber, libri steht manchmal „Bast“ an erster Stelle, meist bedeutet das Wort aber „Buch“.",
+      "4. Achtung auf assimilierte Formen! Zusammengesetzte Wörter stehen meist in der assimilierten Form im Wörterbuch: adfigere → affigere, adpropinquare → appropinquare, adsequi → assequi (adp… → app…, adf… → aff…, adg… → agg…, ads… → ass…).",
+      "5. Überlege, von welchem Wort sich die Form im Text ableitet! Analysiere die Form zuerst genau: iacebit ist e-Konjugation → bei iacere 2 nachschlagen (nicht bei iacere M, dessen Futur iaciet wäre). Zu pedum gehört eher pes, pedis („Fuß“) als pedum, -i („Hirtenstab“). Dekliniere „rückwärts“ bis zum Genetiv Sg.: legibus → legis → lex (wie rex, regis); ore → oris → os (wie mos, moris).",
+      "6. Achtung auf Eigennamen! Achte auf Groß- und Kleinschreibung: venus, -eris = „Liebe“, „Anmut“; Venus, -eris = „Venus“ (die Liebesgöttin). Völkernamen kannst du eindeutschen: Helvetii, -orum = „die Helvetier“."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "In manchen Lexika sind die häufigsten Bedeutungen durch Fettdruck und/oder Sperrung gekennzeichnet."
+    }
+   ]
+  }
+ ]
+}

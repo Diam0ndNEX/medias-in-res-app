@@ -1,0 +1,25 @@
+# Präfix | Bedeutung | Beispiele (zuerst die aus dem Buch)
+a- (ab-, abs-) | „weg-“ | abstinere; abire, abesse, abscedere
+ad- (ac-, af-, ap-) | „hin-“, „heran-“ | adducere, adire, advenire, accipere, appropinquare; aspicere, attrahere
+ante- | „voran-“ | anteire, anteponere
+circum- | „herum-“ | circumvenire; circumferre, circumfluere
+con- (com-, co-) | „zusammen-“ | convenire, continere, convocare, concilium; conferre
+con- (com-, co-) | (Verstärkung) | coniungere, commovere, conficere
+contra- | „gegen-“ | contradicere
+de- | „weg-“, „herab-“, „ab-“ | deponere, desinere, deesse; desilire
+dis- (di-) | „auseinander-“, „weg-“ | dividere, discordia; disputare, discedere, dimittere
+ex- (e-) | „hinaus-“ | exire, expellere, expugnare; eripere, explorare, excedere
+in- (im-) | „hinein-“ (bei Verben) | inire, includere; inducere, immittere
+in- (im-) | „un-“ (bei Adjektiven/Nomen) | iniuria, improbus; inimicus, immortalis, ingratus, incredibilis, incertus
+inter- | „(da)zwischen-“ | interesse, interea; interregnum, intervenire
+intro- | „hinein-“ | introducere, introire
+ne- | (Gegenteil) | neglegere; nescire, nefas, negotium
+ob- | „entgegen-“ | obviam, oppugnare; obire, offerre, opponere, occurrere
+per- | „durch-“ | pervenire; perferre, percurrere
+per- | (Verstärkung): „sehr“ | permagnus, permulti, perfacilis, perantiquus
+post- | „(da)hinter-“ | postea; postponere
+prae- | „vor(an)-“ | praeparare, praecurrere, praemittere, praeesse
+pro- | „voran-“ | procedere, progredi, prodesse
+re- | „zurück-“ | reddere, redire, referre, relinquere, resistere; revenire, reverti
+sub- | „(da)runter-“ | subesse, subire
+trans- (tra-) | „hinüber-“ | tradere, traducere, transire; transportare, transferre

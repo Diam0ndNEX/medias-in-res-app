@@ -1,0 +1,6129 @@
+{
+ "sections": [
+  {
+   "id": "formen",
+   "icon": "📐",
+   "title": "Formenlehre",
+   "sub": "Alle Deklinationen und Konjugationen auf einen Blick (S. 188 ff.)",
+   "grammar": [
+    {
+     "title": "Deklinationen: o-, a-, e- und u-Deklination",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "o-Dekl. m.",
+        "o-Dekl. n.",
+        "a-Dekl. f.",
+        "e-Dekl. f.",
+        "u-Dekl. m."
+       ],
+       "rows": [
+        [
+         "Sg. 1.F.",
+         "amicus",
+         "verbum",
+         "amica",
+         "res",
+         "casus"
+        ],
+        [
+         "Sg. 2.F.",
+         "amici",
+         "verbi",
+         "amicae",
+         "rei",
+         "casus"
+        ],
+        [
+         "Sg. 3.F.",
+         "amico",
+         "verbo",
+         "amicae",
+         "rei",
+         "casui"
+        ],
+        [
+         "Sg. 4.F.",
+         "amicum",
+         "verbum",
+         "amicam",
+         "rem",
+         "casum"
+        ],
+        [
+         "Sg. 5.F.",
+         "amice!",
+         "verbum!",
+         "amica!",
+         "res!",
+         "casus!"
+        ],
+        [
+         "Sg. 6.F.",
+         "(ab) amico",
+         "verbo",
+         "(ab) amica",
+         "re",
+         "casu"
+        ],
+        [
+         "Pl. 1./5.F.",
+         "amici",
+         "verba",
+         "amicae",
+         "res",
+         "casus"
+        ],
+        [
+         "Pl. 2.F.",
+         "amicorum",
+         "verborum",
+         "amicarum",
+         "rerum",
+         "casuum"
+        ],
+        [
+         "Pl. 3.F.",
+         "amicis",
+         "verbis",
+         "amicis",
+         "rebus",
+         "casibus"
+        ],
+        [
+         "Pl. 4.F.",
+         "amicos",
+         "verba",
+         "amicas",
+         "res",
+         "casus"
+        ],
+        [
+         "Pl. 6.F.",
+         "(ab) amicis",
+         "verbis",
+         "(ab) amicis",
+         "rebus",
+         "casibus"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "3. Deklination",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "Konsonantenst. f.",
+        "Konsonantenst. n.",
+        "Mischstamm f.",
+        "i-Stamm f.",
+        "i-Stamm n."
+       ],
+       "rows": [
+        [
+         "Sg. 1./5.F.",
+         "vox",
+         "flumen",
+         "navis",
+         "turris",
+         "mare"
+        ],
+        [
+         "Sg. 2.F.",
+         "vocis",
+         "fluminis",
+         "navis",
+         "turris",
+         "maris"
+        ],
+        [
+         "Sg. 3.F.",
+         "voci",
+         "flumini",
+         "navi",
+         "turri",
+         "mari"
+        ],
+        [
+         "Sg. 4.F.",
+         "vocem",
+         "flumen",
+         "navem",
+         "turrim",
+         "mare"
+        ],
+        [
+         "Sg. 6.F.",
+         "voce",
+         "flumine",
+         "nave",
+         "turri",
+         "mari"
+        ],
+        [
+         "Pl. 1./5.F.",
+         "voces",
+         "flumina",
+         "naves",
+         "turres",
+         "maria"
+        ],
+        [
+         "Pl. 2.F.",
+         "vocum",
+         "fluminum",
+         "navium",
+         "turrium",
+         "marium"
+        ],
+        [
+         "Pl. 3.F.",
+         "vocibus",
+         "fluminibus",
+         "navibus",
+         "turribus",
+         "maribus"
+        ],
+        [
+         "Pl. 4.F.",
+         "voces",
+         "flumina",
+         "naves",
+         "turres",
+         "maria"
+        ],
+        [
+         "Pl. 6.F.",
+         "vocibus",
+         "fluminibus",
+         "navibus",
+         "turribus",
+         "maribus"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Geschlechtsregeln 3. Deklination",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Gruppe",
+        "Geschlecht",
+        "Merkmal"
+       ],
+       "rows": [
+        [
+         "Konsonantenstämme",
+         "m.",
+         "-er (-eris) / -or (-oris) / -os (-oris)"
+        ],
+        [
+         "Konsonantenstämme",
+         "f.",
+         "-as (-atis) / -us (-utis) / -x (-gis/-cis) / -o (-onis/-inis)"
+        ],
+        [
+         "Konsonantenstämme",
+         "n.",
+         "-us (-oris/-eris) / -men (-minis)"
+        ],
+        [
+         "Mischstämme",
+         "f.",
+         "a) navis, -is (1. = 2.F. Sg., „Gleichsilbler“); b) urbs, pars (Endung mit zwei oder mehr Konsonanten)"
+        ],
+        [
+         "i-Stämme",
+         "f.",
+         "turris („Turm“), sitis („Durst“), vis („Kraft“, „Gewalt“)"
+        ],
+        [
+         "i-Stämme",
+         "n.",
+         "Wörter auf -e (mare) und -al (animal)"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Adjektiva der a-/o-Deklination",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "m.",
+        "f.",
+        "n."
+       ],
+       "rows": [
+        [
+         "Sg. 1.F.",
+         "bonus",
+         "bona",
+         "bonum"
+        ],
+        [
+         "Sg. 2.F.",
+         "boni",
+         "bonae",
+         "boni"
+        ],
+        [
+         "Sg. 3.F.",
+         "bono",
+         "bonae",
+         "bono"
+        ],
+        [
+         "Sg. 4.F.",
+         "bonum",
+         "bonam",
+         "bonum"
+        ],
+        [
+         "Sg. 5.F.",
+         "bone!",
+         "bona!",
+         "bonum!"
+        ],
+        [
+         "Sg. 6.F.",
+         "bono",
+         "bona",
+         "bono"
+        ],
+        [
+         "Pl. 1./5.F.",
+         "boni",
+         "bonae",
+         "bona"
+        ],
+        [
+         "Pl. 2.F.",
+         "bonorum",
+         "bonarum",
+         "bonorum"
+        ],
+        [
+         "Pl. 3.F.",
+         "bonis",
+         "bonis",
+         "bonis"
+        ],
+        [
+         "Pl. 4.F.",
+         "bonos",
+         "bonas",
+         "bona"
+        ],
+        [
+         "Pl. 6.F.",
+         "bonis",
+         "bonis",
+         "bonis"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Adjektiva der 3. Deklination",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "m.",
+        "f.",
+        "n."
+       ],
+       "rows": [
+        [
+         "Sg. 1.F.",
+         "fortis",
+         "fortis",
+         "forte"
+        ],
+        [
+         "Sg. 2.F.",
+         "fortis",
+         "fortis",
+         "fortis"
+        ],
+        [
+         "Sg. 3.F.",
+         "forti",
+         "forti",
+         "forti"
+        ],
+        [
+         "Sg. 4.F.",
+         "fortem",
+         "fortem",
+         "forte"
+        ],
+        [
+         "Sg. 5.F.",
+         "fortis!",
+         "fortis!",
+         "forte!"
+        ],
+        [
+         "Sg. 6.F.",
+         "forti",
+         "forti",
+         "forti"
+        ],
+        [
+         "Pl. 1./5.F.",
+         "fortes",
+         "fortes",
+         "fortia"
+        ],
+        [
+         "Pl. 2.F.",
+         "fortium",
+         "fortium",
+         "fortium"
+        ],
+        [
+         "Pl. 3.F.",
+         "fortibus",
+         "fortibus",
+         "fortibus"
+        ],
+        [
+         "Pl. 4.F.",
+         "fortes",
+         "fortes",
+         "fortia"
+        ],
+        [
+         "Pl. 6.F.",
+         "fortibus",
+         "fortibus",
+         "fortibus"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "text": "Ebenso atrox, -ocis etc. (eine Endung im Nominativ) und celer, -eris, -ere etc. (drei Endungen im Nominativ)."
+      }
+     ]
+    },
+    {
+     "title": "Pronominale Deklination",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "m.",
+        "f.",
+        "n."
+       ],
+       "rows": [
+        [
+         "Sg. 1./5.F.",
+         "totus",
+         "tota",
+         "totum"
+        ],
+        [
+         "Sg. 2.F.",
+         "totius",
+         "totius",
+         "totius"
+        ],
+        [
+         "Sg. 3.F.",
+         "toti",
+         "toti",
+         "toti"
+        ],
+        [
+         "Sg. 4.F.",
+         "totum",
+         "totam",
+         "totum"
+        ],
+        [
+         "Sg. 6.F.",
+         "toto",
+         "tota",
+         "toto"
+        ]
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Ebenso: solus („allein“), unus („ein“, „einzig“), nullus („kein“), ullus („irgendein“), alter („der andere“). Der Plural geht wie bei bonus/a/um."
+      }
+     ]
+    },
+    {
+     "title": "Steigerung (Komparativ)",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-/o-Dekl. m./f.",
+        "a-/o-Dekl. n.",
+        "3. Dekl. m./f.",
+        "3. Dekl. n."
+       ],
+       "rows": [
+        [
+         "Sg. 1./5.F.",
+         "clarior",
+         "clarius",
+         "fortior",
+         "fortius"
+        ],
+        [
+         "Sg. 2.F.",
+         "clarioris",
+         "clarioris",
+         "fortioris",
+         "fortioris"
+        ],
+        [
+         "Sg. 3.F.",
+         "clariori",
+         "clariori",
+         "fortiori",
+         "fortiori"
+        ],
+        [
+         "Sg. 4.F.",
+         "clariorem",
+         "clarius",
+         "fortiorem",
+         "fortius"
+        ],
+        [
+         "Sg. 6.F.",
+         "clariore",
+         "clariore",
+         "fortiore",
+         "fortiore"
+        ],
+        [
+         "Pl. 1./5.F.",
+         "clariores",
+         "clariora",
+         "fortiores",
+         "fortiora"
+        ],
+        [
+         "Pl. 2.F.",
+         "clariorum",
+         "clariorum",
+         "fortiorum",
+         "fortiorum"
+        ],
+        [
+         "Pl. 3.F.",
+         "clarioribus",
+         "clarioribus",
+         "fortioribus",
+         "fortioribus"
+        ],
+        [
+         "Pl. 4.F.",
+         "clariores",
+         "clariora",
+         "fortiores",
+         "fortiora"
+        ],
+        [
+         "Pl. 6.F.",
+         "clarioribus",
+         "clarioribus",
+         "fortioribus",
+         "fortioribus"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Präsens aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amo",
+         "moneo",
+         "mitto",
+         "capio",
+         "audio"
+        ],
+        [
+         "2.P. Sg.",
+         "amas",
+         "mones",
+         "mittis",
+         "capis",
+         "audis"
+        ],
+        [
+         "3.P. Sg.",
+         "amat",
+         "monet",
+         "mittit",
+         "capit",
+         "audit"
+        ],
+        [
+         "1.P. Pl.",
+         "amamus",
+         "monemus",
+         "mittimus",
+         "capimus",
+         "audimus"
+        ],
+        [
+         "2.P. Pl.",
+         "amatis",
+         "monetis",
+         "mittitis",
+         "capitis",
+         "auditis"
+        ],
+        [
+         "3.P. Pl.",
+         "amant",
+         "monent",
+         "mittunt",
+         "capiunt",
+         "audiunt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Imperfekt aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amabam",
+         "monebam",
+         "mittebam",
+         "capiebam",
+         "audiebam"
+        ],
+        [
+         "2.P. Sg.",
+         "amabas",
+         "monebas",
+         "mittebas",
+         "capiebas",
+         "audiebas"
+        ],
+        [
+         "3.P. Sg.",
+         "amabat",
+         "monebat",
+         "mittebat",
+         "capiebat",
+         "audiebat"
+        ],
+        [
+         "1.P. Pl.",
+         "amabamus",
+         "monebamus",
+         "mittebamus",
+         "capiebamus",
+         "audiebamus"
+        ],
+        [
+         "2.P. Pl.",
+         "amabatis",
+         "monebatis",
+         "mittebatis",
+         "capiebatis",
+         "audiebatis"
+        ],
+        [
+         "3.P. Pl.",
+         "amabant",
+         "monebant",
+         "mittebant",
+         "capiebant",
+         "audiebant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Futur aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amabo",
+         "monebo",
+         "mittam",
+         "capiam",
+         "audiam"
+        ],
+        [
+         "2.P. Sg.",
+         "amabis",
+         "monebis",
+         "mittes",
+         "capies",
+         "audies"
+        ],
+        [
+         "3.P. Sg.",
+         "amabit",
+         "monebit",
+         "mittet",
+         "capiet",
+         "audiet"
+        ],
+        [
+         "1.P. Pl.",
+         "amabimus",
+         "monebimus",
+         "mittemus",
+         "capiemus",
+         "audiemus"
+        ],
+        [
+         "2.P. Pl.",
+         "amabitis",
+         "monebitis",
+         "mittetis",
+         "capietis",
+         "audietis"
+        ],
+        [
+         "3.P. Pl.",
+         "amabunt",
+         "monebunt",
+         "mittent",
+         "capient",
+         "audient"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Perfekt aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amavi",
+         "monui",
+         "misi",
+         "cepi",
+         "audivi"
+        ],
+        [
+         "2.P. Sg.",
+         "amavisti",
+         "monuisti",
+         "misisti",
+         "cepisti",
+         "audivisti"
+        ],
+        [
+         "3.P. Sg.",
+         "amavit",
+         "monuit",
+         "misit",
+         "cepit",
+         "audivit"
+        ],
+        [
+         "1.P. Pl.",
+         "amavimus",
+         "monuimus",
+         "misimus",
+         "cepimus",
+         "audivimus"
+        ],
+        [
+         "2.P. Pl.",
+         "amavistis",
+         "monuistis",
+         "misistis",
+         "cepistis",
+         "audivistis"
+        ],
+        [
+         "3.P. Pl.",
+         "amaverunt",
+         "monuerunt",
+         "miserunt",
+         "ceperunt",
+         "audiverunt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Plusquamperfekt aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amaveram",
+         "monueram",
+         "miseram",
+         "ceperam",
+         "audiveram"
+        ],
+        [
+         "2.P. Sg.",
+         "amaveras",
+         "monueras",
+         "miseras",
+         "ceperas",
+         "audiveras"
+        ],
+        [
+         "3.P. Sg.",
+         "amaverat",
+         "monuerat",
+         "miserat",
+         "ceperat",
+         "audiverat"
+        ],
+        [
+         "1.P. Pl.",
+         "amaveramus",
+         "monueramus",
+         "miseramus",
+         "ceperamus",
+         "audiveramus"
+        ],
+        [
+         "2.P. Pl.",
+         "amaveratis",
+         "monueratis",
+         "miseratis",
+         "ceperatis",
+         "audiveratis"
+        ],
+        [
+         "3.P. Pl.",
+         "amaverant",
+         "monuerant",
+         "miserant",
+         "ceperant",
+         "audiverant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Präsens passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amor",
+         "moneor",
+         "mittor",
+         "capior",
+         "audior"
+        ],
+        [
+         "2.P. Sg.",
+         "amaris",
+         "moneris",
+         "mitteris",
+         "caperis",
+         "audiris"
+        ],
+        [
+         "3.P. Sg.",
+         "amatur",
+         "monetur",
+         "mittitur",
+         "capitur",
+         "auditur"
+        ],
+        [
+         "1.P. Pl.",
+         "amamur",
+         "monemur",
+         "mittimur",
+         "capimur",
+         "audimur"
+        ],
+        [
+         "2.P. Pl.",
+         "amamini",
+         "monemini",
+         "mittimini",
+         "capimini",
+         "audimini"
+        ],
+        [
+         "3.P. Pl.",
+         "amantur",
+         "monentur",
+         "mittuntur",
+         "capiuntur",
+         "audiuntur"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Imperfekt passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amabar",
+         "monebar",
+         "mittebar",
+         "capiebar",
+         "audiebar"
+        ],
+        [
+         "2.P. Sg.",
+         "amabaris",
+         "monebaris",
+         "mittebaris",
+         "capiebaris",
+         "audiebaris"
+        ],
+        [
+         "3.P. Sg.",
+         "amabatur",
+         "monebatur",
+         "mittebatur",
+         "capiebatur",
+         "audiebatur"
+        ],
+        [
+         "1.P. Pl.",
+         "amabamur",
+         "monebamur",
+         "mittebamur",
+         "capiebamur",
+         "audiebamur"
+        ],
+        [
+         "2.P. Pl.",
+         "amabamini",
+         "monebamini",
+         "mittebamini",
+         "capiebamini",
+         "audiebamini"
+        ],
+        [
+         "3.P. Pl.",
+         "amabantur",
+         "monebantur",
+         "mittebantur",
+         "capiebantur",
+         "audiebantur"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Futur passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amabor",
+         "monebor",
+         "mittar",
+         "capiar",
+         "audiar"
+        ],
+        [
+         "2.P. Sg.",
+         "amaberis",
+         "moneberis",
+         "mitteris",
+         "capieris",
+         "audieris"
+        ],
+        [
+         "3.P. Sg.",
+         "amabitur",
+         "monebitur",
+         "mittetur",
+         "capietur",
+         "audietur"
+        ],
+        [
+         "1.P. Pl.",
+         "amabimur",
+         "monebimur",
+         "mittemur",
+         "capiemur",
+         "audiemur"
+        ],
+        [
+         "2.P. Pl.",
+         "amabimini",
+         "monebimini",
+         "mittemini",
+         "capiemini",
+         "audiemini"
+        ],
+        [
+         "3.P. Pl.",
+         "amabuntur",
+         "monebuntur",
+         "mittentur",
+         "capientur",
+         "audientur"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Perfekt passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amatus sum",
+         "monitus sum",
+         "missus sum",
+         "captus sum",
+         "auditus sum"
+        ],
+        [
+         "2.P. Sg.",
+         "amatus es",
+         "monitus es",
+         "missus es",
+         "captus es",
+         "auditus es"
+        ],
+        [
+         "3.P. Sg.",
+         "amatus est",
+         "monitus est",
+         "missus est",
+         "captus est",
+         "auditus est"
+        ],
+        [
+         "1.P. Pl.",
+         "amati sumus",
+         "moniti sumus",
+         "missi sumus",
+         "capti sumus",
+         "auditi sumus"
+        ],
+        [
+         "2.P. Pl.",
+         "amati estis",
+         "moniti estis",
+         "missi estis",
+         "capti estis",
+         "auditi estis"
+        ],
+        [
+         "3.P. Pl.",
+         "amati sunt",
+         "moniti sunt",
+         "missi sunt",
+         "capti sunt",
+         "auditi sunt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Indikativ Plusquamperfekt passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amatus eram",
+         "monitus eram",
+         "missus eram",
+         "captus eram",
+         "auditus eram"
+        ],
+        [
+         "2.P. Sg.",
+         "amatus eras",
+         "monitus eras",
+         "missus eras",
+         "captus eras",
+         "auditus eras"
+        ],
+        [
+         "3.P. Sg.",
+         "amatus erat",
+         "monitus erat",
+         "missus erat",
+         "captus erat",
+         "auditus erat"
+        ],
+        [
+         "1.P. Pl.",
+         "amati eramus",
+         "moniti eramus",
+         "missi eramus",
+         "capti eramus",
+         "auditi eramus"
+        ],
+        [
+         "2.P. Pl.",
+         "amati eratis",
+         "moniti eratis",
+         "missi eratis",
+         "capti eratis",
+         "auditi eratis"
+        ],
+        [
+         "3.P. Pl.",
+         "amati erant",
+         "moniti erant",
+         "missi erant",
+         "capti erant",
+         "auditi erant"
+        ]
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Bei allen zweiteiligen Verbformen wird das PPP an das Subjekt angepasst → Endung -us/-a/-um (Singular) bzw. -i/-ae/-a (Plural)."
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Präsens aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amem",
+         "moneam",
+         "mittam",
+         "capiam",
+         "audiam"
+        ],
+        [
+         "2.P. Sg.",
+         "ames",
+         "moneas",
+         "mittas",
+         "capias",
+         "audias"
+        ],
+        [
+         "3.P. Sg.",
+         "amet",
+         "moneat",
+         "mittat",
+         "capiat",
+         "audiat"
+        ],
+        [
+         "1.P. Pl.",
+         "amemus",
+         "moneamus",
+         "mittamus",
+         "capiamus",
+         "audiamus"
+        ],
+        [
+         "2.P. Pl.",
+         "ametis",
+         "moneatis",
+         "mittatis",
+         "capiatis",
+         "audiatis"
+        ],
+        [
+         "3.P. Pl.",
+         "ament",
+         "moneant",
+         "mittant",
+         "capiant",
+         "audiant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Imperfekt aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amarem",
+         "monerem",
+         "mitterem",
+         "caperem",
+         "audirem"
+        ],
+        [
+         "2.P. Sg.",
+         "amares",
+         "moneres",
+         "mitteres",
+         "caperes",
+         "audires"
+        ],
+        [
+         "3.P. Sg.",
+         "amaret",
+         "moneret",
+         "mitteret",
+         "caperet",
+         "audiret"
+        ],
+        [
+         "1.P. Pl.",
+         "amaremus",
+         "moneremus",
+         "mitteremus",
+         "caperemus",
+         "audiremus"
+        ],
+        [
+         "2.P. Pl.",
+         "amaretis",
+         "moneretis",
+         "mitteretis",
+         "caperetis",
+         "audiretis"
+        ],
+        [
+         "3.P. Pl.",
+         "amarent",
+         "monerent",
+         "mitterent",
+         "caperent",
+         "audirent"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Perfekt aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amaverim",
+         "monuerim",
+         "miserim",
+         "ceperim",
+         "audiverim"
+        ],
+        [
+         "2.P. Sg.",
+         "amaveris",
+         "monueris",
+         "miseris",
+         "ceperis",
+         "audiveris"
+        ],
+        [
+         "3.P. Sg.",
+         "amaverit",
+         "monuerit",
+         "miserit",
+         "ceperit",
+         "audiverit"
+        ],
+        [
+         "1.P. Pl.",
+         "amaverimus",
+         "monuerimus",
+         "miserimus",
+         "ceperimus",
+         "audiverimus"
+        ],
+        [
+         "2.P. Pl.",
+         "amaveritis",
+         "monueritis",
+         "miseritis",
+         "ceperitis",
+         "audiveritis"
+        ],
+        [
+         "3.P. Pl.",
+         "amaverint",
+         "monuerint",
+         "miserint",
+         "ceperint",
+         "audiverint"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Plusquamperfekt aktiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amavissem",
+         "monuissem",
+         "misissem",
+         "cepissem",
+         "audivissem"
+        ],
+        [
+         "2.P. Sg.",
+         "amavisses",
+         "monuisses",
+         "misisses",
+         "cepisses",
+         "audivisses"
+        ],
+        [
+         "3.P. Sg.",
+         "amavisset",
+         "monuisset",
+         "misisset",
+         "cepisset",
+         "audivisset"
+        ],
+        [
+         "1.P. Pl.",
+         "amavissemus",
+         "monuissemus",
+         "misissemus",
+         "cepissemus",
+         "audivissemus"
+        ],
+        [
+         "2.P. Pl.",
+         "amavissetis",
+         "monuissetis",
+         "misissetis",
+         "cepissetis",
+         "audivissetis"
+        ],
+        [
+         "3.P. Pl.",
+         "amavissent",
+         "monuissent",
+         "misissent",
+         "cepissent",
+         "audivissent"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Präsens passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amer",
+         "monear",
+         "mittar",
+         "capiar",
+         "audiar"
+        ],
+        [
+         "2.P. Sg.",
+         "ameris",
+         "monearis",
+         "mittaris",
+         "capiaris",
+         "audiaris"
+        ],
+        [
+         "3.P. Sg.",
+         "ametur",
+         "moneatur",
+         "mittatur",
+         "capiatur",
+         "audiatur"
+        ],
+        [
+         "1.P. Pl.",
+         "amemur",
+         "moneamur",
+         "mittamur",
+         "capiamur",
+         "audiamur"
+        ],
+        [
+         "2.P. Pl.",
+         "amemini",
+         "moneamini",
+         "mittamini",
+         "capiamini",
+         "audiamini"
+        ],
+        [
+         "3.P. Pl.",
+         "amentur",
+         "moneantur",
+         "mittantur",
+         "capiantur",
+         "audiantur"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Imperfekt passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amarer",
+         "monerer",
+         "mitterer",
+         "caperer",
+         "audirer"
+        ],
+        [
+         "2.P. Sg.",
+         "amareris",
+         "monereris",
+         "mittereris",
+         "capereris",
+         "audireris"
+        ],
+        [
+         "3.P. Sg.",
+         "amaretur",
+         "moneretur",
+         "mitteretur",
+         "caperetur",
+         "audiretur"
+        ],
+        [
+         "1.P. Pl.",
+         "amaremur",
+         "moneremur",
+         "mitteremur",
+         "caperemur",
+         "audiremur"
+        ],
+        [
+         "2.P. Pl.",
+         "amaremini",
+         "moneremini",
+         "mitteremini",
+         "caperemini",
+         "audiremini"
+        ],
+        [
+         "3.P. Pl.",
+         "amarentur",
+         "monerentur",
+         "mitterentur",
+         "caperentur",
+         "audirentur"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Perfekt passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amatus sim",
+         "monitus sim",
+         "missus sim",
+         "captus sim",
+         "auditus sim"
+        ],
+        [
+         "2.P. Sg.",
+         "amatus sis",
+         "monitus sis",
+         "missus sis",
+         "captus sis",
+         "auditus sis"
+        ],
+        [
+         "3.P. Sg.",
+         "amatus sit",
+         "monitus sit",
+         "missus sit",
+         "captus sit",
+         "auditus sit"
+        ],
+        [
+         "1.P. Pl.",
+         "amati simus",
+         "moniti simus",
+         "missi simus",
+         "capti simus",
+         "auditi simus"
+        ],
+        [
+         "2.P. Pl.",
+         "amati sitis",
+         "moniti sitis",
+         "missi sitis",
+         "capti sitis",
+         "auditi sitis"
+        ],
+        [
+         "3.P. Pl.",
+         "amati sint",
+         "moniti sint",
+         "missi sint",
+         "capti sint",
+         "auditi sint"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Konjunktiv Plusquamperfekt passiv",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "a-Konj.",
+        "e-Konj.",
+        "kons. Konj.",
+        "Mischkonj.",
+        "i-Konj."
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "amatus essem",
+         "monitus essem",
+         "missus essem",
+         "captus essem",
+         "auditus essem"
+        ],
+        [
+         "2.P. Sg.",
+         "amatus esses",
+         "monitus esses",
+         "missus esses",
+         "captus esses",
+         "auditus esses"
+        ],
+        [
+         "3.P. Sg.",
+         "amatus esset",
+         "monitus esset",
+         "missus esset",
+         "captus esset",
+         "auditus esset"
+        ],
+        [
+         "1.P. Pl.",
+         "amati essemus",
+         "moniti essemus",
+         "missi essemus",
+         "capti essemus",
+         "auditi essemus"
+        ],
+        [
+         "2.P. Pl.",
+         "amati essetis",
+         "moniti essetis",
+         "missi essetis",
+         "capti essetis",
+         "auditi essetis"
+        ],
+        [
+         "3.P. Pl.",
+         "amati essent",
+         "moniti essent",
+         "missi essent",
+         "capti essent",
+         "auditi essent"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Präsens",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "sum",
+         "possum",
+         "eo",
+         "fero",
+         "volo"
+        ],
+        [
+         "2.P. Sg.",
+         "es",
+         "potes",
+         "is",
+         "fers",
+         "vis"
+        ],
+        [
+         "3.P. Sg.",
+         "est",
+         "potest",
+         "it",
+         "fert",
+         "vult"
+        ],
+        [
+         "1.P. Pl.",
+         "sumus",
+         "possumus",
+         "imus",
+         "ferimus",
+         "volumus"
+        ],
+        [
+         "2.P. Pl.",
+         "estis",
+         "potestis",
+         "itis",
+         "fertis",
+         "vultis"
+        ],
+        [
+         "3.P. Pl.",
+         "sunt",
+         "possunt",
+         "eunt",
+         "ferunt",
+         "volunt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Imperfekt",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "eram",
+         "poteram",
+         "ibam",
+         "ferebam",
+         "volebam"
+        ],
+        [
+         "2.P. Sg.",
+         "eras",
+         "poteras",
+         "ibas",
+         "ferebas",
+         "volebas"
+        ],
+        [
+         "3.P. Sg.",
+         "erat",
+         "poterat",
+         "ibat",
+         "ferebat",
+         "volebat"
+        ],
+        [
+         "1.P. Pl.",
+         "eramus",
+         "poteramus",
+         "ibamus",
+         "ferebamus",
+         "volebamus"
+        ],
+        [
+         "2.P. Pl.",
+         "eratis",
+         "poteratis",
+         "ibatis",
+         "ferebatis",
+         "volebatis"
+        ],
+        [
+         "3.P. Pl.",
+         "erant",
+         "poterant",
+         "ibant",
+         "ferebant",
+         "volebant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Futur",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "ero",
+         "potero",
+         "ibo",
+         "feram",
+         "volam"
+        ],
+        [
+         "2.P. Sg.",
+         "eris",
+         "poteris",
+         "ibis",
+         "feres",
+         "voles"
+        ],
+        [
+         "3.P. Sg.",
+         "erit",
+         "poterit",
+         "ibit",
+         "feret",
+         "volet"
+        ],
+        [
+         "1.P. Pl.",
+         "erimus",
+         "poterimus",
+         "ibimus",
+         "feremus",
+         "volemus"
+        ],
+        [
+         "2.P. Pl.",
+         "eritis",
+         "poteritis",
+         "ibitis",
+         "feretis",
+         "voletis"
+        ],
+        [
+         "3.P. Pl.",
+         "erunt",
+         "poterunt",
+         "ibunt",
+         "ferent",
+         "volent"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Perfekt",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "fui",
+         "potui",
+         "ii",
+         "tuli",
+         "volui"
+        ],
+        [
+         "2.P. Sg.",
+         "fuisti",
+         "potuisti",
+         "isti",
+         "tulisti",
+         "voluisti"
+        ],
+        [
+         "3.P. Sg.",
+         "fuit",
+         "potuit",
+         "iit",
+         "tulit",
+         "voluit"
+        ],
+        [
+         "1.P. Pl.",
+         "fuimus",
+         "potuimus",
+         "iimus",
+         "tulimus",
+         "voluimus"
+        ],
+        [
+         "2.P. Pl.",
+         "fuistis",
+         "potuistis",
+         "istis",
+         "tulistis",
+         "voluistis"
+        ],
+        [
+         "3.P. Pl.",
+         "fuerunt",
+         "potuerunt",
+         "ierunt",
+         "tulerunt",
+         "voluerunt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Plusquamperfekt",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "fueram",
+         "potueram",
+         "ieram",
+         "tuleram",
+         "volueram"
+        ],
+        [
+         "2.P. Sg.",
+         "fueras",
+         "potueras",
+         "ieras",
+         "tuleras",
+         "volueras"
+        ],
+        [
+         "3.P. Sg.",
+         "fuerat",
+         "potuerat",
+         "ierat",
+         "tulerat",
+         "voluerat"
+        ],
+        [
+         "1.P. Pl.",
+         "fueramus",
+         "potueramus",
+         "ieramus",
+         "tuleramus",
+         "volueramus"
+        ],
+        [
+         "2.P. Pl.",
+         "fueratis",
+         "potueratis",
+         "ieratis",
+         "tuleratis",
+         "volueratis"
+        ],
+        [
+         "3.P. Pl.",
+         "fuerant",
+         "potuerant",
+         "ierant",
+         "tulerant",
+         "voluerant"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Konjunktiv Präsens",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "sim",
+         "possim",
+         "eam",
+         "feram",
+         "velim"
+        ],
+        [
+         "2.P. Sg.",
+         "sis",
+         "possis",
+         "eas",
+         "feras",
+         "velis"
+        ],
+        [
+         "3.P. Sg.",
+         "sit",
+         "possit",
+         "eat",
+         "ferat",
+         "velit"
+        ],
+        [
+         "1.P. Pl.",
+         "simus",
+         "possimus",
+         "eamus",
+         "feramus",
+         "velimus"
+        ],
+        [
+         "2.P. Pl.",
+         "sitis",
+         "possitis",
+         "eatis",
+         "feratis",
+         "velitis"
+        ],
+        [
+         "3.P. Pl.",
+         "sint",
+         "possint",
+         "eant",
+         "ferant",
+         "velint"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Konjunktiv Imperfekt",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "essem",
+         "possem",
+         "irem",
+         "ferrem",
+         "vellem"
+        ],
+        [
+         "2.P. Sg.",
+         "esses",
+         "posses",
+         "ires",
+         "ferres",
+         "velles"
+        ],
+        [
+         "3.P. Sg.",
+         "esset",
+         "posset",
+         "iret",
+         "ferret",
+         "vellet"
+        ],
+        [
+         "1.P. Pl.",
+         "essemus",
+         "possemus",
+         "iremus",
+         "ferremus",
+         "vellemus"
+        ],
+        [
+         "2.P. Pl.",
+         "essetis",
+         "possetis",
+         "iretis",
+         "ferretis",
+         "velletis"
+        ],
+        [
+         "3.P. Pl.",
+         "essent",
+         "possent",
+         "irent",
+         "ferrent",
+         "vellent"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Konjunktiv Perfekt",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "fuerim",
+         "potuerim",
+         "ierim",
+         "tulerim",
+         "voluerim"
+        ],
+        [
+         "2.P. Sg.",
+         "fueris",
+         "potueris",
+         "ieris",
+         "tuleris",
+         "volueris"
+        ],
+        [
+         "3.P. Sg.",
+         "fuerit",
+         "potuerit",
+         "ierit",
+         "tulerit",
+         "voluerit"
+        ],
+        [
+         "1.P. Pl.",
+         "fuerimus",
+         "potuerimus",
+         "ierimus",
+         "tulerimus",
+         "voluerimus"
+        ],
+        [
+         "2.P. Pl.",
+         "fueritis",
+         "potueritis",
+         "ieritis",
+         "tuleritis",
+         "volueritis"
+        ],
+        [
+         "3.P. Pl.",
+         "fuerint",
+         "potuerint",
+         "ierint",
+         "tulerint",
+         "voluerint"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Konjunktiv Plusquamperfekt",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "1.P. Sg.",
+         "fuissem",
+         "potuissem",
+         "iissem",
+         "tulissem",
+         "voluissem"
+        ],
+        [
+         "2.P. Sg.",
+         "fuisses",
+         "potuisses",
+         "iisses",
+         "tulisses",
+         "voluisses"
+        ],
+        [
+         "3.P. Sg.",
+         "fuisset",
+         "potuisset",
+         "iisset",
+         "tulisset",
+         "voluisset"
+        ],
+        [
+         "1.P. Pl.",
+         "fuissemus",
+         "potuissemus",
+         "iissemus",
+         "tulissemus",
+         "voluissemus"
+        ],
+        [
+         "2.P. Pl.",
+         "fuissetis",
+         "potuissetis",
+         "iissetis",
+         "tulissetis",
+         "voluissetis"
+        ],
+        [
+         "3.P. Pl.",
+         "fuissent",
+         "potuissent",
+         "iissent",
+         "tulissent",
+         "voluissent"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba: Infinitive und Imperative",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "",
+        "esse",
+        "posse",
+        "ire",
+        "ferre",
+        "velle"
+       ],
+       "rows": [
+        [
+         "Inf. Präs. aktiv",
+         "esse",
+         "posse",
+         "ire",
+         "ferre",
+         "velle"
+        ],
+        [
+         "Inf. Präs. passiv",
+         "–",
+         "–",
+         "(adiri)*",
+         "ferri",
+         "–"
+        ],
+        [
+         "Inf. Perf. aktiv",
+         "fuisse",
+         "potuisse",
+         "isse",
+         "tulisse",
+         "voluisse"
+        ],
+        [
+         "Inf. Perf. passiv",
+         "–",
+         "–",
+         "itum esse",
+         "latum esse",
+         "–"
+        ],
+        [
+         "Inf. Futur aktiv",
+         "futurum esse",
+         "–",
+         "(ad)iturum esse*",
+         "laturum esse",
+         "–"
+        ],
+        [
+         "Imperativ Sg.",
+         "es!",
+         "–",
+         "i!",
+         "fer!",
+         "(noli!)"
+        ],
+        [
+         "Imperativ Pl.",
+         "este!",
+         "–",
+         "ite!",
+         "ferte!",
+         "(nolite!)"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "text": "* Diese Form kommt nur in Komposita vor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stamm",
+   "icon": "🔤",
+   "title": "Stammformen der Verba",
+   "sub": "Unregelmäßige Perfektbildung, Lec. 1–30 (S. 200 ff.)",
+   "grammar": [
+    {
+     "title": "Stammformen der Verba inkl. PPP, Lec. 1–30",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Die Liste umfasst alle Verba im Buch mit unregelmäßiger Perfektbildung, geordnet nach der Art der Perfektbildung und innerhalb davon nach Konjugation: a-Konjugation (1), e-Konjugation (2), konsonantische Konjugation (3), Mischkonjugation (M), i-Konjugation (4). Die Verba bis Lektion 19 solltest du ab Lektion 19 beherrschen."
+      },
+      {
+       "type": "note",
+       "text": "Nicht angeführt sind die Verba der a-/e-/i-Konjugation mit regelmäßiger Perfektbildung (z. B. laudare, laudavi, laudatum)."
+      }
+     ]
+    },
+    {
+     "title": "Perfekt auf -v-",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "delere 2",
+         "delevi",
+         "deletum",
+         "zerstören",
+         "9"
+        ],
+        [
+         "flere 2",
+         "flevi",
+         "fletum",
+         "weinen",
+         "15"
+        ],
+        [
+         "cognoscere 3",
+         "cognovi",
+         "cognitum",
+         "erfahren, erkennen",
+         "16"
+        ],
+        [
+         "petere 3",
+         "petivi",
+         "petitum",
+         "anstreben; bitten",
+         "13"
+        ],
+        [
+         "quaerere 3",
+         "quaesivi",
+         "quaesitum",
+         "suchen; fragen",
+         "12"
+        ],
+        [
+         "decernere 3",
+         "decrevi",
+         "decretum",
+         "beschließen",
+         "21"
+        ],
+        [
+         "cupere M",
+         "cupivi",
+         "cupitum",
+         "wünschen",
+         "13"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Perfekt mit -u-",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "docere 2",
+         "docui",
+         "doctum",
+         "lehren, unterrichten",
+         "2"
+        ],
+        [
+         "tenere 2",
+         "tenui",
+         "–",
+         "halten",
+         "22"
+        ],
+        [
+         "continere 2",
+         "continui",
+         "contentum",
+         "zusammenhalten, enthalten",
+         "16"
+        ],
+        [
+         "abstinere 2",
+         "abstinui",
+         "–",
+         "sich fernhalten",
+         "22"
+        ],
+        [
+         "obtinere 2",
+         "obtinui",
+         "obtentum",
+         "innehaben, besitzen",
+         "22"
+        ],
+        [
+         "statuere 3",
+         "statui",
+         "statutum",
+         "beschließen, aufstellen",
+         "19"
+        ],
+        [
+         "constituere 3",
+         "constitui",
+         "constitutum",
+         "beschließen, festsetzen",
+         "9"
+        ],
+        [
+         "ponere 3",
+         "posui",
+         "positum",
+         "legen, stellen",
+         "20"
+        ],
+        [
+         "deponere 3",
+         "deposui",
+         "depositum",
+         "ablegen",
+         "22"
+        ],
+        [
+         "metuere 3",
+         "metui",
+         "–",
+         "fürchten",
+         "29"
+        ],
+        [
+         "consulere 3",
+         "consului",
+         "consultum",
+         "befragen",
+         "29"
+        ],
+        [
+         "rapere M",
+         "rapui",
+         "raptum",
+         "rauben",
+         "7"
+        ],
+        [
+         "aperire 4",
+         "aperui",
+         "apertum",
+         "öffnen",
+         "23"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Perfekt mit -x-",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "augere 2",
+         "auxi",
+         "auctum",
+         "vergrößern, steigern",
+         "20"
+        ],
+        [
+         "dicere 3",
+         "dixi",
+         "dictum",
+         "sagen; nennen",
+         "7"
+        ],
+        [
+         "ducere 3",
+         "duxi",
+         "ductum",
+         "führen",
+         "10"
+        ],
+        [
+         "adducere 3",
+         "adduxi",
+         "adductum",
+         "hinführen, veranlassen",
+         "29"
+        ],
+        [
+         "traducere 3",
+         "traduxi",
+         "traductum",
+         "hinüberführen",
+         "28"
+        ],
+        [
+         "legere 3",
+         "legi (!)",
+         "lectum",
+         "lesen",
+         "7"
+        ],
+        [
+         "intellegere 3",
+         "intellexi",
+         "intellectum",
+         "erkennen, einsehen",
+         "14"
+        ],
+        [
+         "neglegere 3",
+         "neglexi",
+         "neglectum",
+         "missachten, ignorieren",
+         "13"
+        ],
+        [
+         "iungere 3",
+         "iunxi",
+         "iunctum",
+         "verbinden",
+         "21"
+        ],
+        [
+         "coniungere 3",
+         "coniunxi",
+         "coniunctum",
+         "verbinden",
+         "13"
+        ],
+        [
+         "trahere 3",
+         "traxi",
+         "tractum",
+         "ziehen",
+         "22"
+        ],
+        [
+         "tegere 3",
+         "texi",
+         "tectum",
+         "bedecken",
+         "30"
+        ],
+        [
+         "vivere 3",
+         "vixi",
+         "–",
+         "leben",
+         "19"
+        ],
+        [
+         "conspicere M",
+         "conspexi",
+         "conspectum",
+         "erblicken",
+         "11"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Perfekt mit -s-",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "ardere 2",
+         "arsi",
+         "–",
+         "brennen",
+         "24"
+        ],
+        [
+         "iubere 2",
+         "iussi",
+         "iussum",
+         "befehlen; lassen",
+         "17"
+        ],
+        [
+         "manere 2",
+         "mansi",
+         "mansum",
+         "bleiben",
+         "5"
+        ],
+        [
+         "persuadere 2",
+         "persuasi",
+         "persuasum",
+         "überreden; überzeugen",
+         "19"
+        ],
+        [
+         "ridere 2",
+         "risi",
+         "risum",
+         "lachen",
+         "1"
+        ],
+        [
+         "cedere 3",
+         "cessi",
+         "cessum",
+         "weichen, weggehen",
+         "20"
+        ],
+        [
+         "claudere 3",
+         "clausi",
+         "clausum",
+         "einschließen, schließen",
+         "20"
+        ],
+        [
+         "includere 3",
+         "inclusi",
+         "inclusum",
+         "einschließen",
+         "23"
+        ],
+        [
+         "dividere 3",
+         "divisi",
+         "divisum",
+         "teilen, trennen",
+         "28"
+        ],
+        [
+         "gerere 3",
+         "gessi",
+         "gestum",
+         "(aus)führen",
+         "7"
+        ],
+        [
+         "laedere 3",
+         "laesi",
+         "laesum",
+         "verletzen",
+         "25"
+        ],
+        [
+         "ludere 3",
+         "lusi",
+         "lusum",
+         "spielen",
+         "11"
+        ],
+        [
+         "mittere 3",
+         "misi",
+         "missum",
+         "schicken",
+         "7"
+        ],
+        [
+         "amittere 3",
+         "amisi",
+         "amissum",
+         "verlieren",
+         "10"
+        ],
+        [
+         "committere 3",
+         "commisi",
+         "commissum",
+         "begehen",
+         "8"
+        ],
+        [
+         "promittere 3",
+         "promisi",
+         "promissum",
+         "versprechen",
+         "24"
+        ],
+        [
+         "premere 3",
+         "pressi",
+         "pressum",
+         "drücken; bedrängen",
+         "29"
+        ],
+        [
+         "scribere 3",
+         "scripsi",
+         "scriptum",
+         "schreiben",
+         "29"
+        ],
+        [
+         "sumere 3",
+         "sumpsi",
+         "sumptum",
+         "nehmen",
+         "25"
+        ],
+        [
+         "consumere 3",
+         "consumpsi",
+         "consumptum",
+         "vernichten; verbrauchen",
+         "23"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Perfekt mit -e-",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "agere 3",
+         "egi",
+         "actum",
+         "tun",
+         "16"
+        ],
+        [
+         "cogere 3",
+         "coegi",
+         "coactum",
+         "(ver)sammeln; zwingen",
+         "17"
+        ],
+        [
+         "considere 3",
+         "consedi",
+         "–",
+         "sich niedersetzen",
+         "15"
+        ],
+        [
+         "capere M",
+         "cepi",
+         "captum",
+         "fassen, ergreifen, fangen",
+         "7"
+        ],
+        [
+         "accipere M",
+         "accepi",
+         "acceptum",
+         "erhalten, aufnehmen",
+         "9"
+        ],
+        [
+         "incipere M",
+         "coepi (!)",
+         "coeptum (!)",
+         "beginnen",
+         "18"
+        ],
+        [
+         "recipere M",
+         "recepi",
+         "receptum",
+         "aufnehmen",
+         "16"
+        ],
+        [
+         "facere M",
+         "feci",
+         "factum",
+         "machen",
+         "8"
+        ],
+        [
+         "afficere M",
+         "affeci",
+         "affectum",
+         "versehen (mit), erfüllen",
+         "17"
+        ],
+        [
+         "conficere M",
+         "confeci",
+         "confectum",
+         "ausführen, beenden",
+         "11"
+        ],
+        [
+         "interficere M",
+         "interfeci",
+         "interfectum",
+         "töten",
+         "12"
+        ],
+        [
+         "iacere M",
+         "ieci",
+         "iactum",
+         "werfen, schleudern",
+         "21"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Perfekt wie Präsens",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "iuvare 1",
+         "iuvi",
+         "iutum",
+         "unterstützen, helfen",
+         "12"
+        ],
+        [
+         "adiuvare 1",
+         "adiuvi",
+         "adiutum",
+         "unterstützen, helfen",
+         "7"
+        ],
+        [
+         "favere 2",
+         "favi",
+         "fautum",
+         "begünstigen, bevorzugen",
+         "23"
+        ],
+        [
+         "movere 2",
+         "movi",
+         "motum",
+         "bewegen",
+         "15"
+        ],
+        [
+         "commovere 2",
+         "commovi",
+         "commotum",
+         "bewegen, veranlassen",
+         "27"
+        ],
+        [
+         "respondere 2",
+         "respondi",
+         "responsum",
+         "antworten",
+         "1"
+        ],
+        [
+         "sedere 2",
+         "sedi",
+         "sessum",
+         "sitzen",
+         "1"
+        ],
+        [
+         "possidere 2",
+         "possedi",
+         "possessum",
+         "besitzen",
+         "30"
+        ],
+        [
+         "videre 2",
+         "vidi",
+         "visum",
+         "sehen",
+         "3"
+        ],
+        [
+         "ascendere 3",
+         "ascendi",
+         "ascensum",
+         "hinaufsteigen, besteigen",
+         "9"
+        ],
+        [
+         "bibere 3",
+         "bibi",
+         "–",
+         "trinken",
+         "14"
+        ],
+        [
+         "comprehendere 3",
+         "comprehendi",
+         "comprehensum",
+         "ergreifen; erfassen",
+         "17"
+        ],
+        [
+         "contendere 3",
+         "contendi",
+         "contentum",
+         "eilen; kämpfen",
+         "7"
+        ],
+        [
+         "defendere 3",
+         "defendi",
+         "defensum",
+         "verteidigen",
+         "19"
+        ],
+        [
+         "incendere 3",
+         "incendi",
+         "incensum",
+         "anzünden",
+         "22"
+        ],
+        [
+         "legere 3",
+         "legi",
+         "lectum",
+         "lesen",
+         "7"
+        ],
+        [
+         "deligere 3",
+         "delegi",
+         "delectum",
+         "auswählen",
+         "21"
+        ],
+        [
+         "metuere 3",
+         "metui",
+         "–",
+         "fürchten",
+         "29"
+        ],
+        [
+         "solvere 3",
+         "solvi",
+         "solutum",
+         "lösen, auflösen",
+         "13"
+        ],
+        [
+         "vertere 3",
+         "verti",
+         "versum",
+         "wenden",
+         "15"
+        ],
+        [
+         "animadvertere 3",
+         "animadverti",
+         "animadversum",
+         "bemerken",
+         "20"
+        ],
+        [
+         "fugere M",
+         "fugi",
+         "–",
+         "flüchten",
+         "9"
+        ],
+        [
+         "venire 4",
+         "veni",
+         "ventum",
+         "kommen",
+         "7"
+        ],
+        [
+         "advenire 4",
+         "adveni",
+         "adventum",
+         "hinkommen, ankommen",
+         "18"
+        ],
+        [
+         "circumvenire 4",
+         "circumveni",
+         "circumventum",
+         "umzingeln",
+         "18"
+        ],
+        [
+         "invenire 4",
+         "inveni",
+         "inventum",
+         "finden; erfinden",
+         "12"
+        ],
+        [
+         "convenire 4",
+         "conveni",
+         "conventum",
+         "zusammenkommen",
+         "20"
+        ],
+        [
+         "pervenire 4",
+         "perveni",
+         "perventum",
+         "kommen, gelangen",
+         "25"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "dare 1",
+         "dedi",
+         "datum",
+         "geben",
+         "12"
+        ],
+        [
+         "reddere 3",
+         "reddidi",
+         "redditum",
+         "zurückgeben",
+         "14"
+        ],
+        [
+         "tradere 3",
+         "tradidi",
+         "traditum",
+         "ausliefern; überliefern",
+         "18"
+        ],
+        [
+         "condere 3",
+         "condidi",
+         "conditum",
+         "gründen",
+         "26"
+        ],
+        [
+         "credere 3",
+         "credidi",
+         "creditum",
+         "glauben",
+         "24"
+        ],
+        [
+         "stare 1",
+         "steti",
+         "statum",
+         "stehen",
+         "14"
+        ],
+        [
+         "constat 1",
+         "constitit",
+         "–",
+         "es steht fest",
+         "25"
+        ],
+        [
+         "canere 3",
+         "cecini",
+         "–",
+         "singen",
+         "15"
+        ],
+        [
+         "cadere 3",
+         "cecidi",
+         "–",
+         "fallen",
+         "13"
+        ],
+        [
+         "accidere 3",
+         "accidi",
+         "–",
+         "geschehen",
+         "28"
+        ],
+        [
+         "caedere 3",
+         "cecidi",
+         "caesum",
+         "(fällen =) töten",
+         "22"
+        ],
+        [
+         "occidere 3",
+         "occidi",
+         "occisum",
+         "töten",
+         "10"
+        ],
+        [
+         "discere 3",
+         "didici",
+         "–",
+         "lernen",
+         "16"
+        ],
+        [
+         "pellere 3",
+         "pepuli",
+         "pulsum",
+         "schlagen, stoßen",
+         "29"
+        ],
+        [
+         "expellere 3",
+         "expuli",
+         "expulsum",
+         "vertreiben, verjagen",
+         "8"
+        ],
+        [
+         "resistere 3",
+         "restiti",
+         "–",
+         "Widerstand leisten",
+         "8"
+        ],
+        [
+         "exsistere 3",
+         "exstiti",
+         "–",
+         "entstehen",
+         "26"
+        ],
+        [
+         "tangere 3",
+         "tetigi",
+         "tactum",
+         "berühren",
+         "11"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Sonstige Verba",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "desinere 3",
+         "desii",
+         "–",
+         "aufhören, ablassen",
+         "15"
+        ],
+        [
+         "relinquere 3",
+         "reliqui",
+         "relictum",
+         "verlassen, zurücklassen",
+         "7"
+        ],
+        [
+         "vincere 3",
+         "vici",
+         "victum",
+         "siegen, besiegen",
+         "10"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Unregelmäßige Verba",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "esse",
+         "fui",
+         "–",
+         "sein",
+         "6"
+        ],
+        [
+         "adesse",
+         "adfui",
+         "–",
+         "da sein, anwesend sein",
+         "19"
+        ],
+        [
+         "deesse",
+         "defui",
+         "–",
+         "fehlen",
+         "28"
+        ],
+        [
+         "interesse",
+         "interfui",
+         "–",
+         "beiwohnen, teilnehmen",
+         "22"
+        ],
+        [
+         "posse",
+         "potui",
+         "–",
+         "können",
+         "6"
+        ],
+        [
+         "prodesse",
+         "profui",
+         "–",
+         "nützen",
+         "25"
+        ],
+        [
+         "ire",
+         "ii",
+         "itum",
+         "gehen",
+         "17"
+        ],
+        [
+         "adire",
+         "adii",
+         "aditum",
+         "hingehen; angreifen",
+         "17"
+        ],
+        [
+         "exire",
+         "exii",
+         "exitum",
+         "hinausgehen",
+         "17"
+        ],
+        [
+         "inire",
+         "inii",
+         "initum",
+         "hineingehen, betreten",
+         "25"
+        ],
+        [
+         "interire",
+         "interii",
+         "interitum",
+         "untergehen, sterben",
+         "24"
+        ],
+        [
+         "redire",
+         "redii",
+         "reditum",
+         "zurückkehren",
+         "23"
+        ],
+        [
+         "transire",
+         "transii",
+         "transitum",
+         "überqueren, hinübergehen",
+         "28"
+        ],
+        [
+         "ferre",
+         "tuli",
+         "latum",
+         "tragen, bringen",
+         "17"
+        ],
+        [
+         "auferre",
+         "abstuli",
+         "ablatum",
+         "wegtragen, wegnehmen",
+         "20"
+        ],
+        [
+         "referre",
+         "rettuli",
+         "relatum",
+         "zurückbringen; berichten",
+         "27"
+        ],
+        [
+         "tollere (!)",
+         "sustuli",
+         "sublatum",
+         "aufheben, erheben",
+         "24"
+        ],
+        [
+         "velle",
+         "volui",
+         "–",
+         "wollen",
+         "24"
+        ],
+        [
+         "nolle",
+         "nolui",
+         "–",
+         "nicht wollen",
+         "24"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Semideponentia",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "audere 2",
+         "ausus sum",
+         "–",
+         "wagen",
+         "10"
+        ],
+        [
+         "gaudere 2",
+         "gavisus sum",
+         "–",
+         "sich freuen",
+         "1"
+        ],
+        [
+         "solere 2",
+         "solitus sum",
+         "–",
+         "gewohnt sein, pflegen",
+         "11"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Deponentia",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Infinitiv",
+        "Perfekt",
+        "PPP",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "hortari 1",
+         "hortatus sum",
+         "–",
+         "auffordern, ermuntern",
+         "30"
+        ],
+        [
+         "vereri 2",
+         "veritus sum",
+         "–",
+         "fürchten; sich scheuen",
+         "30"
+        ],
+        [
+         "loqui 3",
+         "locutus sum",
+         "–",
+         "sprechen",
+         "30"
+        ],
+        [
+         "sequi 3",
+         "secutus sum",
+         "–",
+         "folgen",
+         "30"
+        ],
+        [
+         "queri M",
+         "questus sum",
+         "–",
+         "klagen",
+         "30"
+        ],
+        [
+         "pati M",
+         "passus sum",
+         "–",
+         "ertragen, erdulden",
+         "30"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "praefix",
+   "icon": "🧱",
+   "title": "Vorsilben (Präfixe)",
+   "sub": "ab-, ad-, con-, ex- … und was sie bedeuten (S. 197)",
+   "grammar": [
+    {
+     "title": "Die Bedeutung lateinischer Vorsilben (Präfixe)",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Viele lateinische Präpositionen werden auch für zusammengesetzte Wörter (besonders Verba) verwendet. Wenn du die Bedeutung dieser Vorsilben weißt, ergeben sich die Bedeutungen solcher Komposita oft von selbst: ire = „gehen“ → ab-ire = „weg-gehen“, ex-ire = „hinaus-gehen“, ad-ire = „hin-gehen“."
+      },
+      {
+       "type": "note",
+       "text": "Manche Vorsilben passen sich an den nachfolgenden Buchstaben an (Assimilation), besonders oft ad-: afferre (aus ad-ferre), Perfekt attuli (aus ad-tuli), PPP allatum (aus ad-latum)."
+      },
+      {
+       "type": "note",
+       "text": "Gelegentlich ändert sich bei Komposita auch der Vokal (Vokalschwächung): facere → conficere, tenere → continere, capere → accipere."
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Präfix",
+        "Bedeutung",
+        "Beispiele"
+       ],
+       "rows": [
+        [
+         "a- (ab-, abs-)",
+         "„weg-“",
+         "abstinere; abire, abesse, abscedere"
+        ],
+        [
+         "ad- (ac-, af-, ap-)",
+         "„hin-“, „heran-“",
+         "adducere, adire, advenire, accipere, appropinquare; aspicere, attrahere"
+        ],
+        [
+         "ante-",
+         "„voran-“",
+         "anteire, anteponere"
+        ],
+        [
+         "circum-",
+         "„herum-“",
+         "circumvenire; circumferre, circumfluere"
+        ],
+        [
+         "con- (com-, co-)",
+         "„zusammen-“",
+         "convenire, continere, convocare, concilium; conferre"
+        ],
+        [
+         "con- (com-, co-)",
+         "(Verstärkung)",
+         "coniungere, commovere, conficere"
+        ],
+        [
+         "contra-",
+         "„gegen-“",
+         "contradicere"
+        ],
+        [
+         "de-",
+         "„weg-“, „herab-“, „ab-“",
+         "deponere, desinere, deesse; desilire"
+        ],
+        [
+         "dis- (di-)",
+         "„auseinander-“, „weg-“",
+         "dividere, discordia; disputare, discedere, dimittere"
+        ],
+        [
+         "ex- (e-)",
+         "„hinaus-“",
+         "exire, expellere, expugnare; eripere, explorare, excedere"
+        ],
+        [
+         "in- (im-)",
+         "„hinein-“ (bei Verben)",
+         "inire, includere; inducere, immittere"
+        ],
+        [
+         "in- (im-)",
+         "„un-“ (bei Adjektiven/Nomen)",
+         "iniuria, improbus; inimicus, immortalis, ingratus, incredibilis, incertus"
+        ],
+        [
+         "inter-",
+         "„(da)zwischen-“",
+         "interesse, interea; interregnum, intervenire"
+        ],
+        [
+         "intro-",
+         "„hinein-“",
+         "introducere, introire"
+        ],
+        [
+         "ne-",
+         "(Gegenteil)",
+         "neglegere; nescire, nefas, negotium"
+        ],
+        [
+         "ob-",
+         "„entgegen-“",
+         "obviam, oppugnare; obire, offerre, opponere, occurrere"
+        ],
+        [
+         "per-",
+         "„durch-“",
+         "pervenire; perferre, percurrere"
+        ],
+        [
+         "per-",
+         "(Verstärkung): „sehr“",
+         "permagnus, permulti, perfacilis, perantiquus"
+        ],
+        [
+         "post-",
+         "„(da)hinter-“",
+         "postea; postponere"
+        ],
+        [
+         "prae-",
+         "„vor(an)-“",
+         "praeparare, praecurrere, praemittere, praeesse"
+        ],
+        [
+         "pro-",
+         "„voran-“",
+         "procedere, progredi, prodesse"
+        ],
+        [
+         "re-",
+         "„zurück-“",
+         "reddere, redire, referre, relinquere, resistere; revenire, reverti"
+        ],
+        [
+         "sub-",
+         "„(da)runter-“",
+         "subesse, subire"
+        ],
+        [
+         "trans- (tra-)",
+         "„hinüber-“",
+         "tradere, traducere, transire; transportare, transferre"
+        ]
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Unter den Beispielen stehen zuerst die Wörter aus dem Buch; die übrigen kannst du dir leicht selbst erschließen."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "suffix",
+   "icon": "🧩",
+   "title": "Nachsilben (Suffixe)",
+   "sub": "-tor, -tas, -io, -bilis … (S. 198)",
+   "grammar": [
+    {
+     "title": "Die Bedeutung lateinischer Nachsilben (Suffixe)",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Ein Suffix ist eine Silbe, die hinten an einen Wortstamm angefügt ist und dem Wort eine bestimmte Bedeutung gibt."
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Suffix beim Nomen",
+        "Bedeutung",
+        "Beispiele"
+       ],
+       "rows": [
+        [
+         "-tor (-toris)",
+         "Täter (Nomen agentis)",
+         "genitor = „Erzeuger“, „Vater“ (vgl. Doktor)"
+        ],
+        [
+         "-trix (-tricis)",
+         "Täterin",
+         "genitrix = „Erzeugerin“, „Mutter“"
+        ],
+        [
+         "-tudo (-dinis)",
+         "Eigenschaft (vgl. „-heit“)",
+         "pulchritudo = „Schönheit“ (vgl. Amplitude)"
+        ],
+        [
+         "-tas (-tatis) / -tus (-tutis)",
+         "Eigenschaft (vgl. „-keit“)",
+         "crudelitas = „Grausamkeit“ (vgl. Qualität, Mobilität); virtus = „Tapferkeit“"
+        ],
+        [
+         "-ia / -itia",
+         "Eigenschaft, Zustand",
+         "concordia = „Eintracht“, amicitia = „Freundschaft“"
+        ],
+        [
+         "-io (-ionis)",
+         "Handlung (vgl. „-ung“)",
+         "quaestio = „Frage“ (vgl. Reaktion, Korruption)"
+        ],
+        [
+         "-mentum / -trum",
+         "Mittel, Werkzeug",
+         "instrumentum (vgl. Medikament, Fundament)"
+        ],
+        [
+         "-ulus, -olus, -ellus",
+         "Verkleinerung (Deminutiv; vgl. „-lein“, „-chen“)",
+         "navicula = „kleines Schiff“, „Schiffchen“; filiolus = „kleiner Sohn“, „Söhnlein“"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Suffix beim Adjektiv",
+        "Bedeutung",
+        "Beispiele"
+       ],
+       "rows": [
+        [
+         "-ilis / -bilis",
+         "Fähigkeit (vgl. „-bar“, „-haft“, „-lich“)",
+         "mirabilis = „wunderbar“ (vgl. variabel, stabil)"
+        ],
+        [
+         "-alis / -aris / -arius",
+         "Zugehörigkeit",
+         "militaris = „militärisch“"
+        ],
+        [
+         "-eus / -a / -um",
+         "Stoff",
+         "aureus = „golden“"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stil",
+   "icon": "🎭",
+   "title": "Stilmittel",
+   "sub": "Alliteration, Chiasmus, Klimax … (S. 198)",
+   "grammar": [
+    {
+     "title": "Die wichtigsten Stilmittel",
+     "blocks": [
+      {
+       "type": "table",
+       "headers": [
+        "Stilmittel",
+        "Erklärung",
+        "Beispiel"
+       ],
+       "rows": [
+        [
+         "Alliteration (Stabreim)",
+         "Aufeinanderfolgende Wörter beginnen mit demselben Laut.",
+         "Manner mag man eben."
+        ],
+        [
+         "Anapher",
+         "Wiederholung desselben Wortes am Anfang aufeinander folgender Satzteile/Sätze.",
+         "Einfach gut, einfach schnell, einfach lecker."
+        ],
+        [
+         "Antithese",
+         "Betonte Gegenüberstellung von Gegensätzen.",
+         "schwarz – weiß, hell – dunkel, gut – böse"
+        ],
+        [
+         "Asyndeton",
+         "Unverbundene Aneinanderreihung von Wörtern/Sätzen.",
+         "Veni, vidi, vici."
+        ],
+        [
+         "Polysyndeton",
+         "Aneinanderreihung von Wörtern/Sätzen immer mit „und“ (lat. et, -que).",
+         "Veni et vidi et vici."
+        ],
+        [
+         "Ellipse",
+         "Auslassung selbstverständlicher Wörter.",
+         "Dafür hat er die gelbe (ergänze: Karte) bekommen. Ende gut, alles gut."
+        ],
+        [
+         "Hyperbaton (Sperrung)",
+         "Zusammengehörige Wörter sind voneinander getrennt.",
+         "Magno me metu liberabis."
+        ],
+        [
+         "Chiasmus („Kreuzstellung“)",
+         "Spiegelbildliche Anordnung einander entsprechender Wörter oder Wortgruppen (Abfolge ABBA).",
+         "Die Kunst ist lang, kurz ist das Leben."
+        ],
+        [
+         "Parallelismus",
+         "Parallele Anordnung einander entsprechender Wörter oder Wortgruppen (Abfolge ABAB).",
+         "Die Kunst ist lang, das Leben ist kurz."
+        ],
+        [
+         "Klimax",
+         "Stufenweise Steigerung.",
+         "Gut, besser, Gösser."
+        ],
+        [
+         "Metapher",
+         "Bildlicher Ausdruck.",
+         "Die Zeit läuft mir davon."
+        ],
+        [
+         "Pleonasmus",
+         "Eine Sache wird doppelt ausgedrückt.",
+         "der weiße Schimmel, eine tote Leiche"
+        ],
+        [
+         "Rhetorische Frage",
+         "Frage, auf die keine Antwort erwartet wird, da sie klar ist.",
+         "Wie kann man nur so blöd sein?"
+        ],
+        [
+         "Trikolon",
+         "Dreigliedriger Ausdruck.",
+         "Verliebt, verlobt, verheiratet."
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spruch",
+   "icon": "💬",
+   "title": "Sprichwörter & Redewendungen",
+   "sub": "37 lateinische Sprüche (S. 196)",
+   "grammar": [
+    {
+     "title": "Lateinische Sprichwörter und Redewendungen",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Die lateinische Sprache begegnet dir auch im Alltag auf Schritt und Tritt. Hier die häufigsten Redensarten – so hast du für jede Gelegenheit den passenden Spruch auf Lager!"
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Latein",
+        "Bedeutung",
+        "L."
+       ],
+       "rows": [
+        [
+         "Alea iacta est.",
+         "Der Würfel ist gefallen. (Die Entscheidung ist getroffen.)",
+         "20"
+        ],
+        [
+         "Ave, Caesar, morituri te salutant!",
+         "Sei gegrüßt, Kaiser, die Todgeweihten grüßen dich!",
+         ""
+        ],
+        [
+         "Bella gerant alii, tu, felix Austria, nube!",
+         "Kriege mögen andere führen, du, glückliches Österreich, heirate!",
+         "28"
+        ],
+        [
+         "Carpe diem!",
+         "Nutze (pflücke) den Tag!",
+         ""
+        ],
+        [
+         "Cave canem!",
+         "Hüte dich vor dem Hund!",
+         "9"
+        ],
+        [
+         "Ceterum censeo Carthaginem esse delendam.",
+         "Im Übrigen meine ich, dass Karthago zerstört werden muss.",
+         ""
+        ],
+        [
+         "Citius, altius, fortius",
+         "Schneller, höher, stärker (Motto der Olympischen Spiele)",
+         "22"
+        ],
+        [
+         "Cogito, ergo sum.",
+         "Ich denke, also bin ich.",
+         ""
+        ],
+        [
+         "De gustibus non est disputandum.",
+         "Über Geschmack lässt sich nicht streiten.",
+         ""
+        ],
+        [
+         "De mortuis nil (= nihil) nisi bene!",
+         "Über die Toten (soll man) nur Gutes (sagen)!",
+         ""
+        ],
+        [
+         "Domine, quo vadis?",
+         "Herr, wohin gehst du?",
+         "27"
+        ],
+        [
+         "Errare humanum est.",
+         "Irren ist menschlich.",
+         ""
+        ],
+        [
+         "Et tu, Brute?",
+         "Auch du, Brutus?",
+         "19"
+        ],
+        [
+         "Hannibal ante (ad) portas!",
+         "Hannibal (steht) vor den Toren! (Gefahr im Verzug!)",
+         "10"
+        ],
+        [
+         "In dubio pro reo.",
+         "Im Zweifel für den Angeklagten.",
+         ""
+        ],
+        [
+         "In vino veritas.",
+         "Im Wein (liegt) die Wahrheit.",
+         "24"
+        ],
+        [
+         "Manus manum lavat.",
+         "Eine Hand wäscht die andere.",
+         ""
+        ],
+        [
+         "Mens sana in corpore sano.",
+         "Ein gesunder Geist in einem gesunden Körper.",
+         "30"
+        ],
+        [
+         "Noli me tangere!",
+         "Berühr mich nicht!",
+         "24"
+        ],
+        [
+         "Noli turbare circulos meos!",
+         "Störe meine Kreise nicht!",
+         "25"
+        ],
+        [
+         "Nomen est omen.",
+         "Der Name ist ein Zeichen (Vorbedeutung).",
+         "9"
+        ],
+        [
+         "Non scholae, sed vitae discimus.",
+         "Nicht für die Schule, sondern für das Leben lernen wir.",
+         "1"
+        ],
+        [
+         "Ora et labora!",
+         "Bete und arbeite!",
+         "24"
+        ],
+        [
+         "Pacta sunt servanda.",
+         "Verträge sind einzuhalten.",
+         ""
+        ],
+        [
+         "Panem et circenses.",
+         "Brot und Zirkusspiele.",
+         ""
+        ],
+        [
+         "Pecunia non olet.",
+         "Geld stinkt nicht.",
+         ""
+        ],
+        [
+         "Per aspera ad astra.",
+         "Über raue Wege zu den Sternen. (Durch Mühen zum Erfolg.)",
+         ""
+        ],
+        [
+         "Per pedes.",
+         "Zu Fuß.",
+         ""
+        ],
+        [
+         "Plenus venter non studet libenter.",
+         "Ein voller Bauch studiert nicht gern.",
+         ""
+        ],
+        [
+         "Quod erat demonstrandum. (q.e.d.)",
+         "Was zu beweisen war.",
+         ""
+        ],
+        [
+         "Quod licet Iovi, non licet bovi.",
+         "Was Jupiter erlaubt ist, ist dem Rind nicht erlaubt.",
+         "11"
+        ],
+        [
+         "Roma locuta, causa finita.",
+         "Rom hat gesprochen, die Sache ist erledigt.",
+         ""
+        ],
+        [
+         "Si tacuisses, philosophus mansisses.",
+         "Wenn du geschwiegen hättest, wärst du ein Philosoph geblieben.",
+         ""
+        ],
+        [
+         "Urbi et orbi.",
+         "Der Stadt (Rom) und dem Erdkreis.",
+         "10"
+        ],
+        [
+         "Vare, redde mihi legiones!",
+         "Varus, gib mir (meine) Legionen zurück!",
+         ""
+        ],
+        [
+         "Veni, vidi, vici.",
+         "Ich kam, ich sah, ich siegte.",
+         "7"
+        ],
+        [
+         "Viribus unitis.",
+         "Mit vereinten Kräften.",
+         "14"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "text": "Im Buch ist die Bedeutung nur bei den Sprichwörtern aus den Lektionen erklärt – die übrigen Übersetzungen hat die App ergänzt."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wk2630",
+   "icon": "🔍",
+   "title": "Wortklauberei 26–30",
+   "sub": "Romanische Sprachen, Medium, Wortfelder, Metapher (S. 140 f.)",
+   "grammar": [
+    {
+     "title": "Latein und die romanischen Sprachen",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Viele lateinische Wörter sind mit geringen Veränderungen in die romanischen Sprachen übergegangen. Auch das Geschlecht der Nomina hat sich großteils „weitervererbt“: lat. feminin → romanisch feminin; lat. maskulin → romanisch maskulin."
+      },
+      {
+       "type": "tip",
+       "text": "Ausnahme sind die neutralen Wörter: Sie wurden im Französischen, Italienischen und Spanischen durchwegs maskulin. Beispiel: lat. vinum, -i (n.) → frz. le vin / ital. il vino / span. el vino."
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Latein",
+        "Französisch",
+        "Italienisch",
+        "Spanisch"
+       ],
+       "rows": [
+        [
+         "poeta („Dichter“): m.",
+         "le poète (m.)",
+         "il poeta (m.)",
+         "el poeta (m.)"
+        ],
+        [
+         "veritas („Wahrheit“): f.",
+         "la vérité (f.)",
+         "la verità (f.)",
+         "la verdad (f.)"
+        ],
+        [
+         "tempus („Zeit“): n.",
+         "le temps (m.!)",
+         "il tempo (m.!)",
+         "el tiempo (m.!)"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "text": "Aufgabe: Ergänze die Artikel. numerus m. → … numéro / … numero / … número; lex f. → … loi / … legge / … ley; crimen n. → … crime / … crimine / … crimen. LÖSUNG: le numéro, il numero, el número („Zahl“); la loi, la legge, la ley („Gesetz“); le crime, il crimine, el crimen („Verbrechen“)."
+      },
+      {
+       "type": "note",
+       "text": "Aufgabe: Was bedeuten diese Wörter, und von welchem lateinischen Wort kommen sie? LÖSUNG: victoire = Sieg (victoria); miracolo = Wunder (miraculum); lágrima = Träne (lacrima); corps = Körper (corpus); campo = Feld (campus); mundo = Welt (mundus); arbre = Baum (arbor); mente = Geist (mens); invitación = Einladung (invitare)."
+      }
+     ]
+    },
+    {
+     "title": "Das Medium",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Neben Aktiv und Passiv gibt es im Lateinischen das Medium („das Mittlere“): Es hat passive Formen, wird aber reflexiv übersetzt („mich …“, „dich …“, „sich …“). Aus dem Medium sind auch die Deponentia entstanden."
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Form",
+        "Bedeutung",
+        "Beispiel"
+       ],
+       "rows": [
+        [
+         "Aktiv (aktive Formen)",
+         "ich tue etwas",
+         "lavo = „ich wasche“"
+        ],
+        [
+         "Passiv (passive Formen)",
+         "mit mir geschieht etwas",
+         "lavor = „ich werde gewaschen“"
+        ],
+        [
+         "Medium (passive Formen!)",
+         "ich tue etwas, was mich selbst betrifft",
+         "lavor = 1) „ich wasche mich“; 2) „ich bade“"
+        ]
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Die Formen des Mediums sind identisch mit denen des Passivs – nur aus dem Zusammenhang erkennst du, ob es ein echtes Passiv oder ein Medium ist."
+      },
+      {
+       "type": "note",
+       "text": "Aufgabe: Übersetze passiv und medial: delectatur, movebar, vertuntur. LÖSUNG: delectatur = er/sie wird erfreut – er/sie freut sich; movebar = ich wurde bewegt – ich bewegte mich; vertuntur = sie werden gewendet – sie wenden sich."
+      }
+     ]
+    },
+    {
+     "title": "Wort- und Sachfelder",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Wortfamilien sind sinnverwandte Wörter mit demselben Wortstamm."
+      },
+      {
+       "type": "list",
+       "items": [
+        "Wortfeld = inhaltlich zusammenhängende Wörter derselben Wortart (z. B. Wortfeld „Verkehr“: Auto, Straßenbahn, Ampel, Stau, Straße)",
+        "Sachfeld = inhaltlich zusammenhängende Wörter verschiedener Wortarten (z. B. Sachfeld „Verkehr“: Auto, parken, Ampel, stauen, Straße)"
+       ]
+      },
+      {
+       "type": "note",
+       "text": "Aufgabe: Nenne die Wortfamilie zum Stamm cup-. LÖSUNG: cupere (Verb), cupidus (Adjektiv), cupiditas (Nomen)."
+      }
+     ]
+    },
+    {
+     "title": "Metapher",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Eine Metapher ist ein bildlicher Ausdruck: Ein Wort wird im übertragenen Sinn verwendet („die Uhr geht falsch“)."
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Wort",
+        "eigentliche Bedeutung",
+        "übertragene Bedeutung"
+       ],
+       "rows": [
+        [
+         "tollere",
+         "etwas aufheben (vom Boden)",
+         "ein Gesetz aufheben = beseitigen"
+        ],
+        [
+         "gravis",
+         "schwer (an Gewicht)",
+         "schwer (an Bedeutung) = schwerwiegend"
+        ],
+        [
+         "adducere",
+         "jemanden hinführen (an einen Ort)",
+         "jemanden zu einer Handlung hinführen = veranlassen"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "text": "Aufgabe: Welcher Satz ist metaphorisch? a) Du wirkst heute völlig zerstört. – Die Römer zerstörten die Stadt. b) Hannibal konnte Rom nicht erobern. – Quintus würde Julia gerne erobern. c) Dieses Wissen bringt mir nichts. – Mami bringt mir einen Kakao. LÖSUNG: metaphorisch sind „völlig zerstört“, „Julia erobern“ und „bringt mir nichts“."
+      }
+     ]
+    },
+    {
+     "title": "Ein Wort – viele Bedeutungen: auctor",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Im Nomen auctor, -oris steckt das Verb augere, auxi, auctum („vermehren“, „vergrößern“). auctor bezeichnet also eine Person, die hinter etwas steckt bzw. für etwas verantwortlich ist („Urheber“)."
+      },
+      {
+       "type": "table",
+       "headers": [
+        "Ausdruck",
+        "Bedeutung"
+       ],
+       "rows": [
+        [
+         "auctor sceleris",
+         "Anstifter / Urheber des Verbrechens"
+        ],
+        [
+         "auctor famae",
+         "Urheber des Gerüchts"
+        ],
+        [
+         "auctor huius libri",
+         "Verfasser (Autor) dieses Buches"
+        ],
+        [
+         "auctor urbis",
+         "Gründer der Stadt"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stems": [
+  {
+   "group": "Perfekt auf -v-",
+   "inf": "delere",
+   "cls": "2",
+   "perf": "delevi",
+   "ppp": "deletum",
+   "de": "zerstören",
+   "lesson": 9
+  },
+  {
+   "group": "Perfekt auf -v-",
+   "inf": "flere",
+   "cls": "2",
+   "perf": "flevi",
+   "ppp": "fletum",
+   "de": "weinen",
+   "lesson": 15
+  },
+  {
+   "group": "Perfekt auf -v-",
+   "inf": "cognoscere",
+   "cls": "3",
+   "perf": "cognovi",
+   "ppp": "cognitum",
+   "de": "erfahren, erkennen",
+   "lesson": 16
+  },
+  {
+   "group": "Perfekt auf -v-",
+   "inf": "petere",
+   "cls": "3",
+   "perf": "petivi",
+   "ppp": "petitum",
+   "de": "anstreben; bitten",
+   "lesson": 13
+  },
+  {
+   "group": "Perfekt auf -v-",
+   "inf": "quaerere",
+   "cls": "3",
+   "perf": "quaesivi",
+   "ppp": "quaesitum",
+   "de": "suchen; fragen",
+   "lesson": 12
+  },
+  {
+   "group": "Perfekt auf -v-",
+   "inf": "decernere",
+   "cls": "3",
+   "perf": "decrevi",
+   "ppp": "decretum",
+   "de": "beschließen",
+   "lesson": 21
+  },
+  {
+   "group": "Perfekt auf -v-",
+   "inf": "cupere",
+   "cls": "M",
+   "perf": "cupivi",
+   "ppp": "cupitum",
+   "de": "wünschen",
+   "lesson": 13
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "docere",
+   "cls": "2",
+   "perf": "docui",
+   "ppp": "doctum",
+   "de": "lehren, unterrichten",
+   "lesson": 2
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "tenere",
+   "cls": "2",
+   "perf": "tenui",
+   "ppp": "–",
+   "de": "halten",
+   "lesson": 22
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "continere",
+   "cls": "2",
+   "perf": "continui",
+   "ppp": "contentum",
+   "de": "zusammenhalten, enthalten",
+   "lesson": 16
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "abstinere",
+   "cls": "2",
+   "perf": "abstinui",
+   "ppp": "–",
+   "de": "sich fernhalten",
+   "lesson": 22
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "obtinere",
+   "cls": "2",
+   "perf": "obtinui",
+   "ppp": "obtentum",
+   "de": "innehaben, besitzen",
+   "lesson": 22
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "statuere",
+   "cls": "3",
+   "perf": "statui",
+   "ppp": "statutum",
+   "de": "beschließen, aufstellen",
+   "lesson": 19
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "constituere",
+   "cls": "3",
+   "perf": "constitui",
+   "ppp": "constitutum",
+   "de": "beschließen, festsetzen",
+   "lesson": 9
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "ponere",
+   "cls": "3",
+   "perf": "posui",
+   "ppp": "positum",
+   "de": "legen, stellen",
+   "lesson": 20
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "deponere",
+   "cls": "3",
+   "perf": "deposui",
+   "ppp": "depositum",
+   "de": "ablegen",
+   "lesson": 22
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "metuere",
+   "cls": "3",
+   "perf": "metui",
+   "ppp": "–",
+   "de": "fürchten",
+   "lesson": 29
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "consulere",
+   "cls": "3",
+   "perf": "consului",
+   "ppp": "consultum",
+   "de": "befragen",
+   "lesson": 29
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "rapere",
+   "cls": "M",
+   "perf": "rapui",
+   "ppp": "raptum",
+   "de": "rauben",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt mit -u-",
+   "inf": "aperire",
+   "cls": "4",
+   "perf": "aperui",
+   "ppp": "apertum",
+   "de": "öffnen",
+   "lesson": 23
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "augere",
+   "cls": "2",
+   "perf": "auxi",
+   "ppp": "auctum",
+   "de": "vergrößern, steigern",
+   "lesson": 20
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "dicere",
+   "cls": "3",
+   "perf": "dixi",
+   "ppp": "dictum",
+   "de": "sagen; nennen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "ducere",
+   "cls": "3",
+   "perf": "duxi",
+   "ppp": "ductum",
+   "de": "führen",
+   "lesson": 10
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "adducere",
+   "cls": "3",
+   "perf": "adduxi",
+   "ppp": "adductum",
+   "de": "hinführen, veranlassen",
+   "lesson": 29
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "traducere",
+   "cls": "3",
+   "perf": "traduxi",
+   "ppp": "traductum",
+   "de": "hinüberführen",
+   "lesson": 28
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "legere",
+   "cls": "3",
+   "perf": "legi (!)",
+   "ppp": "lectum",
+   "de": "lesen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "intellegere",
+   "cls": "3",
+   "perf": "intellexi",
+   "ppp": "intellectum",
+   "de": "erkennen, einsehen",
+   "lesson": 14
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "neglegere",
+   "cls": "3",
+   "perf": "neglexi",
+   "ppp": "neglectum",
+   "de": "missachten, ignorieren",
+   "lesson": 13
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "iungere",
+   "cls": "3",
+   "perf": "iunxi",
+   "ppp": "iunctum",
+   "de": "verbinden",
+   "lesson": 21
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "coniungere",
+   "cls": "3",
+   "perf": "coniunxi",
+   "ppp": "coniunctum",
+   "de": "verbinden",
+   "lesson": 13
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "trahere",
+   "cls": "3",
+   "perf": "traxi",
+   "ppp": "tractum",
+   "de": "ziehen",
+   "lesson": 22
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "tegere",
+   "cls": "3",
+   "perf": "texi",
+   "ppp": "tectum",
+   "de": "bedecken",
+   "lesson": 30
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "vivere",
+   "cls": "3",
+   "perf": "vixi",
+   "ppp": "–",
+   "de": "leben",
+   "lesson": 19
+  },
+  {
+   "group": "Perfekt mit -x-",
+   "inf": "conspicere",
+   "cls": "M",
+   "perf": "conspexi",
+   "ppp": "conspectum",
+   "de": "erblicken",
+   "lesson": 11
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "ardere",
+   "cls": "2",
+   "perf": "arsi",
+   "ppp": "–",
+   "de": "brennen",
+   "lesson": 24
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "iubere",
+   "cls": "2",
+   "perf": "iussi",
+   "ppp": "iussum",
+   "de": "befehlen; lassen",
+   "lesson": 17
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "manere",
+   "cls": "2",
+   "perf": "mansi",
+   "ppp": "mansum",
+   "de": "bleiben",
+   "lesson": 5
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "persuadere",
+   "cls": "2",
+   "perf": "persuasi",
+   "ppp": "persuasum",
+   "de": "überreden; überzeugen",
+   "lesson": 19
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "ridere",
+   "cls": "2",
+   "perf": "risi",
+   "ppp": "risum",
+   "de": "lachen",
+   "lesson": 1
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "cedere",
+   "cls": "3",
+   "perf": "cessi",
+   "ppp": "cessum",
+   "de": "weichen, weggehen",
+   "lesson": 20
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "claudere",
+   "cls": "3",
+   "perf": "clausi",
+   "ppp": "clausum",
+   "de": "einschließen, schließen",
+   "lesson": 20
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "includere",
+   "cls": "3",
+   "perf": "inclusi",
+   "ppp": "inclusum",
+   "de": "einschließen",
+   "lesson": 23
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "dividere",
+   "cls": "3",
+   "perf": "divisi",
+   "ppp": "divisum",
+   "de": "teilen, trennen",
+   "lesson": 28
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "gerere",
+   "cls": "3",
+   "perf": "gessi",
+   "ppp": "gestum",
+   "de": "(aus)führen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "laedere",
+   "cls": "3",
+   "perf": "laesi",
+   "ppp": "laesum",
+   "de": "verletzen",
+   "lesson": 25
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "ludere",
+   "cls": "3",
+   "perf": "lusi",
+   "ppp": "lusum",
+   "de": "spielen",
+   "lesson": 11
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "mittere",
+   "cls": "3",
+   "perf": "misi",
+   "ppp": "missum",
+   "de": "schicken",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "amittere",
+   "cls": "3",
+   "perf": "amisi",
+   "ppp": "amissum",
+   "de": "verlieren",
+   "lesson": 10
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "committere",
+   "cls": "3",
+   "perf": "commisi",
+   "ppp": "commissum",
+   "de": "begehen",
+   "lesson": 8
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "promittere",
+   "cls": "3",
+   "perf": "promisi",
+   "ppp": "promissum",
+   "de": "versprechen",
+   "lesson": 24
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "premere",
+   "cls": "3",
+   "perf": "pressi",
+   "ppp": "pressum",
+   "de": "drücken; bedrängen",
+   "lesson": 29
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "scribere",
+   "cls": "3",
+   "perf": "scripsi",
+   "ppp": "scriptum",
+   "de": "schreiben",
+   "lesson": 29
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "sumere",
+   "cls": "3",
+   "perf": "sumpsi",
+   "ppp": "sumptum",
+   "de": "nehmen",
+   "lesson": 25
+  },
+  {
+   "group": "Perfekt mit -s-",
+   "inf": "consumere",
+   "cls": "3",
+   "perf": "consumpsi",
+   "ppp": "consumptum",
+   "de": "vernichten; verbrauchen",
+   "lesson": 23
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "agere",
+   "cls": "3",
+   "perf": "egi",
+   "ppp": "actum",
+   "de": "tun",
+   "lesson": 16
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "cogere",
+   "cls": "3",
+   "perf": "coegi",
+   "ppp": "coactum",
+   "de": "(ver)sammeln; zwingen",
+   "lesson": 17
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "considere",
+   "cls": "3",
+   "perf": "consedi",
+   "ppp": "–",
+   "de": "sich niedersetzen",
+   "lesson": 15
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "capere",
+   "cls": "M",
+   "perf": "cepi",
+   "ppp": "captum",
+   "de": "fassen, ergreifen, fangen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "accipere",
+   "cls": "M",
+   "perf": "accepi",
+   "ppp": "acceptum",
+   "de": "erhalten, aufnehmen",
+   "lesson": 9
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "incipere",
+   "cls": "M",
+   "perf": "coepi (!)",
+   "ppp": "coeptum (!)",
+   "de": "beginnen",
+   "lesson": 18
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "recipere",
+   "cls": "M",
+   "perf": "recepi",
+   "ppp": "receptum",
+   "de": "aufnehmen",
+   "lesson": 16
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "facere",
+   "cls": "M",
+   "perf": "feci",
+   "ppp": "factum",
+   "de": "machen",
+   "lesson": 8
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "afficere",
+   "cls": "M",
+   "perf": "affeci",
+   "ppp": "affectum",
+   "de": "versehen (mit), erfüllen",
+   "lesson": 17
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "conficere",
+   "cls": "M",
+   "perf": "confeci",
+   "ppp": "confectum",
+   "de": "ausführen, beenden",
+   "lesson": 11
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "interficere",
+   "cls": "M",
+   "perf": "interfeci",
+   "ppp": "interfectum",
+   "de": "töten",
+   "lesson": 12
+  },
+  {
+   "group": "Perfekt mit -e-",
+   "inf": "iacere",
+   "cls": "M",
+   "perf": "ieci",
+   "ppp": "iactum",
+   "de": "werfen, schleudern",
+   "lesson": 21
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "iuvare",
+   "cls": "1",
+   "perf": "iuvi",
+   "ppp": "iutum",
+   "de": "unterstützen, helfen",
+   "lesson": 12
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "adiuvare",
+   "cls": "1",
+   "perf": "adiuvi",
+   "ppp": "adiutum",
+   "de": "unterstützen, helfen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "favere",
+   "cls": "2",
+   "perf": "favi",
+   "ppp": "fautum",
+   "de": "begünstigen, bevorzugen",
+   "lesson": 23
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "movere",
+   "cls": "2",
+   "perf": "movi",
+   "ppp": "motum",
+   "de": "bewegen",
+   "lesson": 15
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "commovere",
+   "cls": "2",
+   "perf": "commovi",
+   "ppp": "commotum",
+   "de": "bewegen, veranlassen",
+   "lesson": 27
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "respondere",
+   "cls": "2",
+   "perf": "respondi",
+   "ppp": "responsum",
+   "de": "antworten",
+   "lesson": 1
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "sedere",
+   "cls": "2",
+   "perf": "sedi",
+   "ppp": "sessum",
+   "de": "sitzen",
+   "lesson": 1
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "possidere",
+   "cls": "2",
+   "perf": "possedi",
+   "ppp": "possessum",
+   "de": "besitzen",
+   "lesson": 30
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "videre",
+   "cls": "2",
+   "perf": "vidi",
+   "ppp": "visum",
+   "de": "sehen",
+   "lesson": 3
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "ascendere",
+   "cls": "3",
+   "perf": "ascendi",
+   "ppp": "ascensum",
+   "de": "hinaufsteigen, besteigen",
+   "lesson": 9
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "bibere",
+   "cls": "3",
+   "perf": "bibi",
+   "ppp": "–",
+   "de": "trinken",
+   "lesson": 14
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "comprehendere",
+   "cls": "3",
+   "perf": "comprehendi",
+   "ppp": "comprehensum",
+   "de": "ergreifen; erfassen",
+   "lesson": 17
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "contendere",
+   "cls": "3",
+   "perf": "contendi",
+   "ppp": "contentum",
+   "de": "eilen; kämpfen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "defendere",
+   "cls": "3",
+   "perf": "defendi",
+   "ppp": "defensum",
+   "de": "verteidigen",
+   "lesson": 19
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "incendere",
+   "cls": "3",
+   "perf": "incendi",
+   "ppp": "incensum",
+   "de": "anzünden",
+   "lesson": 22
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "legere",
+   "cls": "3",
+   "perf": "legi",
+   "ppp": "lectum",
+   "de": "lesen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "deligere",
+   "cls": "3",
+   "perf": "delegi",
+   "ppp": "delectum",
+   "de": "auswählen",
+   "lesson": 21
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "metuere",
+   "cls": "3",
+   "perf": "metui",
+   "ppp": "–",
+   "de": "fürchten",
+   "lesson": 29
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "solvere",
+   "cls": "3",
+   "perf": "solvi",
+   "ppp": "solutum",
+   "de": "lösen, auflösen",
+   "lesson": 13
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "vertere",
+   "cls": "3",
+   "perf": "verti",
+   "ppp": "versum",
+   "de": "wenden",
+   "lesson": 15
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "animadvertere",
+   "cls": "3",
+   "perf": "animadverti",
+   "ppp": "animadversum",
+   "de": "bemerken",
+   "lesson": 20
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "fugere",
+   "cls": "M",
+   "perf": "fugi",
+   "ppp": "–",
+   "de": "flüchten",
+   "lesson": 9
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "venire",
+   "cls": "4",
+   "perf": "veni",
+   "ppp": "ventum",
+   "de": "kommen",
+   "lesson": 7
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "advenire",
+   "cls": "4",
+   "perf": "adveni",
+   "ppp": "adventum",
+   "de": "hinkommen, ankommen",
+   "lesson": 18
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "circumvenire",
+   "cls": "4",
+   "perf": "circumveni",
+   "ppp": "circumventum",
+   "de": "umzingeln",
+   "lesson": 18
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "invenire",
+   "cls": "4",
+   "perf": "inveni",
+   "ppp": "inventum",
+   "de": "finden; erfinden",
+   "lesson": 12
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "convenire",
+   "cls": "4",
+   "perf": "conveni",
+   "ppp": "conventum",
+   "de": "zusammenkommen",
+   "lesson": 20
+  },
+  {
+   "group": "Perfekt wie Präsens",
+   "inf": "pervenire",
+   "cls": "4",
+   "perf": "perveni",
+   "ppp": "perventum",
+   "de": "kommen, gelangen",
+   "lesson": 25
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "dare",
+   "cls": "1",
+   "perf": "dedi",
+   "ppp": "datum",
+   "de": "geben",
+   "lesson": 12
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "reddere",
+   "cls": "3",
+   "perf": "reddidi",
+   "ppp": "redditum",
+   "de": "zurückgeben",
+   "lesson": 14
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "tradere",
+   "cls": "3",
+   "perf": "tradidi",
+   "ppp": "traditum",
+   "de": "ausliefern; überliefern",
+   "lesson": 18
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "condere",
+   "cls": "3",
+   "perf": "condidi",
+   "ppp": "conditum",
+   "de": "gründen",
+   "lesson": 26
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "credere",
+   "cls": "3",
+   "perf": "credidi",
+   "ppp": "creditum",
+   "de": "glauben",
+   "lesson": 24
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "stare",
+   "cls": "1",
+   "perf": "steti",
+   "ppp": "statum",
+   "de": "stehen",
+   "lesson": 14
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "constat",
+   "cls": "1",
+   "perf": "constitit",
+   "ppp": "–",
+   "de": "es steht fest",
+   "lesson": 25
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "canere",
+   "cls": "3",
+   "perf": "cecini",
+   "ppp": "–",
+   "de": "singen",
+   "lesson": 15
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "cadere",
+   "cls": "3",
+   "perf": "cecidi",
+   "ppp": "–",
+   "de": "fallen",
+   "lesson": 13
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "accidere",
+   "cls": "3",
+   "perf": "accidi",
+   "ppp": "–",
+   "de": "geschehen",
+   "lesson": 28
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "caedere",
+   "cls": "3",
+   "perf": "cecidi",
+   "ppp": "caesum",
+   "de": "(fällen =) töten",
+   "lesson": 22
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "occidere",
+   "cls": "3",
+   "perf": "occidi",
+   "ppp": "occisum",
+   "de": "töten",
+   "lesson": 10
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "discere",
+   "cls": "3",
+   "perf": "didici",
+   "ppp": "–",
+   "de": "lernen",
+   "lesson": 16
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "pellere",
+   "cls": "3",
+   "perf": "pepuli",
+   "ppp": "pulsum",
+   "de": "schlagen, stoßen",
+   "lesson": 29
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "expellere",
+   "cls": "3",
+   "perf": "expuli",
+   "ppp": "expulsum",
+   "de": "vertreiben, verjagen",
+   "lesson": 8
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "resistere",
+   "cls": "3",
+   "perf": "restiti",
+   "ppp": "–",
+   "de": "Widerstand leisten",
+   "lesson": 8
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "exsistere",
+   "cls": "3",
+   "perf": "exstiti",
+   "ppp": "–",
+   "de": "entstehen",
+   "lesson": 26
+  },
+  {
+   "group": "Reduplikationsperfekt (Verdoppelung der Stammsilbe)",
+   "inf": "tangere",
+   "cls": "3",
+   "perf": "tetigi",
+   "ppp": "tactum",
+   "de": "berühren",
+   "lesson": 11
+  },
+  {
+   "group": "Sonstige Verba",
+   "inf": "desinere",
+   "cls": "3",
+   "perf": "desii",
+   "ppp": "–",
+   "de": "aufhören, ablassen",
+   "lesson": 15
+  },
+  {
+   "group": "Sonstige Verba",
+   "inf": "relinquere",
+   "cls": "3",
+   "perf": "reliqui",
+   "ppp": "relictum",
+   "de": "verlassen, zurücklassen",
+   "lesson": 7
+  },
+  {
+   "group": "Sonstige Verba",
+   "inf": "vincere",
+   "cls": "3",
+   "perf": "vici",
+   "ppp": "victum",
+   "de": "siegen, besiegen",
+   "lesson": 10
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "esse",
+   "cls": "",
+   "perf": "fui",
+   "ppp": "–",
+   "de": "sein",
+   "lesson": 6
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "adesse",
+   "cls": "",
+   "perf": "adfui",
+   "ppp": "–",
+   "de": "da sein, anwesend sein",
+   "lesson": 19
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "deesse",
+   "cls": "",
+   "perf": "defui",
+   "ppp": "–",
+   "de": "fehlen",
+   "lesson": 28
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "interesse",
+   "cls": "",
+   "perf": "interfui",
+   "ppp": "–",
+   "de": "beiwohnen, teilnehmen",
+   "lesson": 22
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "posse",
+   "cls": "",
+   "perf": "potui",
+   "ppp": "–",
+   "de": "können",
+   "lesson": 6
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "prodesse",
+   "cls": "",
+   "perf": "profui",
+   "ppp": "–",
+   "de": "nützen",
+   "lesson": 25
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "ire",
+   "cls": "",
+   "perf": "ii",
+   "ppp": "itum",
+   "de": "gehen",
+   "lesson": 17
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "adire",
+   "cls": "",
+   "perf": "adii",
+   "ppp": "aditum",
+   "de": "hingehen; angreifen",
+   "lesson": 17
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "exire",
+   "cls": "",
+   "perf": "exii",
+   "ppp": "exitum",
+   "de": "hinausgehen",
+   "lesson": 17
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "inire",
+   "cls": "",
+   "perf": "inii",
+   "ppp": "initum",
+   "de": "hineingehen, betreten",
+   "lesson": 25
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "interire",
+   "cls": "",
+   "perf": "interii",
+   "ppp": "interitum",
+   "de": "untergehen, sterben",
+   "lesson": 24
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "redire",
+   "cls": "",
+   "perf": "redii",
+   "ppp": "reditum",
+   "de": "zurückkehren",
+   "lesson": 23
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "transire",
+   "cls": "",
+   "perf": "transii",
+   "ppp": "transitum",
+   "de": "überqueren, hinübergehen",
+   "lesson": 28
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "ferre",
+   "cls": "",
+   "perf": "tuli",
+   "ppp": "latum",
+   "de": "tragen, bringen",
+   "lesson": 17
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "auferre",
+   "cls": "",
+   "perf": "abstuli",
+   "ppp": "ablatum",
+   "de": "wegtragen, wegnehmen",
+   "lesson": 20
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "referre",
+   "cls": "",
+   "perf": "rettuli",
+   "ppp": "relatum",
+   "de": "zurückbringen; berichten",
+   "lesson": 27
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "tollere (!)",
+   "cls": "",
+   "perf": "sustuli",
+   "ppp": "sublatum",
+   "de": "aufheben, erheben",
+   "lesson": 24
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "velle",
+   "cls": "",
+   "perf": "volui",
+   "ppp": "–",
+   "de": "wollen",
+   "lesson": 24
+  },
+  {
+   "group": "Unregelmäßige Verba",
+   "inf": "nolle",
+   "cls": "",
+   "perf": "nolui",
+   "ppp": "–",
+   "de": "nicht wollen",
+   "lesson": 24
+  },
+  {
+   "group": "Semideponentia",
+   "inf": "audere",
+   "cls": "2",
+   "perf": "ausus sum",
+   "ppp": "–",
+   "de": "wagen",
+   "lesson": 10
+  },
+  {
+   "group": "Semideponentia",
+   "inf": "gaudere",
+   "cls": "2",
+   "perf": "gavisus sum",
+   "ppp": "–",
+   "de": "sich freuen",
+   "lesson": 1
+  },
+  {
+   "group": "Semideponentia",
+   "inf": "solere",
+   "cls": "2",
+   "perf": "solitus sum",
+   "ppp": "–",
+   "de": "gewohnt sein, pflegen",
+   "lesson": 11
+  },
+  {
+   "group": "Deponentia",
+   "inf": "hortari",
+   "cls": "1",
+   "perf": "hortatus sum",
+   "ppp": "–",
+   "de": "auffordern, ermuntern",
+   "lesson": 30
+  },
+  {
+   "group": "Deponentia",
+   "inf": "vereri",
+   "cls": "2",
+   "perf": "veritus sum",
+   "ppp": "–",
+   "de": "fürchten; sich scheuen",
+   "lesson": 30
+  },
+  {
+   "group": "Deponentia",
+   "inf": "loqui",
+   "cls": "3",
+   "perf": "locutus sum",
+   "ppp": "–",
+   "de": "sprechen",
+   "lesson": 30
+  },
+  {
+   "group": "Deponentia",
+   "inf": "sequi",
+   "cls": "3",
+   "perf": "secutus sum",
+   "ppp": "–",
+   "de": "folgen",
+   "lesson": 30
+  },
+  {
+   "group": "Deponentia",
+   "inf": "queri",
+   "cls": "M",
+   "perf": "questus sum",
+   "ppp": "–",
+   "de": "klagen",
+   "lesson": 30
+  },
+  {
+   "group": "Deponentia",
+   "inf": "pati",
+   "cls": "M",
+   "perf": "passus sum",
+   "ppp": "–",
+   "de": "ertragen, erdulden",
+   "lesson": 30
+  }
+ ],
+ "proverbs": [
+  {
+   "la": "Alea iacta est.",
+   "de": "Der Würfel ist gefallen. (Die Entscheidung ist getroffen.)",
+   "lesson": 20
+  },
+  {
+   "la": "Ave, Caesar, morituri te salutant!",
+   "de": "Sei gegrüßt, Kaiser, die Todgeweihten grüßen dich!",
+   "lesson": 0
+  },
+  {
+   "la": "Bella gerant alii, tu, felix Austria, nube!",
+   "de": "Kriege mögen andere führen, du, glückliches Österreich, heirate!",
+   "lesson": 28
+  },
+  {
+   "la": "Carpe diem!",
+   "de": "Nutze (pflücke) den Tag!",
+   "lesson": 0
+  },
+  {
+   "la": "Cave canem!",
+   "de": "Hüte dich vor dem Hund!",
+   "lesson": 9
+  },
+  {
+   "la": "Ceterum censeo Carthaginem esse delendam.",
+   "de": "Im Übrigen meine ich, dass Karthago zerstört werden muss.",
+   "lesson": 0
+  },
+  {
+   "la": "Citius, altius, fortius",
+   "de": "Schneller, höher, stärker (Motto der Olympischen Spiele)",
+   "lesson": 22
+  },
+  {
+   "la": "Cogito, ergo sum.",
+   "de": "Ich denke, also bin ich.",
+   "lesson": 0
+  },
+  {
+   "la": "De gustibus non est disputandum.",
+   "de": "Über Geschmack lässt sich nicht streiten.",
+   "lesson": 0
+  },
+  {
+   "la": "De mortuis nil (= nihil) nisi bene!",
+   "de": "Über die Toten (soll man) nur Gutes (sagen)!",
+   "lesson": 0
+  },
+  {
+   "la": "Domine, quo vadis?",
+   "de": "Herr, wohin gehst du?",
+   "lesson": 27
+  },
+  {
+   "la": "Errare humanum est.",
+   "de": "Irren ist menschlich.",
+   "lesson": 0
+  },
+  {
+   "la": "Et tu, Brute?",
+   "de": "Auch du, Brutus?",
+   "lesson": 19
+  },
+  {
+   "la": "Hannibal ante (ad) portas!",
+   "de": "Hannibal (steht) vor den Toren! (Gefahr im Verzug!)",
+   "lesson": 10
+  },
+  {
+   "la": "In dubio pro reo.",
+   "de": "Im Zweifel für den Angeklagten.",
+   "lesson": 0
+  },
+  {
+   "la": "In vino veritas.",
+   "de": "Im Wein (liegt) die Wahrheit.",
+   "lesson": 24
+  },
+  {
+   "la": "Manus manum lavat.",
+   "de": "Eine Hand wäscht die andere.",
+   "lesson": 0
+  },
+  {
+   "la": "Mens sana in corpore sano.",
+   "de": "Ein gesunder Geist in einem gesunden Körper.",
+   "lesson": 30
+  },
+  {
+   "la": "Noli me tangere!",
+   "de": "Berühr mich nicht!",
+   "lesson": 24
+  },
+  {
+   "la": "Noli turbare circulos meos!",
+   "de": "Störe meine Kreise nicht!",
+   "lesson": 25
+  },
+  {
+   "la": "Nomen est omen.",
+   "de": "Der Name ist ein Zeichen (Vorbedeutung).",
+   "lesson": 9
+  },
+  {
+   "la": "Non scholae, sed vitae discimus.",
+   "de": "Nicht für die Schule, sondern für das Leben lernen wir.",
+   "lesson": 1
+  },
+  {
+   "la": "Ora et labora!",
+   "de": "Bete und arbeite!",
+   "lesson": 24
+  },
+  {
+   "la": "Pacta sunt servanda.",
+   "de": "Verträge sind einzuhalten.",
+   "lesson": 0
+  },
+  {
+   "la": "Panem et circenses.",
+   "de": "Brot und Zirkusspiele.",
+   "lesson": 0
+  },
+  {
+   "la": "Pecunia non olet.",
+   "de": "Geld stinkt nicht.",
+   "lesson": 0
+  },
+  {
+   "la": "Per aspera ad astra.",
+   "de": "Über raue Wege zu den Sternen. (Durch Mühen zum Erfolg.)",
+   "lesson": 0
+  },
+  {
+   "la": "Per pedes.",
+   "de": "Zu Fuß.",
+   "lesson": 0
+  },
+  {
+   "la": "Plenus venter non studet libenter.",
+   "de": "Ein voller Bauch studiert nicht gern.",
+   "lesson": 0
+  },
+  {
+   "la": "Quod erat demonstrandum. (q.e.d.)",
+   "de": "Was zu beweisen war.",
+   "lesson": 0
+  },
+  {
+   "la": "Quod licet Iovi, non licet bovi.",
+   "de": "Was Jupiter erlaubt ist, ist dem Rind nicht erlaubt.",
+   "lesson": 11
+  },
+  {
+   "la": "Roma locuta, causa finita.",
+   "de": "Rom hat gesprochen, die Sache ist erledigt.",
+   "lesson": 0
+  },
+  {
+   "la": "Si tacuisses, philosophus mansisses.",
+   "de": "Wenn du geschwiegen hättest, wärst du ein Philosoph geblieben.",
+   "lesson": 0
+  },
+  {
+   "la": "Urbi et orbi.",
+   "de": "Der Stadt (Rom) und dem Erdkreis.",
+   "lesson": 10
+  },
+  {
+   "la": "Vare, redde mihi legiones!",
+   "de": "Varus, gib mir (meine) Legionen zurück!",
+   "lesson": 0
+  },
+  {
+   "la": "Veni, vidi, vici.",
+   "de": "Ich kam, ich sah, ich siegte.",
+   "lesson": 7
+  },
+  {
+   "la": "Viribus unitis.",
+   "de": "Mit vereinten Kräften.",
+   "lesson": 14
+  }
+ ],
+ "prefixes": [
+  {
+   "p": "a- (ab-, abs-)",
+   "m": "„weg-“",
+   "ex": "abstinere; abire, abesse, abscedere"
+  },
+  {
+   "p": "ad- (ac-, af-, ap-)",
+   "m": "„hin-“, „heran-“",
+   "ex": "adducere, adire, advenire, accipere, appropinquare; aspicere, attrahere"
+  },
+  {
+   "p": "ante-",
+   "m": "„voran-“",
+   "ex": "anteire, anteponere"
+  },
+  {
+   "p": "circum-",
+   "m": "„herum-“",
+   "ex": "circumvenire; circumferre, circumfluere"
+  },
+  {
+   "p": "con- (com-, co-)",
+   "m": "„zusammen-“",
+   "ex": "convenire, continere, convocare, concilium; conferre"
+  },
+  {
+   "p": "con- (com-, co-)",
+   "m": "(Verstärkung)",
+   "ex": "coniungere, commovere, conficere"
+  },
+  {
+   "p": "contra-",
+   "m": "„gegen-“",
+   "ex": "contradicere"
+  },
+  {
+   "p": "de-",
+   "m": "„weg-“, „herab-“, „ab-“",
+   "ex": "deponere, desinere, deesse; desilire"
+  },
+  {
+   "p": "dis- (di-)",
+   "m": "„auseinander-“, „weg-“",
+   "ex": "dividere, discordia; disputare, discedere, dimittere"
+  },
+  {
+   "p": "ex- (e-)",
+   "m": "„hinaus-“",
+   "ex": "exire, expellere, expugnare; eripere, explorare, excedere"
+  },
+  {
+   "p": "in- (im-)",
+   "m": "„hinein-“ (bei Verben)",
+   "ex": "inire, includere; inducere, immittere"
+  },
+  {
+   "p": "in- (im-)",
+   "m": "„un-“ (bei Adjektiven/Nomen)",
+   "ex": "iniuria, improbus; inimicus, immortalis, ingratus, incredibilis, incertus"
+  },
+  {
+   "p": "inter-",
+   "m": "„(da)zwischen-“",
+   "ex": "interesse, interea; interregnum, intervenire"
+  },
+  {
+   "p": "intro-",
+   "m": "„hinein-“",
+   "ex": "introducere, introire"
+  },
+  {
+   "p": "ne-",
+   "m": "(Gegenteil)",
+   "ex": "neglegere; nescire, nefas, negotium"
+  },
+  {
+   "p": "ob-",
+   "m": "„entgegen-“",
+   "ex": "obviam, oppugnare; obire, offerre, opponere, occurrere"
+  },
+  {
+   "p": "per-",
+   "m": "„durch-“",
+   "ex": "pervenire; perferre, percurrere"
+  },
+  {
+   "p": "per-",
+   "m": "(Verstärkung): „sehr“",
+   "ex": "permagnus, permulti, perfacilis, perantiquus"
+  },
+  {
+   "p": "post-",
+   "m": "„(da)hinter-“",
+   "ex": "postea; postponere"
+  },
+  {
+   "p": "prae-",
+   "m": "„vor(an)-“",
+   "ex": "praeparare, praecurrere, praemittere, praeesse"
+  },
+  {
+   "p": "pro-",
+   "m": "„voran-“",
+   "ex": "procedere, progredi, prodesse"
+  },
+  {
+   "p": "re-",
+   "m": "„zurück-“",
+   "ex": "reddere, redire, referre, relinquere, resistere; revenire, reverti"
+  },
+  {
+   "p": "sub-",
+   "m": "„(da)runter-“",
+   "ex": "subesse, subire"
+  },
+  {
+   "p": "trans- (tra-)",
+   "m": "„hinüber-“",
+   "ex": "tradere, traducere, transire; transportare, transferre"
+  }
+ ],
+ "suffixes": [
+  {
+   "s": "-tor (-toris)",
+   "m": "Täter (Nomen agentis)",
+   "ex": "genitor = „Erzeuger“, „Vater“ (vgl. Doktor)",
+   "g": "Nomen"
+  },
+  {
+   "s": "-trix (-tricis)",
+   "m": "Täterin",
+   "ex": "genitrix = „Erzeugerin“, „Mutter“",
+   "g": "Nomen"
+  },
+  {
+   "s": "-tudo (-dinis)",
+   "m": "Eigenschaft (vgl. „-heit“)",
+   "ex": "pulchritudo = „Schönheit“ (vgl. Amplitude)",
+   "g": "Nomen"
+  },
+  {
+   "s": "-tas (-tatis) / -tus (-tutis)",
+   "m": "Eigenschaft (vgl. „-keit“)",
+   "ex": "crudelitas = „Grausamkeit“ (vgl. Qualität, Mobilität); virtus = „Tapferkeit“",
+   "g": "Nomen"
+  },
+  {
+   "s": "-ia / -itia",
+   "m": "Eigenschaft, Zustand",
+   "ex": "concordia = „Eintracht“, amicitia = „Freundschaft“",
+   "g": "Nomen"
+  },
+  {
+   "s": "-io (-ionis)",
+   "m": "Handlung (vgl. „-ung“)",
+   "ex": "quaestio = „Frage“ (vgl. Reaktion, Korruption)",
+   "g": "Nomen"
+  },
+  {
+   "s": "-mentum / -trum",
+   "m": "Mittel, Werkzeug",
+   "ex": "instrumentum (vgl. Medikament, Fundament)",
+   "g": "Nomen"
+  },
+  {
+   "s": "-ulus, -olus, -ellus",
+   "m": "Verkleinerung (Deminutiv; vgl. „-lein“, „-chen“)",
+   "ex": "navicula = „kleines Schiff“, „Schiffchen“; filiolus = „kleiner Sohn“, „Söhnlein“",
+   "g": "Nomen"
+  },
+  {
+   "s": "-ilis / -bilis",
+   "m": "Fähigkeit (vgl. „-bar“, „-haft“, „-lich“)",
+   "ex": "mirabilis = „wunderbar“ (vgl. variabel, stabil)",
+   "g": "Adjektiv"
+  },
+  {
+   "s": "-alis / -aris / -arius",
+   "m": "Zugehörigkeit",
+   "ex": "militaris = „militärisch“",
+   "g": "Adjektiv"
+  },
+  {
+   "s": "-eus / -a / -um",
+   "m": "Stoff",
+   "ex": "aureus = „golden“",
+   "g": "Adjektiv"
+  }
+ ],
+ "figures": [
+  {
+   "name": "Alliteration (Stabreim)",
+   "desc": "Aufeinanderfolgende Wörter beginnen mit demselben Laut.",
+   "ex": "Manner mag man eben."
+  },
+  {
+   "name": "Anapher",
+   "desc": "Wiederholung desselben Wortes am Anfang aufeinander folgender Satzteile/Sätze.",
+   "ex": "Einfach gut, einfach schnell, einfach lecker."
+  },
+  {
+   "name": "Antithese",
+   "desc": "Betonte Gegenüberstellung von Gegensätzen.",
+   "ex": "schwarz – weiß, hell – dunkel, gut – böse"
+  },
+  {
+   "name": "Asyndeton",
+   "desc": "Unverbundene Aneinanderreihung von Wörtern/Sätzen.",
+   "ex": "Veni, vidi, vici."
+  },
+  {
+   "name": "Polysyndeton",
+   "desc": "Aneinanderreihung von Wörtern/Sätzen immer mit „und“ (lat. et, -que).",
+   "ex": "Veni et vidi et vici."
+  },
+  {
+   "name": "Ellipse",
+   "desc": "Auslassung selbstverständlicher Wörter.",
+   "ex": "Dafür hat er die gelbe (ergänze: Karte) bekommen. Ende gut, alles gut."
+  },
+  {
+   "name": "Hyperbaton (Sperrung)",
+   "desc": "Zusammengehörige Wörter sind voneinander getrennt.",
+   "ex": "Magno me metu liberabis."
+  },
+  {
+   "name": "Chiasmus („Kreuzstellung“)",
+   "desc": "Spiegelbildliche Anordnung einander entsprechender Wörter oder Wortgruppen (Abfolge ABBA).",
+   "ex": "Die Kunst ist lang, kurz ist das Leben."
+  },
+  {
+   "name": "Parallelismus",
+   "desc": "Parallele Anordnung einander entsprechender Wörter oder Wortgruppen (Abfolge ABAB).",
+   "ex": "Die Kunst ist lang, das Leben ist kurz."
+  },
+  {
+   "name": "Klimax",
+   "desc": "Stufenweise Steigerung.",
+   "ex": "Gut, besser, Gösser."
+  },
+  {
+   "name": "Metapher",
+   "desc": "Bildlicher Ausdruck.",
+   "ex": "Die Zeit läuft mir davon."
+  },
+  {
+   "name": "Pleonasmus",
+   "desc": "Eine Sache wird doppelt ausgedrückt.",
+   "ex": "der weiße Schimmel, eine tote Leiche"
+  },
+  {
+   "name": "Rhetorische Frage",
+   "desc": "Frage, auf die keine Antwort erwartet wird, da sie klar ist.",
+   "ex": "Wie kann man nur so blöd sein?"
+  },
+  {
+   "name": "Trikolon",
+   "desc": "Dreigliedriger Ausdruck.",
+   "ex": "Verliebt, verlobt, verheiratet."
+  }
+ ]
+}

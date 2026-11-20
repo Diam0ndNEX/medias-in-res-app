@@ -59,7 +59,11 @@ POS_OVERRIDE = {
     **{w: "Verb" for w in ("adesse", "prodesse", "deesse", "interesse", "est", "inquit", "videtur (+ Inf.)", "dicitur (+ Inf.)")},
     **{w: "Adverb" for w in ("iam", "ibi", "tam", "ita", "sic", "tamen", "deinde", "fere", "quoque (nachgestellt)", "etiam", "tandem", "vero", "hodie (Adv.)", "non", "domum", "domi", "quomodo", "quidem", "ecce!", "quasi", "cur?", "ubi?", "quo", "tum (= tunc)", "itaque")},
     **{w: "Konjunktion" for w in ("et", "sed", "-que", "neque (= nec)", "nam", "autem", "at", "aut", "atque (= ac)", "quia", "quod", "quamquam", "etsi", "si", "nisi", "priusquam", "postquam [(+ Perfekt)]", "postquam", "enim [(nachgestellt!)]", "enim", "ut", "dum (+ Präsens)")},
-    **{w: "Pronomen" for w in ("quid?", "quis?", "quem?", "nihil", "nemo", "quidquid", "is, ea, id", "idem, eadem, idem", "hic, haec, hoc", "ille, illa, illud", "ipse, ipsa, ipsum", "iste, ista, istud", "qui, quae, quod", "quidam, quaedam, quoddam", "ego / tu", "mihi / tibi / sibi (Dativ)", "me / te / se (Akkusativ)", "nobis / vobis (Dativ)")},
+    **{w: "Zahlwort" for w in ("sex", "duodecim", "quattuor", "quinque", "septem", "octo", "novem", "decem", "centum", "mille")},
+    **{w: "Adjektiv" for w in ("maior, maius", "minor, minus", "peior, peius", "plures/a (Pl.)", "plus")},
+    **{w: "Verb" for w in ("ait",)},
+    **{w: "Konjunktion" for w in ("vel", "vel – vel", "aut – aut", "aut … aut", "sive – sive", "uti (= ut)", "aut", "neque – neque")},
+    **{w: "Pronomen" for w in ("aliquis/aliquid", "aliqui/aliqua/aliquod", "quisquam/quidquam", "qui-/quae-/quodcumque", "quisquis", "cui", "si quis/quid", "quid?", "quis?", "quem?", "nihil", "nemo", "quidquid", "is, ea, id", "idem, eadem, idem", "hic, haec, hoc", "ille, illa, illud", "ipse, ipsa, ipsum", "iste, ista, istud", "qui, quae, quod", "quidam, quaedam, quoddam", "ego / tu", "mihi / tibi / sibi (Dativ)", "me / te / se (Akkusativ)", "nobis / vobis (Dativ)")},
 }
 
 
@@ -95,7 +99,7 @@ def parse(path):
             parts += [""] * (4 - len(parts))
             la, forms, de, note = parts[:4]
             d["vocab"].append({"la": la, "forms": forms, "de": de, "note": note,
-                               "pos": POS_OVERRIDE.get(la) if guess_pos(la, forms) == "Sonstiges" and POS_OVERRIDE.get(la) else guess_pos(la, forms)})
+                               "pos": POS_OVERRIDE.get(la) or guess_pos(la, forms)})
         elif mode == "g":
             if line.startswith("|"):
                 cells = [c.strip() for c in line.strip("|").split("|")]
@@ -138,6 +142,8 @@ def main():
         with open(out, "w", encoding="utf-8") as fh:
             json.dump(d, fh, ensure_ascii=False, indent=1)
     print(f"{len(files)} Lektion(en) erzeugt")
+    import build_anhang  # Buchanhang (Formenlehre, Stammformen, Sprichwörter …)
+    build_anhang.main()
 
 
 if __name__ == "__main__":

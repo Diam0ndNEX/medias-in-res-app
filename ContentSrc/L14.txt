@@ -28,6 +28,7 @@ saxum | saxi n. | Fels | ital. sasso
 vis (Sg.) | vim (4.F.), vi (6.F.) f. | 1) Kraft; 2) Gewalt | ↔ vir, viri (= Mann)
 vires (Pl.) | virium f. | die Kräfte | Viribus unitis („mit vereinten Kräften“)
 paene (Adv.) | | fast, beinahe | vgl. engl. pen-insula („Fast-Insel“ = Halbinsel)
+summo in monte | | auf der Spitze des Berges | vgl. summus/a/um. Aus dem Vokabelverzeichnis
 == GRAMMATIK
 ## Perfekt + Plusquamperfekt aktiv
 Diese beiden lateinischen Zeiten sind im Gegensatz zum Deutschen einfache Verbalformen, d. h. sie werden nicht, wie im Deutschen, durch ein Hilfszeitwort + Mittelwort gebildet (z. B. „ich habe gesungen“), sondern indem bestimmte Endungen an den aktiven Perfektstamm treten.

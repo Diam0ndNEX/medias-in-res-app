@@ -30,7 +30,7 @@
    "forms": "(= nec – nec)",
    "de": "weder – noch",
    "note": "vgl. neque",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "dormire",
@@ -157,6 +157,125 @@
    "de": "1) vertreiben; 2) verjagen",
    "note": "",
    "pos": "Verb"
+  },
+  {
+   "la": "quattuor",
+   "forms": "",
+   "de": "vier",
+   "note": "Zahlwort, aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "quinque",
+   "forms": "",
+   "de": "fünf",
+   "note": "vgl. Quintett. Aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "septem",
+   "forms": "",
+   "de": "sieben",
+   "note": "vgl. September (urspr. 7. Monat). Aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "octo",
+   "forms": "",
+   "de": "acht",
+   "note": "vgl. Oktober, Oktave. Aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "novem",
+   "forms": "",
+   "de": "neun",
+   "note": "vgl. November. Aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "decem",
+   "forms": "",
+   "de": "zehn",
+   "note": "vgl. Dezember, Dezimal. Aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "centum",
+   "forms": "",
+   "de": "hundert",
+   "note": "vgl. Zentimeter, Prozent. Aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "mille",
+   "forms": "(Pl.: milia, -ium)",
+   "de": "tausend",
+   "note": "vgl. Million, Millimeter. Aus dem Vokabelverzeichnis",
+   "pos": "Zahlwort"
+  },
+  {
+   "la": "secundus/a/um",
+   "forms": "",
+   "de": "der zweite",
+   "note": "vgl. Sekunde. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "tertius/a/um",
+   "forms": "",
+   "de": "der dritte",
+   "note": "vgl. Terz. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "quartus/a/um",
+   "forms": "",
+   "de": "der vierte",
+   "note": "vgl. Quartal. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "quintus/a/um",
+   "forms": "",
+   "de": "der fünfte",
+   "note": "Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "sextus/a/um",
+   "forms": "",
+   "de": "der sechste",
+   "note": "vgl. Sexte. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "septimus/a/um",
+   "forms": "",
+   "de": "der siebente",
+   "note": "Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "octavus/a/um",
+   "forms": "",
+   "de": "der achte",
+   "note": "vgl. Oktave. Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "nonus/a/um",
+   "forms": "",
+   "de": "der neunte",
+   "note": "Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
+  },
+  {
+   "la": "decimus/a/um",
+   "forms": "",
+   "de": "der zehnte",
+   "note": "Aus dem Vokabelverzeichnis",
+   "pos": "Adjektiv"
   }
  ],
  "grammar": [

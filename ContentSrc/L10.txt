@@ -24,6 +24,7 @@ patria | patriae f. | Heimat | ital. + span. patria; vgl. Patriot
 pax | pacis f. | Friede | engl. peace; vgl. Pazifist (= Kriegsgegner), Pazifik
 hostis | hostis m. | Feind | vgl. engl. hostile (= feindlich)
 liberare (+ Abl.) | libero 1, -avi, -atum | befreien (von) | vgl. liberalisieren (= von Regelungen befreien)
+turris | turris f. | Turm | i-Stamm: Akk. turrim, Abl. turri. Aus dem Vokabelverzeichnis
 == GRAMMATIK
 ## „Dritte“ Deklination: Misch- und i-Stämme
 Zur dritten Deklination gehören nicht nur die Konsonantenstämme (siehe vorige Lektion), sondern auch die Mischstämme und die i-Stämme. Die drei Untergruppen unterscheiden sich nur in einigen wenigen Details voneinander: im Akkusativ und Ablativ Sg. sowie im Genetiv Pl. Auch bei Misch- und i-Stämmen sind die Nominative sehr unterschiedlich, gemeinsam ist allen Wörtern wieder der Genetiv auf -is.

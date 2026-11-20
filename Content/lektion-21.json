@@ -156,7 +156,7 @@
    "forms": "",
    "de": "entweder … oder",
    "note": "",
-   "pos": "Sonstiges"
+   "pos": "Konjunktion"
   },
   {
    "la": "eiusmodi",
@@ -171,6 +171,13 @@
    "de": "Troja",
    "note": "",
    "pos": "Nomen"
+  },
+  {
+   "la": "sive – sive",
+   "forms": "(= seu – seu)",
+   "de": "sei es (dass) – sei es (dass)",
+   "note": "Aus dem Vokabelverzeichnis",
+   "pos": "Konjunktion"
   }
  ],
  "grammar": [

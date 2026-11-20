@@ -1,0 +1,12 @@
+# Suffix | Bedeutung | Beispiele | Gruppe
+-tor (-toris) | Täter (Nomen agentis) | genitor = „Erzeuger“, „Vater“ (vgl. Doktor) | Nomen
+-trix (-tricis) | Täterin | genitrix = „Erzeugerin“, „Mutter“ | Nomen
+-tudo (-dinis) | Eigenschaft (vgl. „-heit“) | pulchritudo = „Schönheit“ (vgl. Amplitude) | Nomen
+-tas (-tatis) / -tus (-tutis) | Eigenschaft (vgl. „-keit“) | crudelitas = „Grausamkeit“ (vgl. Qualität, Mobilität); virtus = „Tapferkeit“ | Nomen
+-ia / -itia | Eigenschaft, Zustand | concordia = „Eintracht“, amicitia = „Freundschaft“ | Nomen
+-io (-ionis) | Handlung (vgl. „-ung“) | quaestio = „Frage“ (vgl. Reaktion, Korruption) | Nomen
+-mentum / -trum | Mittel, Werkzeug | instrumentum (vgl. Medikament, Fundament) | Nomen
+-ulus, -olus, -ellus | Verkleinerung (Deminutiv; vgl. „-lein“, „-chen“) | navicula = „kleines Schiff“, „Schiffchen“; filiolus = „kleiner Sohn“, „Söhnlein“ | Nomen
+-ilis / -bilis | Fähigkeit (vgl. „-bar“, „-haft“, „-lich“) | mirabilis = „wunderbar“ (vgl. variabel, stabil) | Adjektiv
+-alis / -aris / -arius | Zugehörigkeit | militaris = „militärisch“ | Adjektiv
+-eus / -a / -um | Stoff | aureus = „golden“ | Adjektiv

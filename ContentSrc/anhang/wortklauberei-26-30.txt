@@ -1,0 +1,36 @@
+## Latein und die romanischen Sprachen
+Viele lateinische Wörter sind mit geringen Veränderungen in die romanischen Sprachen übergegangen. Auch das Geschlecht der Nomina hat sich großteils „weitervererbt“: lat. feminin → romanisch feminin; lat. maskulin → romanisch maskulin.
+! Ausnahme sind die neutralen Wörter: Sie wurden im Französischen, Italienischen und Spanischen durchwegs maskulin. Beispiel: lat. vinum, -i (n.) → frz. le vin / ital. il vino / span. el vino.
+| Latein | Französisch | Italienisch | Spanisch |
+| poeta („Dichter“): m. | le poète (m.) | il poeta (m.) | el poeta (m.) |
+| veritas („Wahrheit“): f. | la vérité (f.) | la verità (f.) | la verdad (f.) |
+| tempus („Zeit“): n. | le temps (m.!) | il tempo (m.!) | el tiempo (m.!) |
+? Aufgabe: Ergänze die Artikel. numerus m. → … numéro / … numero / … número; lex f. → … loi / … legge / … ley; crimen n. → … crime / … crimine / … crimen. LÖSUNG: le numéro, il numero, el número („Zahl“); la loi, la legge, la ley („Gesetz“); le crime, il crimine, el crimen („Verbrechen“).
+? Aufgabe: Was bedeuten diese Wörter, und von welchem lateinischen Wort kommen sie? LÖSUNG: victoire = Sieg (victoria); miracolo = Wunder (miraculum); lágrima = Träne (lacrima); corps = Körper (corpus); campo = Feld (campus); mundo = Welt (mundus); arbre = Baum (arbor); mente = Geist (mens); invitación = Einladung (invitare).
+## Das Medium
+Neben Aktiv und Passiv gibt es im Lateinischen das Medium („das Mittlere“): Es hat passive Formen, wird aber reflexiv übersetzt („mich …“, „dich …“, „sich …“). Aus dem Medium sind auch die Deponentia entstanden.
+| Form | Bedeutung | Beispiel |
+| Aktiv (aktive Formen) | ich tue etwas | lavo = „ich wasche“ |
+| Passiv (passive Formen) | mit mir geschieht etwas | lavor = „ich werde gewaschen“ |
+| Medium (passive Formen!) | ich tue etwas, was mich selbst betrifft | lavor = 1) „ich wasche mich“; 2) „ich bade“ |
+! Die Formen des Mediums sind identisch mit denen des Passivs – nur aus dem Zusammenhang erkennst du, ob es ein echtes Passiv oder ein Medium ist.
+? Aufgabe: Übersetze passiv und medial: delectatur, movebar, vertuntur. LÖSUNG: delectatur = er/sie wird erfreut – er/sie freut sich; movebar = ich wurde bewegt – ich bewegte mich; vertuntur = sie werden gewendet – sie wenden sich.
+## Wort- und Sachfelder
+Wortfamilien sind sinnverwandte Wörter mit demselben Wortstamm.
+- Wortfeld = inhaltlich zusammenhängende Wörter derselben Wortart (z. B. Wortfeld „Verkehr“: Auto, Straßenbahn, Ampel, Stau, Straße)
+- Sachfeld = inhaltlich zusammenhängende Wörter verschiedener Wortarten (z. B. Sachfeld „Verkehr“: Auto, parken, Ampel, stauen, Straße)
+? Aufgabe: Nenne die Wortfamilie zum Stamm cup-. LÖSUNG: cupere (Verb), cupidus (Adjektiv), cupiditas (Nomen).
+## Metapher
+Eine Metapher ist ein bildlicher Ausdruck: Ein Wort wird im übertragenen Sinn verwendet („die Uhr geht falsch“).
+| Wort | eigentliche Bedeutung | übertragene Bedeutung |
+| tollere | etwas aufheben (vom Boden) | ein Gesetz aufheben = beseitigen |
+| gravis | schwer (an Gewicht) | schwer (an Bedeutung) = schwerwiegend |
+| adducere | jemanden hinführen (an einen Ort) | jemanden zu einer Handlung hinführen = veranlassen |
+? Aufgabe: Welcher Satz ist metaphorisch? a) Du wirkst heute völlig zerstört. – Die Römer zerstörten die Stadt. b) Hannibal konnte Rom nicht erobern. – Quintus würde Julia gerne erobern. c) Dieses Wissen bringt mir nichts. – Mami bringt mir einen Kakao. LÖSUNG: metaphorisch sind „völlig zerstört“, „Julia erobern“ und „bringt mir nichts“.
+## Ein Wort – viele Bedeutungen: auctor
+Im Nomen auctor, -oris steckt das Verb augere, auxi, auctum („vermehren“, „vergrößern“). auctor bezeichnet also eine Person, die hinter etwas steckt bzw. für etwas verantwortlich ist („Urheber“).
+| Ausdruck | Bedeutung |
+| auctor sceleris | Anstifter / Urheber des Verbrechens |
+| auctor famae | Urheber des Gerüchts |
+| auctor huius libri | Verfasser (Autor) dieses Buches |
+| auctor urbis | Gründer der Stadt |

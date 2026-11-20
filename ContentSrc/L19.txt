@@ -24,6 +24,14 @@ defendere | defendo 3, defendi, defensum | verteidigen | frz. défendre, ital. d
 vulnus | vulneris n. | Wunde | vgl. engl. vulnerable (= verletzlich, verwundbar)
 ultimus/a/um | | der/die/das letzte | vgl. Ultimatum (= letzte Aufforderung)
 * Ab dieser Lektion findest du in der zweiten Spalte auch das PPP (Partizip Perfekt Passiv, Mittelwort der Vergangenheit). Diese letzte Form der lateinischen Stammformen musst du von nun an immer mitlernen.
+maior, maius | maioris (2.F.) | größer | Komparativ zu magnus. Aus dem Vokabelverzeichnis
+minor, minus | minoris (2.F.) | kleiner | Komparativ zu parvus. Aus dem Vokabelverzeichnis
+minimus/a/um | | der kleinste | vgl. minimal. Aus dem Vokabelverzeichnis
+optimus/a/um | | der beste | vgl. optimal. Aus dem Vokabelverzeichnis
+peior, peius | peioris (2.F.) | schlechter | Komparativ zu malus. Aus dem Vokabelverzeichnis
+pessimus/a/um | | der schlechteste | vgl. Pessimist. Aus dem Vokabelverzeichnis
+plus | pluris (2.F.) | mehr | vgl. Plus. Aus dem Vokabelverzeichnis
+plures/a (Pl.) | plurium (2.F.) | mehr, mehrere | vgl. Plural. Aus dem Vokabelverzeichnis
 == GRAMMATIK
 ## Partizip Perfekt Passiv (PPP)
 Das PPP ist die letzte der Stammformen. Dieses Partizip (Mittelwort) wird folgendermaßen gebildet:

@@ -22,6 +22,23 @@ exemplum | exempli n. | Beispiel | engl. for example („zum Beispiel“)
 maxime (Adv.) | | sehr; am meisten | vgl. maximal
 familia | familiae f. | Familie | engl. family, frz. famille, ital. famiglia
 expellere | expello 3, expuli, expulsum | 1) vertreiben; 2) verjagen |
+quattuor | | vier | Zahlwort, aus dem Vokabelverzeichnis
+quinque | | fünf | vgl. Quintett. Aus dem Vokabelverzeichnis
+septem | | sieben | vgl. September (urspr. 7. Monat). Aus dem Vokabelverzeichnis
+octo | | acht | vgl. Oktober, Oktave. Aus dem Vokabelverzeichnis
+novem | | neun | vgl. November. Aus dem Vokabelverzeichnis
+decem | | zehn | vgl. Dezember, Dezimal. Aus dem Vokabelverzeichnis
+centum | | hundert | vgl. Zentimeter, Prozent. Aus dem Vokabelverzeichnis
+mille | (Pl.: milia, -ium) | tausend | vgl. Million, Millimeter. Aus dem Vokabelverzeichnis
+secundus/a/um | | der zweite | vgl. Sekunde. Aus dem Vokabelverzeichnis
+tertius/a/um | | der dritte | vgl. Terz. Aus dem Vokabelverzeichnis
+quartus/a/um | | der vierte | vgl. Quartal. Aus dem Vokabelverzeichnis
+quintus/a/um | | der fünfte | Aus dem Vokabelverzeichnis
+sextus/a/um | | der sechste | vgl. Sexte. Aus dem Vokabelverzeichnis
+septimus/a/um | | der siebente | Aus dem Vokabelverzeichnis
+octavus/a/um | | der achte | vgl. Oktave. Aus dem Vokabelverzeichnis
+nonus/a/um | | der neunte | Aus dem Vokabelverzeichnis
+decimus/a/um | | der zehnte | Aus dem Vokabelverzeichnis
 == GRAMMATIK
 ## Numeralia (Zahlwörter)
 | Ziffer | Grundzahl | Bedeutung | Ordnungszahl | Bedeutung |

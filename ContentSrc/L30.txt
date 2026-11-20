@@ -25,6 +25,7 @@ vereri (D) | vereor 2, veritus sum | 1) fürchten; 2) sich scheuen | vereri = ti
 quidquid | | was auch immer; alles was |
 hortari (D) | hortor 1, hortatus sum | auffordern, ermuntern |
 servire | servio 4, -ivi, -itum | dienen | frz. + span. servir; vgl. servieren; ↔ servare
+quisquis | | wer auch immer | Neutrum: quidquid. Aus dem Vokabelverzeichnis
 == GRAMMATIK
 ## Deponentia
 Deponentia sind Verba mit passiver Form, aber aktiver Bedeutung. Der Name Deponentia kommt vom Verbum deponere („ablegen“), da man meinte, diese Wörter hätten ihre aktiven Formen (bzw. passiven Bedeutungen) abgelegt. Entstanden sind Deponentia aus dem sogenannten „Medium“, einem Mittelding zwischen Aktiv und Passiv.

@@ -1,0 +1,156 @@
+# Stammformen der Verba inkl. PPP, Lec. 1–30 (Buch S. 200 ff.)
+# Infinitiv Klasse | Perfekt | PPP | Bedeutung | Lektion
+## Perfekt auf -v-
+delere 2 | delevi | deletum | zerstören | 9
+flere 2 | flevi | fletum | weinen | 15
+cognoscere 3 | cognovi | cognitum | erfahren, erkennen | 16
+petere 3 | petivi | petitum | anstreben; bitten | 13
+quaerere 3 | quaesivi | quaesitum | suchen; fragen | 12
+decernere 3 | decrevi | decretum | beschließen | 21
+cupere M | cupivi | cupitum | wünschen | 13
+## Perfekt mit -u-
+docere 2 | docui | doctum | lehren, unterrichten | 2
+tenere 2 | tenui | – | halten | 22
+continere 2 | continui | contentum | zusammenhalten, enthalten | 16
+abstinere 2 | abstinui | – | sich fernhalten | 22
+obtinere 2 | obtinui | obtentum | innehaben, besitzen | 22
+statuere 3 | statui | statutum | beschließen, aufstellen | 19
+constituere 3 | constitui | constitutum | beschließen, festsetzen | 9
+ponere 3 | posui | positum | legen, stellen | 20
+deponere 3 | deposui | depositum | ablegen | 22
+metuere 3 | metui | – | fürchten | 29
+consulere 3 | consului | consultum | befragen | 29
+rapere M | rapui | raptum | rauben | 7
+aperire 4 | aperui | apertum | öffnen | 23
+## Perfekt mit -x-
+augere 2 | auxi | auctum | vergrößern, steigern | 20
+dicere 3 | dixi | dictum | sagen; nennen | 7
+ducere 3 | duxi | ductum | führen | 10
+adducere 3 | adduxi | adductum | hinführen, veranlassen | 29
+traducere 3 | traduxi | traductum | hinüberführen | 28
+legere 3 | legi (!) | lectum | lesen | 7
+intellegere 3 | intellexi | intellectum | erkennen, einsehen | 14
+neglegere 3 | neglexi | neglectum | missachten, ignorieren | 13
+iungere 3 | iunxi | iunctum | verbinden | 21
+coniungere 3 | coniunxi | coniunctum | verbinden | 13
+trahere 3 | traxi | tractum | ziehen | 22
+tegere 3 | texi | tectum | bedecken | 30
+vivere 3 | vixi | – | leben | 19
+conspicere M | conspexi | conspectum | erblicken | 11
+## Perfekt mit -s-
+ardere 2 | arsi | – | brennen | 24
+iubere 2 | iussi | iussum | befehlen; lassen | 17
+manere 2 | mansi | mansum | bleiben | 5
+persuadere 2 | persuasi | persuasum | überreden; überzeugen | 19
+ridere 2 | risi | risum | lachen | 1
+cedere 3 | cessi | cessum | weichen, weggehen | 20
+claudere 3 | clausi | clausum | einschließen, schließen | 20
+includere 3 | inclusi | inclusum | einschließen | 23
+dividere 3 | divisi | divisum | teilen, trennen | 28
+gerere 3 | gessi | gestum | (aus)führen | 7
+laedere 3 | laesi | laesum | verletzen | 25
+ludere 3 | lusi | lusum | spielen | 11
+mittere 3 | misi | missum | schicken | 7
+amittere 3 | amisi | amissum | verlieren | 10
+committere 3 | commisi | commissum | begehen | 8
+promittere 3 | promisi | promissum | versprechen | 24
+premere 3 | pressi | pressum | drücken; bedrängen | 29
+scribere 3 | scripsi | scriptum | schreiben | 29
+sumere 3 | sumpsi | sumptum | nehmen | 25
+consumere 3 | consumpsi | consumptum | vernichten; verbrauchen | 23
+## Perfekt mit -e-
+agere 3 | egi | actum | tun | 16
+cogere 3 | coegi | coactum | (ver)sammeln; zwingen | 17
+considere 3 | consedi | – | sich niedersetzen | 15
+capere M | cepi | captum | fassen, ergreifen, fangen | 7
+accipere M | accepi | acceptum | erhalten, aufnehmen | 9
+incipere M | coepi (!) | coeptum (!) | beginnen | 18
+recipere M | recepi | receptum | aufnehmen | 16
+facere M | feci | factum | machen | 8
+afficere M | affeci | affectum | versehen (mit), erfüllen | 17
+conficere M | confeci | confectum | ausführen, beenden | 11
+interficere M | interfeci | interfectum | töten | 12
+iacere M | ieci | iactum | werfen, schleudern | 21
+## Perfekt wie Präsens
+iuvare 1 | iuvi | iutum | unterstützen, helfen | 12
+adiuvare 1 | adiuvi | adiutum | unterstützen, helfen | 7
+favere 2 | favi | fautum | begünstigen, bevorzugen | 23
+movere 2 | movi | motum | bewegen | 15
+commovere 2 | commovi | commotum | bewegen, veranlassen | 27
+respondere 2 | respondi | responsum | antworten | 1
+sedere 2 | sedi | sessum | sitzen | 1
+possidere 2 | possedi | possessum | besitzen | 30
+videre 2 | vidi | visum | sehen | 3
+ascendere 3 | ascendi | ascensum | hinaufsteigen, besteigen | 9
+bibere 3 | bibi | – | trinken | 14
+comprehendere 3 | comprehendi | comprehensum | ergreifen; erfassen | 17
+contendere 3 | contendi | contentum | eilen; kämpfen | 7
+defendere 3 | defendi | defensum | verteidigen | 19
+incendere 3 | incendi | incensum | anzünden | 22
+legere 3 | legi | lectum | lesen | 7
+deligere 3 | delegi | delectum | auswählen | 21
+metuere 3 | metui | – | fürchten | 29
+solvere 3 | solvi | solutum | lösen, auflösen | 13
+vertere 3 | verti | versum | wenden | 15
+animadvertere 3 | animadverti | animadversum | bemerken | 20
+fugere M | fugi | – | flüchten | 9
+venire 4 | veni | ventum | kommen | 7
+advenire 4 | adveni | adventum | hinkommen, ankommen | 18
+circumvenire 4 | circumveni | circumventum | umzingeln | 18
+invenire 4 | inveni | inventum | finden; erfinden | 12
+convenire 4 | conveni | conventum | zusammenkommen | 20
+pervenire 4 | perveni | perventum | kommen, gelangen | 25
+## Reduplikationsperfekt (Verdoppelung der Stammsilbe)
+dare 1 | dedi | datum | geben | 12
+reddere 3 | reddidi | redditum | zurückgeben | 14
+tradere 3 | tradidi | traditum | ausliefern; überliefern | 18
+condere 3 | condidi | conditum | gründen | 26
+credere 3 | credidi | creditum | glauben | 24
+stare 1 | steti | statum | stehen | 14
+constat 1 | constitit | – | es steht fest | 25
+canere 3 | cecini | – | singen | 15
+cadere 3 | cecidi | – | fallen | 13
+accidere 3 | accidi | – | geschehen | 28
+caedere 3 | cecidi | caesum | (fällen =) töten | 22
+occidere 3 | occidi | occisum | töten | 10
+discere 3 | didici | – | lernen | 16
+pellere 3 | pepuli | pulsum | schlagen, stoßen | 29
+expellere 3 | expuli | expulsum | vertreiben, verjagen | 8
+resistere 3 | restiti | – | Widerstand leisten | 8
+exsistere 3 | exstiti | – | entstehen | 26
+tangere 3 | tetigi | tactum | berühren | 11
+## Sonstige Verba
+desinere 3 | desii | – | aufhören, ablassen | 15
+relinquere 3 | reliqui | relictum | verlassen, zurücklassen | 7
+vincere 3 | vici | victum | siegen, besiegen | 10
+## Unregelmäßige Verba
+esse | fui | – | sein | 6
+adesse | adfui | – | da sein, anwesend sein | 19
+deesse | defui | – | fehlen | 28
+interesse | interfui | – | beiwohnen, teilnehmen | 22
+posse | potui | – | können | 6
+prodesse | profui | – | nützen | 25
+ire | ii | itum | gehen | 17
+adire | adii | aditum | hingehen; angreifen | 17
+exire | exii | exitum | hinausgehen | 17
+inire | inii | initum | hineingehen, betreten | 25
+interire | interii | interitum | untergehen, sterben | 24
+redire | redii | reditum | zurückkehren | 23
+transire | transii | transitum | überqueren, hinübergehen | 28
+ferre | tuli | latum | tragen, bringen | 17
+auferre | abstuli | ablatum | wegtragen, wegnehmen | 20
+referre | rettuli | relatum | zurückbringen; berichten | 27
+tollere (!) | sustuli | sublatum | aufheben, erheben | 24
+velle | volui | – | wollen | 24
+nolle | nolui | – | nicht wollen | 24
+## Semideponentia
+audere 2 | ausus sum | – | wagen | 10
+gaudere 2 | gavisus sum | – | sich freuen | 1
+solere 2 | solitus sum | – | gewohnt sein, pflegen | 11
+## Deponentia
+hortari 1 | hortatus sum | – | auffordern, ermuntern | 30
+vereri 2 | veritus sum | – | fürchten; sich scheuen | 30
+loqui 3 | locutus sum | – | sprechen | 30
+sequi 3 | secutus sum | – | folgen | 30
+queri M | questus sum | – | klagen | 30
+pati M | passus sum | – | ertragen, erdulden | 30

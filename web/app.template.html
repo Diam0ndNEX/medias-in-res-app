@@ -126,6 +126,7 @@ td:first-child{font-style:normal;font-weight:600}
 .changes h3{margin:16px 0 4px;font-size:17px}.changes ul{margin:4px 0;padding-left:20px}.changes li{margin:3px 0}
 .pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:8px;background:rgba(118,118,128,.15);color:var(--muted)}
 .heat{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;gap:3px;padding:14px;justify-content:center}.heat i{width:18px;height:18px;border-radius:4px;background:var(--fill,#8882)}.heat .h1{background:#34c75955}.heat .h2{background:#34c759aa}.heat .h3{background:#34c759}.heat .hf{visibility:hidden}
+.letters{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0 8px}.letters .btn{min-height:32px;min-width:32px;padding:2px 6px}
 </style>
 </head>
 <body>
@@ -139,6 +140,7 @@ const LESSONS = /*__DATA__*/;
 const ICON = "/*__ICON180__*/";
 const APP_VERSION = "/*__VERSION__*/";
 const CHANGELOG = /*__CHANGELOG__*/;
+const ANHANG = /*__ANHANG__*/;
 
 // ---------- Daten ----------
 const ALL = [];
@@ -289,7 +291,7 @@ function checkAnswer(input, target) {
 }
 
 // ---------- Fragen ----------
-const POS = ["Alle", "Nomen", "Verb", "Adjektiv", "Adverb", "Pronomen", "Konjunktion", "Präposition", "Sonstiges"];
+const POS = ["Alle", "Nomen", "Verb", "Adjektiv", "Adverb", "Pronomen", "Konjunktion", "Präposition", "Zahlwort", "Sonstiges"];
 function distract(item, pool, count, key) {
   const ck = key(item), res = [];
   const add = list => { for (const v of shuffle(list)) { if (res.length >= count) return; const k = key(v); if (k && k !== ck && !res.includes(k)) res.push(k); } };
@@ -358,13 +360,14 @@ function qForeign(v, pool) {
 }
 function cleanForm(s) { let t = s; const i = t.indexOf("„"); if (i >= 0) t = t.slice(0, i); return t.replace(/!/g, "").trim(); }
 const usableForm = f => f && f.length <= 24 && f !== "–" && ![":", ";", "(", "…", "„", "=", "→"].some(b => f.includes(b)) && f.split(" ").length <= 3;
+const lname = l => typeof l.number === "number" ? "Lektion " + l.number : l.number;
 function formTables(lessons) {
   const out = [];
   for (const l of lessons) for (const s of l.grammar) for (const b of s.blocks) if (b.type === "table") {
     const cells = []; const h = b.headers || [];
     for (const r of b.rows || []) { const rl = (r[0] || "").trim(); if (!rl || r.length < 2) continue;
       for (let c = 1; c < r.length; c++) { const f = cleanForm(r[c]); if (!usableForm(f)) continue; const hd = (h[c] || "").trim();
-        cells.push({ form: f, label: hd ? rl + " · " + hd : rl, ctx: "Lektion " + l.number + ": " + s.title }); } }
+        cells.push({ form: f, label: hd ? rl + " · " + hd : rl, ctx: lname(l) + ": " + s.title }); } }
     if (new Set(cells.map(c => c.label)).size >= 4 && new Set(cells.map(c => c.form)).size >= 4) out.push(cells);
   }
   return out;
@@ -392,6 +395,77 @@ function qExam(cfg, total) {
 const grade = (c, t) => { const p = t ? c / t : 0; return p >= .875 ? 1 : p >= .75 ? 2 : p >= .625 ? 3 : p >= .5 ? 4 : 5; };
 const GRADE = ["", "Sehr gut", "Gut", "Befriedigend", "Genügend", "Nicht genügend"];
 
+
+// ---------- Anhang (Buch nach Lektion 30) ----------
+const ANH = id => ANHANG.sections.find(x => x.id === id);
+const FORMEN_L = { number: "Formenlehre", title: "Formenlehre", grammar: (ANH("formen") || { grammar: [] }).grammar };
+function openAnhang(x) { push(x.title, el => { el.innerHTML = `<p class="sub">${esc(x.sub)}</p>` + grammarHTML(x.grammar); }); }
+const dayNum = () => { const d = new Date(); return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 864e5); };
+const dailyProverb = () => ANHANG.proverbs[(dayNum() * 13) % ANHANG.proverbs.length];
+const pickOther = (list, me, key, n) => { const out = []; for (const x of shuffle(list)) { const k = key(x); if (x !== me && k && k !== key(me) && !out.includes(k)) out.push(k); if (out.length >= n) break; } return out; };
+function qProverb(p) {
+  const all = ANHANG.proverbs, ex = p.lesson ? "Kommt in Lektion " + p.lesson + " vor." : "";
+  if (rnd()) return mc(p.la, p.de, pickOther(all, p, x => x.de, 3), { hint: "Was bedeutet der Spruch?", expl: ex, speak: p.la, cat: "Sprichwort" });
+  return mc(p.de, p.la, pickOther(all, p, x => x.la, 3), { hint: "Wie lautet der Spruch auf Latein?", expl: ex, cat: "Sprichwort" });
+}
+const STEM_MAIN = [...new Set(ANHANG.stems.map(x => x.group))].filter(g => /^Perfekt|Redupl/.test(g));
+const stemLabel = x => x.inf + (x.cls ? " " + x.cls : "");
+const stemItem = x => ALL.find(v => v.pos === "Verb" && headLa(v) === x.inf);
+function qStemBook(x, pool) {
+  const all = ANHANG.stems, kind = Math.random(), expl = `${stemLabel(x)}, ${x.perf}, ${x.ppp} – ${x.de} · ${x.group} (L${x.lesson})`;
+  const same = list => [...list.filter(y => y.cls === x.cls), ...list];
+  if (kind < .3 && STEM_MAIN.includes(x.group))
+    return mc(stemLabel(x) + " → " + x.perf, x.group, shuffle(STEM_MAIN.filter(g => g !== x.group)).slice(0, 3), { hint: "Welche Art der Perfektbildung?", expl, cat: "Perfektbildung" });
+  if (kind < .6 && x.ppp && x.ppp !== "–")
+    return mc(stemLabel(x) + ", " + x.perf, x.ppp, pickOther(same(pool.filter(y => y.ppp !== "–")), x, y => y.ppp, 3), { hint: "Wie lautet das PPP? (" + x.de + ")", expl, cat: "PPP" });
+  const stem = x.inf.replace(/(are|ere|ire|ri|i|e)$/, "");
+  const fakes = [stem + "avi", stem + "ivi", stem + "ui", stem + "si", stem + "xi"].filter(f => f !== x.perf);
+  const wrong = [...new Set([...pickOther(same(pool), x, y => y.perf, 2), ...shuffle(fakes)])].filter(f => f !== x.perf).slice(0, 3);
+  return mc(stemLabel(x), x.perf, wrong, { hint: "Wie lautet das Perfekt? (" + x.de + ")", expl, cat: "Stammformen" });
+}
+function qAffix() {
+  const P_ = ANHANG.prefixes.map(x => ({ k: x.p, m: x.m, ex: x.ex.split(/[;,]/)[0].trim(), t: "Vorsilbe" })),
+        S_ = ANHANG.suffixes.map(x => ({ k: x.s, m: x.m, ex: x.ex.split(/[;(]/)[0].trim(), t: "Nachsilbe" }));
+  const all = [...P_, ...S_], out = [];
+  for (const x of all) {
+    const pool = all.filter(y => y.t === x.t && y.m !== x.m);
+    out.push(mc(x.k, x.m, pickOther(pool, x, y => y.m, 3), { hint: "Was bedeutet die " + x.t + "? (z. B. " + x.ex + ")", cat: x.t }));
+    const twins = all.filter(y => y.m === x.m && y.k !== x.k);
+    if (!twins.length) out.push(mc(x.m, x.k, pickOther(pool, x, y => y.k, 3), { hint: "Welche " + x.t + " hat diese Bedeutung?", expl: "z. B. " + x.ex, cat: x.t }));
+  }
+  return out;
+}
+function qFigure() {
+  const all = ANHANG.figures, out = [];
+  for (const f of all) {
+    out.push(mc("„" + f.ex + "“", f.name, pickOther(all, f, y => y.name, 3), { hint: "Welches Stilmittel ist das?", expl: f.desc, cat: "Stilmittel" }));
+    out.push(mc(f.desc, f.name, pickOther(all, f, y => y.name, 3), { hint: "Wie heißt dieses Stilmittel?", expl: "z. B. " + f.ex, cat: "Stilmittel" }));
+  }
+  return out;
+}
+function anhangFormen(el) {
+  el.innerHTML = `<p class="sub">Übe mit den großen Tabellen aus der Formenlehre im Buchanhang (amicus, res, vox, amo, moneo, mitto, capio, audio, esse, posse, ire, ferre, velle …).</p>
+    <div class="group">${["fid", "fbuild", "tables"].map(modeRow).join("")}</div>`;
+  el.querySelectorAll("[data-mode]").forEach(r => r.onclick = () => {
+    const m = r.dataset.mode, title = MODES[m][0] + " (Formenlehre)";
+    if (m === "tables") return push(title, e => tablesView(e, [FORMEN_L]));
+    const qs = shuffle(m === "fid" ? qIdentify([FORMEN_L]) : qBuild([FORMEN_L])).slice(0, 20);
+    push(title, e => quizView(e, qs, {}));
+  });
+}
+// Wörterverzeichnis A–Z (wie das Vocabularium im Buch)
+const sortKey = v => fold(headLa(v)).replace(/^[^a-z]+/, "");
+function dictView(el) {
+  const list = ALL.slice().sort((a, b) => sortKey(a).localeCompare(sortKey(b), "de") || a.lesson - b.lesson);
+  const letters = [...new Set(list.map(v => sortKey(v)[0].toUpperCase()))];
+  let html = `<div class="letters">${letters.map(c => `<button class="btn" data-j="${c}">${c}</button>`).join("")}</div><p class="sub">${list.length} Vokabeln aus Lektion 1–${LESSONS[LESSONS.length - 1].number}, alphabetisch – wie das Vocabularium hinten im Buch.</p>`;
+  let cur = "";
+  list.forEach((v, k) => { const c = sortKey(v)[0].toUpperCase(); if (c !== cur) { html += (cur ? "</div>" : "") + `<div class="ghead" id="az-${c}">${c}</div><div class="group">`; cur = c; } html += vocabRow(v, false, k, true); });
+  el.innerHTML = html + "</div>";
+  bindVocabRows(el, list);
+  el.querySelectorAll("[data-j]").forEach(b => b.onclick = () => { const t = el.querySelector("#az-" + b.dataset.j); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - topEl.getBoundingClientRect().height - 8 }); });
+}
+
 // ---------- Modi ----------
 const MODES = {
   daily: ["Tägliche Wiederholung", "Fällige Karten aus allen Lektionen", "📅", "--orange"],
@@ -411,6 +485,11 @@ const MODES = {
   fbuild: ["Formen bilden", "Die richtige Form auswählen", "🔨", "--indigo"],
   tables: ["Tabellen lernen", "Tabellen verdeckt aufdecken", "🙈", "--indigo"],
   exam: ["Schularbeit-Modus", "Gemischter Test mit Note 1–5", "🎓", "--red"],
+  stembook: ["Stammformen-Liste", "Perfekt, PPP und Perfektbildung (Buch S. 200 ff.)", "📜", "--teal"],
+  aform: ["Formenlehre-Training", "Formen aus den Anhang-Tabellen", "📐", "--indigo"],
+  affix: ["Vor- und Nachsilben", "ab-, con-, ex- … -tor, -tas, -bilis", "🧱", "--teal"],
+  figure: ["Stilmittel", "Alliteration, Chiasmus, Klimax … erkennen", "🎭", "--purple"],
+  proverb: ["Sprichwörter", "Lateinische Redewendungen deuten", "💬", "--purple"],
 };
 const cfgItems = c => { const a = vocabIn(c.from, c.to); return c.pos === "Alle" ? a : a.filter(v => v.pos === c.pos); };
 const limited = (c, l) => c.count ? l.slice(0, c.count) : l;
@@ -430,6 +509,7 @@ function startMode(m, cfg) {
     return push(title, el => flashView(el, it, cfg.dir)); }
   if (m === "tables") return push(title, el => tablesView(el, lessonsIn(cfg.from, cfg.to)));
   if (m === "exam") return push("Schularbeit", el => examSetup(el, cfg));
+  if (m === "aform") return push(title, anhangFormen);
   const ls = lessonsIn(cfg.from, cfg.to); let qs;
   switch (m) {
     case "mc": qs = withForms(limited(cfg, shuffle(pool)).map(v => qVocab(v, pool, cfg.dir)), pool); break;
@@ -441,6 +521,11 @@ function startMode(m, cfg) {
     case "foreign": qs = limited(cfg, shuffle(pool).map(v => qForeign(v, pool)).filter(Boolean)); break;
     case "fid": qs = limited(cfg, shuffle(qIdentify(ls))); break;
     case "fbuild": qs = limited(cfg, shuffle(qBuild(ls))); break;
+    case "stembook": { const lo = Math.min(cfg.from, cfg.to), hi = Math.max(cfg.from, cfg.to), sp = ANHANG.stems.filter(x => x.lesson >= lo && x.lesson <= hi);
+      qs = limited(cfg, shuffle(sp).map(x => { const q = qStemBook(x, sp.length >= 4 ? sp : ANHANG.stems); const v = stemItem(x); if (v) { q.item = v; q.onlyWrong = true; } return q; })); break; }
+    case "affix": qs = limited(cfg, shuffle(qAffix())); break;
+    case "figure": qs = limited(cfg, shuffle(qFigure())); break;
+    case "proverb": qs = limited(cfg, shuffle(ANHANG.proverbs).map(qProverb)); break;
   }
   if (!qs || !qs.length) return empty("In diesem Bereich gibt es dafür keine passenden Inhalte.");
   push(title, el => quizView(el, qs, { time: m === "blitz" ? 60 : 0, auto: m === "blitz", speak: m === "listen", hs: m === "blitz" ? "blitz-" + cfg.from + "-" + cfg.to : null }));
@@ -613,7 +698,7 @@ function matchView(el, items) {
 
 // ---------- Tabellen ----------
 function tablesView(el, lessons) {
-  const tabs = []; for (const l of lessons) for (const s of l.grammar) for (const b of s.blocks) if (b.type === "table") tabs.push({ t: "L" + l.number + ": " + s.title, b });
+  const tabs = []; for (const l of lessons) for (const s of l.grammar) for (const b of s.blocks) if (b.type === "table") tabs.push({ t: (typeof l.number === "number" ? "L" + l.number + ": " : "") + s.title, b });
   el.innerHTML = tabs.length ? `<div class="group">${tabs.map((x, k) => `<div class="row link" data-k="${k}"><div class="grow"><div class="hl">${esc(x.t)}</div><div class="sub">${esc((x.b.headers || []).filter(Boolean).join(" · "))}</div></div></div>`).join("")}</div>` : `<p>Keine Tabellen in diesem Bereich.</p>`;
   el.querySelectorAll("[data-k]").forEach(r => r.onclick = () => { const x = tabs[+r.dataset.k]; push(x.t, e => hiddenTable(e, x.b)); });
 }
@@ -700,17 +785,24 @@ function updateBadge() { drawTabs(); }
 function ring(p, n) { const r = 17, c = 2 * Math.PI * r;
   return `<svg class="ring" viewBox="0 0 40 40"><circle cx="20" cy="20" r="${r}" fill="none" stroke="rgba(118,118,128,.25)" stroke-width="4"/><circle cx="20" cy="20" r="${r}" fill="none" stroke="var(--green)" stroke-width="4" stroke-linecap="round" stroke-dasharray="${c * p} ${c}" transform="rotate(-90 20 20)"/><text x="20" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor">${n}</text></svg>`; }
 function lessonsTab(el) {
-  const w = dailyWord(), next = LESSONS.find(l => mastered(l.vocab) < .8) || LESSONS[LESSONS.length - 1];
+  const w = dailyWord(), pw = dailyProverb(), next = LESSONS.find(l => mastered(l.vocab) < .8) || LESSONS[LESSONS.length - 1];
   let html = `<div class="group"><div class="row" id="dw" style="display:block;cursor:pointer"><div class="tiny" style="color:var(--orange);font-weight:700">☀️ VOKABEL DES TAGES</div>
       <div style="display:flex;align-items:baseline;gap:8px"><div style="font-size:24px;font-weight:800;flex:1">${esc(w.la)}</div><button class="btn" id="dwsay" style="min-height:34px;padding:4px 10px">🔊</button></div>
       ${fFront(w) ? `<div class="sub">${esc(w.forms)}</div>` : ""}<div id="dwde" class="sub">Tippen zum Aufdecken</div><div class="tiny">Lektion ${w.lesson}</div></div>
+    <div class="row" id="pw" style="display:block;cursor:pointer"><div class="tiny" style="color:var(--purple);font-weight:700">💬 SPRICHWORT DES TAGES</div>
+      <div style="font-size:18px;font-weight:700;font-style:italic">${esc(pw.la)}</div><div id="pwde" class="sub">Tippen zum Aufdecken</div></div>
     <div class="row link" id="cont"><div style="font-size:24px">➡️</div><div class="grow"><div class="hl">Weiterlernen</div><div class="sub">Lektion ${next.number}: ${esc(next.title)} · ${Math.round(mastered(next.vocab) * 100)} % sitzen</div></div></div>
     <div class="row"><div class="grow" style="color:var(--orange)">🔥 ${streak()} Tage</div><div class="sub">📅 ${dueCount()} fällig</div></div></div>`;
   for (const u of UNITS) {
     html += `<div class="ghead">${esc(u)}</div><div class="group">` + LESSONS.filter(l => l.unit === u).map(l =>
       `<div class="row link" data-l="${l.number}">${ring(mastered(l.vocab), l.number)}<div class="grow"><div class="hl">${esc(l.title)}</div><div class="sub">${l.vocab.length} Vokabeln · ${l.grammar.length} Grammatik-Themen</div></div></div>`).join("") + `</div>`;
   }
+  html += `<div class="ghead">Anhang (nach Lektion 30)</div><div class="group">${ANHANG.sections.map((x, k) => `<div class="row link" data-a="${k}"><div style="font-size:24px">${x.icon}</div><div class="grow"><div class="hl">${esc(x.title)}</div><div class="sub">${esc(x.sub)}</div></div></div>`).join("")}
+    <div class="row link" id="az"><div style="font-size:24px">📚</div><div class="grow"><div class="hl">Wörterverzeichnis A–Z</div><div class="sub">Alle ${ALL.length} Vokabeln alphabetisch mit Lektion</div></div></div></div>`;
   el.innerHTML = html;
+  el.querySelectorAll("[data-a]").forEach(r => r.onclick = () => openAnhang(ANHANG.sections[+r.dataset.a]));
+  el.querySelector("#az").onclick = () => push("Wörterverzeichnis", dictView);
+  el.querySelector("#pw").onclick = () => { el.querySelector("#pwde").innerHTML = esc(pw.de) + (pw.lesson ? `<div class="tiny">Lektion ${pw.lesson}</div>` : ""); };
   el.querySelector("#dw").onclick = e => { if (e.target.closest("button")) return; el.querySelector("#dwde").innerHTML = esc(w.de) + (!fFront(w) && fBack(w) ? `<div class="sub">${esc(w.forms)}</div>` : "") + (w.note ? `<div class="tiny">${esc(w.note)}</div>` : ""); };
   el.querySelector("#dwsay").onclick = () => speakLatin(speakable(w));
   el.querySelector("#cont").onclick = () => openLesson(next);
@@ -792,6 +884,8 @@ function practiceTab(el) {
     <div class="gfoot">${dueCount()} Karten sind heute fällig. Die tägliche Wiederholung nimmt alle Lektionen.</div>
     <div class="ghead">Vokabeln</div><div class="group">${["flash", "mc", "tf", "match", "listen", "blitz", ...(s.typing ? ["typing"] : []), "forms", "stem", "foreign"].map(modeRow).join("")}</div>
     <div class="ghead">Grammatik</div><div class="group">${["fid", "fbuild", "tables"].map(modeRow).join("")}</div>
+    <div class="ghead">Anhang</div><div class="group">${["stembook", "aform", "affix", "figure", "proverb"].map(modeRow).join("")}</div>
+    <div class="gfoot">Stammformen-Liste nimmt die Verba aus dem gewählten Bereich, die anderen Anhang-Übungen das ganze Buch.</div>
     <div class="ghead">Test</div><div class="group">${modeRow("exam")}</div>`;
   const re = () => { save(); current().scroll = window.scrollY; render(); };
   el.querySelector("#from").onchange = e => { s.from = +e.target.value; if (s.to < s.from) s.to = s.from; re(); };
@@ -819,10 +913,11 @@ function searchTab(el) {
     all.sort((a, b) => (fold(b.la).startsWith(t) || fold(b.de).startsWith(t)) - (fold(a.la).startsWith(t) || fold(a.de).startsWith(t)));
     const hits = all.slice(0, 100);
     const gh = []; for (const l of LESSONS) for (const s of l.grammar) if (!t || fold(s.title).includes(t) || secText(s).includes(t)) gh.push([l, s]);
+    for (const a of ANHANG.sections) for (const s of a.grammar) if (t && (fold(s.title).includes(t) || secText(s).includes(t))) gh.push([{ number: "Anhang", title: a.title }, s]);
     res.innerHTML = (hits.length ? `<div class="ghead">Vokabeln (${all.length > 100 ? "100 von " + all.length : all.length})</div><div class="group">${hits.map((v, k) => vocabRow(v, false, k, true)).join("")}</div>` : (t.length >= 2 ? `<p class="sub">Keine Vokabeln gefunden.</p>` : ""))
-      + (gh.length ? `<div class="ghead">${t ? "Grammatik (" + gh.length + ")" : "Grammatik-Register"}</div><div class="group">${gh.map(([l, s], k) => `<div class="row link" data-g="${k}"><span class="pill">L${l.number}</span><div class="grow">${esc(s.title)}</div></div>`).join("")}</div>` : (t ? `<p class="sub">Keine Grammatik gefunden.</p>` : ""));
+      + (gh.length ? `<div class="ghead">${t ? "Grammatik (" + gh.length + ")" : "Grammatik-Register"}</div><div class="group">${gh.map(([l, s], k) => `<div class="row link" data-g="${k}"><span class="pill">${typeof l.number === "number" ? "L" + l.number : "Anhang"}</span><div class="grow">${esc(s.title)}</div></div>`).join("")}</div>` : (t ? `<p class="sub">Keine Grammatik gefunden.</p>` : ""));
     bindVocabRows(res, hits);
-    res.querySelectorAll("[data-g]").forEach(r => r.onclick = () => { const [l, s] = gh[+r.dataset.g]; push("Lektion " + l.number, e => { e.innerHTML = grammarHTML([s]); }); });
+    res.querySelectorAll("[data-g]").forEach(r => r.onclick = () => { const [l, s] = gh[+r.dataset.g]; push(lname(l), e => { e.innerHTML = grammarHTML([s]); }); });
   }
   q.oninput = run;
   q.onkeydown = e => { if (e.key === "Enter") q.blur(); };

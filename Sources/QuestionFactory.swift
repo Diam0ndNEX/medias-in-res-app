@@ -48,7 +48,7 @@ struct PracticeConfig: Hashable {
 }
 
 enum QuestionFactory {
-    static let posOptions = ["Alle", "Nomen", "Verb", "Adjektiv", "Adverb", "Pronomen", "Konjunktion", "Präposition", "Sonstiges"]
+    static let posOptions = ["Alle", "Nomen", "Verb", "Adjektiv", "Adverb", "Pronomen", "Konjunktion", "Präposition", "Zahlwort", "Sonstiges"]
 
     // MARK: Ablenker
 

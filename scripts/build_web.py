@@ -9,6 +9,7 @@ WEB = os.path.join(ROOT, "web")
 ICON_SRC = os.path.join(ROOT, "Sources/Assets.xcassets/AppIcon.appiconset/icon-1024.png")
 
 lessons = [json.load(open(f, encoding="utf-8")) for f in sorted(glob.glob(os.path.join(ROOT, "Content/lektion-*.json")))]
+anhang = json.dumps(json.load(open(os.path.join(ROOT, "Content/anhang.json"), encoding="utf-8")), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 data = json.dumps(lessons, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 icon = Image.open(ICON_SRC).convert("RGB")
@@ -31,7 +32,7 @@ changelog = json.dumps(changes, ensure_ascii=False).replace("</", "<\\/")
 
 tpl = open(os.path.join(WEB, "app.template.html"), encoding="utf-8").read()
 page = (tpl.replace("/*__DATA__*/", data).replace("/*__ICON180__*/", icon_uri)
-        .replace("/*__VERSION__*/", VERSION).replace("/*__CHANGELOG__*/", changelog))
+        .replace("/*__VERSION__*/", VERSION).replace("/*__CHANGELOG__*/", changelog).replace("/*__ANHANG__*/", anhang))
 hosted = page.replace("<!--__MANIFEST__-->", '<link rel="manifest" href="manifest.webmanifest">')
 open(os.path.join(WEB, "index.html"), "w", encoding="utf-8").write(hosted)
 

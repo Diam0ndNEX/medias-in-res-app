@@ -1,0 +1,335 @@
+## Deklinationen: o-, a-, e- und u-Deklination
+| | o-Dekl. m. | o-Dekl. n. | a-Dekl. f. | e-Dekl. f. | u-Dekl. m. |
+| Sg. 1.F. | amicus | verbum | amica | res | casus |
+| Sg. 2.F. | amici | verbi | amicae | rei | casus |
+| Sg. 3.F. | amico | verbo | amicae | rei | casui |
+| Sg. 4.F. | amicum | verbum | amicam | rem | casum |
+| Sg. 5.F. | amice! | verbum! | amica! | res! | casus! |
+| Sg. 6.F. | (ab) amico | verbo | (ab) amica | re | casu |
+| Pl. 1./5.F. | amici | verba | amicae | res | casus |
+| Pl. 2.F. | amicorum | verborum | amicarum | rerum | casuum |
+| Pl. 3.F. | amicis | verbis | amicis | rebus | casibus |
+| Pl. 4.F. | amicos | verba | amicas | res | casus |
+| Pl. 6.F. | (ab) amicis | verbis | (ab) amicis | rebus | casibus |
+## 3. Deklination
+| | Konsonantenst. f. | Konsonantenst. n. | Mischstamm f. | i-Stamm f. | i-Stamm n. |
+| Sg. 1./5.F. | vox | flumen | navis | turris | mare |
+| Sg. 2.F. | vocis | fluminis | navis | turris | maris |
+| Sg. 3.F. | voci | flumini | navi | turri | mari |
+| Sg. 4.F. | vocem | flumen | navem | turrim | mare |
+| Sg. 6.F. | voce | flumine | nave | turri | mari |
+| Pl. 1./5.F. | voces | flumina | naves | turres | maria |
+| Pl. 2.F. | vocum | fluminum | navium | turrium | marium |
+| Pl. 3.F. | vocibus | fluminibus | navibus | turribus | maribus |
+| Pl. 4.F. | voces | flumina | naves | turres | maria |
+| Pl. 6.F. | vocibus | fluminibus | navibus | turribus | maribus |
+## Geschlechtsregeln 3. Deklination
+| Gruppe | Geschlecht | Merkmal |
+| Konsonantenstämme | m. | -er (-eris) / -or (-oris) / -os (-oris) |
+| Konsonantenstämme | f. | -as (-atis) / -us (-utis) / -x (-gis/-cis) / -o (-onis/-inis) |
+| Konsonantenstämme | n. | -us (-oris/-eris) / -men (-minis) |
+| Mischstämme | f. | a) navis, -is (1. = 2.F. Sg., „Gleichsilbler“); b) urbs, pars (Endung mit zwei oder mehr Konsonanten) |
+| i-Stämme | f. | turris („Turm“), sitis („Durst“), vis („Kraft“, „Gewalt“) |
+| i-Stämme | n. | Wörter auf -e (mare) und -al (animal) |
+## Adjektiva der a-/o-Deklination
+| | m. | f. | n. |
+| Sg. 1.F. | bonus | bona | bonum |
+| Sg. 2.F. | boni | bonae | boni |
+| Sg. 3.F. | bono | bonae | bono |
+| Sg. 4.F. | bonum | bonam | bonum |
+| Sg. 5.F. | bone! | bona! | bonum! |
+| Sg. 6.F. | bono | bona | bono |
+| Pl. 1./5.F. | boni | bonae | bona |
+| Pl. 2.F. | bonorum | bonarum | bonorum |
+| Pl. 3.F. | bonis | bonis | bonis |
+| Pl. 4.F. | bonos | bonas | bona |
+| Pl. 6.F. | bonis | bonis | bonis |
+## Adjektiva der 3. Deklination
+| | m. | f. | n. |
+| Sg. 1.F. | fortis | fortis | forte |
+| Sg. 2.F. | fortis | fortis | fortis |
+| Sg. 3.F. | forti | forti | forti |
+| Sg. 4.F. | fortem | fortem | forte |
+| Sg. 5.F. | fortis! | fortis! | forte! |
+| Sg. 6.F. | forti | forti | forti |
+| Pl. 1./5.F. | fortes | fortes | fortia |
+| Pl. 2.F. | fortium | fortium | fortium |
+| Pl. 3.F. | fortibus | fortibus | fortibus |
+| Pl. 4.F. | fortes | fortes | fortia |
+| Pl. 6.F. | fortibus | fortibus | fortibus |
+? Ebenso atrox, -ocis etc. (eine Endung im Nominativ) und celer, -eris, -ere etc. (drei Endungen im Nominativ).
+## Pronominale Deklination
+| | m. | f. | n. |
+| Sg. 1./5.F. | totus | tota | totum |
+| Sg. 2.F. | totius | totius | totius |
+| Sg. 3.F. | toti | toti | toti |
+| Sg. 4.F. | totum | totam | totum |
+| Sg. 6.F. | toto | tota | toto |
+! Ebenso: solus („allein“), unus („ein“, „einzig“), nullus („kein“), ullus („irgendein“), alter („der andere“). Der Plural geht wie bei bonus/a/um.
+## Steigerung (Komparativ)
+| | a-/o-Dekl. m./f. | a-/o-Dekl. n. | 3. Dekl. m./f. | 3. Dekl. n. |
+| Sg. 1./5.F. | clarior | clarius | fortior | fortius |
+| Sg. 2.F. | clarioris | clarioris | fortioris | fortioris |
+| Sg. 3.F. | clariori | clariori | fortiori | fortiori |
+| Sg. 4.F. | clariorem | clarius | fortiorem | fortius |
+| Sg. 6.F. | clariore | clariore | fortiore | fortiore |
+| Pl. 1./5.F. | clariores | clariora | fortiores | fortiora |
+| Pl. 2.F. | clariorum | clariorum | fortiorum | fortiorum |
+| Pl. 3.F. | clarioribus | clarioribus | fortioribus | fortioribus |
+| Pl. 4.F. | clariores | clariora | fortiores | fortiora |
+| Pl. 6.F. | clarioribus | clarioribus | fortioribus | fortioribus |
+## Indikativ Präsens aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amo | moneo | mitto | capio | audio |
+| 2.P. Sg. | amas | mones | mittis | capis | audis |
+| 3.P. Sg. | amat | monet | mittit | capit | audit |
+| 1.P. Pl. | amamus | monemus | mittimus | capimus | audimus |
+| 2.P. Pl. | amatis | monetis | mittitis | capitis | auditis |
+| 3.P. Pl. | amant | monent | mittunt | capiunt | audiunt |
+
+## Indikativ Imperfekt aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amabam | monebam | mittebam | capiebam | audiebam |
+| 2.P. Sg. | amabas | monebas | mittebas | capiebas | audiebas |
+| 3.P. Sg. | amabat | monebat | mittebat | capiebat | audiebat |
+| 1.P. Pl. | amabamus | monebamus | mittebamus | capiebamus | audiebamus |
+| 2.P. Pl. | amabatis | monebatis | mittebatis | capiebatis | audiebatis |
+| 3.P. Pl. | amabant | monebant | mittebant | capiebant | audiebant |
+
+## Indikativ Futur aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amabo | monebo | mittam | capiam | audiam |
+| 2.P. Sg. | amabis | monebis | mittes | capies | audies |
+| 3.P. Sg. | amabit | monebit | mittet | capiet | audiet |
+| 1.P. Pl. | amabimus | monebimus | mittemus | capiemus | audiemus |
+| 2.P. Pl. | amabitis | monebitis | mittetis | capietis | audietis |
+| 3.P. Pl. | amabunt | monebunt | mittent | capient | audient |
+
+## Indikativ Perfekt aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amavi | monui | misi | cepi | audivi |
+| 2.P. Sg. | amavisti | monuisti | misisti | cepisti | audivisti |
+| 3.P. Sg. | amavit | monuit | misit | cepit | audivit |
+| 1.P. Pl. | amavimus | monuimus | misimus | cepimus | audivimus |
+| 2.P. Pl. | amavistis | monuistis | misistis | cepistis | audivistis |
+| 3.P. Pl. | amaverunt | monuerunt | miserunt | ceperunt | audiverunt |
+
+## Indikativ Plusquamperfekt aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amaveram | monueram | miseram | ceperam | audiveram |
+| 2.P. Sg. | amaveras | monueras | miseras | ceperas | audiveras |
+| 3.P. Sg. | amaverat | monuerat | miserat | ceperat | audiverat |
+| 1.P. Pl. | amaveramus | monueramus | miseramus | ceperamus | audiveramus |
+| 2.P. Pl. | amaveratis | monueratis | miseratis | ceperatis | audiveratis |
+| 3.P. Pl. | amaverant | monuerant | miserant | ceperant | audiverant |
+
+## Indikativ Präsens passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amor | moneor | mittor | capior | audior |
+| 2.P. Sg. | amaris | moneris | mitteris | caperis | audiris |
+| 3.P. Sg. | amatur | monetur | mittitur | capitur | auditur |
+| 1.P. Pl. | amamur | monemur | mittimur | capimur | audimur |
+| 2.P. Pl. | amamini | monemini | mittimini | capimini | audimini |
+| 3.P. Pl. | amantur | monentur | mittuntur | capiuntur | audiuntur |
+
+## Indikativ Imperfekt passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amabar | monebar | mittebar | capiebar | audiebar |
+| 2.P. Sg. | amabaris | monebaris | mittebaris | capiebaris | audiebaris |
+| 3.P. Sg. | amabatur | monebatur | mittebatur | capiebatur | audiebatur |
+| 1.P. Pl. | amabamur | monebamur | mittebamur | capiebamur | audiebamur |
+| 2.P. Pl. | amabamini | monebamini | mittebamini | capiebamini | audiebamini |
+| 3.P. Pl. | amabantur | monebantur | mittebantur | capiebantur | audiebantur |
+
+## Indikativ Futur passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amabor | monebor | mittar | capiar | audiar |
+| 2.P. Sg. | amaberis | moneberis | mitteris | capieris | audieris |
+| 3.P. Sg. | amabitur | monebitur | mittetur | capietur | audietur |
+| 1.P. Pl. | amabimur | monebimur | mittemur | capiemur | audiemur |
+| 2.P. Pl. | amabimini | monebimini | mittemini | capiemini | audiemini |
+| 3.P. Pl. | amabuntur | monebuntur | mittentur | capientur | audientur |
+
+## Indikativ Perfekt passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amatus sum | monitus sum | missus sum | captus sum | auditus sum |
+| 2.P. Sg. | amatus es | monitus es | missus es | captus es | auditus es |
+| 3.P. Sg. | amatus est | monitus est | missus est | captus est | auditus est |
+| 1.P. Pl. | amati sumus | moniti sumus | missi sumus | capti sumus | auditi sumus |
+| 2.P. Pl. | amati estis | moniti estis | missi estis | capti estis | auditi estis |
+| 3.P. Pl. | amati sunt | moniti sunt | missi sunt | capti sunt | auditi sunt |
+
+## Indikativ Plusquamperfekt passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amatus eram | monitus eram | missus eram | captus eram | auditus eram |
+| 2.P. Sg. | amatus eras | monitus eras | missus eras | captus eras | auditus eras |
+| 3.P. Sg. | amatus erat | monitus erat | missus erat | captus erat | auditus erat |
+| 1.P. Pl. | amati eramus | moniti eramus | missi eramus | capti eramus | auditi eramus |
+| 2.P. Pl. | amati eratis | moniti eratis | missi eratis | capti eratis | auditi eratis |
+| 3.P. Pl. | amati erant | moniti erant | missi erant | capti erant | auditi erant |
+
+! Bei allen zweiteiligen Verbformen wird das PPP an das Subjekt angepasst → Endung -us/-a/-um (Singular) bzw. -i/-ae/-a (Plural).
+
+## Konjunktiv Präsens aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amem | moneam | mittam | capiam | audiam |
+| 2.P. Sg. | ames | moneas | mittas | capias | audias |
+| 3.P. Sg. | amet | moneat | mittat | capiat | audiat |
+| 1.P. Pl. | amemus | moneamus | mittamus | capiamus | audiamus |
+| 2.P. Pl. | ametis | moneatis | mittatis | capiatis | audiatis |
+| 3.P. Pl. | ament | moneant | mittant | capiant | audiant |
+
+## Konjunktiv Imperfekt aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amarem | monerem | mitterem | caperem | audirem |
+| 2.P. Sg. | amares | moneres | mitteres | caperes | audires |
+| 3.P. Sg. | amaret | moneret | mitteret | caperet | audiret |
+| 1.P. Pl. | amaremus | moneremus | mitteremus | caperemus | audiremus |
+| 2.P. Pl. | amaretis | moneretis | mitteretis | caperetis | audiretis |
+| 3.P. Pl. | amarent | monerent | mitterent | caperent | audirent |
+
+## Konjunktiv Perfekt aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amaverim | monuerim | miserim | ceperim | audiverim |
+| 2.P. Sg. | amaveris | monueris | miseris | ceperis | audiveris |
+| 3.P. Sg. | amaverit | monuerit | miserit | ceperit | audiverit |
+| 1.P. Pl. | amaverimus | monuerimus | miserimus | ceperimus | audiverimus |
+| 2.P. Pl. | amaveritis | monueritis | miseritis | ceperitis | audiveritis |
+| 3.P. Pl. | amaverint | monuerint | miserint | ceperint | audiverint |
+
+## Konjunktiv Plusquamperfekt aktiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amavissem | monuissem | misissem | cepissem | audivissem |
+| 2.P. Sg. | amavisses | monuisses | misisses | cepisses | audivisses |
+| 3.P. Sg. | amavisset | monuisset | misisset | cepisset | audivisset |
+| 1.P. Pl. | amavissemus | monuissemus | misissemus | cepissemus | audivissemus |
+| 2.P. Pl. | amavissetis | monuissetis | misissetis | cepissetis | audivissetis |
+| 3.P. Pl. | amavissent | monuissent | misissent | cepissent | audivissent |
+
+## Konjunktiv Präsens passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amer | monear | mittar | capiar | audiar |
+| 2.P. Sg. | ameris | monearis | mittaris | capiaris | audiaris |
+| 3.P. Sg. | ametur | moneatur | mittatur | capiatur | audiatur |
+| 1.P. Pl. | amemur | moneamur | mittamur | capiamur | audiamur |
+| 2.P. Pl. | amemini | moneamini | mittamini | capiamini | audiamini |
+| 3.P. Pl. | amentur | moneantur | mittantur | capiantur | audiantur |
+
+## Konjunktiv Imperfekt passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amarer | monerer | mitterer | caperer | audirer |
+| 2.P. Sg. | amareris | monereris | mittereris | capereris | audireris |
+| 3.P. Sg. | amaretur | moneretur | mitteretur | caperetur | audiretur |
+| 1.P. Pl. | amaremur | moneremur | mitteremur | caperemur | audiremur |
+| 2.P. Pl. | amaremini | moneremini | mitteremini | caperemini | audiremini |
+| 3.P. Pl. | amarentur | monerentur | mitterentur | caperentur | audirentur |
+
+## Konjunktiv Perfekt passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amatus sim | monitus sim | missus sim | captus sim | auditus sim |
+| 2.P. Sg. | amatus sis | monitus sis | missus sis | captus sis | auditus sis |
+| 3.P. Sg. | amatus sit | monitus sit | missus sit | captus sit | auditus sit |
+| 1.P. Pl. | amati simus | moniti simus | missi simus | capti simus | auditi simus |
+| 2.P. Pl. | amati sitis | moniti sitis | missi sitis | capti sitis | auditi sitis |
+| 3.P. Pl. | amati sint | moniti sint | missi sint | capti sint | auditi sint |
+
+## Konjunktiv Plusquamperfekt passiv
+| | a-Konj. | e-Konj. | kons. Konj. | Mischkonj. | i-Konj. |
+| 1.P. Sg. | amatus essem | monitus essem | missus essem | captus essem | auditus essem |
+| 2.P. Sg. | amatus esses | monitus esses | missus esses | captus esses | auditus esses |
+| 3.P. Sg. | amatus esset | monitus esset | missus esset | captus esset | auditus esset |
+| 1.P. Pl. | amati essemus | moniti essemus | missi essemus | capti essemus | auditi essemus |
+| 2.P. Pl. | amati essetis | moniti essetis | missi essetis | capti essetis | auditi essetis |
+| 3.P. Pl. | amati essent | moniti essent | missi essent | capti essent | auditi essent |
+
+## Unregelmäßige Verba: Präsens
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | sum | possum | eo | fero | volo |
+| 2.P. Sg. | es | potes | is | fers | vis |
+| 3.P. Sg. | est | potest | it | fert | vult |
+| 1.P. Pl. | sumus | possumus | imus | ferimus | volumus |
+| 2.P. Pl. | estis | potestis | itis | fertis | vultis |
+| 3.P. Pl. | sunt | possunt | eunt | ferunt | volunt |
+
+## Unregelmäßige Verba: Imperfekt
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | eram | poteram | ibam | ferebam | volebam |
+| 2.P. Sg. | eras | poteras | ibas | ferebas | volebas |
+| 3.P. Sg. | erat | poterat | ibat | ferebat | volebat |
+| 1.P. Pl. | eramus | poteramus | ibamus | ferebamus | volebamus |
+| 2.P. Pl. | eratis | poteratis | ibatis | ferebatis | volebatis |
+| 3.P. Pl. | erant | poterant | ibant | ferebant | volebant |
+
+## Unregelmäßige Verba: Futur
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | ero | potero | ibo | feram | volam |
+| 2.P. Sg. | eris | poteris | ibis | feres | voles |
+| 3.P. Sg. | erit | poterit | ibit | feret | volet |
+| 1.P. Pl. | erimus | poterimus | ibimus | feremus | volemus |
+| 2.P. Pl. | eritis | poteritis | ibitis | feretis | voletis |
+| 3.P. Pl. | erunt | poterunt | ibunt | ferent | volent |
+
+## Unregelmäßige Verba: Perfekt
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | fui | potui | ii | tuli | volui |
+| 2.P. Sg. | fuisti | potuisti | isti | tulisti | voluisti |
+| 3.P. Sg. | fuit | potuit | iit | tulit | voluit |
+| 1.P. Pl. | fuimus | potuimus | iimus | tulimus | voluimus |
+| 2.P. Pl. | fuistis | potuistis | istis | tulistis | voluistis |
+| 3.P. Pl. | fuerunt | potuerunt | ierunt | tulerunt | voluerunt |
+
+## Unregelmäßige Verba: Plusquamperfekt
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | fueram | potueram | ieram | tuleram | volueram |
+| 2.P. Sg. | fueras | potueras | ieras | tuleras | volueras |
+| 3.P. Sg. | fuerat | potuerat | ierat | tulerat | voluerat |
+| 1.P. Pl. | fueramus | potueramus | ieramus | tuleramus | volueramus |
+| 2.P. Pl. | fueratis | potueratis | ieratis | tuleratis | volueratis |
+| 3.P. Pl. | fuerant | potuerant | ierant | tulerant | voluerant |
+
+## Unregelmäßige Verba: Konjunktiv Präsens
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | sim | possim | eam | feram | velim |
+| 2.P. Sg. | sis | possis | eas | feras | velis |
+| 3.P. Sg. | sit | possit | eat | ferat | velit |
+| 1.P. Pl. | simus | possimus | eamus | feramus | velimus |
+| 2.P. Pl. | sitis | possitis | eatis | feratis | velitis |
+| 3.P. Pl. | sint | possint | eant | ferant | velint |
+
+## Unregelmäßige Verba: Konjunktiv Imperfekt
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | essem | possem | irem | ferrem | vellem |
+| 2.P. Sg. | esses | posses | ires | ferres | velles |
+| 3.P. Sg. | esset | posset | iret | ferret | vellet |
+| 1.P. Pl. | essemus | possemus | iremus | ferremus | vellemus |
+| 2.P. Pl. | essetis | possetis | iretis | ferretis | velletis |
+| 3.P. Pl. | essent | possent | irent | ferrent | vellent |
+
+## Unregelmäßige Verba: Konjunktiv Perfekt
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | fuerim | potuerim | ierim | tulerim | voluerim |
+| 2.P. Sg. | fueris | potueris | ieris | tuleris | volueris |
+| 3.P. Sg. | fuerit | potuerit | ierit | tulerit | voluerit |
+| 1.P. Pl. | fuerimus | potuerimus | ierimus | tulerimus | voluerimus |
+| 2.P. Pl. | fueritis | potueritis | ieritis | tuleritis | volueritis |
+| 3.P. Pl. | fuerint | potuerint | ierint | tulerint | voluerint |
+
+## Unregelmäßige Verba: Konjunktiv Plusquamperfekt
+| | esse | posse | ire | ferre | velle |
+| 1.P. Sg. | fuissem | potuissem | iissem | tulissem | voluissem |
+| 2.P. Sg. | fuisses | potuisses | iisses | tulisses | voluisses |
+| 3.P. Sg. | fuisset | potuisset | iisset | tulisset | voluisset |
+| 1.P. Pl. | fuissemus | potuissemus | iissemus | tulissemus | voluissemus |
+| 2.P. Pl. | fuissetis | potuissetis | iissetis | tulissetis | voluissetis |
+| 3.P. Pl. | fuissent | potuissent | iissent | tulissent | voluissent |
+
+## Unregelmäßige Verba: Infinitive und Imperative
+| | esse | posse | ire | ferre | velle |
+| Inf. Präs. aktiv | esse | posse | ire | ferre | velle |
+| Inf. Präs. passiv | – | – | (adiri)* | ferri | – |
+| Inf. Perf. aktiv | fuisse | potuisse | isse | tulisse | voluisse |
+| Inf. Perf. passiv | – | – | itum esse | latum esse | – |
+| Inf. Futur aktiv | futurum esse | – | (ad)iturum esse* | laturum esse | – |
+| Imperativ Sg. | es! | – | i! | fer! | (noli!) |
+| Imperativ Pl. | este! | – | ite! | ferte! | (nolite!) |
+? * Diese Form kommt nur in Komposita vor.

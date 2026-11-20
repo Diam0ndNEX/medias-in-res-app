@@ -1,0 +1,15 @@
+# Name | Erklärung | Beispiel
+Alliteration (Stabreim) | Aufeinanderfolgende Wörter beginnen mit demselben Laut. | Manner mag man eben.
+Anapher | Wiederholung desselben Wortes am Anfang aufeinander folgender Satzteile/Sätze. | Einfach gut, einfach schnell, einfach lecker.
+Antithese | Betonte Gegenüberstellung von Gegensätzen. | schwarz – weiß, hell – dunkel, gut – böse
+Asyndeton | Unverbundene Aneinanderreihung von Wörtern/Sätzen. | Veni, vidi, vici.
+Polysyndeton | Aneinanderreihung von Wörtern/Sätzen immer mit „und“ (lat. et, -que). | Veni et vidi et vici.
+Ellipse | Auslassung selbstverständlicher Wörter. | Dafür hat er die gelbe (ergänze: Karte) bekommen. Ende gut, alles gut.
+Hyperbaton (Sperrung) | Zusammengehörige Wörter sind voneinander getrennt. | Magno me metu liberabis.
+Chiasmus („Kreuzstellung“) | Spiegelbildliche Anordnung einander entsprechender Wörter oder Wortgruppen (Abfolge ABBA). | Die Kunst ist lang, kurz ist das Leben.
+Parallelismus | Parallele Anordnung einander entsprechender Wörter oder Wortgruppen (Abfolge ABAB). | Die Kunst ist lang, das Leben ist kurz.
+Klimax | Stufenweise Steigerung. | Gut, besser, Gösser.
+Metapher | Bildlicher Ausdruck. | Die Zeit läuft mir davon.
+Pleonasmus | Eine Sache wird doppelt ausgedrückt. | der weiße Schimmel, eine tote Leiche
+Rhetorische Frage | Frage, auf die keine Antwort erwartet wird, da sie klar ist. | Wie kann man nur so blöd sein?
+Trikolon | Dreigliedriger Ausdruck. | Verliebt, verlobt, verheiratet.
