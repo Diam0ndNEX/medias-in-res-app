@@ -87,6 +87,9 @@ def main():
             + "? Im Buch ist die Bedeutung nur bei den Sprichwörtern aus den Lektionen erklärt – die übrigen Übersetzungen hat die App ergänzt.\n")
 
     read = lambda n: open(os.path.join(SRC, n), encoding="utf-8").read()
+    wk = ""
+    for a, b in ((1, 5), (6, 10), (11, 15), (16, 20), (21, 25), (26, 30)):
+        wk += re.sub(r"^## ", f"## L{a}–{b} · ", read(f"wortklauberei-{a:02d}-{b:02d}.txt"), flags=re.M) + "\n"
     sections = [
         {"id": "formen", "icon": "📐", "title": "Formenlehre", "sub": "Alle Deklinationen und Konjugationen auf einen Blick (S. 188 ff.)", "grammar": grammar(read("formenlehre.txt"))},
         {"id": "stamm", "icon": "🔤", "title": "Stammformen der Verba", "sub": "Unregelmäßige Perfektbildung, Lec. 1–30 (S. 200 ff.)", "grammar": grammar(intro + gtext)},
@@ -94,10 +97,14 @@ def main():
         {"id": "suffix", "icon": "🧩", "title": "Nachsilben (Suffixe)", "sub": "-tor, -tas, -io, -bilis … (S. 198)", "grammar": grammar(suf)},
         {"id": "stil", "icon": "🎭", "title": "Stilmittel", "sub": "Alliteration, Chiasmus, Klimax … (S. 198)", "grammar": grammar(fig)},
         {"id": "spruch", "icon": "💬", "title": "Sprichwörter & Redewendungen", "sub": f"{len(proverbs)} lateinische Sprüche (S. 196)", "grammar": grammar(prov)},
-        {"id": "wk2630", "icon": "🔍", "title": "Wortklauberei 26–30", "sub": "Romanische Sprachen, Medium, Wortfelder, Metapher (S. 140 f.)", "grammar": grammar(read("wortklauberei-26-30.txt"))},
+        {"id": "wk", "icon": "🔍", "title": "Wortklauberei", "sub": "Wortkunde nach je 5 Lektionen – mit Aufgaben und Lösungen", "grammar": grammar(wk)},
+        {"id": "repet", "icon": "🔁", "title": "Repetitiones", "sub": "Wiederholungsübungen zu Lektion 1–30 mit Lösungen (S. 142 ff.)", "grammar": grammar(read("repetitiones.txt"))},
+        {"id": "lekt", "icon": "📜", "title": "Autorenlektüre", "sub": "Originaltexte von Cäsar bis Marco Polo – mit Vokabelhilfen und Übersetzung (S. 156 ff.)", "grammar": grammar(read("lektuere.txt"))},
     ]
     for s in sections:
         assert s["grammar"], s["id"]
+    tasks = sum(1 for x in sections for g in x["grammar"] for b in g["blocks"] if b["type"] == "task")
+    print(f"Aufgaben mit Lösung: {tasks}")
     assert len(stems) >= 140 and len(proverbs) >= 35 and len(prefixes) >= 20 and len(figures) >= 14
     data = {"sections": sections, "stems": stems, "proverbs": proverbs, "prefixes": prefixes, "suffixes": suffixes, "figures": figures}
     with open(os.path.join(ROOT, "Content", "anhang.json"), "w", encoding="utf-8") as fh:

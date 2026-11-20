@@ -122,6 +122,11 @@ def parse(path):
                     blocks[-1]["items"].append(line[2:].strip())
                 else:
                     blocks.append({"type": "list", "items": [line[2:].strip()]})
+            elif line.startswith("?? "):
+                q, _, a = line[3:].partition("=>")
+                section["blocks"].append({"type": "task", "q": q.strip(), "a": a.strip().replace(" ⏎ ", "\n")})
+            elif line.startswith("~ "):
+                section["blocks"].append({"type": "gloss", "text": line[2:].strip()})
             elif line.startswith("! "):
                 section["blocks"].append({"type": "tip", "text": line[2:].strip()})
             elif line.startswith("? "):

@@ -1,0 +1,46 @@
+## Grammatikalische Ausdrücke (Lektion 6–10)
+| Name | Übersetzung | Beispiel |
+| Infinitiv | Nennform | laudare = loben |
+| Imperativ | Befehlsform | Lauda! = Lobe! |
+| Deklination | Abwandlung von Nomen/Adjektiva | amicus, amici, amico … |
+| Konjugation | Abwandlung von Verben | laudo, laudas, laudat … |
+| Dativus possessivus | Dativ des Besitzers | Mihi liber est. = Ich habe ein Buch. |
+| Vokal | Selbstlaut | a, e, i, o, u |
+| Konsonant | Mitlaut | b, c, d, f … |
+| Diphthong | Zwielaut | ae, au, oe |
+? Mittlere und rechte Spalte sind im Buch leer – hier von der App ergänzt.
+## Geschlechtsregeln (3. Deklination)
+Bei der a-Deklination sind die Wörter meist feminin (aqua, terra, vita), bei der o-Deklination meist maskulin (gladius, annus, oculus) bzw. neutrum (otium, oppidum, exemplum). Die Wörter der 3. Deklination können ganz unterschiedliche Geschlechter haben – diese Regeln helfen:
+| Geschlecht | Regel | Beispiele aus Lektion 9 und 10 |
+| maskulin | alle auf -or/-oris | clamor, timor, honor, imperator |
+| feminin | die meisten auf -is/-is | navis, turris (Ausnahme: canis, hostis m.) |
+| feminin | alle auf -us/-utis | virtus |
+| feminin | die meisten auf -x | vox, nox, pax |
+| feminin | die meisten, die mit zwei Konsonanten enden | urbs, pars |
+| neutrum | alle auf -men/-minis | nomen, flumen |
+| „natürliches Geschlecht“ | männliche Lebewesen → maskulin | miles, homo |
+| „natürliches Geschlecht“ | weibliche Lebewesen → feminin | Iuno |
+? Die Beispielspalte ist im Buch zum Ausfüllen – hier von der App ergänzt.
+## Komposita
+Ein Kompositum (Plural: Komposita) ist ein zusammengesetztes Wort.
+?? Welche Komposita zum deutschen Verbum „tragen“ fallen dir ein? => z. B. vertragen, ertragen, abtragen, auftragen, eintragen, übertragen, beitragen, vortragen, zutragen.
+?? Was bedeuten die Komposita zu pugnare („kämpfen“): a) expugnare, b) oppugnare? => a) expugnare = erobern („herauskämpfen“); b) oppugnare = bestürmen, belagern („gegen etwas kämpfen“).
+## Ein Wort – viele Bedeutungen: capere
+Für capere (Lektion 7) gibt es im Wörterbuch unzählige Bedeutungen. Merk dir als Grundbedeutung „etwas fassen“ – damit findest du in jedem Zusammenhang die passende Übersetzung.
+?? Wähle aus „erfassen“, „einnehmen“, „nehmen“, „ergreifen“: castra hostium capere – gladium capere – librum capere – magnus timor me capit => castra hostium capere = das Lager der Feinde einnehmen; gladium capere = das Schwert ergreifen; librum capere = das Buch nehmen; magnus timor me capit = große Angst erfasst mich.
+## Aufgepasst auf Pluralwörter!
+Manche Nomina gibt es nur im Plural. Du erkennst sie im Vokabelverzeichnis daran, dass auch der Genetiv im Plural steht: castra, -orum n. = „Lager“.
+?? Ergänze Genetiv, Geschlecht und Bedeutung: copiae, arma, liberi, Graeci, Romani, Galli => copiae, -arum f. = Truppen; arma, -orum n. = Waffen; liberi, -orum m. = Kinder; Graeci, -orum m. = die Griechen; Romani, -orum m. = die Römer; Galli, -orum m. = die Gallier.
+?? Was heißt dagegen Graecus/a/um bzw. Romanus/a/um? => griechisch bzw. römisch (Adjektiva).
+## Wörter, die du nicht verwechseln solltest
+Manche Wörter unterscheiden sich nur durch einen Buchstaben – und heißen etwas ganz anderes. Kleine Ursache, große Wirkung!
+| Wort | Bedeutung | Wort | Bedeutung |
+| audire | hören | audere | wagen |
+| parare | (vor)bereiten | parere | gehorchen |
+| nos | wir; uns | vos | ihr; euch |
+| novus | neu | nonus | der neunte |
+| ab | von, von … weg | ad | zu, an, bei |
+| ibi | dort | ubi | wo |
+| tam | so | tum | dann, damals |
+| alius | ein anderer | alienus | fremd |
+| manere | bleiben | monere | ermahnen |

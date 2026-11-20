@@ -8,6 +8,14 @@ Versionsnummern nach dem Schema **MAJOR.MINOR.PATCH**:
 Die Nummer steht in `VERSION` und gilt für Web-App und iOS-App. Bei jedem Update: `VERSION` erhöhen und oben einen neuen Abschnitt eintragen.
 Die Punkte der Abschnitte erscheinen in der App unter „Was ist neu?“.
 
+## 1.5.0 – 20.11.2026
+- Neu: Repetitiones – alle Wiederholungsübungen zu Lektion 1–30 mit Lösungen und Übersetzungen
+- Neu: Autorenlektüre – alle Originaltexte (Cäsar, Bibel, Legenda Aurea, Marco Polo, Vespucci, Busbecq …) mit Vokabelhilfen, Übersetzung, Arbeitsaufgaben und Infos; dazu die lateinischen Inschriften aus Wien und Innsbruck
+- Neu: Wortklauberei 1–25 – damit ist die Wortkunde aller 30 Lektionen komplett
+- Über 220 Buchaufgaben mit aufdeckbarer Lösung
+- Neue Übung „Buchaufgaben“: zufällige Aufgaben lösen, Lösung aufdecken, „Nicht gewusst“ kommt später wieder
+- Lange Kapitel haben jetzt ein Inhaltsverzeichnis und „Weiter“-Knöpfe; die Suche findet auch Aufgaben
+
 ## 1.4.0 – 20.11.2026
 - Neu: Buchanhang nach Lektion 30 in der App – unter „Lektionen“ → „Anhang“
 - Formenlehre: alle Deklinationen, Steigerung und alle Konjugationen (Indikativ/Konjunktiv, Aktiv/Passiv) plus esse, posse, ire, ferre, velle

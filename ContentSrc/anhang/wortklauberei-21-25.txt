@@ -1,0 +1,40 @@
+## Präfixe über Präfixe!
+Komposita (zusammengesetzte Zeitwörter) bestehen aus einer Vorsilbe (Präfix) und dem Grundverb: adesse → ad- + esse = „da sein“; continere → con- + tenere = „zusammenhalten“.
+? Ein Vokal des Grundverbs kann sich im Kompositum verändern (meist a oder e zu i): tenere → continere, capere → recipere, facere → conficere („Vokalschwächung“).
+Die meisten Präfixe sind aus Präpositionen entstanden und haben eine ähnliche Bedeutung.
+| Präfix | Bedeutung | 1. Beispiel | 2. Beispiel |
+| a(b)- | „weg-“ | abire = weggehen | abesse = abwesend sein |
+| ad- | „hin-“ | adducere = hinführen | adire = hingehen |
+| co(n)- | 1) „zusammen-“; 2) „sehr“ | convenire = zusammenkommen | convocare = zusammenrufen |
+| de- | „weg-“, „herab-“ | deponere = ablegen | desinere = aufhören |
+| di(s)- | „auseinander-“ | dimittere = wegschicken, entlassen | discordia = Zwietracht |
+| e(x)- | „hinaus-“, „aus-“ | exire = hinausgehen | expellere = vertreiben |
+| in-/im- | „hinein-“ (bei Verben) | includere = einschließen | inducere = hineinführen |
+| in-/im- | „un-“ (bei Adjektiven) | ingratus = undankbar | infirmus = unfest, schwach |
+| ne- | Verneinung | neglegere = missachten | nescire = nicht wissen |
+| per- | „sehr“ (bei Adjektiven) | permagnus = sehr groß | permulti = sehr viele |
+| prae- | „vor-“ | praeparare = vorbereiten | praemittere = vorausschicken |
+| re- | „zurück-“ | reddere = zurückgeben | redire = zurückkehren |
+| tra(ns)- | „hinüber-“ | tradere = übergeben, ausliefern | traducere = hinüberführen |
+? Die Beispiel-Bedeutungen sind im Buch zum Ausfüllen – hier von der App ergänzt.
+?? Was bedeuten diese Fremdwörter? Absenz, Advent, deponieren, Diskriminierung, Disqualifikation, Dissonanz, Export, Immigration, inhuman, Kongress => Absenz = Abwesenheit (abesse); Advent = Ankunft (advenire); deponieren = hinterlegen, ablegen (deponere); Diskriminierung = Benachteiligung, „Unterscheidung“ (dis-); Disqualifikation = Ausschluss; Dissonanz = Missklang (dis- + sonare); Export = Ausfuhr (ex- + portare); Immigration = Einwanderung (in- + migrare); inhuman = unmenschlich (in- + humanus); Kongress = Zusammenkunft, Tagung (con- + gradi).
+?? Und diese? Konsens, Konsonant, Negation, permanent, Präferenz, reflektieren, Renaissance, retour, Transfer, Transfusion => Konsens = Übereinstimmung (con- + sentire); Konsonant = Mitlaut (con- + sonare, „mittönend“); Negation = Verneinung (negare); permanent = dauernd (per- + manere, „durchbleibend“); Präferenz = Vorliebe, Vorzug (prae- + ferre); reflektieren = nachdenken, zurückwerfen (re- + flectere); Renaissance = Wiedergeburt (re- + nasci); retour = zurück (re-); Transfer = Übertragung (trans- + ferre); Transfusion = Übertragung (von Blut) (trans- + fundere).
+## Assimilation – Anpassung geht über alles!
+Wie sich das Chamäleon an seine Umwelt anpasst (assimiliert), passen sich auch im Lateinischen Buchstaben an ihre Umgebung an – vor allem an der Schnittstelle von Präfix und Verb. Gut zu sehen bei afferre („hinbringen“): Präsens ad-ferre → af-ferre; Perfekt ad-tuli → at-tuli; PPP ad-latus → al-latus.
+Der Grund ist die leichtere Aussprache. Konsonanten werden völlig angeglichen (ad-ferre → af-ferre) oder nur angenähert (in-ponere → im-ponere, con-ponere → com-ponere). Besonders oft betrifft das ad-, con- und in-.
+?? Aus welchen Präfixen sind commovere, afficere, accipere, immittere und assimilare entstanden? Was bedeuten sie? => commovere = con-movere: bewegen, veranlassen; afficere = ad-facere: versehen (mit), erfüllen; accipere = ad-capere: erhalten, annehmen; immittere = in-mittere: hineinschicken; assimilare = ad-similare: angleichen, anpassen.
+## Fremdwörter aufspüren leicht gemacht!
+- Lehnwörter sehen wie deutsche Wörter aus, haben aber einen lateinischen Ursprung: „Fenster“ (fenestra), „Straße“ (strata), „Ziegel“ (tegula).
+- Fremdwörter sehen „fremd“ aus und sind leichter zu erkennen: Computer (computare = „rechnen“), Ventilator (ventum ferre = „Windbringer“), Lokomotive (loco movere = „Vom-Ort-Beweger“).
+| Fremdwort | Bedeutung | lat. Wurzel(n) und wörtliche Übersetzung |
+| attraktiv | anziehend | ad- + trahere („hin-ziehen“) |
+| Kontroverse | Streit | contra + vertere („sich dagegen wenden“) |
+| Läsion | Verletzung | laedere, laesum („verletzen“) |
+| Intellekt | Verstand | intellegere, intellectum („erkennen“) |
+| kontrahieren | zusammenziehen | con- + trahere („zusammen-ziehen“) |
+| konzelebrieren | gemeinsam feiern (Messe) | con- + celebrare („zusammen-feiern“) |
+| Motor | Antrieb, „Beweger“ | movere, motum („bewegen“) |
+| Prävention | Vorbeugung | prae- + venire („zuvorkommen“) |
+| Relikt | Überbleibsel | relinquere, relictum („zurücklassen“) |
+| Reparatur | Wiederherstellung | re- + parare („wieder-bereiten“) |
+? Ab „Läsion“ sind die Spalten im Buch zum Ausfüllen – hier von der App ergänzt.

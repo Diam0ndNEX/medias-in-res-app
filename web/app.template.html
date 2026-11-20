@@ -127,6 +127,8 @@ td:first-child{font-style:normal;font-weight:600}
 .pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:8px;background:rgba(118,118,128,.15);color:var(--muted)}
 .heat{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;gap:3px;padding:14px;justify-content:center}.heat i{width:18px;height:18px;border-radius:4px;background:var(--fill,#8882)}.heat .h1{background:#34c75955}.heat .h2{background:#34c759aa}.heat .h3{background:#34c759}.heat .hf{visibility:hidden}
 .letters{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0 8px}.letters .btn{min-height:32px;min-width:32px;padding:2px 6px}
+.task{border:1px solid rgba(118,118,128,.3);border-radius:12px;padding:10px 12px;margin:10px 0}.task .tq{white-space:pre-line}.task .tbtn{margin-top:8px;min-height:34px}.task .ta{margin-top:8px;color:var(--green);white-space:pre-line}
+.callout.gl{background:rgba(52,120,246,.08);font-size:.92em}.callout.gl b{color:var(--blue)}
 </style>
 </head>
 <body>
@@ -399,7 +401,43 @@ const GRADE = ["", "Sehr gut", "Gut", "Befriedigend", "Genügend", "Nicht genüg
 // ---------- Anhang (Buch nach Lektion 30) ----------
 const ANH = id => ANHANG.sections.find(x => x.id === id);
 const FORMEN_L = { number: "Formenlehre", title: "Formenlehre", grammar: (ANH("formen") || { grammar: [] }).grammar };
-function openAnhang(x) { push(x.title, el => { el.innerHTML = `<p class="sub">${esc(x.sub)}</p>` + grammarHTML(x.grammar); }); }
+function openAnhang(x) {
+  const nTasks = g => g.blocks.filter(b => b.type === "task").length;
+  if (x.grammar.length <= 6 && !x.grammar.some(nTasks)) return push(x.title, el => { el.innerHTML = `<p class="sub">${esc(x.sub)}</p>` + grammarHTML(x.grammar); });
+  // Lange Kapitel / Kapitel mit Aufgaben: Inhaltsverzeichnis, jeder Abschnitt auf eigener Seite (mit Weiter-Knopf)
+  push(x.title, el => {
+    el.innerHTML = `<p class="sub">${esc(x.sub)}</p>${x.grammar.some(nTasks) ? `<div class="group"><div class="row link" id="rnd"><div style="font-size:22px">🎲</div><div class="grow"><div class="hl">Zufällige Aufgabe</div><div class="sub">Aufgabe lösen, dann Lösung aufdecken</div></div></div></div>` : ""}
+      <div class="group">${x.grammar.map((g, k) => `<div class="row link" data-s="${k}"><div class="grow">${esc(g.title)}</div>${nTasks(g) ? `<span class="pill">✏️ ${nTasks(g)}</span>` : ""}</div>`).join("")}</div>`;
+    el.querySelectorAll("[data-s]").forEach(r => r.onclick = () => openSection(x, +r.dataset.s));
+    const rb = el.querySelector("#rnd"); if (rb) rb.onclick = () => push("Aufgaben: " + x.title, e => taskView(e, [x]));
+  });
+}
+function openSection(x, k) {
+  const g = x.grammar[k];
+  replaceOrPush(g.title, el => {
+    el.innerHTML = grammarHTML([g]) + `<div class="btns">${k > 0 ? `<button class="btn" id="prev">‹ Zurück</button>` : ""}${k + 1 < x.grammar.length ? `<button class="btn primary" id="nxt">Weiter ›</button>` : ""}</div>`;
+    const pv = el.querySelector("#prev"), nx = el.querySelector("#nxt");
+    if (pv) pv.onclick = () => { openSection(x, k - 1); window.scrollTo(0, 0); };
+    if (nx) nx.onclick = () => { openSection(x, k + 1); window.scrollTo(0, 0); };
+  });
+}
+function replaceOrPush(t, fn) { const cur = current(); if (cur && cur.sec) { replace(t, fn); current().sec = true; } else { push(t, fn); current().sec = true; } }
+const allTasks = list => list.flatMap(x => x.grammar.flatMap(g => g.blocks.filter(b => b.type === "task").map(b => ({ ...b, where: x.title + " · " + g.title }))));
+function taskView(el, sections) {
+  const pool = shuffle(allTasks(sections)); let i = 0, shown = false;
+  function draw() {
+    if (!pool.length) { el.innerHTML = `<p>Keine Aufgaben.</p>`; return; }
+    const t = pool[i % pool.length];
+    el.innerHTML = `<div class="qhead"><span>Aufgabe ${i + 1}</span><span class="sub">${pool.length} insgesamt</span></div>
+      <div class="card" style="text-align:left"><div class="cat">${esc(t.where.toUpperCase())}</div><div class="tq" style="white-space:pre-line;margin-top:6px">${esc(t.q)}</div>
+      ${shown ? `<div class="ta" style="white-space:pre-line;margin-top:12px;color:var(--green)"><b>Lösung:</b> ${esc(t.a)}</div>` : ""}</div>
+      <div class="btns">${shown ? `<button class="btn red" id="no">Nicht gewusst</button><button class="btn primary" id="yes">Gewusst ✓</button>` : `<button class="btn primary full" id="show">Lösung zeigen</button>`}</div>`;
+    const go = () => { countActivity(); i++; shown = false; draw(); window.scrollTo(0, 0); };
+    if (shown) { el.querySelector("#no").onclick = () => { pool.push(t); go(); }; el.querySelector("#yes").onclick = go; }
+    else el.querySelector("#show").onclick = () => { shown = true; draw(); };
+  }
+  draw();
+}
 const dayNum = () => { const d = new Date(); return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 864e5); };
 const dailyProverb = () => ANHANG.proverbs[(dayNum() * 13) % ANHANG.proverbs.length];
 const pickOther = (list, me, key, n) => { const out = []; for (const x of shuffle(list)) { const k = key(x); if (x !== me && k && k !== key(me) && !out.includes(k)) out.push(k); if (out.length >= n) break; } return out; };
@@ -490,6 +528,7 @@ const MODES = {
   affix: ["Vor- und Nachsilben", "ab-, con-, ex- … -tor, -tas, -bilis", "🧱", "--teal"],
   figure: ["Stilmittel", "Alliteration, Chiasmus, Klimax … erkennen", "🎭", "--purple"],
   proverb: ["Sprichwörter", "Lateinische Redewendungen deuten", "💬", "--purple"],
+  tasks: ["Buchaufgaben", "Repetitiones, Wortklauberei & Lektüre mit Lösung", "✏️", "--red"],
 };
 const cfgItems = c => { const a = vocabIn(c.from, c.to); return c.pos === "Alle" ? a : a.filter(v => v.pos === c.pos); };
 const limited = (c, l) => c.count ? l.slice(0, c.count) : l;
@@ -510,6 +549,10 @@ function startMode(m, cfg) {
   if (m === "tables") return push(title, el => tablesView(el, lessonsIn(cfg.from, cfg.to)));
   if (m === "exam") return push("Schularbeit", el => examSetup(el, cfg));
   if (m === "aform") return push(title, anhangFormen);
+  if (m === "tasks") return push(title, el => { const S = ANHANG.sections.filter(x => allTasks([x]).length);
+    el.innerHTML = `<p class="sub">Wähle, woraus die Aufgaben kommen. Erst selbst lösen, dann die Lösung aufdecken.</p><div class="group">${S.map((x, k) => `<div class="row link" data-k="${k}"><div style="font-size:22px">${x.icon}</div><div class="grow">${esc(x.title)}</div><span class="pill">${allTasks([x]).length}</span></div>`).join("")}
+      <div class="row link" data-k="all"><div style="font-size:22px">🎲</div><div class="grow">Alles gemischt</div></div></div>`;
+    el.querySelectorAll("[data-k]").forEach(r => r.onclick = () => push("Aufgaben", e => taskView(e, r.dataset.k === "all" ? S : [S[+r.dataset.k]]))); });
   const ls = lessonsIn(cfg.from, cfg.to); let qs;
   switch (m) {
     case "mc": qs = withForms(limited(cfg, shuffle(pool)).map(v => qVocab(v, pool, cfg.dir)), pool); break;
@@ -852,6 +895,8 @@ function grammarHTML(sections) {
   return sections.map(s => `<div class="gsec"><h3>${esc(s.title)}</h3>${s.blocks.map(b => {
     if (b.type === "list") return `<ul>${b.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul>`;
     if (b.type === "tip") return `<div class="callout tip"><b>TIPP</b>${esc(b.text)}</div>`;
+    if (b.type === "task") return `<div class="task"><div class="tq">✏️ ${esc(b.q)}</div>${b.a ? `<button class="btn tbtn" onclick="this.nextElementSibling.hidden=false;this.remove();countActivity()">Lösung zeigen</button><div class="ta" hidden><b>Lösung:</b> ${esc(b.a)}</div>` : ""}</div>`;
+    if (b.type === "gloss") return `<div class="callout gl"><b>VOKABELHILFEN</b>${b.text.split("; ").map(esc).join("<br>")}</div>`;
     if (b.type === "note") return `<div class="callout nb"><b>NOTA BENE</b>${esc(b.text)}</div>`;
     if (b.type === "table") return `<div class="tblwrap"><table><tr>${(b.headers || []).map(h => `<th>${esc(h)}</th>`).join("")}</tr>${(b.rows || []).map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table></div>`;
     return `<p>${esc(b.text)}</p>`; }).join("")}</div>`).join("");
@@ -884,7 +929,7 @@ function practiceTab(el) {
     <div class="gfoot">${dueCount()} Karten sind heute fällig. Die tägliche Wiederholung nimmt alle Lektionen.</div>
     <div class="ghead">Vokabeln</div><div class="group">${["flash", "mc", "tf", "match", "listen", "blitz", ...(s.typing ? ["typing"] : []), "forms", "stem", "foreign"].map(modeRow).join("")}</div>
     <div class="ghead">Grammatik</div><div class="group">${["fid", "fbuild", "tables"].map(modeRow).join("")}</div>
-    <div class="ghead">Anhang</div><div class="group">${["stembook", "aform", "affix", "figure", "proverb"].map(modeRow).join("")}</div>
+    <div class="ghead">Anhang</div><div class="group">${["tasks", "stembook", "aform", "affix", "figure", "proverb"].map(modeRow).join("")}</div>
     <div class="gfoot">Stammformen-Liste nimmt die Verba aus dem gewählten Bereich, die anderen Anhang-Übungen das ganze Buch.</div>
     <div class="ghead">Test</div><div class="group">${modeRow("exam")}</div>`;
   const re = () => { save(); current().scroll = window.scrollY; render(); };
@@ -904,7 +949,7 @@ function searchTab(el) {
   el.innerHTML = `<div class="search"><div class="field"><input type="search" id="q" placeholder="Latein oder Deutsch suchen" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="search"><button class="clear" id="clr" aria-label="Suche leeren" hidden>✕</button></div></div><div id="res"></div>`;
   const q = el.querySelector("#q"), res = el.querySelector("#res"), clr = el.querySelector("#clr");
   q.value = searchQuery;
-  const secText = s => fold(s.blocks.map(b => [b.text || "", ...(b.items || []), ...(b.rows || []).flat()].join(" ")).join(" "));
+  const secText = s => fold(s.blocks.map(b => [b.text || "", b.q || "", ...(b.items || []), ...(b.rows || []).flat()].join(" ")).join(" "));
   function run() {
     searchQuery = q.value; clr.hidden = !q.value;
     const t = fold(q.value.trim());
